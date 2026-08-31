@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\Nomesh\Desktop\evaara\google_scraper\_run_haveri_cities.py", line 148, in <module>
+    if out_file.exists():
+    ^^
+  File "C:\Users\Nomesh\Desktop\evaara\google_scraper\_run_haveri_cities.py", line 141, in main
+    cities = cities_from_line_file()
+    ^^^^^^^^^^^^
+  File "C:\Users\Nomesh\Desktop\evaara\google_scraper\_run_haveri_cities.py", line 82, in merge
+    from openpyxl import Workbook
+ImportError: cannot import name 'Font' from 'openpyxl' (C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\openpyxl\__init__.py)

@@ -1,0 +1,456 @@
+EVARA SCRAPER SUITE — COMPLETE GUIDE
+======================================
+
+This tool scrapes business listings from Google Maps, JustDial, and
+IndiaMART and saves them to Excel files. It works on Windows 10/11.
+
+It is a SINGLE FILE: master_scrape.py. That's all you need.
+Everything else (dependencies, browser, helper scripts) is installed
+and extracted automatically the first time you run it.
+
+
+!!! IMPORTANT — READ THIS FIRST !!!
+====================================
+
+If you received this as a ZIP file:
+   1. RIGHT-CLICK the zip file
+   2. Click "Extract All..." (or "Extract Here")
+   3. Choose a destination folder (Desktop is fine)
+   4. Wait for extraction to finish
+   5. Open the EXTRACTED folder (NOT the zip)
+   6. Run master_scrape.py from the extracted folder
+
+DO NOT double-click the zip and run the script from inside it.
+Windows shows the zip contents like a folder, but scripts CANNOT
+save files to a zip. You will see errors like "file not found"
+or the script will appear to work but save nothing.
+
+=> ALWAYS EXTRACT FIRST, THEN RUN.
+
+
+GETTING STARTED
+---------------
+
+Step 1: Make sure Python is installed.
+   - Open the Start menu, type "cmd", press Enter
+   - Type: python --version
+   - If you see "Python 3.11" or higher, you're good
+   - If you see an error, install Python:
+     Go to https://www.python.org/downloads/
+     Download and install. IMPORTANT: check "Add Python to PATH"
+     during installation.
+
+Step 2: Put master_scrape.py in a folder.
+   - Create a folder anywhere (e.g. Desktop > Evara Scraper)
+   - Put master_scrape.py in it
+   - That's the only file you need
+
+Step 3: Run it.
+   - Right-click inside the folder > "Open in Terminal"
+   - Type: python master_scrape.py
+   - Press Enter
+
+   The first time takes 1-2 minutes (installs packages + browser).
+   After that, starts are instant.
+
+
+WHAT HAPPENS WHEN YOU START
+---------------------------
+
+Every time you run master_scrape.py, the first thing it does is a
+"system check" to make sure everything is OK before scraping:
+
+   Running system check... OK
+
+It checks:
+   - You have internet access
+   - You have at least 500 MB of free disk space
+   - The script can write files to the output folder
+
+If any of these fail, you get a clear error message telling you what
+to fix.
+
+After the check, if you've run the script before, you'll see your
+recent searches listed so you know what you did last:
+
+   Recent searches:
+     1. All three: 'mobile shops' in 'bidar'
+     2. Google Maps: 'restaurants' in 'bangalore'
+
+
+THE MAIN MENU
+-------------
+
+Then you see:
+
+   [1] Google Maps     — retail shops, phone numbers, websites
+   [2] JustDial        — Indian businesses, WhatsApp numbers
+   [3] IndiaMART       — B2B suppliers, GST numbers, wholesale pricing
+   [4] All three       — same search across all sources at once
+   [5] Custom combo    — pick which sources, different keywords per source
+
+Type a number and press Enter.
+
+
+OPTION 1: GOOGLE MAPS (5 steps)
+---------------------------------
+
+Best for: finding retail shops with real phone numbers, websites,
+addresses, and Google Maps ratings.
+
+   Step 1 — Keyword (e.g. mobile shops, restaurants)
+   Step 2 — Places (comma-separated, e.g. bidar, humnabad)
+   Step 3 — Speed (1=Normal, 2=Slow, 3=Very slow)
+   Step 4 — Browser mode (1=Headless/invisible, 2=Visible)
+   Step 5 — Output file (auto-suggested, just press Enter)
+
+The Excel file has two sheets:
+   "shops"        — businesses that match your search
+   "filtered_out" — unrelated results (kept for transparency)
+
+Typical results: 70-120 shops per locality.
+
+
+OPTION 2: JUSTDIAL (5 steps)
+------------------------------
+
+Best for: Indian businesses with WhatsApp numbers. Auto-resolves
+locations (e.g. typing "bidari" finds "Bidari, Bagalkot" automatically).
+
+   Step 1 — Keyword
+   Step 2 — Places (city or area + city)
+   Step 3 — Speed
+   Step 4 — Browser mode (JustDial always runs visible — required by Akamai)
+   Step 5 — Output file
+
+Typical results: 10-50 per city-wide search.
+
+
+OPTION 3: INDIAMART (5 steps)
+-------------------------------
+
+Best for: B2B suppliers and wholesalers. Gets GST numbers, wholesale
+pricing, and virtual phone numbers.
+
+   Step 1 — Keywords (comma-separated! e.g. mobile accessories, usb cables)
+   Step 2 — Cities (comma-separated)
+   Step 3 — Speed
+   Step 4 — Browser mode
+   Step 5 — Output file
+
+Note: IndiaMART phone numbers are virtual relay numbers. Calling them
+connects you to the seller through IndiaMART's system.
+
+
+OPTION 4: ALL THREE (6 steps)
+-------------------------------
+
+Runs Google Maps + JustDial + IndiaMART at the same time.
+
+   Step 1 — Search keyword (for Google Maps + JustDial)
+            Example: mobile shops
+
+   Step 2 — IndiaMART keywords (separate, because IndiaMART searches
+            by PRODUCT name, not shop type. Comma-separated.)
+            Example: mobile accessories, phone chargers, usb cables
+
+   Step 3 — Places (shared across all sources)
+            Example: koramangala bangalore, jayanagar bangalore
+            NOTE: IndiaMART only supports city names. The script
+            automatically extracts unique cities from your places.
+
+   Step 4 — Speed (1/2/3)
+
+   Step 5 — Browser mode
+            [1] Headless — invisible, faster. Use after first run.
+            [2] Visible — see the browser. Use for first run or if
+                you need to solve captchas.
+
+   Step 6 — Review summary and confirm
+
+After all three finish, the script automatically:
+   1. Fuzzy-merges businesses appearing in multiple sources
+      (e.g. "Poorvika Mobiles" from Maps + "Poorvika Mobiles Pvt Ltd"
+      from JustDial become one row with the best data from both)
+   2. Assigns a tier to every business:
+      Tier S (gold)  — Strategic: rating 4.5+ and 500+ reviews
+      Tier A (green) — High-potential: rating 4.0+ and 100+ reviews
+      Tier B (blue)  — Standard: rating 3.5+ and 10+ reviews
+      Tier C (gray)  — Long-tail: has some data but low engagement
+      Tier D (red)   — Exclude: no rating or reviews
+   3. Highlights possible duplicates in yellow
+   4. Saves a master Excel file with everything
+
+
+OPTION 5: CUSTOM COMBO
+-----------------------
+
+Pick which sources to use and optionally set different keywords for
+each source. You can run them in parallel or one at a time.
+
+
+WHERE ARE MY FILES SAVED?
+--------------------------
+
+All output files go into organized folders. You will NEVER have a
+cluttered directory. The structure is:
+
+   output/
+     2026-04-09_mobile_shops_belagavi/
+       maps_mobile_shops_belagavi.xlsx
+       jd_mobile_shops_belagavi.xlsx
+       im_mobile_accessories_belagavi.xlsx
+       master_mobile_shops_belagavi.xlsx
+     2026-04-10_restaurants_mysuru/
+       maps_restaurants_mysuru.xlsx
+       ...
+
+Each run gets its own dated folder. Easy to find, easy to organize.
+
+IF YOU RUN THE SAME SEARCH TWICE ON THE SAME DAY:
+   Your previous results are NEVER overwritten. The script creates
+   a new folder with a number suffix:
+
+   output/
+     2026-04-09_mobile_shops_bidar/       (first run)
+     2026-04-09_mobile_shops_bidar_2/     (same query, second run)
+     2026-04-09_mobile_shops_bidar_3/     (third run)
+
+WHEN THE SCRAPING IS DONE:
+   You'll see a summary showing:
+     - Total time taken
+     - Each output file with its row count and size
+     - A prompt asking: "Open output folder now?"
+
+   If you say yes, the folder opens in Windows File Explorer
+   automatically so you can find your Excel files instantly.
+
+
+BROWSER MODE: HEADLESS vs VISIBLE
+-----------------------------------
+
+When prompted for browser mode, you have two choices:
+
+   [1] Headless (invisible)
+       - No browser window appears on screen
+       - Faster (no rendering overhead)
+       - Recommended for most runs
+       - If a captcha appears, the script saves a screenshot and
+         tells you to re-run in visible mode
+
+   [2] Visible
+       - You see the Chrome browser working on screen
+       - Use this for your FIRST RUN to warm up the browser profile
+       - Use this if you keep getting captchas in headless mode
+       - If a captcha appears, solve it in the visible browser —
+         the script auto-detects and continues
+
+Recommendation:
+   First time ever   -> Visible (to solve any initial captcha)
+   Every time after  -> Headless (faster, no window clutter)
+
+
+SPEED SETTINGS
+--------------
+
+   [1] Normal     — fastest, about 1-2 seconds per business
+   [2] Slow       — about 3-5 seconds per business
+   [3] Very slow  — about 5-7 seconds per business
+
+If you're not sure, pick 1 (Normal). The scraper uses stealth
+technology that avoids most captchas even at full speed. Switch to
+2 or 3 only if you're getting blocked.
+
+
+WHAT TO DO IF A CAPTCHA/PUZZLE APPEARS
+--------------------------------------
+
+In VISIBLE mode:
+   1. You'll see a puzzle in the Chrome window
+   2. Solve it manually (click images, check box, etc.)
+   3. The script detects it within 5 seconds and continues
+   4. No need to press anything in the terminal
+
+In HEADLESS mode:
+   1. The script saves a screenshot to the output folder
+   2. It tells you which URL was blocked
+   3. Re-run the same search in VISIBLE mode (pick option 2
+      at the browser mode prompt)
+   4. Solve the captcha once
+   5. Now headless will work again (the browser profile remembers)
+
+Captchas are rare. In testing, we scraped 1600+ businesses across
+30 neighborhoods of Bangalore with zero captchas in headless mode.
+
+
+RUNNING MULTIPLE SEARCHES AT THE SAME TIME
+-------------------------------------------
+
+WITHIN ONE TERMINAL:
+   Use Option 4 (All three) or Option 5 (Custom combo). The script
+   handles everything — launches multiple Chrome windows, manages
+   profiles, and merges results at the end.
+
+ACROSS MULTIPLE TERMINALS (for different cities/districts):
+   You can run master_scrape.py in 2, 3, or more terminals at once.
+   Each one gets its own Chrome windows and won't interfere with
+   the others. Here's how:
+
+   Step 1: Open the first terminal
+      - Go to the folder with master_scrape.py
+      - Right-click inside the folder
+      - Click "Open in Terminal"
+      - Type: python master_scrape.py
+      - Choose your options (e.g. mobile shops in hubli)
+
+   Step 2: Open a second terminal (while the first is still running)
+      - Go to the SAME folder again
+      - Right-click inside the folder AGAIN
+      - Click "Open in Terminal" — this opens a NEW separate window
+      - Type: python master_scrape.py
+      - Choose different options (e.g. mobile shops in belagavi)
+
+   Step 3 (optional): Open more terminals the same way.
+
+   Each terminal works independently. Output goes to separate dated
+   folders so nothing conflicts.
+
+   Example of 3 terminals running at once:
+      Terminal 1:  "mobile shops" in "hubli, dharwad"
+                   -> output/2026-04-09_mobile_shops_hubli/
+      Terminal 2:  "mobile shops" in "belagavi"
+                   -> output/2026-04-09_mobile_shops_belagavi/
+      Terminal 3:  "mobile shops" in "mysuru"
+                   -> output/2026-04-09_mobile_shops_mysuru/
+
+Memory needed per Chrome window: about 500 MB
+   8 GB RAM  — 2-3 simultaneous terminals
+   16 GB RAM — 4-6 simultaneous terminals
+   32 GB RAM — 8+ simultaneous terminals
+
+   Each terminal using Option 4 (All three) opens 3 Chrome windows.
+   So 2 terminals x Option 4 = 6 Chrome windows = ~3 GB RAM.
+
+
+TIPS FOR GETTING THE MOST DATA
+-------------------------------
+
+1. For full coverage of a district, list every town:
+   Places: bidar, humnabad, basavakalyan, aurad, bhalki
+
+2. For a big city, list neighborhoods instead of just the city name:
+   Places: koramangala bangalore, jayanagar bangalore, whitefield bangalore
+
+3. Google Maps gives the most results per search (70-120 per locality).
+   JustDial gives fewer but sometimes has WhatsApp numbers.
+   IndiaMART is for wholesalers/suppliers, not retail shops.
+
+4. Use "All three" to get maximum coverage and a merged master file.
+
+5. For IndiaMART, use multiple keywords:
+   Keywords: mobile accessories, phone chargers, usb cables, power banks
+
+6. If you're scraping a whole state:
+   - Split into batches by district
+   - Run one district at a time
+   - Or run multiple districts in parallel (one per terminal window)
+
+7. For the BPS2 plan (Evara Technology statewide coverage):
+   - Run "All three" for each zone hub city first (Bengaluru, Mysuru,
+     Hubli-Dharwad, Vijayapura)
+   - Then expand outward to smaller towns
+   - The master file's tier system (S/A/B/C/D) maps directly to the
+     BPS2 shop tiers
+
+
+HOW LONG DOES IT TAKE?
+-----------------------
+
+Google Maps (Headless, Normal speed):
+   ~1-2 seconds per business (3 parallel tabs)
+   100 shops = ~2 minutes
+   500 shops = ~10 minutes
+   1600 shops (full city) = ~50 minutes
+
+Google Maps (Visible, Slow speed):
+   ~4-5 seconds per business
+   100 shops = ~7 minutes
+
+JustDial:
+   ~3 seconds per page (10 businesses per page)
+   50 businesses = ~20 seconds
+
+IndiaMART:
+   ~3 seconds per page (10 suppliers per page)
+   Similar to JustDial timing
+
+All Three in parallel:
+   Takes as long as the slowest one (usually Google Maps)
+
+
+WHAT IF I PRESS CTRL+C (STOP) DURING A SCRAPE?
+------------------------------------------------
+
+Your data is NOT lost. The script saves everything it collected so
+far to a file ending in "_partial.xlsx". You can find it in the
+output folder.
+
+
+WHAT IF THE FILE WON'T SAVE?
+------------------------------
+
+The script detects this automatically:
+   - If the file is open in Excel, it tells you and asks for a new name
+   - If the file already exists, it asks if you want to overwrite or
+     save with a different name
+No data is silently lost.
+
+
+TROUBLESHOOTING
+---------------
+
+"python is not recognized"
+   Python is not installed or not on PATH.
+   Install from https://www.python.org/downloads/
+   MUST check "Add Python to PATH" during install.
+
+Chrome/browser errors on first run
+   The script auto-installs the browser. If it fails:
+   Run: python -m patchright install chromium
+
+Script seems stuck / no progress
+   Check if a captcha appeared (re-run in visible mode).
+   If nothing happens for 5 minutes, press Ctrl+C to stop.
+   Your data is saved to a _partial.xlsx file.
+
+JustDial shows 0 results
+   Try a different keyword spelling.
+   JustDial is India-only — use "bangalore" not "bengaluru".
+
+IndiaMART shows businesses from other cities
+   This is normal. IndiaMART mixes local + national suppliers.
+
+"Blocked" or "Access Denied"
+   Wait 30 minutes and try again with Speed 3.
+   Or re-run in visible mode to solve any challenge.
+
+Computer is very slow during scraping
+   Each Chrome window uses ~500 MB RAM.
+   Close other programs, or use headless mode.
+
+Terminal window closed immediately
+   You might have double-clicked the script.
+   It should stay open with "Press Enter to exit" at the bottom.
+   If it closes, open Terminal manually and run:
+   python master_scrape.py
+
+
+FILE OVERVIEW
+-------------
+
+master_scrape.py   — THE ONLY FILE YOU NEED.
+                     Everything else is auto-generated.
+
+On first run, it creates:
+   .scripts/        — extracted helper scripts (auto-managed)
+   output/          — your scraping results, organized by date

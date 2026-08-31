@@ -1,0 +1,32 @@
+
+-- broad+city
+   https://dir.indiamart.com/search.mp?ss=mobile+phones&city=bidar
+   status=200
+   SR results=0 body_len=1237 Rs=0 card-el-hits=0
+   head: All India // Get Best Price // Exporters // Messages // Sign In // Related Searches // mobile phones // Plain T Shirts
+
+-- specific
+   https://dir.indiamart.com/search.mp?ss=usb+cables+manufacturer&city=bidar
+   status=200
+   SR results=0 body_len=1257 Rs=0 card-el-hits=0
+   head: All India // Get Best Price // Exporters // Messages // Sign In // Related Searches // usb cables manufacturer // Plain T Shirts
+
+-- nocity
+   https://dir.indiamart.com/search.mp?ss=usb+cables
+   status=200
+   SR results=0 body_len=1231 Rs=0 card-el-hits=0
+   head: All India // Get Best Price // Exporters // Messages // Sign In // Related Searches // usb cables // Plain T Shirts
+
+-- v2
+   https://dir.indiamart.com/search.mp?ss=mobile+phones&v=2
+   status=200
+   SR results=0 body_len=1237 Rs=0 card-el-hits=0
+   head: All India // Get Best Price // Exporters // Messages // Sign In // Related Searches // mobile phones // Plain T Shirts
+
+-- hyphen
+   https://dir.indiamart.com/search.mp?ss=mobile-phones
+   status=200
+   SR results=0 body_len=1237 Rs=0 card-el-hits=0
+   head: All India // Get Best Price // Exporters // Messages // Sign In // Related Searches // mobile-phones // Plain T Shirts
+
+DONE

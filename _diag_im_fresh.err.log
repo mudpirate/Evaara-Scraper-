@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "C:\Users\Nomesh\Desktop\evaara\_diag_im_fresh.py", line 87, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\Nomesh\Desktop\evaara\_diag_im_fresh.py", line 82, in main
+    say("lines: " + " // ".join(info['lines']))
+                                ~~~~^^^^^^^^^
+KeyError: 'lines'

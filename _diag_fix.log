@@ -1,0 +1,36 @@
+
+########## JUSTDIAL ##########
+status=200 final_url=https://www.justdial.com/Bidar/Mobile-Phone-Dealers/nct-11216691?filters=[{%22e%22:%22100%22,%22v%22:[%22Distance%22]}]&v=nctol
+title: ''
+__NEXT_DATA__: MISSING
+JD prob err: KeyError: 'listing_hrefs'
+
+########## INDIAMART ##########
+
+--- search-mobile : https://dir.indiamart.com/search.mp?ss=mobile+accessories&city=bidar
+  status=200 final_url=https://dir.indiamart.com/search.mp?ss=mobile+accessories&city=bidar
+  searchResponse: NoneType
+  body_len=1247 supplier_els=1 'Rs'=0
+  head: 'All India\nGet Best Price\nExporters\nSell\nHelp\nMessages\nSign In\nRelated Searches\nmobile accessories\nPlain T Shirts\nPolo T Shirts\nRound Neck T Shirts\nmobile accessories\nAll India\nVeri'
+
+--- search-mobile-v4 : https://dir.indiamart.com/search.mp?ss=mobile+accessories&city=bidar&v=4
+  status=200 final_url=https://dir.indiamart.com/search.mp?ss=mobile+accessories&city=bidar&v=4
+  searchResponse: NoneType
+  body_len=1247 supplier_els=1 'Rs'=0
+  head: 'All India\nGet Best Price\nExporters\nSell\nHelp\nMessages\nSign In\nRelated Searches\nmobile accessories\nPlain T Shirts\nPolo T Shirts\nRound Neck T Shirts\nmobile accessories\nAll India\nVeri'
+
+--- impcat : https://dir.indiamart.com/impcat/mobile-phones.html
+  status=200 final_url=https://dir.indiamart.com/impcat/mobile-phones.html
+  searchResponse: NoneType
+  body_len=10346 supplier_els=28 'Rs'=0
+  head: 'All India\nGet Best Price\nExporters\nSell\nHelp\nMessages\nSign In\nTouch Screen Mobile\nKeypad Mobiles\nQwerty Keyboard Cell Phone\nPocket PC Phone\nPhablet\nVoice Changer Mobile Phone\nSmart'
+
+--- search-nocity : https://dir.indiamart.com/search.mp?ss=mobile+phones
+  status=200 final_url=https://dir.indiamart.com/search.mp?ss=mobile+phones
+  searchResponse: NoneType
+  body_len=1235 supplier_els=1 'Rs'=0
+  head: 'Kolkata\nGet Best Price\nExporters\nSell\nHelp\nMessages\nSign In\nRelated Searches\nmobile phones\nPlain T Shirts\nPolo T Shirts\nRound Neck T Shirts\nmobile phones\nAll India\nVerified cotton '
+
+-- JSON bodies captured --
+
+DONE

@@ -1,0 +1,50 @@
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in raichur, raichur district, karnataka
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ⚠ CAPTCHA detected                                                          │
+│                                                                             │
+│ URL:                                                                        │
+│ https://www.google.com/sorry/index?continue=https://www.google.com/maps/sea │
+│ rch/mobile%2Bphones%2Bin%2Braichur,%2Braichur%2Bdistrict,%2Bkarnataka&q=EgT │
+│ fuSJGGNieytQGIjASs0cIhxEe6BKaUD3bSeG2dUu5VMM_Eglie7p5yYhVt7-t6xBkOUS6EPAu3V │
+│ 409asyAnJSWgFD                                                              │
+│ Mode: HEADED                                                                │
+└─────────────────────────────────────────────────────────────────────────────┘
+Solve the captcha in the visible browser. (no TTY — auto-resuming as soon as it
+clears, up to 10 min)
+✓ Resuming (after 15s)
+
+✓ 73 unique places (from 77 cards)
+  Bhagyalaxmi Mobile Centre ------------------------------ 100% 0:01:12 0:00:00
+→ mobile phones in lingsugur, raichur district, karnataka
+✓ 94 unique places (from 96 cards)
+  R R YADAV MOBILES -------------------------------------- 100% 0:01:35 0:00:00
+→ mobile phones in manvi, raichur district, karnataka
+✓ 82 unique places (from 85 cards)
+  Sri Mahalaxmi Mobiles ---------------------------------- 100% 0:01:27 0:00:00
+→ mobile phones in sindhanur, raichur district, karnataka
+✓ 49 unique places (from 49 cards)
+  NEW STAR MOBILE SHOP Mr AJMEER SAB --------------------- 100% 0:00:54 0:00:00
+→ mobile phones in mudgal, raichur district, karnataka
+✓ 112 unique places (from 119 cards)
+  RAJ MOBILE GALLERY ------------------------------------- 100% 0:02:09 0:00:00
+→ mobile phones in siruguppa, ballari district, karnataka
+✓ 60 unique places (from 62 cards)
+  Mubarak mobiles sales and service ---------------------- 100% 0:01:18 0:00:00
+→ mobile phones in karatagi, koppal district, karnataka
+✓ 93 unique places (from 96 cards)
+  Icare 2.0 ---------------------------------------- 100% 0:02:04 0:00:00
+→ mobile phones in kanakagiri, koppal district, karnataka
+✓ 77 unique places (from 83 cards)
+  Switchkart Service Center - KOPPAL --------------------- 100% 0:01:45 0:00:00
+→ mobile phones in gangavathi, koppal district, karnataka
+✓ 60 unique places (from 60 cards)
+  SAMSUNG CAFE DIKSHA TELCOM ----------------------------- 100% 0:01:27 0:00:00
+
+Total: 700 scraped → 458 unique (242 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 458 → mobile_raichur_all.xlsx (shops)
+FILE_PATH: mobile_raichur_all.xlsx
+✨ 56 chain-store rows highlighted green | 93 rows with NO phone highlighted 
+yellow

@@ -1,0 +1,14 @@
+{
+  "name": "vlr-scraper",
+  "version": "1.0.0",
+  "description": "Scrape match schedule & results from vlr.gg using Puppeteer and Playwright",
+  "type": "module",
+  "scripts": {
+    "puppeteer": "node puppeteer.mjs",
+    "playwright": "node playwright.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.47.0",
+    "puppeteer": "^24.0.0"
+  }
+}

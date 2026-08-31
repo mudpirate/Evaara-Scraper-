@@ -1,0 +1,86 @@
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+network check: 204 OK (abort expected)
+→ mobile phone shops in bidar
+✓ 92 unique places (from 95 cards)
+! #42: TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! #43: TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! #44: TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! #45: TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! #46: TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! #47: TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! #48: TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! #49: TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! #50: TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! #51: TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! #52: TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! #53: TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! #54: TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! #55: TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! #56: TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+  Sri Sai Book Stall And Mobile Shop --------------------- 100% 0:18:28 0:00:00
+→ mobile phone shops in humnabad
+✓ 19 unique places (from 19 cards)
+  Shivareddy Mobiles ------------------------------------- 100% 0:00:35 0:00:00
+→ mobile phone shops in basavakalyan
+✓ 57 unique places (from 58 cards)
+  Final Mobile and computer repair shop  ----------------- 100% 0:02:52 0:00:00
+
+Total: 153 scraped → 151 unique (2 dupes removed)
+Filter: intent='mobile' → 117 kept, 34 filtered (set KEEP_ALL=1 to disable)
+top filtered categories:
+  ✗ Clothing store: 5
+  ✗ Pharmacy: 3
+  ✗ Shopping mall: 3
+  ✗ Watch store: 2
+  ✗ Hypermarket: 2
+  ✗ General store: 2
+  ✗ Shoe store: 2
+  ✗ Optician: 1
+✓ saved 117 → 
+C:\Users\Nomesh\Desktop\evaara\output\2026-08-15_mobile_phones_bidar\maps_mobil
+e_phones_bidar.xlsx (shops + filtered_out)

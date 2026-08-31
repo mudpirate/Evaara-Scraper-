@@ -1,0 +1,21 @@
+
+########## JD: card markup ##########
+status=200 url=https://www.justdial.com/Bidar/Mobile-Phone-Dealers/nct-11216691?filters=[{%22e%22:%22100%22,%22v%22:[%22Distance%22]}]&v=nctol
+waited for 'Ratings' in body: False
+title: ''
+__NEXT_DATA__ present: False
+biz hrefs: 
+card_class: 
+wrote _jd_card.html len=7
+
+== IM: homepage-then-search + impcat ##########
+homepage status=200
+search-after-home status=200
+  searchResponse: NoneType  (not dict after homepage)
+  body_len=1235 Rs=0 head='Kolkata\nGet Best Price\nExporters\nSell\nHelp\nMessages\nSign In\nRelated Searches\nmobile phones\nPlain T Shirts\nPolo T Shirts\nRound Neck T Shirts\nmobile phones\nAll In'
+impcat status=200
+impcat searchResponse: NoneType
+wrote _im_card.html len=17
+impcat body head: 'Kolkata\nGet Best Price\nExporters\nSell\nHelp\nMessages\nSign In\nTouch Screen Mobile\nKeypad Mobiles\nQwerty Keyboard Cell Phone\nPocket PC Phone\nPhablet\nVoice Changer Mobile Phone\nSmart Phone\nGSM Mobile Phone\nFeature Phone\nBar Phones\nCamera Phone\nApple iPhone\nNokia Mobile Phones\nJio Mobile Phones\nVivo Mobile phones\nSamsung Mobile Phones\nOppo Mobile Phones\nBlackBerry Mobile Phones\nRedmi Mobile Phones\nITEL'
+
+DONE

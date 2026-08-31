@@ -1,0 +1,29 @@
+vijaypur: vijaypura city, chadchan, indi, sindagi, devarhippargi, talikoti, muddebihal, basavana bagewadi, horti, zalki, almel, golageri, kalakeri, kembhavi, yedrami, ijeri, huvin hippargi, ukkali, shivanagi, bableshwar, ainapur, bijjargi, mangoli, toravi, tikota, arakeri, tidagundi, babagnagar, honwad, telsang, kanamadi, ramteerth, savalgi, tungal, kokatnur, kolhar old, masuti, telgi
+
+dharwad: dharwad city, huballi, kundgol, navalgund, alnavar, garag, belur, mugad, godholi, haliyal, siddapura, gobral, dandeli, jagalbet, joida, amarde, ambewadi, yellapur, kalaghatgi, mundgod, shiggavi, hulgur, kundgol, kusugal, hebsur, hebballi, annigeri, saunshi, gudgeri, yalavigi, banakapur, narendra
+
+gadag: gadag, nargund, ron, shirhatti, mundargi, huvvinhadagalli, dambal, laxmeshwar, nagavi, mulgund, bannikoppa, mudargi, hammigi, shalavadi, rona, abbigeri, naregal, kalasapur, lakkundi
+
+koppal: koppal, ilkal, kushtagi, kuknoor, yelburga, gangavati, ganjendragadh, sudi, itagi, hanamsagar, kabbargi, hungund, mudgal, piklihal, kanakgiri, gangavathi
+
+bellary: bellary city, sirguppa, hospete city, sandur, hagan, bommanahalli, kudligi, torangallu, kudatini, daroji, kampli, kurugodu, srigeri, kollur, tekkalakote, mukkunda, moka, sangankal, amarapura, chellagurki, mincheri, ubbalagandi, mariyammanhalli
+
+haveri: havericity, shiggaon, savanur, byadgi, ranibennur, hirekerup, devagiri, koluru, karajgi, agadi, kerimattihalli, kabbur, aladkatti, hosalli, devihosur, chinnikatti, masanagi, byadagi, motebennur, hosaritti, guttal, honnatti, guddaguddapur, chalageri, holalu, mylara, haunsbhavi, thogarsi, talagunda, siralkoppa, udagani, shikarpur, ambargoppa, masur, ratihalli, sampalli, sagara, keladi, banavasi, siddapur
+
+uttar kannada: uttar kannad, supa, haliyal, kalghatgi, yellapur, mundgod, karwar, ankhola, hangal, sirsi, siddapur, kumta, honavar, bhatkal, hosanagar, humcha, konnandur
+
+shivmoga: shivomga city, soraba, sagar, shikarpura, hosangara, tirthalli, bhadravati, kudli, savalanga, nayamati, kumsi, ayanur, anandpuram, sampalli, talagupa, kargal, tirthahalli, koppa rural, narasimharajpura, mattur, tarikere, amruthapura, ajjampura, hirenallur, birur, yagati
+
+davangeree: davangere city, harapanhalli, harihar, jagalur, honnali, channagiri, anagodu, hadadi, lokikere, kundur, kokkanur, telagi, airani, uchangidurga, kodaganur, mayakonda, santhebennur, devarahalli, hire hadagali, ittigi, kotturu
+
+chitradurga: chitradurga city, challakere, molakalmuru, holalkere, hiryur, hosdurga, pavagada, kalledevarpura, nayaknahatty, thalaku, holalkere rural, ramagiri, chikkajajur, huliyar aminkere, sira, chellur, gubbi, tiptur, channarayapatna
+
+udupi: udupi city, kundapura, sringeri, karkala, kodi, saligrama, basrur, tallur, shankarnarayan, hebri, varanga, pangala, shirva, varambally, athradi
+
+chikmangaluru: chimangaluru city, tarikere, narasimharajpura, kadur, koppa, mudigere, aldur, mudigere, gonibeedu, cheekanhalli, bankal, aldur, belur, sakleshpura, dharamsthala
+
+dakshin kannada: dakshin kannad, beltangadi, bantwala, puttur, manglore, sulya, thokur, ballkunje, kinnigoli, bajpe, moodushede, kaikamba, shirthady, venur, chennaithodi, mani, brlthangady, ujire, kokkada, nelyady, sullia
+
+hassan: hassan city, arsikere, belur, sakleshpur, alur, chanparayapatna, hole, arkalgud, javagal, halebbedu, sakleshpura, arkalgud, holenarasipura, shravanbela gola, shantigrama, korvangala, banavara, tiptur
+
+kodagu: kodagu city, somvarpet, krishnarajnagara, madikere, virarajanderapet, gonikoppa, kumaralli, shanivarsanthhe, makkanduru, kudige, napkolu, yemmamadu

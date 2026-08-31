@@ -1,0 +1,957 @@
+Haveri district: 40 cities, resumable per-city run.
+[1/40] havericity
+
+=== RUN: mobile phones in havericity, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in havericity, haveri, karnataka
+✓ 72 unique places (from 72 cards)
+  Maruti Communication ----------------------------------- 100% 0:01:38 0:00:00
+
+Total: 72 scraped → 72 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 72 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\01_havericity.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\01_havericity.xlsx
+✨ 11 chain-store rows highlighted green | 19 rows with NO phone highlighted 
+yellow
+[2/40] shiggaon
+
+=== RUN: mobile phones in shiggaon, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in shiggaon, haveri, karnataka
+✓ 95 unique places (from 100 cards)
+  ಪ್ರತೀಕ ಮೊಬೈಲ್ ಕೇರ್ ---------------------------------------- 100% 0:03:41 0:00:00
+
+Total: 95 scraped → 95 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 95 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\02_shiggaon.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\02_shiggaon.xlsx
+✨ 16 chain-store rows highlighted green | 26 rows with NO phone highlighted 
+yellow
+[3/40] savanur
+
+=== RUN: mobile phones in savanur, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in savanur, haveri, karnataka
+✓ 96 unique places (from 101 cards)
+  ಪ್ರತೀಕ ಮೊಬೈಲ್ ಕೇರ್ ---------------------------------------- 100% 0:03:05 0:00:00
+
+Total: 96 scraped → 96 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 96 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\03_savanur.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\03_savanur.xlsx
+✨ 14 chain-store rows highlighted green | 27 rows with NO phone highlighted 
+yellow
+[4/40] byadgi
+
+=== RUN: mobile phones in byadgi, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in byadgi, haveri, karnataka
+✓ 84 unique places (from 88 cards)
+  Mobile Junction ---------------------------------------- 100% 0:03:28 0:00:00
+
+Total: 84 scraped → 84 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 84 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\04_byadgi.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\04_byadgi.xlsx
+✨ 13 chain-store rows highlighted green | 26 rows with NO phone highlighted 
+yellow
+[5/40] ranibennur
+
+=== RUN: mobile phones in ranibennur, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in ranibennur, haveri, karnataka
+✓ 90 unique places (from 94 cards)
+  Basaveshwara Comunicatin ------------------------------- 100% 0:02:57 0:00:00
+
+Total: 90 scraped → 90 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 90 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\05_ranibennur.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\05_ranibennur.xlsx
+✨ 13 chain-store rows highlighted green | 29 rows with NO phone highlighted 
+yellow
+[6/40] hirekerup
+
+=== RUN: mobile phones in hirekerup, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in hirekerup, haveri, karnataka
+✓ 15 unique places (from 15 cards)
+! TimeoutError: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to 
+"https://www.google.com/maps/place/PhonoRange+Haveri+2/data=!4m7!3m6!1s0x3bb969
+2674586883:0x472e7d4cee5db670!8m2!3d14.7889154!4d75.3984406!16s%2Fg%2F11y8zqndt
+h!19sChIJg2hYdCZpuTsRcLZd7kx9Lkc?authuser=0&hl=en&g_ep=EgoyMDI2MDgyNi4wIJJjKgBI
+AVAD&rclk=1", waiting until "domcontentloaded"
+
+! TimeoutError: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to 
+"https://www.google.com/maps/place/Pai+Mobiles+-+Haveri/data=!4m7!3m6!1s0x3bb96
+9134e373e7f:0xe1b3bbebbf5ec33e!8m2!3d14.7876503!4d75.3993121!16s%2Fg%2F11fkyx98
+yv!19sChIJfz43ThNpuTsRPsNev-u7s-E?authuser=0&hl=en&g_ep=EgoyMDI2MDgyNi4wIJJjKgB
+IAVAD&rclk=1", waiting until "domcontentloaded"
+
+! TimeoutError: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to 
+"https://www.google.com/maps/place/PhonoRange+-+Haveri/data=!4m7!3m6!1s0x3bb969
+17cec449ad:0xf8d1f6754f12bbee!8m2!3d14.7892295!4d75.3981914!16s%2Fg%2F11m6jy8cz
+8!19sChIJrUnEzhdpuTsR7rsST3X20fg?authuser=0&hl=en&g_ep=EgoyMDI2MDgyNi4wIJJjKgBI
+AVAD&rclk=1", waiting until "domcontentloaded"
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to 
+"https://www.google.com/maps/place/NATIONAL+MOBILES/data=!4m7!3m6!1s0x3bb97f2ce
+195ecdd:0x52fe39d61a4d0508!8m2!3d14.6172689!4d75.6333488!16s%2Fg%2F11jtbfzmgk!1
+9sChIJ3eyV4Sx_uTsRCAVNGtY5_lI?authuser=0&hl=en&g_ep=EgoyMDI2MDgyNi4wIJJjKgBIAVA
+D&rclk=1", waiting until "domcontentloaded"
+
+! TimeoutError: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to 
+"https://www.google.com/maps/place/phone+and+tv/data=!4m7!3m6!1s0x3bbbddc763e74
+bcd:0xecb15a9c4d10900f!8m2!3d14.4561983!4d75.3902998!16s%2Fg%2F11sgxsv74_!19sCh
+IJzUvnY8fduzsRD5AQTZxasew?authuser=0&hl=en&g_ep=EgoyMDI2MDgyNi4wIJJjKgBIAVAD&rc
+lk=1", waiting until "domcontentloaded"
+
+! TimeoutError: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to 
+"https://www.google.com/maps/place/Poorvika+Mobiles+Ranebennur/data=!4m7!3m6!1s
+0x3bb97f1f1e7a4681:0x3da69705755ef63d!8m2!3d14.6129938!4d75.6364853!16s%2Fg%2F1
+1fd713fm3!19sChIJgUZ6Hh9_uTsRPfZedQWXpj0?authuser=0&hl=en&g_ep=EgoyMDI2MDgyNi4w
+IJJjKgBIAVAD&rclk=1", waiting until "domcontentloaded"
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+  Maruti communication Hirekerur ------------------------- 100% 0:08:23 0:00:00
+
+Total: 3 scraped → 3 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 3 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\06_hirekerup.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\06_hirekerup.xlsx
+✨ 1 chain-store rows highlighted green | 1 rows with NO phone highlighted 
+yellow
+[7/40] devagiri
+
+=== RUN: mobile phones in devagiri, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: devagiri
+[8/40] koluru
+
+=== RUN: mobile phones in koluru, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: koluru
+[9/40] karajgi
+
+=== RUN: mobile phones in karajgi, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: karajgi
+[10/40] agadi
+
+=== RUN: mobile phones in agadi, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: agadi
+[11/40] kerimattihalli
+
+=== RUN: mobile phones in kerimattihalli, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: kerimattihalli
+[12/40] kabbur
+
+=== RUN: mobile phones in kabbur, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: kabbur
+[13/40] aladkatti
+
+=== RUN: mobile phones in aladkatti, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: aladkatti
+[14/40] hosalli
+
+=== RUN: mobile phones in hosalli, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: hosalli
+[15/40] devihosur
+
+=== RUN: mobile phones in devihosur, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: devihosur
+[16/40] chinnikatti
+
+=== RUN: mobile phones in chinnikatti, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: chinnikatti
+[17/40] masanagi
+
+=== RUN: mobile phones in masanagi, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: masanagi
+[18/40] byadagi
+
+=== RUN: mobile phones in byadagi, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: byadagi
+[19/40] motebennur
+
+=== RUN: mobile phones in motebennur, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: motebennur
+[20/40] hosaritti
+
+=== RUN: mobile phones in hosaritti, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: hosaritti
+[21/40] guttal
+
+=== RUN: mobile phones in guttal, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: guttal
+[22/40] honnatti
+
+=== RUN: mobile phones in honnatti, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: honnatti
+[23/40] guddaguddapur
+
+=== RUN: mobile phones in guddaguddapur, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: guddaguddapur
+[24/40] chalageri
+
+=== RUN: mobile phones in chalageri, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: chalageri
+[25/40] holalu
+
+=== RUN: mobile phones in holalu, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: holalu
+[26/40] mylara
+
+=== RUN: mobile phones in mylara, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: mylara
+[27/40] haunsbhavi
+
+=== RUN: mobile phones in haunsbhavi, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: haunsbhavi
+[28/40] thogarsi
+
+=== RUN: mobile phones in thogarsi, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: thogarsi
+[29/40] talagunda
+
+=== RUN: mobile phones in talagunda, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: talagunda
+[30/40] siralkoppa
+
+=== RUN: mobile phones in siralkoppa, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: siralkoppa
+[31/40] udagani
+
+=== RUN: mobile phones in udagani, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: udagani
+[32/40] shikarpur
+
+=== RUN: mobile phones in shikarpur, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: shikarpur
+[33/40] ambargoppa
+
+=== RUN: mobile phones in ambargoppa, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: ambargoppa
+[34/40] masur
+
+=== RUN: mobile phones in masur, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: masur
+[35/40] ratihalli
+
+=== RUN: mobile phones in ratihalli, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: ratihalli
+[36/40] sampalli
+
+=== RUN: mobile phones in sampalli, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: sampalli
+[37/40] sagara
+
+=== RUN: mobile phones in sagara, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: sagara
+[38/40] keladi
+
+=== RUN: mobile phones in keladi, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: keladi
+[39/40] banavasi
+
+=== RUN: mobile phones in banavasi, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: banavasi
+[40/40] siddapur
+
+=== RUN: mobile phones in siddapur, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Browser network/DNS failure                                                 │
+│ Chromium could not resolve or reach Google Maps. This is not a              │
+│ keyword/filter issue.                                                       │
+│                                                                             │
+│ Try these on Windows:                                                       │
+│ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+│ 2. Run: ipconfig /flushdns                                                  │
+│ 3. Run: nslookup www.google.com                                             │
+│ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+│ 5. Use Visible mode once to confirm the browser itself can load Google      │
+│ Maps.                                                                       │
+│                                                                             │
+│ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+│ Call log:                                                                   │
+│   - navigating to "https://www.google.com/", waiting until "commit"         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+!!! FAILED: siddapur

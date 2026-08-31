@@ -1,0 +1,158 @@
+┌────────────────────────────────────────────┐
+│ Google Maps Multi-District Scraper         │
+│ Keyword: mobile phones    State: karnataka │
+│ Mode: merged — ONE Excel for everything    │
+└────────────────────────────────────────────┘
+
+District groups:
+  • haveri: havericity, shiggaon, savanur, byadgi, ranibennur, hirekerup, 
+devagiri, koluru, karajgi, agadi, kerimattihalli, kabbur, aladkatti, hosalli, 
+devihosur, chinnikatti, masanagi, byadagi, motebennur, hosaritti, guttal, 
+honnatti, guddaguddapur, chalageri, holalu, mylara, haunsbhavi, thogarsi, 
+talagunda, siralkoppa, udagani, shikarpur, ambargoppa, masur, ratihalli, 
+sampalli, sagara, keladi, banavasi, siddapur
+
+Queries to run (40 total):
+  • mobile phones in havericity, haveri, karnataka
+  • mobile phones in shiggaon, haveri, karnataka
+  • mobile phones in savanur, haveri, karnataka
+  • mobile phones in byadgi, haveri, karnataka
+  • mobile phones in ranibennur, haveri, karnataka
+  • mobile phones in hirekerup, haveri, karnataka
+  • mobile phones in devagiri, haveri, karnataka
+  • mobile phones in koluru, haveri, karnataka
+  • mobile phones in karajgi, haveri, karnataka
+  • mobile phones in agadi, haveri, karnataka
+  • mobile phones in kerimattihalli, haveri, karnataka
+  • mobile phones in kabbur, haveri, karnataka
+  • mobile phones in aladkatti, haveri, karnataka
+  • mobile phones in hosalli, haveri, karnataka
+  • mobile phones in devihosur, haveri, karnataka
+  • mobile phones in chinnikatti, haveri, karnataka
+  • mobile phones in masanagi, haveri, karnataka
+  • mobile phones in byadagi, haveri, karnataka
+  • mobile phones in motebennur, haveri, karnataka
+  • mobile phones in hosaritti, haveri, karnataka
+  • mobile phones in guttal, haveri, karnataka
+  • mobile phones in honnatti, haveri, karnataka
+  • mobile phones in guddaguddapur, haveri, karnataka
+  • mobile phones in chalageri, haveri, karnataka
+  • mobile phones in holalu, haveri, karnataka
+  • mobile phones in mylara, haveri, karnataka
+  • mobile phones in haunsbhavi, haveri, karnataka
+  • mobile phones in thogarsi, haveri, karnataka
+  • mobile phones in talagunda, haveri, karnataka
+  • mobile phones in siralkoppa, haveri, karnataka
+  • mobile phones in udagani, haveri, karnataka
+  • mobile phones in shikarpur, haveri, karnataka
+  • mobile phones in ambargoppa, haveri, karnataka
+  • mobile phones in masur, haveri, karnataka
+  • mobile phones in ratihalli, haveri, karnataka
+  • mobile phones in sampalli, haveri, karnataka
+  • mobile phones in sagara, haveri, karnataka
+  • mobile phones in keladi, haveri, karnataka
+  • mobile phones in banavasi, haveri, karnataka
+  • mobile phones in siddapur, haveri, karnataka
+
+→ Saving to: universal_haveri_district.xlsx
+
+C:\Program Files\Python313\python.exe 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py mobile phones 
+havericity, haveri, karnataka; shiggaon, haveri, karnataka; savanur, haveri, 
+karnataka; byadgi, haveri, karnataka; ranibennur, haveri, karnataka; hirekerup,
+haveri, karnataka; devagiri, haveri, karnataka; koluru, haveri, karnataka; 
+karajgi, haveri, karnataka; agadi, haveri, karnataka; kerimattihalli, haveri, 
+karnataka; kabbur, haveri, karnataka; aladkatti, haveri, karnataka; hosalli, 
+haveri, karnataka; devihosur, haveri, karnataka; chinnikatti, haveri, 
+karnataka; masanagi, haveri, karnataka; byadagi, haveri, karnataka; motebennur,
+haveri, karnataka; hosaritti, haveri, karnataka; guttal, haveri, karnataka; 
+honnatti, haveri, karnataka; guddaguddapur, haveri, karnataka; chalageri, 
+haveri, karnataka; holalu, haveri, karnataka; mylara, haveri, karnataka; 
+haunsbhavi, haveri, karnataka; thogarsi, haveri, karnataka; talagunda, haveri, 
+karnataka; siralkoppa, haveri, karnataka; udagani, haveri, karnataka; 
+shikarpur, haveri, karnataka; ambargoppa, haveri, karnataka; masur, haveri, 
+karnataka; ratihalli, haveri, karnataka; sampalli, haveri, karnataka; sagara, 
+haveri, karnataka; keladi, haveri, karnataka; banavasi, haveri, karnataka; 
+siddapur, haveri, karnataka universal_haveri_district.xlsx
+
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in havericity, haveri, karnataka
+✓ 73 unique places (from 73 cards)
+  Basaveshwara Comunicatin ------------------------------- 100% 0:01:12 0:00:00
+→ mobile phones in shiggaon, haveri, karnataka
+✓ 95 unique places (from 100 cards)
+  ಪ್ರತೀಕ ಮೊಬೈಲ್ ಕೇರ್ ---------------------------------------- 100% 0:02:04 0:00:00
+→ mobile phones in savanur, haveri, karnataka
+✗ no results
+→ mobile phones in byadgi, haveri, karnataka
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ⚠ CAPTCHA detected                                                          │
+│                                                                             │
+│ URL:                                                                        │
+│ https://www.google.com/sorry/index?continue=https://www.google.com/maps/sea │
+│ rch/mobile%2Bphones%2Bin%2Bbyadgi,%2Bhaveri,%2Bkarnataka&q=EhAkCUDgEDi6w7nQ │
+│ gIqxW7_OGLvs1NQGIjBaRF1qVdbmFWd7jvjZ5lSvWpwsEUF7vFPjyyzru8tiaE6o-3kr6qdO-nz │
+│ Ka-zstYQyAnJSWgFD                                                           │
+│ Mode: HEADED                                                                │
+└─────────────────────────────────────────────────────────────────────────────┘
+Solve the captcha in the visible browser. (no TTY — auto-resuming as soon as it
+clears, up to 10 min)
+still waiting for captcha solve... (30s / 600s)
+still waiting for captcha solve... (60s / 600s)
+still waiting for captcha solve... (90s / 600s)
+still waiting for captcha solve... (120s / 600s)
+still waiting for captcha solve... (150s / 600s)
+still waiting for captcha solve... (180s / 600s)
+still waiting for captcha solve... (210s / 600s)
+still waiting for captcha solve... (240s / 600s)
+still waiting for captcha solve... (270s / 600s)
+still waiting for captcha solve... (300s / 600s)
+✓ Resuming (after 305s)
+
+✓ 84 unique places (from 88 cards)
+  TMs ---------------------------------------- 100% 0:01:24 0:00:00
+→ mobile phones in ranibennur, haveri, karnataka
+✓ 91 unique places (from 94 cards)
+  Basaveshwara Comunicatin ------------------------------- 100% 0:03:47 0:00:00
+→ mobile phones in hirekerup, haveri, karnataka
+✓ 17 unique places (from 17 cards)
+  A g ಸೃಷ್ಟಿ ಮೊಬೈಲ್ ಶಾಪ್ ---------------------------------------- 100% 0:01:28 0:00:00
+→ mobile phones in devagiri, haveri, karnataka
+✓ 85 unique places (from 90 cards)
+  Maruti Communication ----------------------------------- 100% 0:06:38 0:00:00
+→ mobile phones in koluru, haveri, karnataka
+✓ 20 unique places (from 20 cards)
+  Galaxy mobile world ------------------------------------ 100% 0:02:43 0:00:00
+→ mobile phones in karajgi, haveri, karnataka
+✓ 86 unique places (from 92 cards)
+  Basaveshwara Comunicatin ------------------------------- 100% 0:04:05 0:00:00
+→ mobile phones in agadi, haveri, karnataka
+✓ 13 unique places (from 13 cards)
+  Sai Mobile's agadi ------------------------------------- 100% 0:00:23 0:00:00
+→ mobile phones in kerimattihalli, haveri, karnataka
+✓ 20 unique places (from 20 cards)
+  The Mobile Zone ---------------------------------------- 100% 0:00:29 0:00:00
+→ mobile phones in kabbur, haveri, karnataka
+✓ 94 unique places (from 101 cards)
+  Maruti Communication ----------------------------------- 100% 0:02:26 0:00:00
+→ mobile phones in aladkatti, haveri, karnataka
+✓ 87 unique places (from 91 cards)
+  ಪ್ರತೀಕ ಮೊಬೈಲ್ ಕೇರ್ ---------------------------------------- 100% 0:02:47 0:00:00
+→ mobile phones in hosalli, haveri, karnataka
+✓ 27 unique places (from 27 cards)
+  Mobile Mane ---------------------------------------- 100% 0:00:45 0:00:00
+→ mobile phones in devihosur, haveri, karnataka
+✓ 109 unique places (from 114 cards)
+  BASAVA MOBILES ---------------------------------------- 100% 0:03:30 0:00:00
+→ mobile phones in chinnikatti, haveri, karnataka
+✓ 16 unique places (from 16 cards)
+  The Mobile Zone ---------------------------------------- 100% 0:00:32 0:00:00
+→ mobile phones in masanagi, haveri, karnataka
+✓ 23 unique places (from 23 cards)
+  The Mobile Studio -------------------------------------- 100% 0:00:51 0:00:00
+→ mobile phones in byadagi, haveri, karnataka
+✓ 83 unique places (from 89 cards)
+  Mobile Junction ---------------------------------------- 100% 0:03:06 0:00:00
+→ mobile phones in motebennur, haveri, karnataka
+✓ 82 unique places (from 85 cards)

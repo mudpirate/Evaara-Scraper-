@@ -1,0 +1,1491 @@
+﻿ΓöîΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÉ
+Γöé Google Maps Multi-District Scraper         Γöé
+Γöé Keyword: mobile phones    State: karnataka Γöé
+Γöé Mode: one Excel PER DISTRICT               Γöé
+ΓööΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÿ
+
+District groups:
+  ΓÇó vijaypur: vijaypura city, chadchan, indi, sindagi, devarhippargi, talikoti,
+muddebihal, basavana bagewadi, horti, zalki, almel, golageri, kalakeri, 
+kembhavi, yedrami, ijeri, huvin hippargi, ukkali, shivanagi, bableshwar, 
+ainapur, bijjargi, mangoli, toravi, tikota, arakeri, tidagundi, babagnagar, 
+honwad, telsang, kanamadi, ramteerth, savalgi, tungal, kokatnur, kolhar old, 
+masuti, telgi
+  ΓÇó dharwad: dharwad city, huballi, kundgol, navalgund, alnavar, garag, belur, 
+mugad, godholi, haliyal, siddapura, gobral, dandeli, jagalbet, joida, amarde, 
+ambewadi, yellapur, kalaghatgi, mundgod, shiggavi, hulgur, kundgol, kusugal, 
+hebsur, hebballi, annigeri, saunshi, gudgeri, yalavigi, banakapur, narendra
+  ΓÇó gadag: gadag, nargund, ron, shirhatti, mundargi, huvvinhadagalli, dambal, 
+laxmeshwar, nagavi, mulgund, bannikoppa, mudargi, hammigi, shalavadi, rona, 
+abbigeri, naregal, kalasapur, lakkundi
+  ΓÇó koppal: koppal, ilkal, kushtagi, kuknoor, yelburga, gangavati, 
+ganjendragadh, sudi, itagi, hanamsagar, kabbargi, hungund, mudgal, piklihal, 
+kanakgiri, gangavathi
+  ΓÇó bellary: bellary city, sirguppa, hospete city, sandur, hagan, bommanahalli,
+kudligi, torangallu, kudatini, daroji, kampli, kurugodu, srigeri, kollur, 
+tekkalakote, mukkunda, moka, sangankal, amarapura, chellagurki, mincheri, 
+ubbalagandi, mariyammanhalli
+  ΓÇó haveri: havericity, shiggaon, savanur, byadgi, ranibennur, hirekerup, 
+devagiri, koluru, karajgi, agadi, kerimattihalli, kabbur, aladkatti, hosalli, 
+devihosur, chinnikatti, masanagi, byadagi, motebennur, hosaritti, guttal, 
+honnatti, guddaguddapur, chalageri, holalu, mylara, haunsbhavi, thogarsi, 
+talagunda, siralkoppa, udagani, shikarpur, ambargoppa, masur, ratihalli, 
+sampalli, sagara, keladi, banavasi, siddapur
+  ΓÇó uttar kannada: uttar kannad, supa, haliyal, kalghatgi, yellapur, mundgod, 
+karwar, ankhola, hangal, sirsi, siddapur, kumta, honavar, bhatkal, hosanagar, 
+humcha, konnandur
+  ΓÇó shivmoga: shivomga city, soraba, sagar, shikarpura, hosangara, tirthalli, 
+bhadravati, kudli, savalanga, nayamati, kumsi, ayanur, anandpuram, sampalli, 
+talagupa, kargal, tirthahalli, koppa rural, narasimharajpura, mattur, tarikere,
+amruthapura, ajjampura, hirenallur, birur, yagati
+  ΓÇó davangeree: davangere city, harapanhalli, harihar, jagalur, honnali, 
+channagiri, anagodu, hadadi, lokikere, kundur, kokkanur, telagi, airani, 
+uchangidurga, kodaganur, mayakonda, santhebennur, devarahalli, hire hadagali, 
+ittigi, kotturu
+  ΓÇó chitradurga: chitradurga city, challakere, molakalmuru, holalkere, hiryur, 
+hosdurga, pavagada, kalledevarpura, nayaknahatty, thalaku, holalkere rural, 
+ramagiri, chikkajajur, huliyar aminkere, sira, chellur, gubbi, tiptur, 
+channarayapatna
+  ΓÇó udupi: udupi city, kundapura, sringeri, karkala, kodi, saligrama, basrur, 
+tallur, shankarnarayan, hebri, varanga, pangala, shirva, varambally, athradi
+  ΓÇó chikmangaluru: chimangaluru city, tarikere, narasimharajpura, kadur, koppa,
+mudigere, aldur, mudigere, gonibeedu, cheekanhalli, bankal, aldur, belur, 
+sakleshpura, dharamsthala
+  ΓÇó dakshin kannada: dakshin kannad, beltangadi, bantwala, puttur, manglore, 
+sulya, thokur, ballkunje, kinnigoli, bajpe, moodushede, kaikamba, shirthady, 
+venur, chennaithodi, mani, brlthangady, ujire, kokkada, nelyady, sullia
+  ΓÇó hassan: hassan city, arsikere, belur, sakleshpur, alur, chanparayapatna, 
+hole, arkalgud, javagal, halebbedu, sakleshpura, arkalgud, holenarasipura, 
+shravanbela gola, shantigrama, korvangala, banavara, tiptur
+  ΓÇó kodagu: kodagu city, somvarpet, krishnarajnagara, madikere, 
+virarajanderapet, gonikoppa, kumaralli, shanivarsanthhe, makkanduru, kudige, 
+napkolu, yemmamadu
+
+Queries to run (332 total):
+  ΓÇó mobile phones in vijaypura city, vijaypur, karnataka
+  ΓÇó mobile phones in chadchan, vijaypur, karnataka
+  ΓÇó mobile phones in indi, vijaypur, karnataka
+  ΓÇó mobile phones in sindagi, vijaypur, karnataka
+  ΓÇó mobile phones in devarhippargi, vijaypur, karnataka
+  ΓÇó mobile phones in talikoti, vijaypur, karnataka
+  ΓÇó mobile phones in muddebihal, vijaypur, karnataka
+  ΓÇó mobile phones in basavana bagewadi, vijaypur, karnataka
+  ΓÇó mobile phones in horti, vijaypur, karnataka
+  ΓÇó mobile phones in zalki, vijaypur, karnataka
+  ΓÇó mobile phones in almel, vijaypur, karnataka
+  ΓÇó mobile phones in golageri, vijaypur, karnataka
+  ΓÇó mobile phones in kalakeri, vijaypur, karnataka
+  ΓÇó mobile phones in kembhavi, vijaypur, karnataka
+  ΓÇó mobile phones in yedrami, vijaypur, karnataka
+  ΓÇó mobile phones in ijeri, vijaypur, karnataka
+  ΓÇó mobile phones in huvin hippargi, vijaypur, karnataka
+  ΓÇó mobile phones in ukkali, vijaypur, karnataka
+  ΓÇó mobile phones in shivanagi, vijaypur, karnataka
+  ΓÇó mobile phones in bableshwar, vijaypur, karnataka
+  ΓÇó mobile phones in ainapur, vijaypur, karnataka
+  ΓÇó mobile phones in bijjargi, vijaypur, karnataka
+  ΓÇó mobile phones in mangoli, vijaypur, karnataka
+  ΓÇó mobile phones in toravi, vijaypur, karnataka
+  ΓÇó mobile phones in tikota, vijaypur, karnataka
+  ΓÇó mobile phones in arakeri, vijaypur, karnataka
+  ΓÇó mobile phones in tidagundi, vijaypur, karnataka
+  ΓÇó mobile phones in babagnagar, vijaypur, karnataka
+  ΓÇó mobile phones in honwad, vijaypur, karnataka
+  ΓÇó mobile phones in telsang, vijaypur, karnataka
+  ΓÇó mobile phones in kanamadi, vijaypur, karnataka
+  ΓÇó mobile phones in ramteerth, vijaypur, karnataka
+  ΓÇó mobile phones in savalgi, vijaypur, karnataka
+  ΓÇó mobile phones in tungal, vijaypur, karnataka
+  ΓÇó mobile phones in kokatnur, vijaypur, karnataka
+  ΓÇó mobile phones in kolhar old, vijaypur, karnataka
+  ΓÇó mobile phones in masuti, vijaypur, karnataka
+  ΓÇó mobile phones in telgi, vijaypur, karnataka
+  ΓÇó mobile phones in dharwad city, dharwad, karnataka
+  ΓÇó mobile phones in huballi, dharwad, karnataka
+  ΓÇó mobile phones in kundgol, dharwad, karnataka
+  ΓÇó mobile phones in navalgund, dharwad, karnataka
+  ΓÇó mobile phones in alnavar, dharwad, karnataka
+  ΓÇó mobile phones in garag, dharwad, karnataka
+  ΓÇó mobile phones in belur, dharwad, karnataka
+  ΓÇó mobile phones in mugad, dharwad, karnataka
+  ΓÇó mobile phones in godholi, dharwad, karnataka
+  ΓÇó mobile phones in haliyal, dharwad, karnataka
+  ΓÇó mobile phones in siddapura, dharwad, karnataka
+  ΓÇó mobile phones in gobral, dharwad, karnataka
+  ΓÇó mobile phones in dandeli, dharwad, karnataka
+  ΓÇó mobile phones in jagalbet, dharwad, karnataka
+  ΓÇó mobile phones in joida, dharwad, karnataka
+  ΓÇó mobile phones in amarde, dharwad, karnataka
+  ΓÇó mobile phones in ambewadi, dharwad, karnataka
+  ΓÇó mobile phones in yellapur, dharwad, karnataka
+  ΓÇó mobile phones in kalaghatgi, dharwad, karnataka
+  ΓÇó mobile phones in mundgod, dharwad, karnataka
+  ΓÇó mobile phones in shiggavi, dharwad, karnataka
+  ΓÇó mobile phones in hulgur, dharwad, karnataka
+  ΓÇó mobile phones in kundgol, dharwad, karnataka
+  ΓÇó mobile phones in kusugal, dharwad, karnataka
+  ΓÇó mobile phones in hebsur, dharwad, karnataka
+  ΓÇó mobile phones in hebballi, dharwad, karnataka
+  ΓÇó mobile phones in annigeri, dharwad, karnataka
+  ΓÇó mobile phones in saunshi, dharwad, karnataka
+  ΓÇó mobile phones in gudgeri, dharwad, karnataka
+  ΓÇó mobile phones in yalavigi, dharwad, karnataka
+  ΓÇó mobile phones in banakapur, dharwad, karnataka
+  ΓÇó mobile phones in narendra, dharwad, karnataka
+  ΓÇó mobile phones in gadag, gadag, karnataka
+  ΓÇó mobile phones in nargund, gadag, karnataka
+  ΓÇó mobile phones in ron, gadag, karnataka
+  ΓÇó mobile phones in shirhatti, gadag, karnataka
+  ΓÇó mobile phones in mundargi, gadag, karnataka
+  ΓÇó mobile phones in huvvinhadagalli, gadag, karnataka
+  ΓÇó mobile phones in dambal, gadag, karnataka
+  ΓÇó mobile phones in laxmeshwar, gadag, karnataka
+  ΓÇó mobile phones in nagavi, gadag, karnataka
+  ΓÇó mobile phones in mulgund, gadag, karnataka
+  ΓÇó mobile phones in bannikoppa, gadag, karnataka
+  ΓÇó mobile phones in mudargi, gadag, karnataka
+  ΓÇó mobile phones in hammigi, gadag, karnataka
+  ΓÇó mobile phones in shalavadi, gadag, karnataka
+  ΓÇó mobile phones in rona, gadag, karnataka
+  ΓÇó mobile phones in abbigeri, gadag, karnataka
+  ΓÇó mobile phones in naregal, gadag, karnataka
+  ΓÇó mobile phones in kalasapur, gadag, karnataka
+  ΓÇó mobile phones in lakkundi, gadag, karnataka
+  ΓÇó mobile phones in koppal, koppal, karnataka
+  ΓÇó mobile phones in ilkal, koppal, karnataka
+  ΓÇó mobile phones in kushtagi, koppal, karnataka
+  ΓÇó mobile phones in kuknoor, koppal, karnataka
+  ΓÇó mobile phones in yelburga, koppal, karnataka
+  ΓÇó mobile phones in gangavati, koppal, karnataka
+  ΓÇó mobile phones in ganjendragadh, koppal, karnataka
+  ΓÇó mobile phones in sudi, koppal, karnataka
+  ΓÇó mobile phones in itagi, koppal, karnataka
+  ΓÇó mobile phones in hanamsagar, koppal, karnataka
+  ΓÇó mobile phones in kabbargi, koppal, karnataka
+  ΓÇó mobile phones in hungund, koppal, karnataka
+  ΓÇó mobile phones in mudgal, koppal, karnataka
+  ΓÇó mobile phones in piklihal, koppal, karnataka
+  ΓÇó mobile phones in kanakgiri, koppal, karnataka
+  ΓÇó mobile phones in gangavathi, koppal, karnataka
+  ΓÇó mobile phones in bellary city, bellary, karnataka
+  ΓÇó mobile phones in sirguppa, bellary, karnataka
+  ΓÇó mobile phones in hospete city, bellary, karnataka
+  ΓÇó mobile phones in sandur, bellary, karnataka
+  ΓÇó mobile phones in hagan, bellary, karnataka
+  ΓÇó mobile phones in bommanahalli, bellary, karnataka
+  ΓÇó mobile phones in kudligi, bellary, karnataka
+  ΓÇó mobile phones in torangallu, bellary, karnataka
+  ΓÇó mobile phones in kudatini, bellary, karnataka
+  ΓÇó mobile phones in daroji, bellary, karnataka
+  ΓÇó mobile phones in kampli, bellary, karnataka
+  ΓÇó mobile phones in kurugodu, bellary, karnataka
+  ΓÇó mobile phones in srigeri, bellary, karnataka
+  ΓÇó mobile phones in kollur, bellary, karnataka
+  ΓÇó mobile phones in tekkalakote, bellary, karnataka
+  ΓÇó mobile phones in mukkunda, bellary, karnataka
+  ΓÇó mobile phones in moka, bellary, karnataka
+  ΓÇó mobile phones in sangankal, bellary, karnataka
+  ΓÇó mobile phones in amarapura, bellary, karnataka
+  ΓÇó mobile phones in chellagurki, bellary, karnataka
+  ΓÇó mobile phones in mincheri, bellary, karnataka
+  ΓÇó mobile phones in ubbalagandi, bellary, karnataka
+  ΓÇó mobile phones in mariyammanhalli, bellary, karnataka
+  ΓÇó mobile phones in havericity, haveri, karnataka
+  ΓÇó mobile phones in shiggaon, haveri, karnataka
+  ΓÇó mobile phones in savanur, haveri, karnataka
+  ΓÇó mobile phones in byadgi, haveri, karnataka
+  ΓÇó mobile phones in ranibennur, haveri, karnataka
+  ΓÇó mobile phones in hirekerup, haveri, karnataka
+  ΓÇó mobile phones in devagiri, haveri, karnataka
+  ΓÇó mobile phones in koluru, haveri, karnataka
+  ΓÇó mobile phones in karajgi, haveri, karnataka
+  ΓÇó mobile phones in agadi, haveri, karnataka
+  ΓÇó mobile phones in kerimattihalli, haveri, karnataka
+  ΓÇó mobile phones in kabbur, haveri, karnataka
+  ΓÇó mobile phones in aladkatti, haveri, karnataka
+  ΓÇó mobile phones in hosalli, haveri, karnataka
+  ΓÇó mobile phones in devihosur, haveri, karnataka
+  ΓÇó mobile phones in chinnikatti, haveri, karnataka
+  ΓÇó mobile phones in masanagi, haveri, karnataka
+  ΓÇó mobile phones in byadagi, haveri, karnataka
+  ΓÇó mobile phones in motebennur, haveri, karnataka
+  ΓÇó mobile phones in hosaritti, haveri, karnataka
+  ΓÇó mobile phones in guttal, haveri, karnataka
+  ΓÇó mobile phones in honnatti, haveri, karnataka
+  ΓÇó mobile phones in guddaguddapur, haveri, karnataka
+  ΓÇó mobile phones in chalageri, haveri, karnataka
+  ΓÇó mobile phones in holalu, haveri, karnataka
+  ΓÇó mobile phones in mylara, haveri, karnataka
+  ΓÇó mobile phones in haunsbhavi, haveri, karnataka
+  ΓÇó mobile phones in thogarsi, haveri, karnataka
+  ΓÇó mobile phones in talagunda, haveri, karnataka
+  ΓÇó mobile phones in siralkoppa, haveri, karnataka
+  ΓÇó mobile phones in udagani, haveri, karnataka
+  ΓÇó mobile phones in shikarpur, haveri, karnataka
+  ΓÇó mobile phones in ambargoppa, haveri, karnataka
+  ΓÇó mobile phones in masur, haveri, karnataka
+  ΓÇó mobile phones in ratihalli, haveri, karnataka
+  ΓÇó mobile phones in sampalli, haveri, karnataka
+  ΓÇó mobile phones in sagara, haveri, karnataka
+  ΓÇó mobile phones in keladi, haveri, karnataka
+  ΓÇó mobile phones in banavasi, haveri, karnataka
+  ΓÇó mobile phones in siddapur, haveri, karnataka
+  ΓÇó mobile phones in uttar kannad, uttar kannada, karnataka
+  ΓÇó mobile phones in supa, uttar kannada, karnataka
+  ΓÇó mobile phones in haliyal, uttar kannada, karnataka
+  ΓÇó mobile phones in kalghatgi, uttar kannada, karnataka
+  ΓÇó mobile phones in yellapur, uttar kannada, karnataka
+  ΓÇó mobile phones in mundgod, uttar kannada, karnataka
+  ΓÇó mobile phones in karwar, uttar kannada, karnataka
+  ΓÇó mobile phones in ankhola, uttar kannada, karnataka
+  ΓÇó mobile phones in hangal, uttar kannada, karnataka
+  ΓÇó mobile phones in sirsi, uttar kannada, karnataka
+  ΓÇó mobile phones in siddapur, uttar kannada, karnataka
+  ΓÇó mobile phones in kumta, uttar kannada, karnataka
+  ΓÇó mobile phones in honavar, uttar kannada, karnataka
+  ΓÇó mobile phones in bhatkal, uttar kannada, karnataka
+  ΓÇó mobile phones in hosanagar, uttar kannada, karnataka
+  ΓÇó mobile phones in humcha, uttar kannada, karnataka
+  ΓÇó mobile phones in konnandur, uttar kannada, karnataka
+  ΓÇó mobile phones in shivomga city, shivmoga, karnataka
+  ΓÇó mobile phones in soraba, shivmoga, karnataka
+  ΓÇó mobile phones in sagar, shivmoga, karnataka
+  ΓÇó mobile phones in shikarpura, shivmoga, karnataka
+  ΓÇó mobile phones in hosangara, shivmoga, karnataka
+  ΓÇó mobile phones in tirthalli, shivmoga, karnataka
+  ΓÇó mobile phones in bhadravati, shivmoga, karnataka
+  ΓÇó mobile phones in kudli, shivmoga, karnataka
+  ΓÇó mobile phones in savalanga, shivmoga, karnataka
+  ΓÇó mobile phones in nayamati, shivmoga, karnataka
+  ΓÇó mobile phones in kumsi, shivmoga, karnataka
+  ΓÇó mobile phones in ayanur, shivmoga, karnataka
+  ΓÇó mobile phones in anandpuram, shivmoga, karnataka
+  ΓÇó mobile phones in sampalli, shivmoga, karnataka
+  ΓÇó mobile phones in talagupa, shivmoga, karnataka
+  ΓÇó mobile phones in kargal, shivmoga, karnataka
+  ΓÇó mobile phones in tirthahalli, shivmoga, karnataka
+  ΓÇó mobile phones in koppa rural, shivmoga, karnataka
+  ΓÇó mobile phones in narasimharajpura, shivmoga, karnataka
+  ΓÇó mobile phones in mattur, shivmoga, karnataka
+  ΓÇó mobile phones in tarikere, shivmoga, karnataka
+  ΓÇó mobile phones in amruthapura, shivmoga, karnataka
+  ΓÇó mobile phones in ajjampura, shivmoga, karnataka
+  ΓÇó mobile phones in hirenallur, shivmoga, karnataka
+  ΓÇó mobile phones in birur, shivmoga, karnataka
+  ΓÇó mobile phones in yagati, shivmoga, karnataka
+  ΓÇó mobile phones in davangere city, davangeree, karnataka
+  ΓÇó mobile phones in harapanhalli, davangeree, karnataka
+  ΓÇó mobile phones in harihar, davangeree, karnataka
+  ΓÇó mobile phones in jagalur, davangeree, karnataka
+  ΓÇó mobile phones in honnali, davangeree, karnataka
+  ΓÇó mobile phones in channagiri, davangeree, karnataka
+  ΓÇó mobile phones in anagodu, davangeree, karnataka
+  ΓÇó mobile phones in hadadi, davangeree, karnataka
+  ΓÇó mobile phones in lokikere, davangeree, karnataka
+  ΓÇó mobile phones in kundur, davangeree, karnataka
+  ΓÇó mobile phones in kokkanur, davangeree, karnataka
+  ΓÇó mobile phones in telagi, davangeree, karnataka
+  ΓÇó mobile phones in airani, davangeree, karnataka
+  ΓÇó mobile phones in uchangidurga, davangeree, karnataka
+  ΓÇó mobile phones in kodaganur, davangeree, karnataka
+  ΓÇó mobile phones in mayakonda, davangeree, karnataka
+  ΓÇó mobile phones in santhebennur, davangeree, karnataka
+  ΓÇó mobile phones in devarahalli, davangeree, karnataka
+  ΓÇó mobile phones in hire hadagali, davangeree, karnataka
+  ΓÇó mobile phones in ittigi, davangeree, karnataka
+  ΓÇó mobile phones in kotturu, davangeree, karnataka
+  ΓÇó mobile phones in chitradurga city, chitradurga, karnataka
+  ΓÇó mobile phones in challakere, chitradurga, karnataka
+  ΓÇó mobile phones in molakalmuru, chitradurga, karnataka
+  ΓÇó mobile phones in holalkere, chitradurga, karnataka
+  ΓÇó mobile phones in hiryur, chitradurga, karnataka
+  ΓÇó mobile phones in hosdurga, chitradurga, karnataka
+  ΓÇó mobile phones in pavagada, chitradurga, karnataka
+  ΓÇó mobile phones in kalledevarpura, chitradurga, karnataka
+  ΓÇó mobile phones in nayaknahatty, chitradurga, karnataka
+  ΓÇó mobile phones in thalaku, chitradurga, karnataka
+  ΓÇó mobile phones in holalkere rural, chitradurga, karnataka
+  ΓÇó mobile phones in ramagiri, chitradurga, karnataka
+  ΓÇó mobile phones in chikkajajur, chitradurga, karnataka
+  ΓÇó mobile phones in huliyar aminkere, chitradurga, karnataka
+  ΓÇó mobile phones in sira, chitradurga, karnataka
+  ΓÇó mobile phones in chellur, chitradurga, karnataka
+  ΓÇó mobile phones in gubbi, chitradurga, karnataka
+  ΓÇó mobile phones in tiptur, chitradurga, karnataka
+  ΓÇó mobile phones in channarayapatna, chitradurga, karnataka
+  ΓÇó mobile phones in udupi city, udupi, karnataka
+  ΓÇó mobile phones in kundapura, udupi, karnataka
+  ΓÇó mobile phones in sringeri, udupi, karnataka
+  ΓÇó mobile phones in karkala, udupi, karnataka
+  ΓÇó mobile phones in kodi, udupi, karnataka
+  ΓÇó mobile phones in saligrama, udupi, karnataka
+  ΓÇó mobile phones in basrur, udupi, karnataka
+  ΓÇó mobile phones in tallur, udupi, karnataka
+  ΓÇó mobile phones in shankarnarayan, udupi, karnataka
+  ΓÇó mobile phones in hebri, udupi, karnataka
+  ΓÇó mobile phones in varanga, udupi, karnataka
+  ΓÇó mobile phones in pangala, udupi, karnataka
+  ΓÇó mobile phones in shirva, udupi, karnataka
+  ΓÇó mobile phones in varambally, udupi, karnataka
+  ΓÇó mobile phones in athradi, udupi, karnataka
+  ΓÇó mobile phones in chimangaluru city, chikmangaluru, karnataka
+  ΓÇó mobile phones in tarikere, chikmangaluru, karnataka
+  ΓÇó mobile phones in narasimharajpura, chikmangaluru, karnataka
+  ΓÇó mobile phones in kadur, chikmangaluru, karnataka
+  ΓÇó mobile phones in koppa, chikmangaluru, karnataka
+  ΓÇó mobile phones in mudigere, chikmangaluru, karnataka
+  ΓÇó mobile phones in aldur, chikmangaluru, karnataka
+  ΓÇó mobile phones in mudigere, chikmangaluru, karnataka
+  ΓÇó mobile phones in gonibeedu, chikmangaluru, karnataka
+  ΓÇó mobile phones in cheekanhalli, chikmangaluru, karnataka
+  ΓÇó mobile phones in bankal, chikmangaluru, karnataka
+  ΓÇó mobile phones in aldur, chikmangaluru, karnataka
+  ΓÇó mobile phones in belur, chikmangaluru, karnataka
+  ΓÇó mobile phones in sakleshpura, chikmangaluru, karnataka
+  ΓÇó mobile phones in dharamsthala, chikmangaluru, karnataka
+  ΓÇó mobile phones in dakshin kannad, dakshin kannada, karnataka
+  ΓÇó mobile phones in beltangadi, dakshin kannada, karnataka
+  ΓÇó mobile phones in bantwala, dakshin kannada, karnataka
+  ΓÇó mobile phones in puttur, dakshin kannada, karnataka
+  ΓÇó mobile phones in manglore, dakshin kannada, karnataka
+  ΓÇó mobile phones in sulya, dakshin kannada, karnataka
+  ΓÇó mobile phones in thokur, dakshin kannada, karnataka
+  ΓÇó mobile phones in ballkunje, dakshin kannada, karnataka
+  ΓÇó mobile phones in kinnigoli, dakshin kannada, karnataka
+  ΓÇó mobile phones in bajpe, dakshin kannada, karnataka
+  ΓÇó mobile phones in moodushede, dakshin kannada, karnataka
+  ΓÇó mobile phones in kaikamba, dakshin kannada, karnataka
+  ΓÇó mobile phones in shirthady, dakshin kannada, karnataka
+  ΓÇó mobile phones in venur, dakshin kannada, karnataka
+  ΓÇó mobile phones in chennaithodi, dakshin kannada, karnataka
+  ΓÇó mobile phones in mani, dakshin kannada, karnataka
+  ΓÇó mobile phones in brlthangady, dakshin kannada, karnataka
+  ΓÇó mobile phones in ujire, dakshin kannada, karnataka
+  ΓÇó mobile phones in kokkada, dakshin kannada, karnataka
+  ΓÇó mobile phones in nelyady, dakshin kannada, karnataka
+  ΓÇó mobile phones in sullia, dakshin kannada, karnataka
+  ΓÇó mobile phones in hassan city, hassan, karnataka
+  ΓÇó mobile phones in arsikere, hassan, karnataka
+  ΓÇó mobile phones in belur, hassan, karnataka
+  ΓÇó mobile phones in sakleshpur, hassan, karnataka
+  ΓÇó mobile phones in alur, hassan, karnataka
+  ΓÇó mobile phones in chanparayapatna, hassan, karnataka
+  ΓÇó mobile phones in hole, hassan, karnataka
+  ΓÇó mobile phones in arkalgud, hassan, karnataka
+  ΓÇó mobile phones in javagal, hassan, karnataka
+  ΓÇó mobile phones in halebbedu, hassan, karnataka
+  ΓÇó mobile phones in sakleshpura, hassan, karnataka
+  ΓÇó mobile phones in arkalgud, hassan, karnataka
+  ΓÇó mobile phones in holenarasipura, hassan, karnataka
+  ΓÇó mobile phones in shravanbela gola, hassan, karnataka
+  ΓÇó mobile phones in shantigrama, hassan, karnataka
+  ΓÇó mobile phones in korvangala, hassan, karnataka
+  ΓÇó mobile phones in banavara, hassan, karnataka
+  ΓÇó mobile phones in tiptur, hassan, karnataka
+  ΓÇó mobile phones in kodagu city, kodagu, karnataka
+  ΓÇó mobile phones in somvarpet, kodagu, karnataka
+  ΓÇó mobile phones in krishnarajnagara, kodagu, karnataka
+  ΓÇó mobile phones in madikere, kodagu, karnataka
+  ΓÇó mobile phones in virarajanderapet, kodagu, karnataka
+  ΓÇó mobile phones in gonikoppa, kodagu, karnataka
+  ΓÇó mobile phones in kumaralli, kodagu, karnataka
+  ΓÇó mobile phones in shanivarsanthhe, kodagu, karnataka
+  ΓÇó mobile phones in makkanduru, kodagu, karnataka
+  ΓÇó mobile phones in kudige, kodagu, karnataka
+  ΓÇó mobile phones in napkolu, kodagu, karnataka
+  ΓÇó mobile phones in yemmamadu, kodagu, karnataka
+
+ΓåÆ Saving to: 15 Excel files, one per district
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ 1/15 ┬╖ vijaypur ΓåÆ mobile_vijaypur_all.xlsx ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+C:\Program Files\Python313\python.exe 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py mobile phones vijaypura
+city, vijaypur, karnataka; chadchan, vijaypur, karnataka; indi, vijaypur, 
+karnataka; sindagi, vijaypur, karnataka; devarhippargi, vijaypur, karnataka; 
+talikoti, vijaypur, karnataka; muddebihal, vijaypur, karnataka; basavana 
+bagewadi, vijaypur, karnataka; horti, vijaypur, karnataka; zalki, vijaypur, 
+karnataka; almel, vijaypur, karnataka; golageri, vijaypur, karnataka; kalakeri,
+vijaypur, karnataka; kembhavi, vijaypur, karnataka; yedrami, vijaypur, 
+karnataka; ijeri, vijaypur, karnataka; huvin hippargi, vijaypur, karnataka; 
+ukkali, vijaypur, karnataka; shivanagi, vijaypur, karnataka; bableshwar, 
+vijaypur, karnataka; ainapur, vijaypur, karnataka; bijjargi, vijaypur, 
+karnataka; mangoli, vijaypur, karnataka; toravi, vijaypur, karnataka; tikota, 
+vijaypur, karnataka; arakeri, vijaypur, karnataka; tidagundi, vijaypur, 
+karnataka; babagnagar, vijaypur, karnataka; honwad, vijaypur, karnataka; 
+telsang, vijaypur, karnataka; kanamadi, vijaypur, karnataka; ramteerth, 
+vijaypur, karnataka; savalgi, vijaypur, karnataka; tungal, vijaypur, karnataka;
+kokatnur, vijaypur, karnataka; kolhar old, vijaypur, karnataka; masuti, 
+vijaypur, karnataka; telgi, vijaypur, karnataka mobile_vijaypur_all.xlsx
+
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+ΓåÆ mobile phones in vijaypura city, vijaypur, karnataka
+Γ£ô 90 unique places (from 91 cards)
+  UNIVERSAL MOBILE SHOPPE -------------------------------- 100% 0:01:20 0:00:00
+ΓåÆ mobile phones in chadchan, vijaypur, karnataka
+Γ£ô 67 unique places (from 70 cards)
+  Raj Communication -------------------------------------- 100% 0:01:29 0:00:00
+ΓåÆ mobile phones in indi, vijaypur, karnataka
+Γ£ô 43 unique places (from 43 cards)
+  GALAXY MOBILES MAHAMADSHAHI ---------------------------- 100% 0:00:44 0:00:00
+ΓåÆ mobile phones in sindagi, vijaypur, karnataka
+Γ£ô 58 unique places (from 59 cards)
+  Taj mobiles indi --------------------------------------- 100% 0:01:02 0:00:00
+ΓåÆ mobile phones in devarhippargi, vijaypur, karnataka
+Γ£ô 78 unique places (from 81 cards)
+  SAGAR MOBILE ---------------------------------------- 100% 0:01:25 0:00:00
+ΓåÆ mobile phones in talikoti, vijaypur, karnataka
+Γ£ô 7 unique places (from 7 cards)
+  Shri Giri mobile service center Taliko ----------------- 100% 0:00:09 0:00:00
+ΓåÆ mobile phones in muddebihal, vijaypur, karnataka
+Γ£ô 36 unique places (from 39 cards)
+  Rishabh mobile Bijapur --------------------------------- 100% 0:00:36 0:00:00
+ΓåÆ mobile phones in basavana bagewadi, vijaypur, karnataka
+Γ£ô 28 unique places (from 29 cards)
+  RAVINDRANATH VEERAPPA CHATTER -------------------------- 100% 0:00:31 0:00:00
+ΓåÆ mobile phones in horti, vijaypur, karnataka
+Γ£ô 16 unique places (from 16 cards)
+  M.k mobile horti --------------------------------------- 100% 0:00:20 0:00:00
+ΓåÆ mobile phones in zalki, vijaypur, karnataka
+Γ£ô 24 unique places (from 24 cards)
+  Ali Mobile shop ---------------------------------------- 100% 0:00:28 0:00:00
+ΓåÆ mobile phones in almel, vijaypur, karnataka
+Γ£ô 9 unique places (from 9 cards)
+  SS Mobile ---------------------------------------- 100% 0:00:09 0:00:00
+ΓåÆ mobile phones in golageri, vijaypur, karnataka
+Γ£ô 11 unique places (from 11 cards)
+  Evaara Technology -------------------------------------- 100% 0:00:15 0:00:00
+ΓåÆ mobile phones in kalakeri, vijaypur, karnataka
+Γ£ô 13 unique places (from 13 cards)
+  Evaara Technology -------------------------------------- 100% 0:00:19 0:00:00
+ΓåÆ mobile phones in kembhavi, vijaypur, karnataka
+Γ£ô 17 unique places (from 17 cards)
+  BHAVANI MOBILES AND ELECTRONICS ------------------------ 100% 0:00:21 0:00:00
+ΓåÆ mobile phones in yedrami, vijaypur, karnataka
+Γ£ô 20 unique places (from 20 cards)
+  Jamadar computer & mobile shop ------------------------- 100% 0:00:31 0:00:00
+ΓåÆ mobile phones in ijeri, vijaypur, karnataka
+Γ£ô 17 unique places (from 17 cards)
+  Aishwarya Mobile Shop ---------------------------------- 100% 0:00:19 0:00:00
+ΓåÆ mobile phones in huvin hippargi, vijaypur, karnataka
+Γ£ô 13 unique places (from 13 cards)
+  BASAVESHWAR MOBILE CENTER ------------------------------ 100% 0:00:15 0:00:00
+ΓåÆ mobile phones in ukkali, vijaypur, karnataka
+Γ£ô 20 unique places (from 20 cards)
+  UniverCell ---------------------------------------- 100% 0:00:31 0:00:00
+ΓåÆ mobile phones in shivanagi, vijaypur, karnataka
+Γ£ô 20 unique places (from 20 cards)
+  Cashify Mobile Phone Store & Repair Sh ----------------- 100% 0:00:25 0:00:00
+ΓåÆ mobile phones in bableshwar, vijaypur, karnataka
+Γ£ô 19 unique places (from 19 cards)
+  VEERU MOBILES ---------------------------------------- 100% 0:00:33 0:00:00
+ΓåÆ mobile phones in ainapur, vijaypur, karnataka
+Γ£ô 49 unique places (from 53 cards)
+  Taj mobiles indi --------------------------------------- 100% 0:01:23 0:00:00
+ΓåÆ mobile phones in bijjargi, vijaypur, karnataka
+Γ£ô 16 unique places (from 16 cards)
+  Taj mobiles indi --------------------------------------- 100% 0:00:28 0:00:00
+ΓåÆ mobile phones in mangoli, vijaypur, karnataka
+Γ£ô 21 unique places (from 21 cards)
+  PPR Mobile Services ------------------------------------ 100% 0:00:32 0:00:00
+ΓåÆ mobile phones in toravi, vijaypur, karnataka
+Γ£ô 13 unique places (from 13 cards)
+  Shivani Communication ---------------------------------- 100% 0:00:22 0:00:00
+ΓåÆ mobile phones in tikota, vijaypur, karnataka
+Γ£ô 20 unique places (from 20 cards)
+  Taj mobiles indi --------------------------------------- 100% 0:00:37 0:00:00
+ΓåÆ mobile phones in arakeri, vijaypur, karnataka
+Γ£ô 11 unique places (from 11 cards)
+  SS Mobile ---------------------------------------- 100% 0:00:24 0:00:00
+ΓåÆ mobile phones in tidagundi, vijaypur, karnataka
+Γ£ô 64 unique places (from 66 cards)
+  SAGAR MOBILE ---------------------------------------- 100% 0:01:52 0:00:00
+ΓåÆ mobile phones in babagnagar, vijaypur, karnataka
+Γ£ô 19 unique places (from 19 cards)
+  Mohinkhan Jiddi Mobile Shop ---------------------------- 100% 0:00:33 0:00:00
+ΓåÆ mobile phones in honwad, vijaypur, karnataka
+Γ£ô 24 unique places (from 25 cards)
+  BMW 2ND HAND MOBILE SHOWROOM --------------------------- 100% 0:00:48 0:00:00
+ΓåÆ mobile phones in telsang, vijaypur, karnataka
+Γ£ô 13 unique places (from 13 cards)
+  Evaara Technology -------------------------------------- 100% 0:00:28 0:00:00
+ΓåÆ mobile phones in kanamadi, vijaypur, karnataka
+Γ£ô 4 unique places (from 4 cards)
+  Mallikarjun Mobiles Shop ------------------------------- 100% 0:00:12 0:00:00
+ΓåÆ mobile phones in ramteerth, vijaypur, karnataka
+Γ£ô 12 unique places (from 12 cards)
+  Evaara Technology -------------------------------------- 100% 0:00:21 0:00:00
+ΓåÆ mobile phones in savalgi, vijaypur, karnataka
+Γ£ô 17 unique places (from 17 cards)
+  Taj mobiles indi --------------------------------------- 100% 0:00:32 0:00:00
+ΓåÆ mobile phones in tungal, vijaypur, karnataka
+Γ£ô 26 unique places (from 27 cards)
+  IRFAN MOBILE SHOP -------------------------------------- 100% 0:00:42 0:00:00
+ΓåÆ mobile phones in kokatnur, vijaypur, karnataka
+Γ£ô 11 unique places (from 11 cards)
+  Ss mobile Bijapur -------------------------------------- 100% 0:00:19 0:00:00
+ΓåÆ mobile phones in kolhar old, vijaypur, karnataka
+Γ£ô 15 unique places (from 15 cards)
+  DASTGEER MOBILE SHOP ----------------------------------- 100% 0:00:28 0:00:00
+ΓåÆ mobile phones in masuti, vijaypur, karnataka
+Γ£ô 17 unique places (from 17 cards)
+  MANTRI MOBILES VIJAYAPURA ------------------------------ 100% 0:00:34 0:00:00
+ΓåÆ mobile phones in telgi, vijaypur, karnataka
+Γ£ô 18 unique places (from 18 cards)
+  Evaara Technology -------------------------------------- 100% 0:00:36 0:00:00
+
+Total: 976 scraped ΓåÆ 282 unique (694 dupes removed)
+KEEP_ALL=1 ΓåÆ category filter disabled
+Γ£ô saved 282 ΓåÆ mobile_vijaypur_all.xlsx (shops)
+FILE_PATH: mobile_vijaypur_all.xlsx
+Γ£¿ 28 chain-store rows highlighted green | 60 rows with NO phone highlighted 
+yellow
+Γ£ô 282 unique businesses (222 with phone) ΓåÆ 
+C:\Users\Nomesh\Documents\mobile_vijaypur_all.xlsx
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ 2/15 ┬╖ dharwad ΓåÆ mobile_dharwad_all.xlsx ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+C:\Program Files\Python313\python.exe 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py mobile phones dharwad 
+city, dharwad, karnataka; huballi, dharwad, karnataka; kundgol, dharwad, 
+karnataka; navalgund, dharwad, karnataka; alnavar, dharwad, karnataka; garag, 
+dharwad, karnataka; belur, dharwad, karnataka; mugad, dharwad, karnataka; 
+godholi, dharwad, karnataka; haliyal, dharwad, karnataka; siddapura, dharwad, 
+karnataka; gobral, dharwad, karnataka; dandeli, dharwad, karnataka; jagalbet, 
+dharwad, karnataka; joida, dharwad, karnataka; amarde, dharwad, karnataka; 
+ambewadi, dharwad, karnataka; yellapur, dharwad, karnataka; kalaghatgi, 
+dharwad, karnataka; mundgod, dharwad, karnataka; shiggavi, dharwad, karnataka; 
+hulgur, dharwad, karnataka; kundgol, dharwad, karnataka; kusugal, dharwad, 
+karnataka; hebsur, dharwad, karnataka; hebballi, dharwad, karnataka; annigeri, 
+dharwad, karnataka; saunshi, dharwad, karnataka; gudgeri, dharwad, karnataka; 
+yalavigi, dharwad, karnataka; banakapur, dharwad, karnataka; narendra, dharwad,
+karnataka mobile_dharwad_all.xlsx
+
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+ΓåÆ mobile phones in dharwad city, dharwad, karnataka
+Γ£ô 99 unique places (from 99 cards)
+  S Boss Mobile Center ----------------------------------- 100% 0:01:27 0:00:00
+ΓåÆ mobile phones in huballi, dharwad, karnataka
+Γ£ô 119 unique places (from 120 cards)
+  Hosur Cross BRTS Bus Station --------------------------- 100% 0:02:09 0:00:00
+ΓåÆ mobile phones in kundgol, dharwad, karnataka
+Γ£ô 108 unique places (from 113 cards)
+  S Boss Mobile Center ----------------------------------- 100% 0:01:48 0:00:00
+ΓåÆ mobile phones in navalgund, dharwad, karnataka
+Γ£ô 107 unique places (from 112 cards)
+  S Boss Mobile Center ----------------------------------- 100% 0:02:10 0:00:00
+ΓåÆ mobile phones in alnavar, dharwad, karnataka
+Γ£ô 7 unique places (from 7 cards)
+  M.S. Mobile Shop --------------------------------------- 100% 0:00:10 0:00:00
+ΓåÆ mobile phones in garag, dharwad, karnataka
+Γ£ô 96 unique places (from 101 cards)
+  Akash Kshirasagar -------------------------------------- 100% 0:02:03 0:00:00
+ΓåÆ mobile phones in belur, dharwad, karnataka
+Γ£ô 15 unique places (from 15 cards)
+  iRepair & Spare ---------------------------------------- 100% 0:00:20 0:00:00
+ΓåÆ mobile phones in mugad, dharwad, karnataka
+Γ£ô 15 unique places (from 15 cards)
+  Bhoomika Mobiles --------------------------------------- 100% 0:00:18 0:00:00
+ΓåÆ mobile phones in godholi, dharwad, karnataka
+Γ£ô 35 unique places (from 36 cards)
+  MANISH MOBILE ---------------------------------------- 100% 0:00:47 0:00:00
+ΓåÆ mobile phones in haliyal, dharwad, karnataka
+Γ£ô 32 unique places (from 33 cards)
+  RJ Communication --------------------------------------- 100% 0:00:53 0:00:00
+ΓåÆ mobile phones in siddapura, dharwad, karnataka
+Γ£ô 20 unique places (from 20 cards)
+  R . K's Phone Shop Mobile Sales and Co ----------------- 100% 0:00:30 0:00:00
+ΓåÆ mobile phones in gobral, dharwad, karnataka
+Γ£ô 28 unique places (from 28 cards)
+  R . K's Phone Shop Mobile Sales and Co ----------------- 100% 0:00:40 0:00:00
+ΓåÆ mobile phones in dandeli, dharwad, karnataka
+Γ£ô 20 unique places (from 20 cards)
+  Mobile exchangewala Dharwad ---------------------------- 100% 0:00:26 0:00:00
+ΓåÆ mobile phones in jagalbet, dharwad, karnataka
+Γ£ô 18 unique places (from 18 cards)
+  iRepair & Spare ---------------------------------------- 100% 0:00:29 0:00:00
+ΓåÆ mobile phones in joida, dharwad, karnataka
+Γ£ô 22 unique places (from 22 cards)
+  iRepair & Spare ---------------------------------------- 100% 0:00:36 0:00:00
+ΓåÆ mobile phones in amarde, dharwad, karnataka
+Γ£ô 43 unique places (from 44 cards)
+  Vaishnavi Mobile --------------------------------------- 100% 0:01:20 0:00:00
+ΓåÆ mobile phones in ambewadi, dharwad, karnataka
+Γ£ô 35 unique places (from 37 cards)
+  Zamzam Mobiles ---------------------------------------- 100% 0:00:54 0:00:00
+ΓåÆ mobile phones in yellapur, dharwad, karnataka
+Γ£ô 38 unique places (from 38 cards)
+  GV Mobile's ---------------------------------------- 100% 0:01:06 0:00:00
+ΓåÆ mobile phones in kalaghatgi, dharwad, karnataka
+Γ£ô 99 unique places (from 105 cards)
+  Mobile Repair Shop ------------------------------------- 100% 0:03:12 0:00:00
+ΓåÆ mobile phones in mundgod, dharwad, karnataka
+Γ£ô 26 unique places (from 27 cards)
+  Pujar Mobile's ---------------------------------------- 100% 0:00:51 0:00:00
+ΓåÆ mobile phones in shiggavi, dharwad, karnataka
+Γ£ô 13 unique places (from 13 cards)
+  Shashi Mobiles ---------------------------------------- 100% 0:00:30 0:00:00
+ΓåÆ mobile phones in hulgur, dharwad, karnataka
+Γ£ô 5 unique places (from 5 cards)
+  Bhandage's Mobile World -------------------------------- 100% 0:00:11 0:00:00
+ΓåÆ mobile phones in kundgol, dharwad, karnataka
+Γ£ô 108 unique places (from 113 cards)
+  S Boss Mobile Center ----------------------------------- 100% 0:03:39 0:00:00
+ΓåÆ mobile phones in kusugal, dharwad, karnataka
+Γ£ô 17 unique places (from 17 cards)
+  Second hand mobile phones ------------------------------ 100% 0:00:39 0:00:00
+ΓåÆ mobile phones in hebsur, dharwad, karnataka
+Γ£ô 109 unique places (from 112 cards)
+  Vaishnavi Mobile --------------------------------------- 100% 0:04:12 0:00:00
+ΓåÆ mobile phones in hebballi, dharwad, karnataka
+Γ£ô 114 unique places (from 120 cards)
+  S.K. Mobiles ---------------------------------------- 100% 0:04:22 0:00:00
+ΓåÆ mobile phones in annigeri, dharwad, karnataka
+Γ£ô 37 unique places (from 38 cards)
+  MAHI MOBILES ---------------------------------------- 100% 0:01:32 0:00:00
+ΓåÆ mobile phones in saunshi, dharwad, karnataka
+Γ£ô 107 unique places (from 115 cards)
+  Vaishnavi Mobile --------------------------------------- 100% 0:04:51 0:00:00
+ΓåÆ mobile phones in gudgeri, dharwad, karnataka
+Γ£ô 112 unique places (from 120 cards)
+  Akash Mobiles ---------------------------------------- 100% 0:05:10 0:00:00
+ΓåÆ mobile phones in yalavigi, dharwad, karnataka
+Γ£ô 15 unique places (from 15 cards)
+  Reliance Digital --------------------------------------- 100% 0:00:38 0:00:00
+ΓåÆ mobile phones in banakapur, dharwad, karnataka
+Γ£ô 43 unique places (from 43 cards)
+  Vaishnavi Mobile --------------------------------------- 100% 0:01:43 0:00:00
+ΓåÆ mobile phones in narendra, dharwad, karnataka
+Γ£ô 105 unique places (from 113 cards)
+  S.K. Mobiles ---------------------------------------- 100% 0:05:00 0:00:00
+
+Total: 1767 scraped ΓåÆ 317 unique (1450 dupes removed)
+KEEP_ALL=1 ΓåÆ category filter disabled
+Γ£ô saved 317 ΓåÆ mobile_dharwad_all.xlsx (shops)
+FILE_PATH: mobile_dharwad_all.xlsx
+Γ£¿ 28 chain-store rows highlighted green | 78 rows with NO phone highlighted 
+yellow
+Γ£ô 317 unique businesses (239 with phone) ΓåÆ 
+C:\Users\Nomesh\Documents\mobile_dharwad_all.xlsx
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ 3/15 ┬╖ gadag ΓåÆ mobile_gadag_all.xlsx ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+C:\Program Files\Python313\python.exe 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py mobile phones gadag, 
+gadag, karnataka; nargund, gadag, karnataka; ron, gadag, karnataka; shirhatti, 
+gadag, karnataka; mundargi, gadag, karnataka; huvvinhadagalli, gadag, 
+karnataka; dambal, gadag, karnataka; laxmeshwar, gadag, karnataka; nagavi, 
+gadag, karnataka; mulgund, gadag, karnataka; bannikoppa, gadag, karnataka; 
+mudargi, gadag, karnataka; hammigi, gadag, karnataka; shalavadi, gadag, 
+karnataka; rona, gadag, karnataka; abbigeri, gadag, karnataka; naregal, gadag, 
+karnataka; kalasapur, gadag, karnataka; lakkundi, gadag, karnataka 
+mobile_gadag_all.xlsx
+
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+ΓåÆ mobile phones in gadag, gadag, karnataka
+Γ£ô 85 unique places (from 86 cards)
+  Univercell ---------------------------------------- 100% 0:01:20 0:00:00
+ΓåÆ mobile phones in nargund, gadag, karnataka
+Γ£ô 17 unique places (from 17 cards)
+  Appu Mobile & Electronic ------------------------------- 100% 0:00:18 0:00:00
+ΓåÆ mobile phones in ron, gadag, karnataka
+Γ£ô 5 unique places (from 5 cards)
+  Pai mobiles - Gadag-Betageri --------------------------- 100% 0:00:07 0:00:00
+ΓåÆ mobile phones in shirhatti, gadag, karnataka
+Γ£ô 13 unique places (from 13 cards)
+  Khamarunisa Kabadi ------------------------------------- 100% 0:00:14 0:00:00
+ΓåÆ mobile phones in mundargi, gadag, karnataka
+Γ£ô 19 unique places (from 19 cards)
+  Shri basaveshwara mobiles sales and se ----------------- 100% 0:00:19 0:00:00
+ΓåÆ mobile phones in huvvinhadagalli, gadag, karnataka
+Γ£ô 20 unique places (from 20 cards)
+  Swastik mobiles ---------------------------------------- 100% 0:00:20 0:00:00
+ΓåÆ mobile phones in dambal, gadag, karnataka
+Γ£ô 8 unique places (from 8 cards)
+  Friends Mobile Service Center -------------------------- 100% 0:00:11 0:00:00
+ΓåÆ mobile phones in laxmeshwar, gadag, karnataka
+Γ£ô 86 unique places (from 92 cards)
+  Praveen Mobile ---------------------------------------- 100% 0:01:38 0:00:00
+ΓåÆ mobile phones in nagavi, gadag, karnataka
+Γ£ô 12 unique places (from 12 cards)
+  Sangeetha Gadgets - Gajendragada ----------------------- 100% 0:00:16 0:00:00
+ΓåÆ mobile phones in mulgund, gadag, karnataka
+Γ£ô 20 unique places (from 20 cards)
+  Sajid Hombal Mobile Sales and service ------------------ 100% 0:00:22 0:00:00
+ΓåÆ mobile phones in bannikoppa, gadag, karnataka
+Γ£ô 20 unique places (from 20 cards)
+  OPPO | OnePlus Authorized Service Cent ----------------- 100% 0:00:20 0:00:00
+ΓåÆ mobile phones in mudargi, gadag, karnataka
+Γ£ô 20 unique places (from 20 cards)
+  Veeresh Mobile accessories ----------------------------- 100% 0:00:23 0:00:00
+ΓåÆ mobile phones in hammigi, gadag, karnataka
+Γ£ô 6 unique places (from 6 cards)
+  Taj Moblie Shop ---------------------------------------- 100% 0:00:08 0:00:00
+ΓåÆ mobile phones in shalavadi, gadag, karnataka
+Γ£ô 9 unique places (from 9 cards)
+  vivo & iQOO Authorised Service Center ------------------ 100% 0:00:11 0:00:00
+ΓåÆ mobile phones in rona, gadag, karnataka
+Γ£ô 20 unique places (from 20 cards)
+  MANJU MOBILE SENTER ------------------------------------ 100% 0:00:28 0:00:00
+ΓåÆ mobile phones in abbigeri, gadag, karnataka
+Γ£ô 7 unique places (from 7 cards)
+  Sangeetha Gadgets - Gajendragada ----------------------- 100% 0:00:09 0:00:00
+ΓåÆ mobile phones in naregal, gadag, karnataka
+Γ£ô 14 unique places (from 14 cards)
+  Rafiq mobile s ---------------------------------------- 100% 0:00:18 0:00:00
+ΓåÆ mobile phones in kalasapur, gadag, karnataka
+Γ£ô 60 unique places (from 69 cards)
+  Samsung cafe EXCLUSIVE STORE gadag --------------------- 100% 0:01:18 0:00:00
+ΓåÆ mobile phones in lakkundi, gadag, karnataka
+Γ£ô 73 unique places (from 76 cards)
+  Deepak Mobiles ---------------------------------------- 100% 0:01:49 0:00:00
+
+Total: 514 scraped ΓåÆ 181 unique (333 dupes removed)
+KEEP_ALL=1 ΓåÆ category filter disabled
+Γ£ô saved 181 ΓåÆ mobile_gadag_all.xlsx (shops)
+FILE_PATH: mobile_gadag_all.xlsx
+Γ£¿ 15 chain-store rows highlighted green | 51 rows with NO phone highlighted 
+yellow
+Γ£ô 181 unique businesses (130 with phone) ΓåÆ 
+C:\Users\Nomesh\Documents\mobile_gadag_all.xlsx
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ 4/15 ┬╖ koppal ΓåÆ mobile_koppal_all.xlsx ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+C:\Program Files\Python313\python.exe 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py mobile phones koppal, 
+koppal, karnataka; ilkal, koppal, karnataka; kushtagi, koppal, karnataka; 
+kuknoor, koppal, karnataka; yelburga, koppal, karnataka; gangavati, koppal, 
+karnataka; ganjendragadh, koppal, karnataka; sudi, koppal, karnataka; itagi, 
+koppal, karnataka; hanamsagar, koppal, karnataka; kabbargi, koppal, karnataka; 
+hungund, koppal, karnataka; mudgal, koppal, karnataka; piklihal, koppal, 
+karnataka; kanakgiri, koppal, karnataka; gangavathi, koppal, karnataka 
+mobile_koppal_all.xlsx
+
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+ΓåÆ mobile phones in koppal, koppal, karnataka
+Γ£ô 63 unique places (from 65 cards)
+  Shree Devi Enterprises --------------------------------- 100% 0:00:59 0:00:00
+ΓåÆ mobile phones in ilkal, koppal, karnataka
+Γ£ô 96 unique places (from 97 cards)
+  Switchkart Service Center - KOPPAL --------------------- 100% 0:01:36 0:00:00
+ΓåÆ mobile phones in kushtagi, koppal, karnataka
+Γ£ô 92 unique places (from 98 cards)
+  Gouse Auto Mobiles GOUS MAINODDIN ---------------------- 100% 0:01:36 0:00:00
+ΓåÆ mobile phones in kuknoor, koppal, karnataka
+Γ£ô 20 unique places (from 20 cards)
+  Nagu Shop ---------------------------------------- 100% 0:00:24 0:00:00
+ΓåÆ mobile phones in yelburga, koppal, karnataka
+Γ£ô 17 unique places (from 17 cards)
+  Sangu Enterprises -------------------------------------- 100% 0:00:21 0:00:00
+ΓåÆ mobile phones in gangavati, koppal, karnataka
+Γ£ô 53 unique places (from 53 cards)
+  Ravi Mobiles ---------------------------------------- 100% 0:01:00 0:00:00
+ΓåÆ mobile phones in ganjendragadh, koppal, karnataka
+Γ£ô 9 unique places (from 9 cards)
+  Sangeetha Gadgets - Koppal ----------------------------- 100% 0:00:10 0:00:00
+ΓåÆ mobile phones in sudi, koppal, karnataka
+Γ£ô 20 unique places (from 20 cards)
+  My Jio Store ---------------------------------------- 100% 0:00:23 0:00:00
+ΓåÆ mobile phones in itagi, koppal, karnataka
+Γ£ô 98 unique places (from 105 cards)
+  Shree Devi Enterprises --------------------------------- 100% 0:02:18 0:00:00
+ΓåÆ mobile phones in hanamsagar, koppal, karnataka
+Γ£ô 84 unique places (from 94 cards)
+  Switchkart Service Center - KOPPAL --------------------- 100% 0:02:06 0:00:00
+ΓåÆ mobile phones in kabbargi, koppal, karnataka
+Γ£ù no results
+ΓåÆ mobile phones in hungund, koppal, karnataka
+Γ£ô 18 unique places (from 18 cards)
+  PhonoRange - Gangavathi -------------------------------- 100% 0:00:30 0:00:00
+ΓåÆ mobile phones in mudgal, koppal, karnataka
+Γ£ô 82 unique places (from 85 cards)
+  S M Mobiles ---------------------------------------- 100% 0:02:27 0:00:00
+ΓåÆ mobile phones in piklihal, koppal, karnataka
+Γ£ù no results
+ΓåÆ mobile phones in kanakgiri, koppal, karnataka
+Γ£ô 77 unique places (from 84 cards)
+  Gouse Auto Mobiles GOUS MAINODDIN ---------------------- 100% 0:02:15 0:00:00
+ΓåÆ mobile phones in gangavathi, koppal, karnataka
+Γ£ô 59 unique places (from 60 cards)
+  SRI ANJANADRI RETAIL ----------------------------------- 100% 0:01:44 0:00:00
+
+Total: 788 scraped ΓåÆ 266 unique (522 dupes removed)
+KEEP_ALL=1 ΓåÆ category filter disabled
+Γ£ô saved 266 ΓåÆ mobile_koppal_all.xlsx (shops)
+FILE_PATH: mobile_koppal_all.xlsx
+Γ£¿ 30 chain-store rows highlighted green | 59 rows with NO phone highlighted 
+yellow
+Γ£ô 266 unique businesses (207 with phone) ΓåÆ 
+C:\Users\Nomesh\Documents\mobile_koppal_all.xlsx
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ 5/15 ┬╖ bellary ΓåÆ mobile_bellary_all.xlsx ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+C:\Program Files\Python313\python.exe 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py mobile phones bellary 
+city, bellary, karnataka; sirguppa, bellary, karnataka; hospete city, bellary, 
+karnataka; sandur, bellary, karnataka; hagan, bellary, karnataka; bommanahalli,
+bellary, karnataka; kudligi, bellary, karnataka; torangallu, bellary, 
+karnataka; kudatini, bellary, karnataka; daroji, bellary, karnataka; kampli, 
+bellary, karnataka; kurugodu, bellary, karnataka; srigeri, bellary, karnataka; 
+kollur, bellary, karnataka; tekkalakote, bellary, karnataka; mukkunda, bellary,
+karnataka; moka, bellary, karnataka; sangankal, bellary, karnataka; amarapura, 
+bellary, karnataka; chellagurki, bellary, karnataka; mincheri, bellary, 
+karnataka; ubbalagandi, bellary, karnataka; mariyammanhalli, bellary, karnataka
+mobile_bellary_all.xlsx
+
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+ΓåÆ mobile phones in bellary city, bellary, karnataka
+Γ£ô 82 unique places (from 85 cards)
+  Reliance DigiExpress Mini ------------------------------ 100% 0:01:22 0:00:00
+ΓåÆ mobile phones in sirguppa, bellary, karnataka
+Γ£ô 34 unique places (from 36 cards)
+  ARUN MOBILES & PHOTOS ---------------------------------- 100% 0:00:32 0:00:00
+ΓåÆ mobile phones in hospete city, bellary, karnataka
+Γ£ô 79 unique places (from 81 cards)
+  Opposite court College road Patel Naga ----------------- 100% 0:01:35 0:00:00
+ΓåÆ mobile phones in sandur, bellary, karnataka
+Γ£ô 85 unique places (from 89 cards)
+  Thirumala mobiles Ginigera ----------------------------- 100% 0:01:36 0:00:00
+ΓåÆ mobile phones in hagan, bellary, karnataka
+Γ£ô 22 unique places (from 24 cards)
+  Heera Mobile ---------------------------------------- 100% 0:00:25 0:00:00
+ΓåÆ mobile phones in bommanahalli, bellary, karnataka
+Γ£ô 10 unique places (from 10 cards)
+  Sangeetha Gadgets - Bellary (Vasavi Sc ----------------- 100% 0:00:17 0:00:00
+ΓåÆ mobile phones in kudligi, bellary, karnataka
+Γ£ô 2 unique places (from 2 cards)
+  Poorvika Mobiles Ballari ------------------------------- 100% 0:00:04 0:00:00
+ΓåÆ mobile phones in torangallu, bellary, karnataka
+Γ£ô 32 unique places (from 33 cards)
+  Deva Mobiles ---------------------------------------- 100% 0:00:47 0:00:00
+ΓåÆ mobile phones in kudatini, bellary, karnataka
+Γ£ô 10 unique places (from 10 cards)
+  Mobile shop ---------------------------------------- 100% 0:00:16 0:00:00
+ΓåÆ mobile phones in daroji, bellary, karnataka
+Γ£ô 30 unique places (from 32 cards)
+  S M Mobiles ---------------------------------------- 100% 0:00:41 0:00:00
+ΓåÆ mobile phones in kampli, bellary, karnataka
+Γ£ô 95 unique places (from 101 cards)
+  Babu CD & Mobile Centre -------------------------------- 100% 0:02:28 0:00:00
+ΓåÆ mobile phones in kurugodu, bellary, karnataka
+Γ£ô 87 unique places (from 93 cards)
+  Babu CD & Mobile Centre -------------------------------- 100% 0:02:28 0:00:00
+ΓåÆ mobile phones in srigeri, bellary, karnataka
+Γ£ô 17 unique places (from 17 cards)
+  Muralis Downloads -------------------------------------- 100% 0:00:34 0:00:00
+ΓåÆ mobile phones in kollur, bellary, karnataka
+Γ£ô 17 unique places (from 17 cards)
+  Somraj Online & Mobile Centre -------------------------- 100% 0:00:32 0:00:00
+ΓåÆ mobile phones in tekkalakote, bellary, karnataka
+Γ£ô 10 unique places (from 10 cards)
+  Sangeetha Gadgets - Bellary (Vasavi Sc ----------------- 100% 0:00:22 0:00:00
+ΓåÆ mobile phones in mukkunda, bellary, karnataka
+Γ£ô 12 unique places (from 12 cards)
+  VIVO Exclusive Store-Siruguppa ------------------------- 100% 0:00:24 0:00:00
+ΓåÆ mobile phones in moka, bellary, karnataka
+Γ£ô 84 unique places (from 96 cards)
+  Babu CD & Mobile Centre -------------------------------- 100% 0:02:48 0:00:00
+ΓåÆ mobile phones in sangankal, bellary, karnataka
+Γ£ô 15 unique places (from 15 cards)
+  Somraj Online & Mobile Centre -------------------------- 100% 0:00:34 0:00:00
+ΓåÆ mobile phones in amarapura, bellary, karnataka
+Γ£ô 20 unique places (from 20 cards)
+  Samsung Experience Store Sadashiv Naga ----------------- 100% 0:00:41 0:00:00
+ΓåÆ mobile phones in chellagurki, bellary, karnataka
+Γ£ô 76 unique places (from 83 cards)
+  Raju Mobile Shop --------------------------------------- 100% 0:03:42 0:00:00
+ΓåÆ mobile phones in mincheri, bellary, karnataka
+Γ£ô 15 unique places (from 15 cards)
+  OPPO | OnePlus Authorized Service Cent ----------------- 100% 0:00:29 0:00:00
+ΓåÆ mobile phones in ubbalagandi, bellary, karnataka
+Γ£ô 83 unique places (from 92 cards)
+  Raju Mobile Shop --------------------------------------- 100% 0:02:59 0:00:00
+ΓåÆ mobile phones in mariyammanhalli, bellary, karnataka
+Γ£ô 31 unique places (from 32 cards)
+  AB STAR MOBILE'S --------------------------------------- 100% 0:02:37 0:00:00
+
+Total: 948 scraped ΓåÆ 315 unique (633 dupes removed)
+KEEP_ALL=1 ΓåÆ category filter disabled
+Γ£ô saved 315 ΓåÆ mobile_bellary_all.xlsx (shops)
+FILE_PATH: mobile_bellary_all.xlsx
+Γ£¿ 37 chain-store rows highlighted green | 62 rows with NO phone highlighted 
+yellow
+Γ£ô 315 unique businesses (253 with phone) ΓåÆ 
+C:\Users\Nomesh\Documents\mobile_bellary_all.xlsx
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ 6/15 ┬╖ haveri ΓåÆ mobile_haveri_all.xlsx ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+C:\Program Files\Python313\python.exe 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py mobile phones 
+havericity, haveri, karnataka; shiggaon, haveri, karnataka; savanur, haveri, 
+karnataka; byadgi, haveri, karnataka; ranibennur, haveri, karnataka; hirekerup,
+haveri, karnataka; devagiri, haveri, karnataka; koluru, haveri, karnataka; 
+karajgi, haveri, karnataka; agadi, haveri, karnataka; kerimattihalli, haveri, 
+karnataka; kabbur, haveri, karnataka; aladkatti, haveri, karnataka; hosalli, 
+haveri, karnataka; devihosur, haveri, karnataka; chinnikatti, haveri, 
+karnataka; masanagi, haveri, karnataka; byadagi, haveri, karnataka; motebennur,
+haveri, karnataka; hosaritti, haveri, karnataka; guttal, haveri, karnataka; 
+honnatti, haveri, karnataka; guddaguddapur, haveri, karnataka; chalageri, 
+haveri, karnataka; holalu, haveri, karnataka; mylara, haveri, karnataka; 
+haunsbhavi, haveri, karnataka; thogarsi, haveri, karnataka; talagunda, haveri, 
+karnataka; siralkoppa, haveri, karnataka; udagani, haveri, karnataka; 
+shikarpur, haveri, karnataka; ambargoppa, haveri, karnataka; masur, haveri, 
+karnataka; ratihalli, haveri, karnataka; sampalli, haveri, karnataka; sagara, 
+haveri, karnataka; keladi, haveri, karnataka; banavasi, haveri, karnataka; 
+siddapur, haveri, karnataka mobile_haveri_all.xlsx
+
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+ΓåÆ mobile phones in havericity, haveri, karnataka
+Γ£ô 70 unique places (from 72 cards)
+  Basaveshwara Comunicatin ------------------------------- 100% 0:01:11 0:00:00
+ΓåÆ mobile phones in shiggaon, haveri, karnataka
+Γ£ô 95 unique places (from 100 cards)
+  α▓¬α│ìα▓░α▓ñα│Çα▓ò α▓«α│èα▓¼α│êα▓▓α│ì α▓òα│çα▓░α│ì ---------------------------------------- 100% 0:01:35 0:00:00
+ΓåÆ mobile phones in savanur, haveri, karnataka
+Γ£ô 93 unique places (from 99 cards)
+  Mobile Junction ---------------------------------------- 100% 0:01:51 0:00:00
+ΓåÆ mobile phones in byadgi, haveri, karnataka
+Γ£ô 82 unique places (from 87 cards)
+  α▓¬α│ìα▓░α▓ñα│Çα▓ò α▓«α│èα▓¼α│êα▓▓α│ì α▓òα│çα▓░α│ì ---------------------------------------- 100% 0:01:47 0:00:00
+ΓåÆ mobile phones in ranibennur, haveri, karnataka
+Γ£ô 90 unique places (from 94 cards)
+  Maruti Communication ----------------------------------- 100% 0:02:04 0:00:00
+ΓåÆ mobile phones in hirekerup, haveri, karnataka
+Γ£ô 17 unique places (from 17 cards)
+  Royal Communication ------------------------------------ 100% 0:00:28 0:00:00
+ΓåÆ mobile phones in devagiri, haveri, karnataka
+Γ£ô 87 unique places (from 91 cards)
+  α▓¬α│ìα▓░α▓ñα│Çα▓ò α▓«α│èα▓¼α│êα▓▓α│ì α▓òα│çα▓░α│ì ---------------------------------------- 100% 0:02:31 0:00:00
+ΓåÆ mobile phones in koluru, haveri, karnataka
+Γ£ô 22 unique places (from 22 cards)
+  The Mobile Zone ---------------------------------------- 100% 0:00:45 0:00:00
+ΓåÆ mobile phones in karajgi, haveri, karnataka
+Γ£ô 83 unique places (from 89 cards)
+  Basaveshwara Comunicatin ------------------------------- 100% 0:02:44 0:00:00
+ΓåÆ mobile phones in agadi, haveri, karnataka
+Γ£ô 15 unique places (from 15 cards)
+  STAR MOBILE HAVERI ------------------------------------- 100% 0:00:30 0:00:00
+ΓåÆ mobile phones in kerimattihalli, haveri, karnataka
+Γ£ô 19 unique places (from 19 cards)
+  The Mobile Studio -------------------------------------- 100% 0:00:38 0:00:00
+ΓåÆ mobile phones in kabbur, haveri, karnataka
+Γ£ô 94 unique places (from 100 cards)
+  Maruti Communication ----------------------------------- 100% 0:03:18 0:00:00
+ΓåÆ mobile phones in aladkatti, haveri, karnataka
+Γ£ô 97 unique places (from 100 cards)
+  Basaveshwara Comunicatin ------------------------------- 100% 0:04:21 0:00:00
+ΓåÆ mobile phones in hosalli, haveri, karnataka
+Γ£ô 25 unique places (from 25 cards)
+  Shaining Star Mobile Repair Centre --------------------- 100% 0:01:07 0:00:00
+ΓåÆ mobile phones in devihosur, haveri, karnataka
+Γ£ô 115 unique places (from 120 cards)
+  TMs ---------------------------------------- 100% 0:06:10 0:00:00
+ΓåÆ mobile phones in chinnikatti, haveri, karnataka
+Γ£ô 17 unique places (from 17 cards)
+  Mobile Mane ---------------------------------------- 100% 0:00:56 0:00:00
+ΓåÆ mobile phones in masanagi, haveri, karnataka
+Γ£ô 75 unique places (from 79 cards)
+  α▓¬α│ìα▓░α▓ñα│Çα▓ò α▓«α│èα▓¼α│êα▓▓α│ì α▓òα│çα▓░α│ì ---------------------------------------- 100% 0:03:54 0:00:00
+ΓåÆ mobile phones in byadagi, haveri, karnataka
+Γ£ô 79 unique places (from 85 cards)
+  α▓¬α│ìα▓░α▓ñα│Çα▓ò α▓«α│èα▓¼α│êα▓▓α│ì α▓òα│çα▓░α│ì ---------------------------------------- 100% 0:04:01 0:00:00
+ΓåÆ mobile phones in motebennur, haveri, karnataka
+Γ£ô 81 unique places (from 85 cards)
+  Basaveshwara Comunicatin ------------------------------- 100% 0:03:50 0:00:00
+ΓåÆ mobile phones in hosaritti, haveri, karnataka
+Γ£ô 23 unique places (from 23 cards)
+  Sanjana Mobiles Centre --------------------------------- 100% 0:01:25 0:00:00
+ΓåÆ mobile phones in guttal, haveri, karnataka
+Γ£ô 87 unique places (from 95 cards)
+  α▓¬α│ìα▓░α▓ñα│Çα▓ò α▓«α│èα▓¼α│êα▓▓α│ì α▓òα│çα▓░α│ì ---------------------------------------- 100% 0:04:21 0:00:00
+ΓåÆ mobile phones in honnatti, haveri, karnataka
+Γ£ô 86 unique places (from 92 cards)
+  α▓¬α│ìα▓░α▓ñα│Çα▓ò α▓«α│èα▓¼α│êα▓▓α│ì α▓òα│çα▓░α│ì ---------------------------------------- 100% 0:03:35 0:00:00
+ΓåÆ mobile phones in guddaguddapur, haveri, karnataka
+Γ£ô 87 unique places (from 93 cards)
+  α▓¬α│ìα▓░α▓ñα│Çα▓ò α▓«α│èα▓¼α│êα▓▓α│ì α▓òα│çα▓░α│ì ---------------------------------------- 100% 0:03:49 0:00:00
+ΓåÆ mobile phones in chalageri, haveri, karnataka
+Γ£ô 14 unique places (from 14 cards)
+  Sudeep Mobiles(Agency) --------------------------------- 100% 0:00:47 0:00:00
+ΓåÆ mobile phones in holalu, haveri, karnataka
+Γ£ô 16 unique places (from 16 cards)
+  The Mobile Zone ---------------------------------------- 100% 0:00:54 0:00:00
+ΓåÆ mobile phones in mylara, haveri, karnataka
+Γ£ô 16 unique places (from 16 cards)
+  The Mobile Zone ---------------------------------------- 100% 0:00:55 0:00:00
+ΓåÆ mobile phones in haunsbhavi, haveri, karnataka
+Γ£ô 81 unique places (from 86 cards)
+  Basaveshwara Comunicatin ------------------------------- 100% 0:03:53 0:00:00
+ΓåÆ mobile phones in thogarsi, haveri, karnataka
+Γ£ô 46 unique places (from 46 cards)
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("h1.DUwDvf") to be visible
+
+  Rajeshwari Mobiles Haveri ------------------------------ 100% 0:13:01 0:00:00
+ΓåÆ mobile phones in talagunda, haveri, karnataka
+Γ£ù no results
+ΓåÆ mobile phones in siralkoppa, haveri, karnataka
+Γ£ù no results
+ΓåÆ mobile phones in udagani, haveri, karnataka
+Γ£ù no results
+ΓåÆ mobile phones in shikarpur, haveri, karnataka
+Γ£ù no results
+ΓåÆ mobile phones in ambargoppa, haveri, karnataka
+Γ£ù no results
+ΓåÆ mobile phones in masur, haveri, karnataka
+Γ£ù no results
+ΓåÆ mobile phones in ratihalli, haveri, karnataka
+Γ£ù no results
+ΓåÆ mobile phones in sampalli, haveri, karnataka
+Γ£ù no results
+ΓåÆ mobile phones in sagara, haveri, karnataka
+Γ£ù no results
+ΓåÆ mobile phones in keladi, haveri, karnataka
+Γ£ù no results
+ΓåÆ mobile phones in banavasi, haveri, karnataka
+Γ£ù no results
+ΓåÆ mobile phones in siddapur, haveri, karnataka
+Γ£ù no results
+
+Total: 1679 scraped ΓåÆ 270 unique (1409 dupes removed)
+KEEP_ALL=1 ΓåÆ category filter disabled
+Γ£ô saved 270 ΓåÆ mobile_haveri_all.xlsx (shops)
+FILE_PATH: mobile_haveri_all.xlsx
+Γ£¿ 42 chain-store rows highlighted green | 77 rows with NO phone highlighted 
+yellow
+Γ£ô 270 unique businesses (193 with phone) ΓåÆ 
+C:\Users\Nomesh\Documents\mobile_haveri_all.xlsx
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ 7/15 ┬╖ uttar kannada ΓåÆ mobile_uttar_kannada_all.xlsx ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+C:\Program Files\Python313\python.exe 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py mobile phones uttar 
+kannad, uttar kannada, karnataka; supa, uttar kannada, karnataka; haliyal, 
+uttar kannada, karnataka; kalghatgi, uttar kannada, karnataka; yellapur, uttar 
+kannada, karnataka; mundgod, uttar kannada, karnataka; karwar, uttar kannada, 
+karnataka; ankhola, uttar kannada, karnataka; hangal, uttar kannada, karnataka;
+sirsi, uttar kannada, karnataka; siddapur, uttar kannada, karnataka; kumta, 
+uttar kannada, karnataka; honavar, uttar kannada, karnataka; bhatkal, uttar 
+kannada, karnataka; hosanagar, uttar kannada, karnataka; humcha, uttar kannada,
+karnataka; konnandur, uttar kannada, karnataka mobile_uttar_kannada_all.xlsx
+
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+ΓöîΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÉ
+Γöé Browser network/DNS failure                                                 Γöé
+Γöé Chromium could not resolve or reach Google Maps. This is not a              Γöé
+Γöé keyword/filter issue.                                                       Γöé
+Γöé                                                                             Γöé
+Γöé Try these on Windows:                                                       Γöé
+Γöé 1. Open https://www.google.com/maps in Chrome/Edge.                         Γöé
+Γöé 2. Run: ipconfig /flushdns                                                  Γöé
+Γöé 3. Run: nslookup www.google.com                                             Γöé
+Γöé 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            Γöé
+Γöé 5. Use Visible mode once to confirm the browser itself can load Google      Γöé
+Γöé Maps.                                                                       Γöé
+Γöé                                                                             Γöé
+Γöé Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ Γöé
+Γöé Call log:                                                                   Γöé
+Γöé   - navigating to "https://www.google.com/", waiting until "commit"         Γöé
+Γöé                                                                             Γöé
+ΓööΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÿ
+X scrape.py exited with code 1
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ 8/15 ┬╖ shivmoga ΓåÆ mobile_shivmoga_all.xlsx ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+C:\Program Files\Python313\python.exe 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py mobile phones shivomga 
+city, shivmoga, karnataka; soraba, shivmoga, karnataka; sagar, shivmoga, 
+karnataka; shikarpura, shivmoga, karnataka; hosangara, shivmoga, karnataka; 
+tirthalli, shivmoga, karnataka; bhadravati, shivmoga, karnataka; kudli, 
+shivmoga, karnataka; savalanga, shivmoga, karnataka; nayamati, shivmoga, 
+karnataka; kumsi, shivmoga, karnataka; ayanur, shivmoga, karnataka; anandpuram,
+shivmoga, karnataka; sampalli, shivmoga, karnataka; talagupa, shivmoga, 
+karnataka; kargal, shivmoga, karnataka; tirthahalli, shivmoga, karnataka; koppa
+rural, shivmoga, karnataka; narasimharajpura, shivmoga, karnataka; mattur, 
+shivmoga, karnataka; tarikere, shivmoga, karnataka; amruthapura, shivmoga, 
+karnataka; ajjampura, shivmoga, karnataka; hirenallur, shivmoga, karnataka; 
+birur, shivmoga, karnataka; yagati, shivmoga, karnataka 
+mobile_shivmoga_all.xlsx
+
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+ΓöîΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÉ
+Γöé Browser network/DNS failure                                                 Γöé
+Γöé Chromium could not resolve or reach Google Maps. This is not a              Γöé
+Γöé keyword/filter issue.                                                       Γöé
+Γöé                                                                             Γöé
+Γöé Try these on Windows:                                                       Γöé
+Γöé 1. Open https://www.google.com/maps in Chrome/Edge.                         Γöé
+Γöé 2. Run: ipconfig /flushdns                                                  Γöé
+Γöé 3. Run: nslookup www.google.com                                             Γöé
+Γöé 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            Γöé
+Γöé 5. Use Visible mode once to confirm the browser itself can load Google      Γöé
+Γöé Maps.                                                                       Γöé
+Γöé                                                                             Γöé
+Γöé Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ Γöé
+Γöé Call log:                                                                   Γöé
+Γöé   - navigating to "https://www.google.com/", waiting until "commit"         Γöé
+Γöé                                                                             Γöé
+ΓööΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÿ
+X scrape.py exited with code 1
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ 9/15 ┬╖ davangeree ΓåÆ mobile_davangeree_all.xlsx ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+C:\Program Files\Python313\python.exe 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py mobile phones davangere
+city, davangeree, karnataka; harapanhalli, davangeree, karnataka; harihar, 
+davangeree, karnataka; jagalur, davangeree, karnataka; honnali, davangeree, 
+karnataka; channagiri, davangeree, karnataka; anagodu, davangeree, karnataka; 
+hadadi, davangeree, karnataka; lokikere, davangeree, karnataka; kundur, 
+davangeree, karnataka; kokkanur, davangeree, karnataka; telagi, davangeree, 
+karnataka; airani, davangeree, karnataka; uchangidurga, davangeree, karnataka; 
+kodaganur, davangeree, karnataka; mayakonda, davangeree, karnataka; 
+santhebennur, davangeree, karnataka; devarahalli, davangeree, karnataka; hire 
+hadagali, davangeree, karnataka; ittigi, davangeree, karnataka; kotturu, 
+davangeree, karnataka mobile_davangeree_all.xlsx
+
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+ΓöîΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÉ
+Γöé Browser network/DNS failure                                                 Γöé
+Γöé Chromium could not resolve or reach Google Maps. This is not a              Γöé
+Γöé keyword/filter issue.                                                       Γöé
+Γöé                                                                             Γöé
+Γöé Try these on Windows:                                                       Γöé
+Γöé 1. Open https://www.google.com/maps in Chrome/Edge.                         Γöé
+Γöé 2. Run: ipconfig /flushdns                                                  Γöé
+Γöé 3. Run: nslookup www.google.com                                             Γöé
+Γöé 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            Γöé
+Γöé 5. Use Visible mode once to confirm the browser itself can load Google      Γöé
+Γöé Maps.                                                                       Γöé
+Γöé                                                                             Γöé
+Γöé Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ Γöé
+Γöé Call log:                                                                   Γöé
+Γöé   - navigating to "https://www.google.com/", waiting until "commit"         Γöé
+Γöé                                                                             Γöé
+ΓööΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÿ
+X scrape.py exited with code 1
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ 10/15 ┬╖ chitradurga ΓåÆ mobile_chitradurga_all.xlsx ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+C:\Program Files\Python313\python.exe 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py mobile phones 
+chitradurga city, chitradurga, karnataka; challakere, chitradurga, karnataka; 
+molakalmuru, chitradurga, karnataka; holalkere, chitradurga, karnataka; hiryur,
+chitradurga, karnataka; hosdurga, chitradurga, karnataka; pavagada, 
+chitradurga, karnataka; kalledevarpura, chitradurga, karnataka; nayaknahatty, 
+chitradurga, karnataka; thalaku, chitradurga, karnataka; holalkere rural, 
+chitradurga, karnataka; ramagiri, chitradurga, karnataka; chikkajajur, 
+chitradurga, karnataka; huliyar aminkere, chitradurga, karnataka; sira, 
+chitradurga, karnataka; chellur, chitradurga, karnataka; gubbi, chitradurga, 
+karnataka; tiptur, chitradurga, karnataka; channarayapatna, chitradurga, 
+karnataka mobile_chitradurga_all.xlsx
+
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+ΓöîΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÉ
+Γöé Browser network/DNS failure                                                 Γöé
+Γöé Chromium could not resolve or reach Google Maps. This is not a              Γöé
+Γöé keyword/filter issue.                                                       Γöé
+Γöé                                                                             Γöé
+Γöé Try these on Windows:                                                       Γöé
+Γöé 1. Open https://www.google.com/maps in Chrome/Edge.                         Γöé
+Γöé 2. Run: ipconfig /flushdns                                                  Γöé
+Γöé 3. Run: nslookup www.google.com                                             Γöé
+Γöé 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            Γöé
+Γöé 5. Use Visible mode once to confirm the browser itself can load Google      Γöé
+Γöé Maps.                                                                       Γöé
+Γöé                                                                             Γöé
+Γöé Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ Γöé
+Γöé Call log:                                                                   Γöé
+Γöé   - navigating to "https://www.google.com/", waiting until "commit"         Γöé
+Γöé                                                                             Γöé
+ΓööΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÿ
+X scrape.py exited with code 1
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ 11/15 ┬╖ udupi ΓåÆ mobile_udupi_all.xlsx ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+C:\Program Files\Python313\python.exe 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py mobile phones udupi 
+city, udupi, karnataka; kundapura, udupi, karnataka; sringeri, udupi, 
+karnataka; karkala, udupi, karnataka; kodi, udupi, karnataka; saligrama, udupi,
+karnataka; basrur, udupi, karnataka; tallur, udupi, karnataka; shankarnarayan, 
+udupi, karnataka; hebri, udupi, karnataka; varanga, udupi, karnataka; pangala, 
+udupi, karnataka; shirva, udupi, karnataka; varambally, udupi, karnataka; 
+athradi, udupi, karnataka mobile_udupi_all.xlsx
+
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+ΓöîΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÉ
+Γöé Browser network/DNS failure                                                 Γöé
+Γöé Chromium could not resolve or reach Google Maps. This is not a              Γöé
+Γöé keyword/filter issue.                                                       Γöé
+Γöé                                                                             Γöé
+Γöé Try these on Windows:                                                       Γöé
+Γöé 1. Open https://www.google.com/maps in Chrome/Edge.                         Γöé
+Γöé 2. Run: ipconfig /flushdns                                                  Γöé
+Γöé 3. Run: nslookup www.google.com                                             Γöé
+Γöé 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            Γöé
+Γöé 5. Use Visible mode once to confirm the browser itself can load Google      Γöé
+Γöé Maps.                                                                       Γöé
+Γöé                                                                             Γöé
+Γöé Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ Γöé
+Γöé Call log:                                                                   Γöé
+Γöé   - navigating to "https://www.google.com/", waiting until "commit"         Γöé
+Γöé                                                                             Γöé
+ΓööΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÿ
+X scrape.py exited with code 1
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ 12/15 ┬╖ chikmangaluru ΓåÆ mobile_chikmangaluru_all.xlsx ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+C:\Program Files\Python313\python.exe 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py mobile phones 
+chimangaluru city, chikmangaluru, karnataka; tarikere, chikmangaluru, 
+karnataka; narasimharajpura, chikmangaluru, karnataka; kadur, chikmangaluru, 
+karnataka; koppa, chikmangaluru, karnataka; mudigere, chikmangaluru, karnataka;
+aldur, chikmangaluru, karnataka; mudigere, chikmangaluru, karnataka; gonibeedu,
+chikmangaluru, karnataka; cheekanhalli, chikmangaluru, karnataka; bankal, 
+chikmangaluru, karnataka; aldur, chikmangaluru, karnataka; belur, 
+chikmangaluru, karnataka; sakleshpura, chikmangaluru, karnataka; dharamsthala, 
+chikmangaluru, karnataka mobile_chikmangaluru_all.xlsx
+
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+ΓöîΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÉ
+Γöé Browser network/DNS failure                                                 Γöé
+Γöé Chromium could not resolve or reach Google Maps. This is not a              Γöé
+Γöé keyword/filter issue.                                                       Γöé
+Γöé                                                                             Γöé
+Γöé Try these on Windows:                                                       Γöé
+Γöé 1. Open https://www.google.com/maps in Chrome/Edge.                         Γöé
+Γöé 2. Run: ipconfig /flushdns                                                  Γöé
+Γöé 3. Run: nslookup www.google.com                                             Γöé
+Γöé 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            Γöé
+Γöé 5. Use Visible mode once to confirm the browser itself can load Google      Γöé
+Γöé Maps.                                                                       Γöé
+Γöé                                                                             Γöé
+Γöé Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ Γöé
+Γöé Call log:                                                                   Γöé
+Γöé   - navigating to "https://www.google.com/", waiting until "commit"         Γöé
+Γöé                                                                             Γöé
+ΓööΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÿ
+X scrape.py exited with code 1
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ 13/15 ┬╖ dakshin kannada ΓåÆ mobile_dakshin_kannada_all.xlsx ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+C:\Program Files\Python313\python.exe 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py mobile phones dakshin 
+kannad, dakshin kannada, karnataka; beltangadi, dakshin kannada, karnataka; 
+bantwala, dakshin kannada, karnataka; puttur, dakshin kannada, karnataka; 
+manglore, dakshin kannada, karnataka; sulya, dakshin kannada, karnataka; 
+thokur, dakshin kannada, karnataka; ballkunje, dakshin kannada, karnataka; 
+kinnigoli, dakshin kannada, karnataka; bajpe, dakshin kannada, karnataka; 
+moodushede, dakshin kannada, karnataka; kaikamba, dakshin kannada, karnataka; 
+shirthady, dakshin kannada, karnataka; venur, dakshin kannada, karnataka; 
+chennaithodi, dakshin kannada, karnataka; mani, dakshin kannada, karnataka; 
+brlthangady, dakshin kannada, karnataka; ujire, dakshin kannada, karnataka; 
+kokkada, dakshin kannada, karnataka; nelyady, dakshin kannada, karnataka; 
+sullia, dakshin kannada, karnataka mobile_dakshin_kannada_all.xlsx
+
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+ΓöîΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÉ
+Γöé Browser network/DNS failure                                                 Γöé
+Γöé Chromium could not resolve or reach Google Maps. This is not a              Γöé
+Γöé keyword/filter issue.                                                       Γöé
+Γöé                                                                             Γöé
+Γöé Try these on Windows:                                                       Γöé
+Γöé 1. Open https://www.google.com/maps in Chrome/Edge.                         Γöé
+Γöé 2. Run: ipconfig /flushdns                                                  Γöé
+Γöé 3. Run: nslookup www.google.com                                             Γöé
+Γöé 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            Γöé
+Γöé 5. Use Visible mode once to confirm the browser itself can load Google      Γöé
+Γöé Maps.                                                                       Γöé
+Γöé                                                                             Γöé
+Γöé Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ Γöé
+Γöé Call log:                                                                   Γöé
+Γöé   - navigating to "https://www.google.com/", waiting until "commit"         Γöé
+Γöé                                                                             Γöé
+ΓööΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÿ
+X scrape.py exited with code 1
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ 14/15 ┬╖ hassan ΓåÆ mobile_hassan_all.xlsx ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+C:\Program Files\Python313\python.exe 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py mobile phones hassan 
+city, hassan, karnataka; arsikere, hassan, karnataka; belur, hassan, karnataka;
+sakleshpur, hassan, karnataka; alur, hassan, karnataka; chanparayapatna, 
+hassan, karnataka; hole, hassan, karnataka; arkalgud, hassan, karnataka; 
+javagal, hassan, karnataka; halebbedu, hassan, karnataka; sakleshpura, hassan, 
+karnataka; arkalgud, hassan, karnataka; holenarasipura, hassan, karnataka; 
+shravanbela gola, hassan, karnataka; shantigrama, hassan, karnataka; 
+korvangala, hassan, karnataka; banavara, hassan, karnataka; tiptur, hassan, 
+karnataka mobile_hassan_all.xlsx
+
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+ΓöîΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÉ
+Γöé Browser network/DNS failure                                                 Γöé
+Γöé Chromium could not resolve or reach Google Maps. This is not a              Γöé
+Γöé keyword/filter issue.                                                       Γöé
+Γöé                                                                             Γöé
+Γöé Try these on Windows:                                                       Γöé
+Γöé 1. Open https://www.google.com/maps in Chrome/Edge.                         Γöé
+Γöé 2. Run: ipconfig /flushdns                                                  Γöé
+Γöé 3. Run: nslookup www.google.com                                             Γöé
+Γöé 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            Γöé
+Γöé 5. Use Visible mode once to confirm the browser itself can load Google      Γöé
+Γöé Maps.                                                                       Γöé
+Γöé                                                                             Γöé
+Γöé Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ Γöé
+Γöé Call log:                                                                   Γöé
+Γöé   - navigating to "https://www.google.com/", waiting until "commit"         Γöé
+Γöé                                                                             Γöé
+ΓööΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÿ
+X scrape.py exited with code 1
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ 15/15 ┬╖ kodagu ΓåÆ mobile_kodagu_all.xlsx ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+C:\Program Files\Python313\python.exe 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py mobile phones kodagu 
+city, kodagu, karnataka; somvarpet, kodagu, karnataka; krishnarajnagara, 
+kodagu, karnataka; madikere, kodagu, karnataka; virarajanderapet, kodagu, 
+karnataka; gonikoppa, kodagu, karnataka; kumaralli, kodagu, karnataka; 
+shanivarsanthhe, kodagu, karnataka; makkanduru, kodagu, karnataka; kudige, 
+kodagu, karnataka; napkolu, kodagu, karnataka; yemmamadu, kodagu, karnataka 
+mobile_kodagu_all.xlsx
+
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+ΓöîΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÉ
+Γöé Browser network/DNS failure                                                 Γöé
+Γöé Chromium could not resolve or reach Google Maps. This is not a              Γöé
+Γöé keyword/filter issue.                                                       Γöé
+Γöé                                                                             Γöé
+Γöé Try these on Windows:                                                       Γöé
+Γöé 1. Open https://www.google.com/maps in Chrome/Edge.                         Γöé
+Γöé 2. Run: ipconfig /flushdns                                                  Γöé
+Γöé 3. Run: nslookup www.google.com                                             Γöé
+Γöé 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            Γöé
+Γöé 5. Use Visible mode once to confirm the browser itself can load Google      Γöé
+Γöé Maps.                                                                       Γöé
+Γöé                                                                             Γöé
+Γöé Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ Γöé
+Γöé Call log:                                                                   Γöé
+Γöé   - navigating to "https://www.google.com/", waiting until "commit"         Γöé
+Γöé                                                                             Γöé
+ΓööΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÿ
+X scrape.py exited with code 1
+
+Summary:
+ΓöîΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö¼ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö¼ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö¼ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÉ
+Γöé District        Γöé Businesses Γöé With phone Γöé File                     Γöé
+Γö£ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö╝ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö╝ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö╝ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöñ
+Γöé vijaypur        Γöé        282 Γöé        222 Γöé mobile_vijaypur_all.xlsx Γöé
+Γöé dharwad         Γöé        317 Γöé        239 Γöé mobile_dharwad_all.xlsx  Γöé
+Γöé gadag           Γöé        181 Γöé        130 Γöé mobile_gadag_all.xlsx    Γöé
+Γöé koppal          Γöé        266 Γöé        207 Γöé mobile_koppal_all.xlsx   Γöé
+Γöé bellary         Γöé        315 Γöé        253 Γöé mobile_bellary_all.xlsx  Γöé
+Γöé haveri          Γöé        270 Γöé        193 Γöé mobile_haveri_all.xlsx   Γöé
+Γöé uttar kannada   Γöé          0 Γöé          0 Γöé ΓÇö                        Γöé
+Γöé shivmoga        Γöé          0 Γöé          0 Γöé ΓÇö                        Γöé
+Γöé davangeree      Γöé          0 Γöé          0 Γöé ΓÇö                        Γöé
+Γöé chitradurga     Γöé          0 Γöé          0 Γöé ΓÇö                        Γöé
+Γöé udupi           Γöé          0 Γöé          0 Γöé ΓÇö                        Γöé
+Γöé chikmangaluru   Γöé          0 Γöé          0 Γöé ΓÇö                        Γöé
+Γöé dakshin kannada Γöé          0 Γöé          0 Γöé ΓÇö                        Γöé
+Γöé hassan          Γöé          0 Γöé          0 Γöé ΓÇö                        Γöé
+Γöé kodagu          Γöé          0 Γöé          0 Γöé ΓÇö                        Γöé
+Γöé TOTAL           Γöé       1631 Γöé            Γöé                          Γöé
+ΓööΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö┤ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö┤ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓö┤ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÿ
