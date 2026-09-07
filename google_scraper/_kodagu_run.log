@@ -1,0 +1,259 @@
+kodagu district: 12 cities, resumable per-city run.
+[1/12] kodagu city
+
+=== RUN: mobile phones in kodagu city, kodagu, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in kodagu city, kodagu, karnataka
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ⚠ CAPTCHA detected                                                          │
+│                                                                             │
+│ URL:                                                                        │
+│ https://www.google.com/sorry/index?continue=https://www.google.com/maps/sea │
+│ rch/mobile%2Bphones%2Bin%2Bkodagu%2Bcity,%2Bkodagu,%2Bkarnataka&q=EhAkAUkAj │
+│ _xESU33LEv7Y7bDGM_079QGIjCkHYHS0nGUnkWMVSQVgPGuvQAyyIPy07Q3dH2J1iqvKV1NA9pk │
+│ __2qqf1hwKiUa_gyAnJSWgFD                                                    │
+│ Mode: HEADLESS (no window)                                                  │
+└─────────────────────────────────────────────────────────────────────────────┘
+Screenshot: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\captcha_screenshot.png
+Re-run WITHOUT HEADLESS=1 once to solve the captcha. Your profile is persistent
+— afterwards headless will work.
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+patchright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+!!! FAILED: kodagu city
+[2/12] somvarpet
+
+=== RUN: mobile phones in somvarpet, kodagu, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in somvarpet, kodagu, karnataka
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ⚠ CAPTCHA detected                                                          │
+│                                                                             │
+│ URL:                                                                        │
+│ https://www.google.com/sorry/index?continue=https://www.google.com/maps/sea │
+│ rch/mobile%2Bphones%2Bin%2Bsomvarpet,%2Bkodagu,%2Bkarnataka&q=EhAkAUkAj_xES │
+│ U33LEv7Y7bDGNT079QGIjCsQ1mXDbKrRnf8Ow-Uq_bv0PB1jGtRNRxSrv7FOOnNe5nEpf-7Ly7W │
+│ NtmDuXl3e3IyAnJSWgFD                                                        │
+│ Mode: HEADLESS (no window)                                                  │
+└─────────────────────────────────────────────────────────────────────────────┘
+Screenshot: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\captcha_screenshot.png
+Re-run WITHOUT HEADLESS=1 once to solve the captcha. Your profile is persistent
+— afterwards headless will work.
+!!! FAILED: somvarpet
+[3/12] krishnarajnagara
+
+=== RUN: mobile phones in krishnarajnagara, kodagu, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in krishnarajnagara, kodagu, karnataka
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ⚠ CAPTCHA detected                                                          │
+│                                                                             │
+│ URL:                                                                        │
+│ https://www.google.com/sorry/index?continue=https://www.google.com/maps/sea │
+│ rch/mobile%2Bphones%2Bin%2Bkrishnarajnagara,%2Bkodagu,%2Bkarnataka&q=EhAkAU │
+│ kAj_xESU33LEv7Y7bDGNn079QGIjDCBGdiptOpZ8HoApyARAXLYp77SfM8DweKeVaQv_nfsFQNr │
+│ Ap6nsncZeCAMqRH6AoyAnJSWgFD                                                 │
+│ Mode: HEADLESS (no window)                                                  │
+└─────────────────────────────────────────────────────────────────────────────┘
+Screenshot: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\captcha_screenshot.png
+Re-run WITHOUT HEADLESS=1 once to solve the captcha. Your profile is persistent
+— afterwards headless will work.
+!!! FAILED: krishnarajnagara
+[4/12] madikere
+
+=== RUN: mobile phones in madikere, kodagu, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in madikere, kodagu, karnataka
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ⚠ CAPTCHA detected                                                          │
+│                                                                             │
+│ URL:                                                                        │
+│ https://www.google.com/sorry/index?continue=https://www.google.com/maps/sea │
+│ rch/mobile%2Bphones%2Bin%2Bmadikere,%2Bkodagu,%2Bkarnataka&q=EhAkAUkAj_xESU │
+│ 33LEv7Y7bDGN7079QGIjDEY2pi8rmsS4fldmKOSjXEqk6RUhejTfq2LmjkwGPnuXUHzeFjRQlLu │
+│ U0zRKnjyrwyAnJSWgFD                                                         │
+│ Mode: HEADLESS (no window)                                                  │
+└─────────────────────────────────────────────────────────────────────────────┘
+Screenshot: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\captcha_screenshot.png
+Re-run WITHOUT HEADLESS=1 once to solve the captcha. Your profile is persistent
+— afterwards headless will work.
+!!! FAILED: madikere
+[5/12] virarajanderapet
+
+=== RUN: mobile phones in virarajanderapet, kodagu, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in virarajanderapet, kodagu, karnataka
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ⚠ CAPTCHA detected                                                          │
+│                                                                             │
+│ URL:                                                                        │
+│ https://www.google.com/sorry/index?continue=https://www.google.com/maps/sea │
+│ rch/mobile%2Bphones%2Bin%2Bvirarajanderapet,%2Bkodagu,%2Bkarnataka&q=EhAkAU │
+│ kAj_xESU33LEv7Y7bDGOL079QGIjDgAmqcb2MAPgWQWLmQh_QlCvLA1C-XvuKGq0aQTad_lUh9y │
+│ SfS1tKuXmfOT53y_bIyAnJSWgFD                                                 │
+│ Mode: HEADLESS (no window)                                                  │
+└─────────────────────────────────────────────────────────────────────────────┘
+Screenshot: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\captcha_screenshot.png
+Re-run WITHOUT HEADLESS=1 once to solve the captcha. Your profile is persistent
+— afterwards headless will work.
+!!! FAILED: virarajanderapet
+[6/12] gonikoppa
+
+=== RUN: mobile phones in gonikoppa, kodagu, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in gonikoppa, kodagu, karnataka
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ⚠ CAPTCHA detected                                                          │
+│                                                                             │
+│ URL:                                                                        │
+│ https://www.google.com/sorry/index?continue=https://www.google.com/maps/sea │
+│ rch/mobile%2Bphones%2Bin%2Bgonikoppa,%2Bkodagu,%2Bkarnataka&q=EhAkAUkAj_xES │
+│ U33LEv7Y7bDGOf079QGIjC4yraA2LZYLjapqLFEO4RWacdejyRxYSVUmKuqqvgavm6_ySh_bbA8 │
+│ E5ClEN22uU4yAnJSWgFD                                                        │
+│ Mode: HEADLESS (no window)                                                  │
+└─────────────────────────────────────────────────────────────────────────────┘
+Screenshot: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\captcha_screenshot.png
+Re-run WITHOUT HEADLESS=1 once to solve the captcha. Your profile is persistent
+— afterwards headless will work.
+!!! FAILED: gonikoppa
+[7/12] kumaralli
+
+=== RUN: mobile phones in kumaralli, kodagu, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in kumaralli, kodagu, karnataka
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ⚠ CAPTCHA detected                                                          │
+│                                                                             │
+│ URL:                                                                        │
+│ https://www.google.com/sorry/index?continue=https://www.google.com/maps/sea │
+│ rch/mobile%2Bphones%2Bin%2Bkumaralli,%2Bkodagu,%2Bkarnataka&q=EhAkAUkAj_xES │
+│ U33LEv7Y7bDGOz079QGIjD3Z5wQryAKUU8Zx-eO5EC1IGcZ-LqyinDd98jAJFaZY775c_iEq6AI │
+│ nzEAMSCzKGoyAnJSWgFD                                                        │
+│ Mode: HEADLESS (no window)                                                  │
+└─────────────────────────────────────────────────────────────────────────────┘
+Screenshot: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\captcha_screenshot.png
+Re-run WITHOUT HEADLESS=1 once to solve the captcha. Your profile is persistent
+— afterwards headless will work.
+!!! FAILED: kumaralli
+[8/12] shanivarsanthhe
+
+=== RUN: mobile phones in shanivarsanthhe, kodagu, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in shanivarsanthhe, kodagu, karnataka
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ⚠ CAPTCHA detected                                                          │
+│                                                                             │
+│ URL:                                                                        │
+│ https://www.google.com/sorry/index?continue=https://www.google.com/maps/sea │
+│ rch/mobile%2Bphones%2Bin%2Bshanivarsanthhe,%2Bkodagu,%2Bkarnataka&q=EhAkAUk │
+│ Aj_xESU33LEv7Y7bDGPH079QGIjAVjYB7ryh1Vx1JaTRqTQmN6X_Sy83Bov2GdXZIjTbpPq3V26 │
+│ 0olufzOrHo1mppFMMyAnJSWgFD                                                  │
+│ Mode: HEADLESS (no window)                                                  │
+└─────────────────────────────────────────────────────────────────────────────┘
+Screenshot: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\captcha_screenshot.png
+Re-run WITHOUT HEADLESS=1 once to solve the captcha. Your profile is persistent
+— afterwards headless will work.
+!!! FAILED: shanivarsanthhe
+[9/12] makkanduru
+
+=== RUN: mobile phones in makkanduru, kodagu, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in makkanduru, kodagu, karnataka
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ⚠ CAPTCHA detected                                                          │
+│                                                                             │
+│ URL:                                                                        │
+│ https://www.google.com/sorry/index?continue=https://www.google.com/maps/sea │
+│ rch/mobile%2Bphones%2Bin%2Bmakkanduru,%2Bkodagu,%2Bkarnataka&q=EhAkAUkAj_xE │
+│ SU33LEv7Y7bDGPb079QGIjA_91w7RTD9DTco7r8nwihDb1NRKnBZA1hgXcV43yBc4bw1WLrlC5d │
+│ aHqsmJZQpwYgyAnJSWgFD                                                       │
+│ Mode: HEADLESS (no window)                                                  │
+└─────────────────────────────────────────────────────────────────────────────┘
+Screenshot: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\captcha_screenshot.png
+Re-run WITHOUT HEADLESS=1 once to solve the captcha. Your profile is persistent
+— afterwards headless will work.
+!!! FAILED: makkanduru
+[10/12] kudige
+
+=== RUN: mobile phones in kudige, kodagu, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in kudige, kodagu, karnataka
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ⚠ CAPTCHA detected                                                          │
+│                                                                             │
+│ URL:                                                                        │
+│ https://www.google.com/sorry/index?continue=https://www.google.com/maps/sea │
+│ rch/mobile%2Bphones%2Bin%2Bkudige,%2Bkodagu,%2Bkarnataka&q=EhAkAUkAj_xESU33 │
+│ LEv7Y7bDGPv079QGIjD7-_f4NpJjQa1xO7JRTu5AbD-r16Zb90uYKQ2NsppXThKVR8OrWVxeSz- │
+│ BDbomliQyAnJSWgFD                                                           │
+│ Mode: HEADLESS (no window)                                                  │
+└─────────────────────────────────────────────────────────────────────────────┘
+Screenshot: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\captcha_screenshot.png
+Re-run WITHOUT HEADLESS=1 once to solve the captcha. Your profile is persistent
+— afterwards headless will work.
+!!! FAILED: kudige
+[11/12] napkolu
+
+=== RUN: mobile phones in napkolu, kodagu, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in napkolu, kodagu, karnataka
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ⚠ CAPTCHA detected                                                          │
+│                                                                             │
+│ URL:                                                                        │
+│ https://www.google.com/sorry/index?continue=https://www.google.com/maps/sea │
+│ rch/mobile%2Bphones%2Bin%2Bnapkolu,%2Bkodagu,%2Bkarnataka&q=EhAkAUkAj_xESU3 │
+│ 3LEv7Y7bDGP_079QGIjDsupnzoGy3NeRMo4YYpPRKJ8tt0G9_tEwU_Rdg8mtWRvh1DiBPtB260C │
+│ _N0RkRE64yAnJSWgFD                                                          │
+│ Mode: HEADLESS (no window)                                                  │
+└─────────────────────────────────────────────────────────────────────────────┘
+Screenshot: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\captcha_screenshot.png
+Re-run WITHOUT HEADLESS=1 once to solve the captcha. Your profile is persistent
+— afterwards headless will work.
+!!! FAILED: napkolu
+[12/12] yemmamadu
+
+=== RUN: mobile phones in yemmamadu, kodagu, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in yemmamadu, kodagu, karnataka
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ⚠ CAPTCHA detected                                                          │
+│                                                                             │
+│ URL:                                                                        │
+│ https://www.google.com/sorry/index?continue=https://www.google.com/maps/sea │
+│ rch/mobile%2Bphones%2Bin%2Byemmamadu,%2Bkodagu,%2Bkarnataka&q=EhAkAUkAj_xES │
+│ U33LEv7Y7bDGIT179QGIjAKpY05NZa1gB-Bp9PhxG-2GC7WiSa9zxjnmJfBtpb-XHUnU28qVMLu │
+│ _jM4JaTn0kgyAnJSWgFD                                                        │
+│ Mode: HEADLESS (no window)                                                  │
+└─────────────────────────────────────────────────────────────────────────────┘
+Screenshot: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\captcha_screenshot.png
+Re-run WITHOUT HEADLESS=1 once to solve the captcha. Your profile is persistent
+— afterwards headless will work.
+!!! FAILED: yemmamadu
+
+=== MERGED: 0 unique businesses (0 with phone, 0 chain stores highlighted) -> C:\Users\Nomesh\Desktop\evaara\google_scraper\universal_kodagu_district.xlsx
+Cities that failed: kodagu city, somvarpet, krishnarajnagara, madikere, virarajanderapet, gonikoppa, kumaralli, shanivarsanthhe, makkanduru, kudige, napkolu, yemmamadu

@@ -1,0 +1,29 @@
+Traceback (most recent call last):
+  File "C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py", line 913, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py", line 857, in main
+    await ctx.close()
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\async_api\_generated.py", line 14899, in close
+    return mapping.from_maybe_impl(await self._impl_obj.close(reason=reason))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\_impl\_browser_context.py", line 551, in close
+    await self._channel.send("close", None, {"reason": reason})
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\_impl\_connection.py", line 52, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\_impl\_connection.py", line 504, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+patchright._impl._errors.TargetClosedError: BrowserContext.close: Target page, context or browser has been closed

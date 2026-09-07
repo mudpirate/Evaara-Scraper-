@@ -1,0 +1,137 @@
+chitradurga district: 19 cities, resumable per-city run.
+[1/19] chitradurga city
+
+=== RUN: mobile phones in chitradurga city, chitradurga, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in chitradurga city, chitradurga, karnataka
+✓ 36 unique places (from 37 cards)
+  R K MOBILES ---------------------------------------- 100% 0:00:37 0:00:00
+
+Total: 36 scraped → 36 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 36 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_chitradurga_parts\01_chitradurga
+_city.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_chitradurga_parts\01_chitradurga
+_city.xlsx
+✨ 8 chain-store rows highlighted green | 5 rows with NO phone highlighted 
+yellow
+[2/19] challakere
+
+=== RUN: mobile phones in challakere, chitradurga, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in challakere, chitradurga, karnataka
+✓ 86 unique places (from 92 cards)
+  B M S Communication ------------------------------------ 100% 0:01:26 0:00:00
+
+Total: 86 scraped → 86 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 86 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_chitradurga_parts\02_challakere.
+xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_chitradurga_parts\02_challakere.
+xlsx
+✨ 9 chain-store rows highlighted green | 18 rows with NO phone highlighted 
+yellow
+[3/19] molakalmuru
+
+=== RUN: mobile phones in molakalmuru, chitradurga, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in molakalmuru, chitradurga, karnataka
+✓ 16 unique places (from 16 cards)
+  Mall of mobile ---------------------------------------- 100% 0:00:31 0:00:00
+
+Total: 16 scraped → 16 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 16 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_chitradurga_parts\03_molakalmuru
+.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_chitradurga_parts\03_molakalmuru
+.xlsx
+✨ 1 chain-store rows highlighted green | 4 rows with NO phone highlighted 
+yellow
+[4/19] holalkere
+
+=== RUN: mobile phones in holalkere, chitradurga, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in holalkere, chitradurga, karnataka
+✓ 18 unique places (from 18 cards)
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ⚠ CAPTCHA detected                                                          │
+│                                                                             │
+│ URL:                                                                        │
+│ https://www.google.com/sorry/index?continue=https://www.google.com/maps/pla │
+│ ce/Poorvika%2BMobiles%2BChitradurga.%2BBuy%2BLatest%2BMobiles,%2BLaptops,%2 │
+│ BPremium%2BGadgets,%2BMobile%2BAccessories%2Betc./data%3D!4m7!3m6!1s0x3bba7 │
+│ 55ea2acf44b:0x3ddf17bcd153c126!8m2!3d14.2248961!4d76.4006676!16s%252Fg%252F │
+│ 11f60zw5qn!19sChIJS_Ssol51ujsRJsFT0bwX3z0%3Fauthuser%3D0%26hl%3Den%26g_ep%3 │
+│ DEgoyMDI2MDgyNi4wIJJjKgBIAVAD%26rclk%3D1&hl=en&q=EhAkAUkAiCiv0tnwKypph9GWGL │
+│ jy29QGIjCz33qYWj5hQUkKtoWJGjbQAor-KxfggrYP0f3t7I3HvCOG-rpK6ATgSffrN8IGh6wyA │
+│ nJSWgFD                                                                     │
+│ Mode: HEADED                                                                │
+└─────────────────────────────────────────────────────────────────────────────┘
+Solve the captcha in the visible browser. (no TTY — auto-resuming as soon as it
+clears, up to 10 min)
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ⚠ CAPTCHA detected                                                          │
+│                                                                             │
+│ URL:                                                                        │
+│ https://www.google.com/sorry/index?continue=https://www.google.com/maps/pla │
+│ ce/Smart%2BMobiles/data%3D!4m7!3m6!1s0x3bba6535f93510a9:0xd831f47559c475bf! │
+│ 8m2!3d14.0412329!4d76.1839145!16s%252Fg%252F11rd9fd4zp!19sChIJqRA1-TVlujsRv │
+│ 3XEWXX0Mdg%3Fauthuser%3D0%26hl%3Den%26g_ep%3DEgoyMDI2MDgyNi4wIJJjKgBIAVAD%2 │
+│ 6rclk%3D1&hl=en&q=EhAkAUkAiCiv0tnwKypph9GWGLny29QGIjAexAUapeTU4-JXHd3o6k8On │
+│ SLoY8tZR5iPA0bbydrbMU6FDsylGaZJ6A-Vh3F7zokyAnJSWgFD                         │
+│ Mode: HEADED                                                                │
+└─────────────────────────────────────────────────────────────────────────────┘
+Solve the captcha in the visible browser. (no TTY — auto-resuming as soon as it
+clears, up to 10 min)
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ⚠ CAPTCHA detected                                                          │
+│                                                                             │
+│ URL:                                                                        │
+│ https://www.google.com/sorry/index?continue=https://www.google.com/maps/pla │
+│ ce/Samsung%2BExperience%2BStore%2BHolakere%2BRoad/data%3D!4m7!3m6!1s0x3bba7 │
+│ 57cfad32d73:0xa93f43d6e7870e6d!8m2!3d14.2207712!4d76.3895555!16s%252Fg%252F │
+│ 11yycr27wy!19sChIJcy3T-nx1ujsRbQ6H59ZDP6k%3Fauthuser%3D0%26hl%3Den%26g_ep%3 │
+│ DEgoyMDI2MDgyNi4wIJJjKgBIAVAD%26rclk%3D1&hl=en&q=EhAkAUkAiCiv0tnwKypph9GWGL │
+│ vy29QGIjC8b7_wdco88bpqBHdCo2bEq8VNo2Q6LIrz8xEHEXqLGb2WixLpuMx8GmU6FzIXRG0yA │
+│ nJSWgFD                                                                     │
+│ Mode: HEADED                                                                │
+└─────────────────────────────────────────────────────────────────────────────┘
+Solve the captcha in the visible browser. (no TTY — auto-resuming as soon as it
+clears, up to 10 min)
+still waiting for captcha solve... (30s / 600s)
+still waiting for captcha solve... (30s / 600s)
+still waiting for captcha solve... (30s / 600s)
+still waiting for captcha solve... (60s / 600s)
+still waiting for captcha solve... (60s / 600s)
+still waiting for captcha solve... (60s / 600s)
+✓ Resuming (after 70s)
+
+still waiting for captcha solve... (90s / 600s)
+still waiting for captcha solve... (90s / 600s)
+still waiting for captcha solve... (120s / 600s)
+still waiting for captcha solve... (120s / 600s)
+still waiting for captcha solve... (150s / 600s)
+still waiting for captcha solve... (150s / 600s)
+still waiting for captcha solve... (180s / 600s)
+still waiting for captcha solve... (180s / 600s)
+still waiting for captcha solve... (210s / 600s)
+still waiting for captcha solve... (210s / 600s)
+still waiting for captcha solve... (240s / 600s)
+still waiting for captcha solve... (240s / 600s)
+still waiting for captcha solve... (270s / 600s)
+still waiting for captcha solve... (270s / 600s)
+still waiting for captcha solve... (300s / 600s)
+still waiting for captcha solve... (300s / 600s)
+!!! FAILED: holalkere
+[5/19] hiriyur
+
+=== RUN: mobile phones in hiriyur, chitradurga, karnataka

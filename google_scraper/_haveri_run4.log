@@ -1,0 +1,75 @@
+Haveri district: 40 cities, resumable per-city run.
+[1/40] SKIP havericity (already done)
+[2/40] SKIP shiggaon (already done)
+[3/40] SKIP savanur (already done)
+[4/40] SKIP byadgi (already done)
+[5/40] SKIP ranibennur (already done)
+[6/40] SKIP hirekerup (already done)
+[7/40] SKIP devagiri (already done)
+[8/40] SKIP koluru (already done)
+[9/40] SKIP karajgi (already done)
+[10/40] SKIP agadi (already done)
+[11/40] SKIP kerimattihalli (already done)
+[12/40] SKIP kabbur (already done)
+[13/40] SKIP aladkatti (already done)
+[14/40] SKIP hosalli (already done)
+[15/40] devihosur
+
+=== RUN: mobile phones in devihosur, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in devihosur, haveri, karnataka
+✓ 104 unique places (from 110 cards)
+  BASAVA MOBILES ---------------------------------------- 100% 0:02:21 0:00:00
+
+Total: 104 scraped → 104 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 104 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\15_devihosur.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\15_devihosur.xlsx
+✨ 14 chain-store rows highlighted green | 30 rows with NO phone highlighted 
+yellow
+[16/40] SKIP chinnikatti (already done)
+[17/40] SKIP masanagi (already done)
+[18/40] SKIP byadagi (already done)
+[19/40] motebennur
+
+=== RUN: mobile phones in motebennur, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in motebennur, haveri, karnataka
+✓ 67 unique places (from 72 cards)
+  Basaveshwara Comunicatin ------------------------------- 100% 0:01:12 0:00:00
+
+Total: 67 scraped → 67 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 67 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\19_motebennur.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\19_motebennur.xlsx
+✨ 13 chain-store rows highlighted green | 20 rows with NO phone highlighted 
+yellow
+[20/40] SKIP hosaritti (already done)
+[21/40] SKIP guttal (already done)
+[22/40] SKIP honnatti (already done)
+[23/40] SKIP guddaguddapur (already done)
+[24/40] SKIP chalageri (already done)
+[25/40] SKIP holalu (already done)
+[26/40] SKIP mylara (already done)
+[27/40] SKIP haunsbhavi (already done)
+[28/40] SKIP thogarsi (already done)
+[29/40] SKIP talagunda (already done)
+[30/40] SKIP siralkoppa (already done)
+[31/40] SKIP udagani (already done)
+[32/40] SKIP shikarpur (already done)
+[33/40] SKIP ambargoppa (already done)
+[34/40] SKIP masur (already done)
+[35/40] SKIP ratihalli (already done)
+[36/40] SKIP sampalli (already done)
+[37/40] SKIP sagara (already done)
+[38/40] SKIP keladi (already done)
+[39/40] SKIP banavasi (already done)
+[40/40] SKIP siddapur (already done)
+
+=== MERGED: 355 unique businesses (254 with phone, 38 chain stores highlighted) -> C:\Users\Nomesh\Desktop\evaara\google_scraper\universal_haveri_district.xlsx

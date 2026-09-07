@@ -26,7 +26,11 @@ if sys.platform == 'win32':
     os.environ.setdefault('PYTHONUTF8', '1')
 
 DISTRICT = "haveri"
-KEYWORD = "mobile phones"
+KEYWORDS = [
+    "Mobile shops",
+    "Mobile accessories",
+    "Electronics and appliances",
+]
 STATE = "karnataka"
 HERE = Path(__file__).parent
 PARTS = HERE / "_haveri_parts"
@@ -54,8 +58,11 @@ def run_city(city: str, out_file: Path) -> bool:
     env['PYTHONIOENCODING'] = 'utf-8'
     env['PYTHONUNBUFFERED'] = '1'
     place = f"{city}, {DISTRICT}, {STATE}"
-    cmd = [sys.executable, str(HERE / 'scrape.py'), KEYWORD, place, str(out_file)]
-    print(f"\n=== RUN: {KEYWORD} in {place}", flush=True)
+    kw_arg = ", ".join(KEYWORDS)
+    cmd = [sys.executable, str(HERE / 'scrape.py'), kw_arg, place, str(out_file)]
+    print(f"\n=== RUN [{city}]: {len(KEYWORDS)} keywords in {place}", flush=True)
+    for kw in KEYWORDS:
+        print(f"    - {kw} in {place}", flush=True)
     proc = subprocess.Popen(cmd, env=env, stdout=subprocess.PIPE,
                             stderr=subprocess.STDOUT, text=True,
                             encoding='utf-8', errors='replace', bufsize=1)

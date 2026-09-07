@@ -1,0 +1,25 @@
+davanagere district: 10 cities, resumable per-city run.
+[1/10] davanagere city
+
+=== RUN: mobile phones in davanagere city, davanagere, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in davanagere city, davanagere, karnataka
+✓ 92 unique places (from 94 cards)
+  Bait Road Davangere ------------------------------------ 100% 0:02:49 0:00:00
+
+Total: 92 scraped → 92 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 92 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_davanagere_parts\01_davanagere_c
+ity.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_davanagere_parts\01_davanagere_c
+ity.xlsx
+✨ 21 chain-store rows highlighted green | 14 rows with NO phone highlighted 
+yellow
+[2/10] harihar
+
+=== RUN: mobile phones in harihar, davanagere, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in harihar, davanagere, karnataka
+✓ 57 unique places (from 58 cards)

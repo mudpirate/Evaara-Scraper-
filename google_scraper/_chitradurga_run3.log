@@ -1,0 +1,415 @@
+chitradurga district: 19 cities, resumable per-city run.
+[1/19] SKIP chitradurga city (already done)
+[2/19] SKIP challakere (already done)
+[3/19] SKIP molakalmuru (already done)
+[4/19] SKIP holalkere (already done)
+[5/19] SKIP hiriyur (already done)
+[6/19] SKIP hosdurga (already done)
+[7/19] SKIP pavagada (already done)
+[8/19] SKIP kalledevarapura (already done)
+[9/19] SKIP nayakanahatti (already done)
+[10/19] SKIP thalaku (already done)
+[11/19] SKIP holalkere rural (already done)
+[12/19] SKIP ramagiri (already done)
+[13/19] chikkajajur
+
+=== RUN: mobile phones in chikkajajur, chitradurga, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+Traceback (most recent call last):
+  File "C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py", line 913, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py", line 829, in main
+    ctx = await p.chromium.launch_persistent_context(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\async_api\_generated.py", line 16518, in launch_persistent_context
+    await self._impl_obj.launch_persistent_context(
+    ...<52 lines>...
+    )
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\_impl\_browser_type.py", line 152, in launch_persistent_context
+    result = await self._channel.send_return_as_dict(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        "launchPersistentContext", TimeoutSettings.launch_timeout, params
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\_impl\_connection.py", line 66, in send_return_as_dict
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\_impl\_connection.py", line 504, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+patchright._impl._errors.Error: BrowserType.launch_persistent_context: Opening in existing browser session. This usually means that the profile is already in use by another instance of Chromium.
+Call log:
+  - <launching> C:\Users\Nomesh\AppData\Local\ms-playwright\chromium-1228\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-breakpad --no-default-browser-check --disable-dev-shm-usage --disable-edgeupdater --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --disable-hang-monitor --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --disable-blink-features=AutomationControlled --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=C:\Users\Nomesh\.cache\maps-scraper\profile --remote-debugging-pipe about:blank
+  - <launched> pid=14768
+  - [pid=14768][out] Opening in existing browser session.
+  - [pid=14768] <gracefully close start>
+  - [pid=14768] <kill>
+  - [pid=14768] <will force kill>
+  - [pid=14768] taskkill stderr: ERROR: The process "14768" not found.
+  - [pid=14768] <process did exit: exitCode=0, signal=null>
+  - [pid=14768] starting temporary directories cleanup
+  - [pid=14768] finished temporary directories cleanup
+  - [pid=14768] <gracefully close end>
+
+!!! FAILED: chikkajajur
+[14/19] huliyar aminkere
+
+=== RUN: mobile phones in huliyar aminkere, chitradurga, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+Traceback (most recent call last):
+  File "C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py", line 913, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py", line 829, in main
+    ctx = await p.chromium.launch_persistent_context(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\async_api\_generated.py", line 16518, in launch_persistent_context
+    await self._impl_obj.launch_persistent_context(
+    ...<52 lines>...
+    )
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\_impl\_browser_type.py", line 152, in launch_persistent_context
+    result = await self._channel.send_return_as_dict(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        "launchPersistentContext", TimeoutSettings.launch_timeout, params
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\_impl\_connection.py", line 66, in send_return_as_dict
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\_impl\_connection.py", line 504, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+patchright._impl._errors.Error: BrowserType.launch_persistent_context: Opening in existing browser session. This usually means that the profile is already in use by another instance of Chromium.
+Call log:
+  - <launching> C:\Users\Nomesh\AppData\Local\ms-playwright\chromium-1228\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-breakpad --no-default-browser-check --disable-dev-shm-usage --disable-edgeupdater --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --disable-hang-monitor --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --disable-blink-features=AutomationControlled --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=C:\Users\Nomesh\.cache\maps-scraper\profile --remote-debugging-pipe about:blank
+  - <launched> pid=4140
+  - [pid=4140][out] Opening in existing browser session.
+  - [pid=4140] <gracefully close start>
+  - [pid=4140] <kill>
+  - [pid=4140] <will force kill>
+  - [pid=4140] taskkill stderr: ERROR: The process "4140" not found.
+  - [pid=4140] <process did exit: exitCode=0, signal=null>
+  - [pid=4140] starting temporary directories cleanup
+  - [pid=4140] finished temporary directories cleanup
+  - [pid=4140] <gracefully close end>
+
+!!! FAILED: huliyar aminkere
+[15/19] sira
+
+=== RUN: mobile phones in sira, chitradurga, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+Traceback (most recent call last):
+  File "C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py", line 913, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py", line 829, in main
+    ctx = await p.chromium.launch_persistent_context(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\async_api\_generated.py", line 16518, in launch_persistent_context
+    await self._impl_obj.launch_persistent_context(
+    ...<52 lines>...
+    )
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\_impl\_browser_type.py", line 152, in launch_persistent_context
+    result = await self._channel.send_return_as_dict(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        "launchPersistentContext", TimeoutSettings.launch_timeout, params
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\_impl\_connection.py", line 66, in send_return_as_dict
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\_impl\_connection.py", line 504, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+patchright._impl._errors.Error: BrowserType.launch_persistent_context: Opening in existing browser session. This usually means that the profile is already in use by another instance of Chromium.
+Call log:
+  - <launching> C:\Users\Nomesh\AppData\Local\ms-playwright\chromium-1228\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-breakpad --no-default-browser-check --disable-dev-shm-usage --disable-edgeupdater --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --disable-hang-monitor --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --disable-blink-features=AutomationControlled --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=C:\Users\Nomesh\.cache\maps-scraper\profile --remote-debugging-pipe about:blank
+  - <launched> pid=17556
+  - [pid=17556][out] Opening in existing browser session.
+  - [pid=17556] <gracefully close start>
+  - [pid=17556] <kill>
+  - [pid=17556] <will force kill>
+  - [pid=17556] taskkill stderr: ERROR: The process "17556" not found.
+  - [pid=17556] <process did exit: exitCode=0, signal=null>
+  - [pid=17556] starting temporary directories cleanup
+  - [pid=17556] finished temporary directories cleanup
+  - [pid=17556] <gracefully close end>
+
+!!! FAILED: sira
+[16/19] chellur
+
+=== RUN: mobile phones in chellur, chitradurga, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+Traceback (most recent call last):
+  File "C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py", line 913, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py", line 829, in main
+    ctx = await p.chromium.launch_persistent_context(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\async_api\_generated.py", line 16518, in launch_persistent_context
+    await self._impl_obj.launch_persistent_context(
+    ...<52 lines>...
+    )
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\_impl\_browser_type.py", line 152, in launch_persistent_context
+    result = await self._channel.send_return_as_dict(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        "launchPersistentContext", TimeoutSettings.launch_timeout, params
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\_impl\_connection.py", line 66, in send_return_as_dict
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\_impl\_connection.py", line 504, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+patchright._impl._errors.Error: BrowserType.launch_persistent_context: Opening in existing browser session. This usually means that the profile is already in use by another instance of Chromium.
+Call log:
+  - <launching> C:\Users\Nomesh\AppData\Local\ms-playwright\chromium-1228\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-breakpad --no-default-browser-check --disable-dev-shm-usage --disable-edgeupdater --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --disable-hang-monitor --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --disable-blink-features=AutomationControlled --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=C:\Users\Nomesh\.cache\maps-scraper\profile --remote-debugging-pipe about:blank
+  - <launched> pid=2788
+  - [pid=2788][out] Opening in existing browser session.
+  - [pid=2788] <gracefully close start>
+  - [pid=2788] <kill>
+  - [pid=2788] <will force kill>
+  - [pid=2788] taskkill stderr: ERROR: The process "2788" not found.
+  - [pid=2788] <process did exit: exitCode=0, signal=null>
+  - [pid=2788] starting temporary directories cleanup
+  - [pid=2788] finished temporary directories cleanup
+  - [pid=2788] <gracefully close end>
+
+!!! FAILED: chellur
+[17/19] gubbi
+
+=== RUN: mobile phones in gubbi, chitradurga, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+Traceback (most recent call last):
+  File "C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py", line 913, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py", line 829, in main
+    ctx = await p.chromium.launch_persistent_context(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\async_api\_generated.py", line 16518, in launch_persistent_context
+    await self._impl_obj.launch_persistent_context(
+    ...<52 lines>...
+    )
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\_impl\_browser_type.py", line 152, in launch_persistent_context
+    result = await self._channel.send_return_as_dict(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        "launchPersistentContext", TimeoutSettings.launch_timeout, params
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\_impl\_connection.py", line 66, in send_return_as_dict
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\_impl\_connection.py", line 504, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+patchright._impl._errors.Error: BrowserType.launch_persistent_context: Opening in existing browser session. This usually means that the profile is already in use by another instance of Chromium.
+Call log:
+  - <launching> C:\Users\Nomesh\AppData\Local\ms-playwright\chromium-1228\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-breakpad --no-default-browser-check --disable-dev-shm-usage --disable-edgeupdater --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --disable-hang-monitor --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --disable-blink-features=AutomationControlled --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=C:\Users\Nomesh\.cache\maps-scraper\profile --remote-debugging-pipe about:blank
+  - <launched> pid=17012
+  - [pid=17012][out] Opening in existing browser session.
+  - [pid=17012] <gracefully close start>
+  - [pid=17012] <kill>
+  - [pid=17012] <will force kill>
+  - [pid=17012] taskkill stderr: ERROR: The process "17012" not found.
+  - [pid=17012] <process did exit: exitCode=0, signal=null>
+  - [pid=17012] starting temporary directories cleanup
+  - [pid=17012] finished temporary directories cleanup
+  - [pid=17012] <gracefully close end>
+
+!!! FAILED: gubbi
+[18/19] tiptur
+
+=== RUN: mobile phones in tiptur, chitradurga, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+Traceback (most recent call last):
+  File "C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py", line 913, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py", line 829, in main
+    ctx = await p.chromium.launch_persistent_context(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\async_api\_generated.py", line 16518, in launch_persistent_context
+    await self._impl_obj.launch_persistent_context(
+    ...<52 lines>...
+    )
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\_impl\_browser_type.py", line 152, in launch_persistent_context
+    result = await self._channel.send_return_as_dict(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        "launchPersistentContext", TimeoutSettings.launch_timeout, params
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\_impl\_connection.py", line 66, in send_return_as_dict
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\_impl\_connection.py", line 504, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+patchright._impl._errors.Error: BrowserType.launch_persistent_context: Opening in existing browser session. This usually means that the profile is already in use by another instance of Chromium.
+Call log:
+  - <launching> C:\Users\Nomesh\AppData\Local\ms-playwright\chromium-1228\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-breakpad --no-default-browser-check --disable-dev-shm-usage --disable-edgeupdater --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --disable-hang-monitor --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --disable-blink-features=AutomationControlled --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=C:\Users\Nomesh\.cache\maps-scraper\profile --remote-debugging-pipe about:blank
+  - <launched> pid=2188
+  - [pid=2188][out] Opening in existing browser session.
+  - [pid=2188] <gracefully close start>
+  - [pid=2188] <kill>
+  - [pid=2188] <will force kill>
+  - [pid=2188] taskkill stderr: ERROR: The process "2188" not found.
+  - [pid=2188] <process did exit: exitCode=0, signal=null>
+  - [pid=2188] starting temporary directories cleanup
+  - [pid=2188] finished temporary directories cleanup
+  - [pid=2188] <gracefully close end>
+
+!!! FAILED: tiptur
+[19/19] channarayapatna
+
+=== RUN: mobile phones in channarayapatna, chitradurga, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+Traceback (most recent call last):
+  File "C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py", line 913, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\Nomesh\Desktop\evaara\google_scraper\scrape.py", line 829, in main
+    ctx = await p.chromium.launch_persistent_context(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\async_api\_generated.py", line 16518, in launch_persistent_context
+    await self._impl_obj.launch_persistent_context(
+    ...<52 lines>...
+    )
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\_impl\_browser_type.py", line 152, in launch_persistent_context
+    result = await self._channel.send_return_as_dict(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        "launchPersistentContext", TimeoutSettings.launch_timeout, params
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\_impl\_connection.py", line 66, in send_return_as_dict
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Nomesh\AppData\Roaming\Python\Python313\site-packages\patchright\_impl\_connection.py", line 504, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+patchright._impl._errors.Error: BrowserType.launch_persistent_context: Opening in existing browser session. This usually means that the profile is already in use by another instance of Chromium.
+Call log:
+  - <launching> C:\Users\Nomesh\AppData\Local\ms-playwright\chromium-1228\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-breakpad --no-default-browser-check --disable-dev-shm-usage --disable-edgeupdater --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --disable-hang-monitor --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --disable-blink-features=AutomationControlled --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=C:\Users\Nomesh\.cache\maps-scraper\profile --remote-debugging-pipe about:blank
+  - <launched> pid=15912
+  - [pid=15912][out] Opening in existing browser session.
+  - [pid=15912] <gracefully close start>
+  - [pid=15912] <kill>
+  - [pid=15912] <will force kill>
+  - [pid=15912] taskkill stderr: ERROR: The process "15912" not found.
+  - [pid=15912] <process did exit: exitCode=0, signal=null>
+  - [pid=15912] starting temporary directories cleanup
+  - [pid=15912] finished temporary directories cleanup
+  - [pid=15912] <gracefully close end>
+
+!!! FAILED: channarayapatna
+
+=== MERGED: 187 unique businesses (143 with phone, 23 chain stores highlighted) -> C:\Users\Nomesh\Desktop\evaara\google_scraper\universal_chitradurga_district.xlsx
+Cities that failed: chikkajajur, huliyar aminkere, sira, chellur, gubbi, tiptur, channarayapatna

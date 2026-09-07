@@ -1,0 +1,513 @@
+[_vijaypur_groupB] 17 cities x 15 keywords = 255 queries. Parts: C:\Users\Nomesh\Desktop\evaara\google_scraper\_vijaypur_parts
+[_vijaypur_groupB] [1/17] bijjargi
+
+[_vijaypur_groupB] === RUN [bijjargi]: 15 keywords in bijjargi, vijaypur, karnataka
+[_vijaypur_groupB] profile: C:\Users\Nomesh\.cache\maps-scraper\profile-vj2
+[_vijaypur_groupB] → Mobile shop in bijjargi, vijaypur, karnataka
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ┌─────────────────────────────────────────────────────────────────────────────┐
+[_vijaypur_groupB] │ ⚠ CAPTCHA detected                                                          │
+[_vijaypur_groupB] │                                                                             │
+[_vijaypur_groupB] │ URL:                                                                        │
+[_vijaypur_groupB] │ https://www.google.com/sorry/index?continue=https://www.google.com/maps/sea │
+[_vijaypur_groupB] │ rch/Mobile%2Bshop%2Bin%2Bbijjargi,%2Bvijaypur,%2Bkarnataka&q=EhAkCUDgEB7RHT │
+[_vijaypur_groupB] │ A1XIIz6C2GGOq69dQGIjC9Pz2VJ2QI8ADm3yDQClxSJXreRIOPyQo16wpA3Z0_DyoUVrwVZFdUL │
+[_vijaypur_groupB] │ a71Aah79u0yAnJSWgFD                                                         │
+[_vijaypur_groupB] │ Mode: HEADED                                                                │
+[_vijaypur_groupB] └─────────────────────────────────────────────────────────────────────────────┘
+[_vijaypur_groupB] Solve the captcha in the visible browser, then press ENTER here (or just solve 
+[_vijaypur_groupB] it — the script auto-detects either way).
+[_vijaypur_groupB] ✓ Resuming (after 10s)
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ✓ 38 unique places (from 40 cards)
+[_vijaypur_groupB]   JioMart Digital: Shri Ganesh Enterpris ----------------- 100% 0:00:56 0:00:00
+[_vijaypur_groupB] → Cell phone store in bijjargi, vijaypur, karnataka
+[_vijaypur_groupB] ✓ 82 unique places (from 85 cards)
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupB] Call log:
+[_vijaypur_groupB]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ⠋ Cashify Mobile Phone Store & Repair Sh ---------------    91% 0:15:45 0:00:02
+[_vijaypur_groupB] ✗ Cell phone store in bijjargi, vijaypur, karnataka: Page.wait_for_timeout: 
+[_vijaypur_groupB] Target page, context or browser has been closed
+[_vijaypur_groupB] → Smartphone retailer in bijjargi, vijaypur, karnataka
+[_vijaypur_groupB] ✗ Smartphone retailer in bijjargi, vijaypur, karnataka: Page.goto: Target page,
+[_vijaypur_groupB] context or browser has been closed
+[_vijaypur_groupB] → Mobile phone dealer in bijjargi, vijaypur, karnataka
+[_vijaypur_groupB] ✗ Mobile phone dealer in bijjargi, vijaypur, karnataka: Page.goto: Target page,
+[_vijaypur_groupB] context or browser has been closed
+[_vijaypur_groupB] → Mobile showroom in bijjargi, vijaypur, karnataka
+[_vijaypur_groupB] ✗ Mobile showroom in bijjargi, vijaypur, karnataka: Page.goto: Target page, 
+[_vijaypur_groupB] context or browser has been closed
+[_vijaypur_groupB] → Mobile accessories shop in bijjargi, vijaypur, karnataka
+[_vijaypur_groupB] ✗ Mobile accessories shop in bijjargi, vijaypur, karnataka: Page.goto: Target 
+[_vijaypur_groupB] page, context or browser has been closed
+[_vijaypur_groupB] → Smartphone accessories dealer in bijjargi, vijaypur, karnataka
+[_vijaypur_groupB] ✗ Smartphone accessories dealer in bijjargi, vijaypur, karnataka: Page.goto: 
+[_vijaypur_groupB] Target page, context or browser has been closed
+[_vijaypur_groupB] → Used mobile shop in bijjargi, vijaypur, karnataka
+[_vijaypur_groupB] ✗ Used mobile shop in bijjargi, vijaypur, karnataka: Page.goto: Target page, 
+[_vijaypur_groupB] context or browser has been closed
+[_vijaypur_groupB] → Second-hand phone store in bijjargi, vijaypur, karnataka
+[_vijaypur_groupB] ✗ Second-hand phone store in bijjargi, vijaypur, karnataka: Page.goto: Target 
+[_vijaypur_groupB] page, context or browser has been closed
+[_vijaypur_groupB] → Buy and sell cell phones in bijjargi, vijaypur, karnataka
+[_vijaypur_groupB] ✗ Buy and sell cell phones in bijjargi, vijaypur, karnataka: Page.goto: Target 
+[_vijaypur_groupB] page, context or browser has been closed
+[_vijaypur_groupB] → Electronics showroom in bijjargi, vijaypur, karnataka
+[_vijaypur_groupB] ✗ Electronics showroom in bijjargi, vijaypur, karnataka: Page.goto: Target 
+[_vijaypur_groupB] page, context or browser has been closed
+[_vijaypur_groupB] → Consumer electronics retailer in bijjargi, vijaypur, karnataka
+[_vijaypur_groupB] ✗ Consumer electronics retailer in bijjargi, vijaypur, karnataka: Page.goto: 
+[_vijaypur_groupB] Target page, context or browser has been closed
+[_vijaypur_groupB] → Electronics store and home appliances in bijjargi, vijaypur, karnataka
+[_vijaypur_groupB] ✗ Electronics store and home appliances in bijjargi, vijaypur, karnataka: 
+[_vijaypur_groupB] Page.goto: Target page, context or browser has been closed
+[_vijaypur_groupB] → Smart home appliances shop in bijjargi, vijaypur, karnataka
+[_vijaypur_groupB] ✗ Smart home appliances shop in bijjargi, vijaypur, karnataka: Page.goto: 
+[_vijaypur_groupB] Target page, context or browser has been closed
+[_vijaypur_groupB] → Electronics and smartphone shops in bijjargi, vijaypur, karnataka
+[_vijaypur_groupB] ✗ Electronics and smartphone shops in bijjargi, vijaypur, karnataka: Page.goto:
+[_vijaypur_groupB] Target page, context or browser has been closed
+[_vijaypur_groupB] 
+[_vijaypur_groupB] Total: 38 scraped → 38 unique (0 dupes removed)
+[_vijaypur_groupB] KEEP_ALL=1 → category filter disabled
+[_vijaypur_groupB] ✓ saved 38 → 
+[_vijaypur_groupB] C:\Users\Nomesh\Desktop\evaara\google_scraper\_vijaypur_parts\bijjargi.xlsx 
+[_vijaypur_groupB] (shops)
+[_vijaypur_groupB] FILE_PATH: 
+[_vijaypur_groupB] C:\Users\Nomesh\Desktop\evaara\google_scraper\_vijaypur_parts\bijjargi.xlsx
+[_vijaypur_groupB] ✨ 7 chain-store rows highlighted green | 4 rows with NO phone highlighted 
+[_vijaypur_groupB] yellow
+[_vijaypur_groupB] [2/17] mangoli
+
+[_vijaypur_groupB] === RUN [mangoli]: 15 keywords in mangoli, vijaypur, karnataka
+[_vijaypur_groupB] profile: C:\Users\Nomesh\.cache\maps-scraper\profile-vj2
+[_vijaypur_groupB] ┌─────────────────────────────────────────────────────────────────────────────┐
+[_vijaypur_groupB] │ Browser network/DNS failure                                                 │
+[_vijaypur_groupB] │ Chromium could not resolve or reach Google Maps. This is not a              │
+[_vijaypur_groupB] │ keyword/filter issue.                                                       │
+[_vijaypur_groupB] │                                                                             │
+[_vijaypur_groupB] │ Try these on Windows:                                                       │
+[_vijaypur_groupB] │ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+[_vijaypur_groupB] │ 2. Run: ipconfig /flushdns                                                  │
+[_vijaypur_groupB] │ 3. Run: nslookup www.google.com                                             │
+[_vijaypur_groupB] │ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+[_vijaypur_groupB] │ 5. Use Visible mode once to confirm the browser itself can load Google      │
+[_vijaypur_groupB] │ Maps.                                                                       │
+[_vijaypur_groupB] │                                                                             │
+[_vijaypur_groupB] │ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+[_vijaypur_groupB] │ Call log:                                                                   │
+[_vijaypur_groupB] │   - navigating to "https://www.google.com/", waiting until "commit"         │
+[_vijaypur_groupB] │                                                                             │
+[_vijaypur_groupB] └─────────────────────────────────────────────────────────────────────────────┘
+[_vijaypur_groupB] !!! FAILED: mangoli
+[_vijaypur_groupB] [3/17] toravi
+
+[_vijaypur_groupB] === RUN [toravi]: 15 keywords in toravi, vijaypur, karnataka
+[_vijaypur_groupB] profile: C:\Users\Nomesh\.cache\maps-scraper\profile-vj2
+[_vijaypur_groupB] ┌─────────────────────────────────────────────────────────────────────────────┐
+[_vijaypur_groupB] │ Browser network/DNS failure                                                 │
+[_vijaypur_groupB] │ Chromium could not resolve or reach Google Maps. This is not a              │
+[_vijaypur_groupB] │ keyword/filter issue.                                                       │
+[_vijaypur_groupB] │                                                                             │
+[_vijaypur_groupB] │ Try these on Windows:                                                       │
+[_vijaypur_groupB] │ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+[_vijaypur_groupB] │ 2. Run: ipconfig /flushdns                                                  │
+[_vijaypur_groupB] │ 3. Run: nslookup www.google.com                                             │
+[_vijaypur_groupB] │ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+[_vijaypur_groupB] │ 5. Use Visible mode once to confirm the browser itself can load Google      │
+[_vijaypur_groupB] │ Maps.                                                                       │
+[_vijaypur_groupB] │                                                                             │
+[_vijaypur_groupB] │ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+[_vijaypur_groupB] │ Call log:                                                                   │
+[_vijaypur_groupB] │   - navigating to "https://www.google.com/", waiting until "commit"         │
+[_vijaypur_groupB] │                                                                             │
+[_vijaypur_groupB] └─────────────────────────────────────────────────────────────────────────────┘
+[_vijaypur_groupB] !!! FAILED: toravi
+[_vijaypur_groupB] [4/17] tikota
+
+[_vijaypur_groupB] === RUN [tikota]: 15 keywords in tikota, vijaypur, karnataka
+[_vijaypur_groupB] profile: C:\Users\Nomesh\.cache\maps-scraper\profile-vj2
+[_vijaypur_groupB] ┌─────────────────────────────────────────────────────────────────────────────┐
+[_vijaypur_groupB] │ Browser network/DNS failure                                                 │
+[_vijaypur_groupB] │ Chromium could not resolve or reach Google Maps. This is not a              │
+[_vijaypur_groupB] │ keyword/filter issue.                                                       │
+[_vijaypur_groupB] │                                                                             │
+[_vijaypur_groupB] │ Try these on Windows:                                                       │
+[_vijaypur_groupB] │ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+[_vijaypur_groupB] │ 2. Run: ipconfig /flushdns                                                  │
+[_vijaypur_groupB] │ 3. Run: nslookup www.google.com                                             │
+[_vijaypur_groupB] │ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+[_vijaypur_groupB] │ 5. Use Visible mode once to confirm the browser itself can load Google      │
+[_vijaypur_groupB] │ Maps.                                                                       │
+[_vijaypur_groupB] │                                                                             │
+[_vijaypur_groupB] │ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+[_vijaypur_groupB] │ Call log:                                                                   │
+[_vijaypur_groupB] │   - navigating to "https://www.google.com/", waiting until "commit"         │
+[_vijaypur_groupB] │                                                                             │
+[_vijaypur_groupB] └─────────────────────────────────────────────────────────────────────────────┘
+[_vijaypur_groupB] !!! FAILED: tikota
+[_vijaypur_groupB] [5/17] arakeri
+
+[_vijaypur_groupB] === RUN [arakeri]: 15 keywords in arakeri, vijaypur, karnataka
+[_vijaypur_groupB] profile: C:\Users\Nomesh\.cache\maps-scraper\profile-vj2
+[_vijaypur_groupB] ┌─────────────────────────────────────────────────────────────────────────────┐
+[_vijaypur_groupB] │ Browser network/DNS failure                                                 │
+[_vijaypur_groupB] │ Chromium could not resolve or reach Google Maps. This is not a              │
+[_vijaypur_groupB] │ keyword/filter issue.                                                       │
+[_vijaypur_groupB] │                                                                             │
+[_vijaypur_groupB] │ Try these on Windows:                                                       │
+[_vijaypur_groupB] │ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+[_vijaypur_groupB] │ 2. Run: ipconfig /flushdns                                                  │
+[_vijaypur_groupB] │ 3. Run: nslookup www.google.com                                             │
+[_vijaypur_groupB] │ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+[_vijaypur_groupB] │ 5. Use Visible mode once to confirm the browser itself can load Google      │
+[_vijaypur_groupB] │ Maps.                                                                       │
+[_vijaypur_groupB] │                                                                             │
+[_vijaypur_groupB] │ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+[_vijaypur_groupB] │ Call log:                                                                   │
+[_vijaypur_groupB] │   - navigating to "https://www.google.com/", waiting until "commit"         │
+[_vijaypur_groupB] │                                                                             │
+[_vijaypur_groupB] └─────────────────────────────────────────────────────────────────────────────┘
+[_vijaypur_groupB] !!! FAILED: arakeri
+[_vijaypur_groupB] [6/17] tidagundi
+
+[_vijaypur_groupB] === RUN [tidagundi]: 15 keywords in tidagundi, vijaypur, karnataka
+[_vijaypur_groupB] profile: C:\Users\Nomesh\.cache\maps-scraper\profile-vj2
+[_vijaypur_groupB] ┌─────────────────────────────────────────────────────────────────────────────┐
+[_vijaypur_groupB] │ Browser network/DNS failure                                                 │
+[_vijaypur_groupB] │ Chromium could not resolve or reach Google Maps. This is not a              │
+[_vijaypur_groupB] │ keyword/filter issue.                                                       │
+[_vijaypur_groupB] │                                                                             │
+[_vijaypur_groupB] │ Try these on Windows:                                                       │
+[_vijaypur_groupB] │ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+[_vijaypur_groupB] │ 2. Run: ipconfig /flushdns                                                  │
+[_vijaypur_groupB] │ 3. Run: nslookup www.google.com                                             │
+[_vijaypur_groupB] │ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+[_vijaypur_groupB] │ 5. Use Visible mode once to confirm the browser itself can load Google      │
+[_vijaypur_groupB] │ Maps.                                                                       │
+[_vijaypur_groupB] │                                                                             │
+[_vijaypur_groupB] │ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+[_vijaypur_groupB] │ Call log:                                                                   │
+[_vijaypur_groupB] │   - navigating to "https://www.google.com/", waiting until "commit"         │
+[_vijaypur_groupB] │                                                                             │
+[_vijaypur_groupB] └─────────────────────────────────────────────────────────────────────────────┘
+[_vijaypur_groupB] !!! FAILED: tidagundi
+[_vijaypur_groupB] [7/17] babagnagar
+
+[_vijaypur_groupB] === RUN [babagnagar]: 15 keywords in babagnagar, vijaypur, karnataka
+[_vijaypur_groupB] profile: C:\Users\Nomesh\.cache\maps-scraper\profile-vj2
+[_vijaypur_groupB] ┌─────────────────────────────────────────────────────────────────────────────┐
+[_vijaypur_groupB] │ Browser network/DNS failure                                                 │
+[_vijaypur_groupB] │ Chromium could not resolve or reach Google Maps. This is not a              │
+[_vijaypur_groupB] │ keyword/filter issue.                                                       │
+[_vijaypur_groupB] │                                                                             │
+[_vijaypur_groupB] │ Try these on Windows:                                                       │
+[_vijaypur_groupB] │ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+[_vijaypur_groupB] │ 2. Run: ipconfig /flushdns                                                  │
+[_vijaypur_groupB] │ 3. Run: nslookup www.google.com                                             │
+[_vijaypur_groupB] │ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+[_vijaypur_groupB] │ 5. Use Visible mode once to confirm the browser itself can load Google      │
+[_vijaypur_groupB] │ Maps.                                                                       │
+[_vijaypur_groupB] │                                                                             │
+[_vijaypur_groupB] │ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+[_vijaypur_groupB] │ Call log:                                                                   │
+[_vijaypur_groupB] │   - navigating to "https://www.google.com/", waiting until "commit"         │
+[_vijaypur_groupB] │                                                                             │
+[_vijaypur_groupB] └─────────────────────────────────────────────────────────────────────────────┘
+[_vijaypur_groupB] !!! FAILED: babagnagar
+[_vijaypur_groupB] [8/17] honwad
+
+[_vijaypur_groupB] === RUN [honwad]: 15 keywords in honwad, vijaypur, karnataka
+[_vijaypur_groupB] profile: C:\Users\Nomesh\.cache\maps-scraper\profile-vj2
+[_vijaypur_groupB] → Mobile shop in honwad, vijaypur, karnataka
+[_vijaypur_groupB] 
+[_vijaypur_groupB] ┌─────────────────────────────────────────────────────────────────────────────┐
+[_vijaypur_groupB] │ ⚠ CAPTCHA detected                                                          │
+[_vijaypur_groupB] │                                                                             │
+[_vijaypur_groupB] │ URL:                                                                        │
+[_vijaypur_groupB] │ https://www.google.com/sorry/index?continue=https://www.google.com/maps/sea │
+[_vijaypur_groupB] │ rch/Mobile%2Bshop%2Bin%2Bhonwad,%2Bvijaypur,%2Bkarnataka&q=EhAkAUkAj_5LUeSV │
+[_vijaypur_groupB] │ reMzrneHGLDD9dQGIjBozz5TlLu23fwqhWDQ-NwcVRk8ddd_D2ZoqdKN0exhrj2kmlIyLO6mL6_ │
+[_vijaypur_groupB] │ Lw0kS2RoyAnJSWgFD                                                           │
+[_vijaypur_groupB] │ Mode: HEADED                                                                │
+[_vijaypur_groupB] └─────────────────────────────────────────────────────────────────────────────┘
+[_vijaypur_groupB] Solve the captcha in the visible browser, then press ENTER here (or just solve 
+[_vijaypur_groupB] it — the script auto-detects either way).

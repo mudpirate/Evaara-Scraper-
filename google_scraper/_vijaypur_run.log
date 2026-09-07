@@ -1,0 +1,279 @@
+Vijayapura (vijaypur) district: 38 cities x 15 keywords = 570 queries.
+Parts dir: C:\Users\Nomesh\Desktop\evaara\google_scraper\_vijaypur_parts
+Final output (ONE Excel): C:\Users\Nomesh\Desktop\evaara\google_scraper\vijaypura_all_keywords_all_cities.xlsx
+[1/38] vijaypura city
+
+=== RUN [vijaypura city]: 15 keywords in vijaypura city, vijaypur, karnataka
+    - Mobile shop in vijaypura city, vijaypur, karnataka
+    - Cell phone store in vijaypura city, vijaypur, karnataka
+    - Smartphone retailer in vijaypura city, vijaypur, karnataka
+    - Mobile phone dealer in vijaypura city, vijaypur, karnataka
+    - Mobile showroom in vijaypura city, vijaypur, karnataka
+    - Mobile accessories shop in vijaypura city, vijaypur, karnataka
+    - Smartphone accessories dealer in vijaypura city, vijaypur, karnataka
+    - Used mobile shop in vijaypura city, vijaypur, karnataka
+    - Second-hand phone store in vijaypura city, vijaypur, karnataka
+    - Buy and sell cell phones in vijaypura city, vijaypur, karnataka
+    - Electronics showroom in vijaypura city, vijaypur, karnataka
+    - Consumer electronics retailer in vijaypura city, vijaypur, karnataka
+    - Electronics store and home appliances in vijaypura city, vijaypur, karnataka
+    - Smart home appliances shop in vijaypura city, vijaypur, karnataka
+    - Electronics and smartphone shops in vijaypura city, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile shop in vijaypura city, vijaypur, karnataka
+✓ 78 unique places (from 81 cards)
+  HABEEB MOBILE SHOP ------------------------------------- 100% 0:01:06 0:00:00
+→ Cell phone store in vijaypura city, vijaypur, karnataka
+✓ 92 unique places (from 92 cards)
+  Sony Center Vijayapura --------------------------------- 100% 0:01:47 0:00:00
+→ Smartphone retailer in vijaypura city, vijaypur, karnataka
+✓ 83 unique places (from 84 cards)
+  HABEEB MOBILE SHOP ------------------------------------- 100% 0:01:35 0:00:00
+→ Mobile phone dealer in vijaypura city, vijaypur, karnataka
+✓ 113 unique places (from 120 cards)
+  Shree Ganesh Electronics ------------------------------- 100% 0:02:20 0:00:00
+→ Mobile showroom in vijaypura city, vijaypur, karnataka
+✓ 90 unique places (from 91 cards)
+  UNIVERSAL MOBILE SHOPPE -------------------------------- 100% 0:01:51 0:00:00
+→ Mobile accessories shop in vijaypura city, vijaypur, karnataka
+✓ 94 unique places (from 95 cards)
+  TAJ Shahid ---------------------------------------- 100% 0:02:00 0:00:00
+→ Smartphone accessories dealer in vijaypura city, vijaypur, karnataka
+✓ 103 unique places (from 106 cards)
+  Al-Falah Communication --------------------------------- 100% 0:02:24 0:00:00
+→ Used mobile shop in vijaypura city, vijaypur, karnataka
+✓ 30 unique places (from 31 cards)
+  S - Yes Mobile ---------------------------------------- 100% 0:00:44 0:00:00
+→ Second-hand phone store in vijaypura city, vijaypur, karnataka
+✓ 12 unique places (from 12 cards)
+  Manmandir Mobiles -------------------------------------- 100% 0:00:14 0:00:00
+→ Buy and sell cell phones in vijaypura city, vijaypur, karnataka
+✓ 72 unique places (from 73 cards)
+  Poorvika Mobiles Bagalkote ----------------------------- 100% 0:01:49 0:00:00
+→ Electronics showroom in vijaypura city, vijaypur, karnataka
+✓ 107 unique places (from 108 cards)
+  Toufiq Wark Shop Tanveer ------------------------------- 100% 0:02:48 0:00:00
+→ Consumer electronics retailer in vijaypura city, vijaypur, karnataka
+✓ 81 unique places (from 82 cards)
+  AMARESH ELECTRONICS ------------------------------------ 100% 0:02:39 0:00:00
+→ Electronics store and home appliances in vijaypura city, vijaypur, karnataka
+✓ 65 unique places (from 68 cards)
+  Shoaib muttagi gift shop repair center ----------------- 100% 0:02:01 0:00:00
+→ Smart home appliances shop in vijaypura city, vijaypur, karnataka
+✓ 28 unique places (from 29 cards)
+  SAI HOME APPLIANCES ------------------------------------ 100% 0:00:57 0:00:00
+→ Electronics and smartphone shops in vijaypura city, vijaypur, karnataka
+✓ 57 unique places (from 58 cards)
+  Star Cool Refrigeration -------------------------------- 100% 0:01:53 0:00:00
+
+Total: 1105 scraped → 442 unique (663 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 442 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_vijaypur_parts\01_vijaypura_city
+.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_vijaypur_parts\01_vijaypura_city
+.xlsx
+✨ 33 chain-store rows highlighted green | 64 rows with NO phone highlighted 
+yellow
+[2/38] chadchan
+
+=== RUN [chadchan]: 15 keywords in chadchan, vijaypur, karnataka
+    - Mobile shop in chadchan, vijaypur, karnataka
+    - Cell phone store in chadchan, vijaypur, karnataka
+    - Smartphone retailer in chadchan, vijaypur, karnataka
+    - Mobile phone dealer in chadchan, vijaypur, karnataka
+    - Mobile showroom in chadchan, vijaypur, karnataka
+    - Mobile accessories shop in chadchan, vijaypur, karnataka
+    - Smartphone accessories dealer in chadchan, vijaypur, karnataka
+    - Used mobile shop in chadchan, vijaypur, karnataka
+    - Second-hand phone store in chadchan, vijaypur, karnataka
+    - Buy and sell cell phones in chadchan, vijaypur, karnataka
+    - Electronics showroom in chadchan, vijaypur, karnataka
+    - Consumer electronics retailer in chadchan, vijaypur, karnataka
+    - Electronics store and home appliances in chadchan, vijaypur, karnataka
+    - Smart home appliances shop in chadchan, vijaypur, karnataka
+    - Electronics and smartphone shops in chadchan, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile shop in chadchan, vijaypur, karnataka
+✓ 12 unique places (from 12 cards)
+  OM SAI MOBILES ---------------------------------------- 100% 0:00:11 0:00:00
+→ Cell phone store in chadchan, vijaypur, karnataka
+✓ 14 unique places (from 14 cards)
+  SS Mobile ---------------------------------------- 100% 0:00:12 0:00:00
+→ Smartphone retailer in chadchan, vijaypur, karnataka
+✓ 86 unique places (from 87 cards)
+  Swami Mobile shop -------------------------------------- 100% 0:01:16 0:00:00
+→ Mobile phone dealer in chadchan, vijaypur, karnataka
+✓ 16 unique places (from 16 cards)
+  OM SAI MOBILES ---------------------------------------- 100% 0:00:14 0:00:00
+→ Mobile showroom in chadchan, vijaypur, karnataka
+✓ 83 unique places (from 88 cards)
+  Mahadev Telecom Bijapur Wholesale in o ----------------- 100% 0:01:46 0:00:00
+→ Mobile accessories shop in chadchan, vijaypur, karnataka
+✓ 9 unique places (from 9 cards)
+  Sangeetha Gadgets - Bijapur (SS Road) ------------------ 100% 0:00:08 0:00:00
+→ Smartphone accessories dealer in chadchan, vijaypur, karnataka
+✓ 113 unique places (from 118 cards)
+  Shiddhanath Mobile Accessories ------------------------- 100% 0:01:55 0:00:00
+→ Used mobile shop in chadchan, vijaypur, karnataka
+✓ 31 unique places (from 32 cards)
+  Charlie Communication ---------------------------------- 100% 0:00:50 0:00:00
+→ Second-hand phone store in chadchan, vijaypur, karnataka
+✓ 13 unique places (from 13 cards)
+  RAVI MOBILES ---------------------------------------- 100% 0:00:20 0:00:00
+→ Buy and sell cell phones in chadchan, vijaypur, karnataka
+✓ 20 unique places (from 20 cards)
+  Rishabh mobile Bijapur --------------------------------- 100% 0:00:24 0:00:00
+→ Electronics showroom in chadchan, vijaypur, karnataka
+✓ 26 unique places (from 29 cards)
+  Telasang Generators & Dj Chadchan ---------------------- 100% 0:00:26 0:00:00
+→ Consumer electronics retailer in chadchan, vijaypur, karnataka
+✓ 14 unique places (from 14 cards)
+  SHRI PANDURANG ELECTRICALS ----------------------------- 100% 0:00:24 0:00:00
+→ Electronics store and home appliances in chadchan, vijaypur, karnataka
+✓ 85 unique places (from 89 cards)
+  MUSKAN ELECTRONICS ------------------------------------- 100% 0:02:20 0:00:00
+→ Smart home appliances shop in chadchan, vijaypur, karnataka
+✓ 15 unique places (from 15 cards)
+  Sangeetha Gadgets - Bijapur (SS Road) ------------------ 100% 0:00:24 0:00:00
+→ Electronics and smartphone shops in chadchan, vijaypur, karnataka
+✓ 49 unique places (from 51 cards)
+  Mi Authorized Service center,Dharwadka ----------------- 100% 0:01:14 0:00:00
+
+Total: 586 scraped → 264 unique (322 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 264 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_vijaypur_parts\02_chadchan.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_vijaypur_parts\02_chadchan.xlsx
+✨ 22 chain-store rows highlighted green | 40 rows with NO phone highlighted 
+yellow
+[3/38] indi
+
+=== RUN [indi]: 15 keywords in indi, vijaypur, karnataka
+    - Mobile shop in indi, vijaypur, karnataka
+    - Cell phone store in indi, vijaypur, karnataka
+    - Smartphone retailer in indi, vijaypur, karnataka
+    - Mobile phone dealer in indi, vijaypur, karnataka
+    - Mobile showroom in indi, vijaypur, karnataka
+    - Mobile accessories shop in indi, vijaypur, karnataka
+    - Smartphone accessories dealer in indi, vijaypur, karnataka
+    - Used mobile shop in indi, vijaypur, karnataka
+    - Second-hand phone store in indi, vijaypur, karnataka
+    - Buy and sell cell phones in indi, vijaypur, karnataka
+    - Electronics showroom in indi, vijaypur, karnataka
+    - Consumer electronics retailer in indi, vijaypur, karnataka
+    - Electronics store and home appliances in indi, vijaypur, karnataka
+    - Smart home appliances shop in indi, vijaypur, karnataka
+    - Electronics and smartphone shops in indi, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile shop in indi, vijaypur, karnataka
+✓ 24 unique places (from 25 cards)
+  Taj mobiles second hand mobiles ------------------------ 100% 0:00:35 0:00:00
+→ Cell phone store in indi, vijaypur, karnataka
+✓ 115 unique places (from 120 cards)
+  Lenskart.com at Lingad Gudi Road, Bija ----------------- 100% 0:02:22 0:00:00
+→ Smartphone retailer in indi, vijaypur, karnataka
+✓ 84 unique places (from 87 cards)
+  Mobile shop ---------------------------------------- 100% 0:01:38 0:00:00
+→ Mobile phone dealer in indi, vijaypur, karnataka
+✓ 53 unique places (from 54 cards)
+  GALAXY MOBILES MAHAMADSHAHI ---------------------------- 100% 0:01:03 0:00:00
+→ Mobile showroom in indi, vijaypur, karnataka
+✓ 33 unique places (from 35 cards)
+  Mi Authorized Service center,Dharwadka ----------------- 100% 0:00:41 0:00:00
+→ Mobile accessories shop in indi, vijaypur, karnataka
+✓ 99 unique places (from 102 cards)
+  Taj mobiles indi --------------------------------------- 100% 0:02:05 0:00:00
+→ Smartphone accessories dealer in indi, vijaypur, karnataka
+✓ 108 unique places (from 112 cards)
+  Balaji Uniforms Ram Mandir road saraf  ----------------- 100% 0:02:38 0:00:00
+→ Used mobile shop in indi, vijaypur, karnataka
+✓ 66 unique places (from 66 cards)
+  SJ MOBILE WORLD SHOP ----------------------------------- 100% 0:01:38 0:00:00
+→ Second-hand phone store in indi, vijaypur, karnataka
+✓ 45 unique places (from 46 cards)
+  Maruti Suzuki ARENA (RNS Motors, Bijap ----------------- 100% 0:01:14 0:00:00
+→ Buy and sell cell phones in indi, vijaypur, karnataka
+✓ 52 unique places (from 53 cards)
+  Taj mobiles indi --------------------------------------- 100% 0:01:25 0:00:00
+→ Electronics showroom in indi, vijaypur, karnataka
+✓ 118 unique places (from 120 cards)
+  TRENDS ---------------------------------------- 100% 0:03:26 0:00:00
+→ Consumer electronics retailer in indi, vijaypur, karnataka
+✓ 113 unique places (from 120 cards)
+  Shrinidhi furniture and electronics -------------------- 100% 0:03:37 0:00:00
+→ Electronics store and home appliances in indi, vijaypur, karnataka
+✓ 80 unique places (from 83 cards)
+  Reddy Electronics & Home Appliances -------------------- 100% 0:03:07 0:00:00
+→ Smart home appliances shop in indi, vijaypur, karnataka
+✓ 21 unique places (from 21 cards)
+  Pai mobiles bijapur ------------------------------------ 100% 0:00:50 0:00:00
+→ Electronics and smartphone shops in indi, vijaypur, karnataka
+✓ 35 unique places (from 36 cards)
+  Poojara Telecom - Indi, Karnataka ---------------------- 100% 0:01:30 0:00:00
+
+Total: 1046 scraped → 373 unique (673 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 373 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_vijaypur_parts\03_indi.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_vijaypur_parts\03_indi.xlsx
+✨ 27 chain-store rows highlighted green | 68 rows with NO phone highlighted 
+yellow
+[4/38] sindagi
+
+=== RUN [sindagi]: 15 keywords in sindagi, vijaypur, karnataka
+    - Mobile shop in sindagi, vijaypur, karnataka
+    - Cell phone store in sindagi, vijaypur, karnataka
+    - Smartphone retailer in sindagi, vijaypur, karnataka
+    - Mobile phone dealer in sindagi, vijaypur, karnataka
+    - Mobile showroom in sindagi, vijaypur, karnataka
+    - Mobile accessories shop in sindagi, vijaypur, karnataka
+    - Smartphone accessories dealer in sindagi, vijaypur, karnataka
+    - Used mobile shop in sindagi, vijaypur, karnataka
+    - Second-hand phone store in sindagi, vijaypur, karnataka
+    - Buy and sell cell phones in sindagi, vijaypur, karnataka
+    - Electronics showroom in sindagi, vijaypur, karnataka
+    - Consumer electronics retailer in sindagi, vijaypur, karnataka
+    - Electronics store and home appliances in sindagi, vijaypur, karnataka
+    - Smart home appliances shop in sindagi, vijaypur, karnataka
+    - Electronics and smartphone shops in sindagi, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile shop in sindagi, vijaypur, karnataka
+✓ 32 unique places (from 35 cards)
+  Amol mobile shop&online centre ------------------------- 100% 0:00:50 0:00:00
+→ Cell phone store in sindagi, vijaypur, karnataka
+✓ 17 unique places (from 17 cards)
+  SM Mobiles ---------------------------------------- 100% 0:00:23 0:00:00
+→ Smartphone retailer in sindagi, vijaypur, karnataka
+✓ 14 unique places (from 14 cards)
+  MI Store Shree Ganesh Enterprise ----------------------- 100% 0:00:16 0:00:00
+→ Mobile phone dealer in sindagi, vijaypur, karnataka
+✓ 30 unique places (from 35 cards)
+  Omkar mobile & Electronics ----------------------------- 100% 0:00:32 0:00:00
+→ Mobile showroom in sindagi, vijaypur, karnataka
+✓ 41 unique places (from 46 cards)
+  Omkar mobile & Electronics ----------------------------- 100% 0:00:47 0:00:00
+→ Mobile accessories shop in sindagi, vijaypur, karnataka
+✓ 12 unique places (from 12 cards)
+  Hiremath computer's ------------------------------------ 100% 0:00:13 0:00:00
+→ Smartphone accessories dealer in sindagi, vijaypur, karnataka
+✓ 100 unique places (from 103 cards)
+  Day 2 Day Garments ------------------------------------- 100% 0:02:00 0:00:00
+→ Used mobile shop in sindagi, vijaypur, karnataka
+✓ 32 unique places (from 32 cards)
+  SJ MOBILE WORLD SHOP ----------------------------------- 100% 0:00:36 0:00:00
+→ Second-hand phone store in sindagi, vijaypur, karnataka
+✓ 27 unique places (from 30 cards)
+  SAI MOBILE ---------------------------------------- 100% 0:00:32 0:00:00
+→ Buy and sell cell phones in sindagi, vijaypur, karnataka
+✓ 42 unique places (from 44 cards)
+  TELIS APPU HOLIGE MANE --------------------------------- 100% 0:00:51 0:00:00
+→ Electronics showroom in sindagi, vijaypur, karnataka
+✓ 35 unique places (from 38 cards)
+  Silicon computer Bindagi Bijapur ----------------------- 100% 0:00:43 0:00:00
+→ Consumer electronics retailer in sindagi, vijaypur, karnataka

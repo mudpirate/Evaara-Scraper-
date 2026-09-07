@@ -1,0 +1,258 @@
+udupi district: 15 cities, resumable per-city run.
+[1/15] udupi city
+
+=== RUN: mobile phones in udupi city, udupi, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in udupi city, udupi, karnataka
+✓ 114 unique places (from 116 cards)
+  GURUKRIPA MOBILE SERVICE CENTER ------------------------ 100% 0:01:49 0:00:00
+
+Total: 114 scraped → 114 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 114 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\01_udupi_city.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\01_udupi_city.xlsx
+✨ 17 chain-store rows highlighted green | 16 rows with NO phone highlighted 
+yellow
+[2/15] kundapura
+
+=== RUN: mobile phones in kundapura, udupi, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in kundapura, udupi, karnataka
+✓ 57 unique places (from 57 cards)
+  Express Computers -------------------------------------- 100% 0:01:07 0:00:00
+
+Total: 57 scraped → 57 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 57 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\02_kundapura.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\02_kundapura.xlsx
+✨ 5 chain-store rows highlighted green | 11 rows with NO phone highlighted 
+yellow
+[3/15] sringeri
+
+=== RUN: mobile phones in sringeri, udupi, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in sringeri, udupi, karnataka
+✓ 25 unique places (from 27 cards)
+  PRO FIX ---------------------------------------- 100% 0:00:21 0:00:00
+
+Total: 25 scraped → 25 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 25 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\03_sringeri.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\03_sringeri.xlsx
+✨ 3 chain-store rows highlighted green | 3 rows with NO phone highlighted 
+yellow
+[4/15] karkala
+
+=== RUN: mobile phones in karkala, udupi, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in karkala, udupi, karnataka
+✓ 119 unique places (from 120 cards)
+  BHAT MOBILE GURUPRASAD BHAT ---------------------------- 100% 0:01:52 0:00:00
+
+Total: 119 scraped → 119 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 119 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\04_karkala.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\04_karkala.xlsx
+✨ 20 chain-store rows highlighted green | 16 rows with NO phone highlighted 
+yellow
+[5/15] kodi
+
+=== RUN: mobile phones in kodi, udupi, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in kodi, udupi, karnataka
+✓ 118 unique places (from 120 cards)
+  Mahalaxmi mobile --------------------------------------- 100% 0:02:04 0:00:00
+
+Total: 118 scraped → 118 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 118 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\05_kodi.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\05_kodi.xlsx
+✨ 16 chain-store rows highlighted green | 16 rows with NO phone highlighted 
+yellow
+[6/15] saligrama
+
+=== RUN: mobile phones in saligrama, udupi, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in saligrama, udupi, karnataka
+✓ 13 unique places (from 13 cards)
+  NEW MOBILE ZONE ---------------------------------------- 100% 0:00:33 0:00:00
+
+Total: 13 scraped → 13 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 13 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\06_saligrama.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\06_saligrama.xlsx
+✨ 0 chain-store rows highlighted green | 2 rows with NO phone highlighted 
+yellow
+[7/15] basrur
+
+=== RUN: mobile phones in basrur, udupi, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in basrur, udupi, karnataka
+✓ 113 unique places (from 120 cards)
+  CELL POINT ---------------------------------------- 100% 0:01:58 0:00:00
+
+Total: 113 scraped → 113 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 113 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\07_basrur.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\07_basrur.xlsx
+✨ 18 chain-store rows highlighted green | 16 rows with NO phone highlighted 
+yellow
+[8/15] tallur
+
+=== RUN: mobile phones in tallur, udupi, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in tallur, udupi, karnataka
+✓ 118 unique places (from 120 cards)
+  SRI JAI SRI MOBILE AND FANCY CENTER -------------------- 100% 0:01:51 0:00:00
+
+Total: 118 scraped → 118 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 118 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\08_tallur.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\08_tallur.xlsx
+✨ 17 chain-store rows highlighted green | 16 rows with NO phone highlighted 
+yellow
+[9/15] shankarnarayan
+
+=== RUN: mobile phones in shankarnarayan, udupi, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in shankarnarayan, udupi, karnataka
+✓ 66 unique places (from 66 cards)
+  SRI KALIKAMBA MOBILE SALES AND SERVICE ----------------- 100% 0:01:12 0:00:00
+
+Total: 66 scraped → 66 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 66 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\09_shankarnarayan.xl
+sx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\09_shankarnarayan.xl
+sx
+✨ 4 chain-store rows highlighted green | 10 rows with NO phone highlighted 
+yellow
+[10/15] hebri
+
+=== RUN: mobile phones in hebri, udupi, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in hebri, udupi, karnataka
+✓ 17 unique places (from 17 cards)
+  Sri mahalasa ---------------------------------------- 100% 0:00:16 0:00:00
+
+Total: 17 scraped → 17 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 17 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\10_hebri.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\10_hebri.xlsx
+✨ 0 chain-store rows highlighted green | 4 rows with NO phone highlighted 
+yellow
+[11/15] varanga
+
+=== RUN: mobile phones in varanga, udupi, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in varanga, udupi, karnataka
+✓ 117 unique places (from 120 cards)
+  Niagara Smart Automations ------------------------------ 100% 0:01:51 0:00:00
+
+Total: 117 scraped → 117 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 117 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\11_varanga.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\11_varanga.xlsx
+✨ 19 chain-store rows highlighted green | 16 rows with NO phone highlighted 
+yellow
+[12/15] pangala
+
+=== RUN: mobile phones in pangala, udupi, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in pangala, udupi, karnataka
+✓ 112 unique places (from 120 cards)
+  ISHANI ENTERPRISES ------------------------------------- 100% 0:01:43 0:00:00
+
+Total: 112 scraped → 112 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 112 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\12_pangala.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\12_pangala.xlsx
+✨ 16 chain-store rows highlighted green | 13 rows with NO phone highlighted 
+yellow
+[13/15] shirva
+
+=== RUN: mobile phones in shirva, udupi, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in shirva, udupi, karnataka
+✓ 117 unique places (from 120 cards)
+  Cell Choice ---------------------------------------- 100% 0:01:58 0:00:00
+
+Total: 117 scraped → 117 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 117 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\13_shirva.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\13_shirva.xlsx
+✨ 18 chain-store rows highlighted green | 12 rows with NO phone highlighted 
+yellow
+[14/15] varambally
+
+=== RUN: mobile phones in varambally, udupi, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in varambally, udupi, karnataka
+✓ 117 unique places (from 120 cards)
+  Cell Point ---------------------------------------- 100% 0:02:07 0:00:00
+
+Total: 117 scraped → 117 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 117 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\14_varambally.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\14_varambally.xlsx
+✨ 17 chain-store rows highlighted green | 17 rows with NO phone highlighted 
+yellow
+[15/15] athradi
+
+=== RUN: mobile phones in athradi, udupi, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in athradi, udupi, karnataka
+✓ 118 unique places (from 120 cards)
+  Mahalaxmi mobile --------------------------------------- 100% 0:01:42 0:00:00
+
+Total: 118 scraped → 118 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 118 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\15_athradi.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_udupi_parts\15_athradi.xlsx
+✨ 18 chain-store rows highlighted green | 18 rows with NO phone highlighted 
+yellow
+
+=== MERGED: 296 unique businesses (244 with phone, 28 chain stores highlighted) -> C:\Users\Nomesh\Desktop\evaara\google_scraper\universal_udupi_district.xlsx

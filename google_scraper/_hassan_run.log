@@ -1,0 +1,312 @@
+hassan district: 18 cities, resumable per-city run.
+[1/18] hassan city
+
+=== RUN: mobile phones in hassan city, hassan, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in hassan city, hassan, karnataka
+✓ 98 unique places (from 100 cards)
+  Huzaif Accessories ------------------------------------- 100% 0:02:25 0:00:00
+
+Total: 98 scraped → 98 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 98 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\01_hassan_city.xlsx
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\01_hassan_city.xlsx
+✨ 16 chain-store rows highlighted green | 20 rows with NO phone highlighted 
+yellow
+[2/18] arsikere
+
+=== RUN: mobile phones in arsikere, hassan, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in arsikere, hassan, karnataka
+✓ 71 unique places (from 71 cards)
+  H S MOBILES SAMUEL RICHARD FREEM ----------------------- 100% 0:01:36 0:00:00
+
+Total: 71 scraped → 71 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 71 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\02_arsikere.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\02_arsikere.xlsx
+✨ 20 chain-store rows highlighted green | 12 rows with NO phone highlighted 
+yellow
+[3/18] belur
+
+=== RUN: mobile phones in belur, hassan, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in belur, hassan, karnataka
+✓ 57 unique places (from 64 cards)
+  Me & Mobile ---------------------------------------- 100% 0:01:23 0:00:00
+
+Total: 57 scraped → 57 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 57 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\03_belur.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\03_belur.xlsx
+✨ 17 chain-store rows highlighted green | 7 rows with NO phone highlighted 
+yellow
+[4/18] sakleshpur
+
+=== RUN: mobile phones in sakleshpur, hassan, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in sakleshpur, hassan, karnataka
+✓ 105 unique places (from 106 cards)
+  Falak Cell Point --------------------------------------- 100% 0:02:14 0:00:00
+
+Total: 105 scraped → 105 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 105 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\04_sakleshpur.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\04_sakleshpur.xlsx
+✨ 21 chain-store rows highlighted green | 19 rows with NO phone highlighted 
+yellow
+[5/18] alur
+
+=== RUN: mobile phones in alur, hassan, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in alur, hassan, karnataka
+✓ 112 unique places (from 116 cards)
+  Falak Cell Point --------------------------------------- 100% 0:02:14 0:00:00
+
+Total: 112 scraped → 112 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 112 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\05_alur.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\05_alur.xlsx
+✨ 21 chain-store rows highlighted green | 26 rows with NO phone highlighted 
+yellow
+[6/18] chanparayapatna
+
+=== RUN: mobile phones in chanparayapatna, hassan, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in chanparayapatna, hassan, karnataka
+✓ 31 unique places (from 32 cards)
+  Hassan cell time mobile -------------------------------- 100% 0:00:41 0:00:00
+
+Total: 31 scraped → 31 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 31 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\06_chanparayapatna.
+xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\06_chanparayapatna.
+xlsx
+✨ 4 chain-store rows highlighted green | 9 rows with NO phone highlighted 
+yellow
+[7/18] hole
+
+=== RUN: mobile phones in hole, hassan, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in hole, hassan, karnataka
+✓ 25 unique places (from 25 cards)
+  Hassan cell time mobile -------------------------------- 100% 0:00:28 0:00:00
+
+Total: 25 scraped → 25 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 25 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\07_hole.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\07_hole.xlsx
+✨ 5 chain-store rows highlighted green | 3 rows with NO phone highlighted 
+yellow
+[8/18] arkalgud
+
+=== RUN: mobile phones in arkalgud, hassan, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in arkalgud, hassan, karnataka
+✓ 113 unique places (from 118 cards)
+  Hassan cell time --------------------------------------- 100% 0:02:10 0:00:00
+
+Total: 113 scraped → 113 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 113 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\08_arkalgud.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\08_arkalgud.xlsx
+✨ 22 chain-store rows highlighted green | 30 rows with NO phone highlighted 
+yellow
+[9/18] javagal
+
+=== RUN: mobile phones in javagal, hassan, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in javagal, hassan, karnataka
+✓ 9 unique places (from 9 cards)
+  Sri Sai Electronics Furniture & Mobile ----------------- 100% 0:00:19 0:00:00
+
+Total: 9 scraped → 9 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 9 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\09_javagal.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\09_javagal.xlsx
+✨ 3 chain-store rows highlighted green | 0 rows with NO phone highlighted 
+yellow
+[10/18] halebbedu
+
+=== RUN: mobile phones in halebbedu, hassan, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in halebbedu, hassan, karnataka
+✓ 9 unique places (from 9 cards)
+  Sangeetha Gadgets - Belur ------------------------------ 100% 0:00:16 0:00:00
+
+Total: 9 scraped → 9 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 9 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\10_halebbedu.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\10_halebbedu.xlsx
+✨ 3 chain-store rows highlighted green | 0 rows with NO phone highlighted 
+yellow
+[11/18] sakleshpura
+
+=== RUN: mobile phones in sakleshpura, hassan, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in sakleshpura, hassan, karnataka
+✓ 103 unique places (from 107 cards)
+  Huzaif Accessories ------------------------------------- 100% 0:02:06 0:00:00
+
+Total: 103 scraped → 103 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 103 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\11_sakleshpura.xlsx
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\11_sakleshpura.xlsx
+✨ 19 chain-store rows highlighted green | 19 rows with NO phone highlighted 
+yellow
+[12/18] arkalgud
+
+=== RUN: mobile phones in arkalgud, hassan, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in arkalgud, hassan, karnataka
+✓ 113 unique places (from 118 cards)
+  Sara mobile's Pvt Ltd Hassan 3 ------------------------- 100% 0:02:22 0:00:00
+
+Total: 113 scraped → 113 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 113 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\12_arkalgud.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\12_arkalgud.xlsx
+✨ 22 chain-store rows highlighted green | 30 rows with NO phone highlighted 
+yellow
+[13/18] holenarasipura
+
+=== RUN: mobile phones in holenarasipura, hassan, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in holenarasipura, hassan, karnataka
+✓ 102 unique places (from 108 cards)
+  Falak Cell Point --------------------------------------- 100% 0:02:15 0:00:00
+
+Total: 102 scraped → 102 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 102 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\13_holenarasipura.x
+lsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\13_holenarasipura.x
+lsx
+✨ 18 chain-store rows highlighted green | 24 rows with NO phone highlighted 
+yellow
+[14/18] shravanbela gola
+
+=== RUN: mobile phones in shravanbela gola, hassan, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in shravanbela gola, hassan, karnataka
+✓ 16 unique places (from 16 cards)
+  Sm mobile palace --------------------------------------- 100% 0:00:25 0:00:00
+
+Total: 16 scraped → 16 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 16 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\14_shravanbela_gola
+.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\14_shravanbela_gola
+.xlsx
+✨ 3 chain-store rows highlighted green | 4 rows with NO phone highlighted 
+yellow
+[15/18] shantigrama
+
+=== RUN: mobile phones in shantigrama, hassan, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in shantigrama, hassan, karnataka
+✓ 94 unique places (from 104 cards)
+  SLV ENTERPRISES ---------------------------------------- 100% 0:02:02 0:00:00
+
+Total: 94 scraped → 94 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 94 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\15_shantigrama.xlsx
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\15_shantigrama.xlsx
+✨ 16 chain-store rows highlighted green | 20 rows with NO phone highlighted 
+yellow
+[16/18] korvangala
+
+=== RUN: mobile phones in korvangala, hassan, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in korvangala, hassan, karnataka
+✓ 109 unique places (from 118 cards)
+  BALAJI MOBILES ---------------------------------------- 100% 0:02:16 0:00:00
+
+Total: 109 scraped → 109 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 109 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\16_korvangala.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\16_korvangala.xlsx
+✨ 20 chain-store rows highlighted green | 23 rows with NO phone highlighted 
+yellow
+[17/18] banavara
+
+=== RUN: mobile phones in banavara, hassan, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in banavara, hassan, karnataka
+✓ 22 unique places (from 23 cards)
+  ARMAN MOBILE WORLD ------------------------------------- 100% 0:00:33 0:00:00
+
+Total: 22 scraped → 22 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 22 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\17_banavara.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\17_banavara.xlsx
+✨ 4 chain-store rows highlighted green | 4 rows with NO phone highlighted 
+yellow
+[18/18] tiptur
+
+=== RUN: mobile phones in tiptur, hassan, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in tiptur, hassan, karnataka
+✓ 14 unique places (from 14 cards)
+  CellZone ---------------------------------------- 100% 0:00:23 0:00:00
+
+Total: 14 scraped → 14 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 14 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\18_tiptur.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_hassan_parts\18_tiptur.xlsx
+✨ 4 chain-store rows highlighted green | 0 rows with NO phone highlighted 
+yellow
+
+=== MERGED: 260 unique businesses (200 with phone, 33 chain stores highlighted) -> C:\Users\Nomesh\Desktop\evaara\google_scraper\universal_hassan_district.xlsx

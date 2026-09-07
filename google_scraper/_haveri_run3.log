@@ -1,0 +1,796 @@
+Haveri district: 40 cities, resumable per-city run.
+[1/40] SKIP havericity (already done)
+[2/40] SKIP shiggaon (already done)
+[3/40] SKIP savanur (already done)
+[4/40] SKIP byadgi (already done)
+[5/40] SKIP ranibennur (already done)
+[6/40] SKIP hirekerup (already done)
+[7/40] devagiri
+
+=== RUN: mobile phones in devagiri, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in devagiri, haveri, karnataka
+✓ 83 unique places (from 88 cards)
+  Maruti Communication ----------------------------------- 100% 0:01:34 0:00:00
+
+Total: 83 scraped → 83 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 83 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\07_devagiri.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\07_devagiri.xlsx
+✨ 14 chain-store rows highlighted green | 23 rows with NO phone highlighted 
+yellow
+[8/40] koluru
+
+=== RUN: mobile phones in koluru, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in koluru, haveri, karnataka
+✓ 20 unique places (from 20 cards)
+  Mobile Campus ---------------------------------------- 100% 0:00:48 0:00:00
+
+Total: 20 scraped → 20 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 20 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\08_koluru.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\08_koluru.xlsx
+✨ 8 chain-store rows highlighted green | 1 rows with NO phone highlighted 
+yellow
+[9/40] karajgi
+
+=== RUN: mobile phones in karajgi, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in karajgi, haveri, karnataka
+✓ 86 unique places (from 91 cards)
+  Ganesh Communication ----------------------------------- 100% 0:01:30 0:00:00
+
+Total: 86 scraped → 86 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 86 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\09_karajgi.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\09_karajgi.xlsx
+✨ 14 chain-store rows highlighted green | 25 rows with NO phone highlighted 
+yellow
+[10/40] agadi
+
+=== RUN: mobile phones in agadi, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in agadi, haveri, karnataka
+✓ 13 unique places (from 13 cards)
+  Sai Mobile's agadi ------------------------------------- 100% 0:00:32 0:00:00
+
+Total: 13 scraped → 13 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 13 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\10_agadi.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\10_agadi.xlsx
+✨ 7 chain-store rows highlighted green | 1 rows with NO phone highlighted 
+yellow
+[11/40] kerimattihalli
+
+=== RUN: mobile phones in kerimattihalli, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in kerimattihalli, haveri, karnataka
+✓ 20 unique places (from 20 cards)
+  The Mobile Studio -------------------------------------- 100% 0:00:39 0:00:00
+
+Total: 20 scraped → 20 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 20 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\11_kerimattihalli.x
+lsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\11_kerimattihalli.x
+lsx
+✨ 9 chain-store rows highlighted green | 0 rows with NO phone highlighted 
+yellow
+[12/40] kabbur
+
+=== RUN: mobile phones in kabbur, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in kabbur, haveri, karnataka
+✓ 93 unique places (from 100 cards)
+  ಪ್ರತೀಕ ಮೊಬೈಲ್ ಕೇರ್ ---------------------------------------- 100% 0:01:40 0:00:00
+
+Total: 93 scraped → 93 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 93 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\12_kabbur.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\12_kabbur.xlsx
+✨ 20 chain-store rows highlighted green | 26 rows with NO phone highlighted 
+yellow
+[13/40] aladkatti
+
+=== RUN: mobile phones in aladkatti, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in aladkatti, haveri, karnataka
+✓ 94 unique places (from 97 cards)
+  Maruti Communication ----------------------------------- 100% 0:01:58 0:00:00
+
+Total: 94 scraped → 94 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 94 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\13_aladkatti.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\13_aladkatti.xlsx
+✨ 14 chain-store rows highlighted green | 22 rows with NO phone highlighted 
+yellow
+[14/40] hosalli
+
+=== RUN: mobile phones in hosalli, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in hosalli, haveri, karnataka
+✓ 27 unique places (from 27 cards)
+  Mobile Mane ---------------------------------------- 100% 0:00:48 0:00:00
+
+Total: 27 scraped → 27 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 27 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\14_hosalli.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\14_hosalli.xlsx
+✨ 9 chain-store rows highlighted green | 4 rows with NO phone highlighted 
+yellow
+[15/40] devihosur
+
+=== RUN: mobile phones in devihosur, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in devihosur, haveri, karnataka
+✓ 106 unique places (from 111 cards)
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ⚠ CAPTCHA detected                                                          │
+│                                                                             │
+│ URL:                                                                        │
+│ https://www.google.com/sorry/index?continue=https://www.google.com/maps/pla │
+│ ce/Kavitha%2BMobile%2BCafe%2B%2528Samsung%2BExclusive%2BCafe%2529/data%3D!4 │
+│ m7!3m6!1s0x3bb97f1dc4b11c19:0x83f9bfbf08d4054d!8m2!3d14.6149034!4d75.634334 │
+│ 5!16s%252Fg%252F11p5cpmtx3!19sChIJGRyxxB1_uTsRTQXUCL-_-YM%3Fauthuser%3D0%26 │
+│ hl%3Den%26g_ep%3DEgoyMDI2MDgyNi4wIJJjKgBIAVAD%26rclk%3D1&hl=en&q=EhAkCUDgED │
+│ i6w5TLf8ykH3FdGJeN1tQGIjCz3NAdTGe9CznexfXDJDiHt7YyKOv6kYxRwapQLVLHiQ-I7nXHr │
+│ W2JDsCS_2u4vxkyAnJSWgFD                                                     │
+│ Mode: HEADED                                                                │
+└─────────────────────────────────────────────────────────────────────────────┘
+Solve the captcha in the visible browser. (no TTY — auto-resuming as soon as it
+clears, up to 10 min)
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ⚠ CAPTCHA detected                                                          │
+│                                                                             │
+│ URL:                                                                        │
+│ https://www.google.com/sorry/index?continue=https://www.google.com/maps/pla │
+│ ce/Aliza%2Bmobile/data%3D!4m7!3m6!1s0x3bb9690003a9c531:0xb1646bee269ebb8f!8 │
+│ m2!3d14.7772646!4d75.3492354!16s%252Fg%252F11zh1xvsx5!19sChIJMcWpAwBpuTsRj7 │
+│ ueJu5rZLE%3Fauthuser%3D0%26hl%3Den%26g_ep%3DEgoyMDI2MDgyNi4wIJJjKgBIAVAD%26 │
+│ rclk%3D1&hl=en&q=EhAkCUDgEDi6w5TLf8ykH3FdGJiN1tQGIjDyIbK8uEDe-M8PL9-sYlbFLD │
+│ rMhhr6TVjDkJGtxPHlAONbt3A2Oaz7jXYUBwzDj74yAnJSWgFD                          │
+│ Mode: HEADED                                                                │
+└─────────────────────────────────────────────────────────────────────────────┘
+Solve the captcha in the visible browser. (no TTY — auto-resuming as soon as it
+clears, up to 10 min)
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ⚠ CAPTCHA detected                                                          │
+│                                                                             │
+│ URL:                                                                        │
+│ https://www.google.com/sorry/index?continue=https://www.google.com/maps/pla │
+│ ce/Santosh%2BMobiles%2BSales%2B%2526%2BService/data%3D!4m7!3m6!1s0x3bb95f4a │
+│ 754b62ef:0x55b7c5a6b76d780e!8m2!3d14.6491672!4d75.3030841!16s%252Fg%252F11t │
+│ gcwwpwt!19sChIJ72JLdUpfuTsRDnhtt6bFt1U%3Fauthuser%3D0%26hl%3Den%26g_ep%3DEg │
+│ oyMDI2MDgyNi4wIJJjKgBIAVAD%26rclk%3D1&hl=en&q=EhAkCUDgEDi6w5TLf8ykH3FdGJmN1 │
+│ tQGIjBpKxk70xq3J6lNcpyptOpqBx1gEY-_rt2sTyuHVkBxV0vR71J7ePRzUCpQ-6RotUoyAnJS │
+│ WgFD                                                                        │
+│ Mode: HEADED                                                                │
+└─────────────────────────────────────────────────────────────────────────────┘
+Solve the captcha in the visible browser. (no TTY — auto-resuming as soon as it
+clears, up to 10 min)
+still waiting for captcha solve... (30s / 600s)
+still waiting for captcha solve... (30s / 600s)
+still waiting for captcha solve... (30s / 600s)
+still waiting for captcha solve... (60s / 600s)
+still waiting for captcha solve... (60s / 600s)
+still waiting for captcha solve... (60s / 600s)
+still waiting for captcha solve... (90s / 600s)
+still waiting for captcha solve... (90s / 600s)
+still waiting for captcha solve... (90s / 600s)
+still waiting for captcha solve... (120s / 600s)
+still waiting for captcha solve... (120s / 600s)
+still waiting for captcha solve... (120s / 600s)
+still waiting for captcha solve... (150s / 600s)
+still waiting for captcha solve... (150s / 600s)
+still waiting for captcha solve... (150s / 600s)
+still waiting for captcha solve... (180s / 600s)
+still waiting for captcha solve... (180s / 600s)
+still waiting for captcha solve... (180s / 600s)
+still waiting for captcha solve... (210s / 600s)
+still waiting for captcha solve... (210s / 600s)
+still waiting for captcha solve... (210s / 600s)
+still waiting for captcha solve... (240s / 600s)
+still waiting for captcha solve... (240s / 600s)
+still waiting for captcha solve... (240s / 600s)
+still waiting for captcha solve... (270s / 600s)
+still waiting for captcha solve... (270s / 600s)
+still waiting for captcha solve... (270s / 600s)
+still waiting for captcha solve... (300s / 600s)
+still waiting for captcha solve... (300s / 600s)
+still waiting for captcha solve... (300s / 600s)
+still waiting for captcha solve... (330s / 600s)
+still waiting for captcha solve... (330s / 600s)
+still waiting for captcha solve... (330s / 600s)
+still waiting for captcha solve... (360s / 600s)
+still waiting for captcha solve... (360s / 600s)
+still waiting for captcha solve... (360s / 600s)
+still waiting for captcha solve... (390s / 600s)
+still waiting for captcha solve... (390s / 600s)
+still waiting for captcha solve... (390s / 600s)
+still waiting for captcha solve... (420s / 600s)
+still waiting for captcha solve... (420s / 600s)
+still waiting for captcha solve... (420s / 600s)
+still waiting for captcha solve... (450s / 600s)
+still waiting for captcha solve... (450s / 600s)
+still waiting for captcha solve... (450s / 600s)
+still waiting for captcha solve... (480s / 600s)
+still waiting for captcha solve... (480s / 600s)
+still waiting for captcha solve... (480s / 600s)
+still waiting for captcha solve... (510s / 600s)
+still waiting for captcha solve... (510s / 600s)
+still waiting for captcha solve... (510s / 600s)
+still waiting for captcha solve... (540s / 600s)
+still waiting for captcha solve... (540s / 600s)
+still waiting for captcha solve... (540s / 600s)
+still waiting for captcha solve... (570s / 600s)
+still waiting for captcha solve... (570s / 600s)
+still waiting for captcha solve... (570s / 600s)
+still waiting for captcha solve... (600s / 600s)
+Captcha still present after 10 min. Aborting.
+!!! FAILED: devihosur
+[16/40] chinnikatti
+
+=== RUN: mobile phones in chinnikatti, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in chinnikatti, haveri, karnataka
+✓ 16 unique places (from 16 cards)
+  The Mobile Zone ---------------------------------------- 100% 0:00:18 0:00:00
+
+Total: 16 scraped → 16 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 16 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\16_chinnikatti.xlsx
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\16_chinnikatti.xlsx
+✨ 7 chain-store rows highlighted green | 0 rows with NO phone highlighted 
+yellow
+[17/40] masanagi
+
+=== RUN: mobile phones in masanagi, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in masanagi, haveri, karnataka
+✓ 75 unique places (from 77 cards)
+  Maruti Communication ----------------------------------- 100% 0:01:17 0:00:00
+
+Total: 75 scraped → 75 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 75 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\17_masanagi.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\17_masanagi.xlsx
+✨ 12 chain-store rows highlighted green | 20 rows with NO phone highlighted 
+yellow
+[18/40] byadagi
+
+=== RUN: mobile phones in byadagi, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in byadagi, haveri, karnataka
+✓ 82 unique places (from 88 cards)
+  ಪ್ರತೀಕ ಮೊಬೈಲ್ ಕೇರ್ ---------------------------------------- 100% 0:01:41 0:00:00
+
+Total: 82 scraped → 82 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 82 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\18_byadagi.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\18_byadagi.xlsx
+✨ 14 chain-store rows highlighted green | 23 rows with NO phone highlighted 
+yellow
+[19/40] motebennur
+
+=== RUN: mobile phones in motebennur, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in motebennur, haveri, karnataka
+✓ 80 unique places (from 83 cards)
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ⚠ CAPTCHA detected                                                          │
+│                                                                             │
+│ URL:                                                                        │
+│ https://www.google.com/sorry/index?continue=https://www.google.com/maps/pla │
+│ ce/Sangeetha%2BGadgets%2B-%2BHaveri%2B3%2B%2528Bus%2BStand%2529/data%3D!4m7 │
+│ !3m6!1s0x3bb969597535b481:0xcdc1cc6e34e669b6!8m2!3d14.7889661!4d75.3983511! │
+│ 16s%252Fg%252F11s21mhb2z!19sChIJgbQ1dVlpuTsRtmnmNG7Mwc0%3Fauthuser%3D0%26hl │
+│ %3Den%26g_ep%3DEgoyMDI2MDgyNi4wIJJjKgBIAVAD%26rclk%3D1&hl=en&q=EhAkCUDgEDi6 │
+│ w5TLf8ykH3FdGNGd1tQGIjCQme87YyPeu73WgZyUMQExzIUPgWeu2RKdRuK8rrR6BEqyTAy21eF │
+│ CBU3RnaY90TUyAnJSWgFD                                                       │
+│ Mode: HEADED                                                                │
+└─────────────────────────────────────────────────────────────────────────────┘
+Solve the captcha in the visible browser. (no TTY — auto-resuming as soon as it
+clears, up to 10 min)
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ⚠ CAPTCHA detected                                                          │
+│                                                                             │
+│ URL:                                                                        │
+│ https://www.google.com/sorry/index?continue=https://www.google.com/maps/pla │
+│ ce/Poorvika%2BMobiles%2BHaveri/data%3D!4m7!3m6!1s0x3bb96976a3f542e9:0x4530a │
+│ 536fdf045df!8m2!3d14.7888369!4d75.3985244!16s%252Fg%252F11hdjt6w1k!19sChIJ6 │
+│ UL1o3ZpuTsR30Xw_TalMEU%3Fauthuser%3D0%26hl%3Den%26g_ep%3DEgoyMDI2MDgyNi4wIJ │
+│ JjKgBIAVAD%26rclk%3D1&hl=en&q=EhAkCUDgEDi6w5TLf8ykH3FdGNGd1tQGIjBsyV16cfUS7 │
+│ YmA__CEJXk98bUhZQYEanjGKKlxDFpS9oYXXGJ0ez2r7GGxI3IPC6oyAnJSWgFD             │
+│ Mode: HEADED                                                                │
+└─────────────────────────────────────────────────────────────────────────────┘
+Solve the captcha in the visible browser. (no TTY — auto-resuming as soon as it
+clears, up to 10 min)
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ⚠ CAPTCHA detected                                                          │
+│                                                                             │
+│ URL:                                                                        │
+│ https://www.google.com/sorry/index?continue=https://www.google.com/maps/pla │
+│ ce/Pai%2BMobiles%2B-%2BHaveri/data%3D!4m7!3m6!1s0x3bb969134e373e7f:0xe1b3bb │
+│ ebbf5ec33e!8m2!3d14.7876503!4d75.3993121!16s%252Fg%252F11fkyx98yv!19sChIJfz │
+│ 43ThNpuTsRPsNev-u7s-E%3Fauthuser%3D0%26hl%3Den%26g_ep%3DEgoyMDI2MDgyNi4wIJJ │
+│ jKgBIAVAD%26rclk%3D1&hl=en&q=EhAkCUDgEDi6w5TLf8ykH3FdGNKd1tQGIjCGuMhtqcYRX- │
+│ BzKe3mMmqqh5DBs5cmhZMxoEtekGNNaF95KtDuHT9CVC6q05J6A4MyAnJSWgFD              │
+│ Mode: HEADED                                                                │
+└─────────────────────────────────────────────────────────────────────────────┘
+Solve the captcha in the visible browser. (no TTY — auto-resuming as soon as it
+clears, up to 10 min)
+still waiting for captcha solve... (30s / 600s)
+still waiting for captcha solve... (30s / 600s)
+still waiting for captcha solve... (30s / 600s)
+still waiting for captcha solve... (60s / 600s)
+still waiting for captcha solve... (60s / 600s)
+still waiting for captcha solve... (60s / 600s)
+still waiting for captcha solve... (90s / 600s)
+still waiting for captcha solve... (90s / 600s)
+still waiting for captcha solve... (90s / 600s)
+still waiting for captcha solve... (120s / 600s)
+still waiting for captcha solve... (120s / 600s)
+still waiting for captcha solve... (120s / 600s)
+still waiting for captcha solve... (150s / 600s)
+still waiting for captcha solve... (150s / 600s)
+still waiting for captcha solve... (150s / 600s)
+still waiting for captcha solve... (180s / 600s)
+still waiting for captcha solve... (180s / 600s)
+still waiting for captcha solve... (180s / 600s)
+still waiting for captcha solve... (210s / 600s)
+still waiting for captcha solve... (210s / 600s)
+still waiting for captcha solve... (210s / 600s)
+still waiting for captcha solve... (240s / 600s)
+still waiting for captcha solve... (240s / 600s)
+still waiting for captcha solve... (240s / 600s)
+still waiting for captcha solve... (270s / 600s)
+still waiting for captcha solve... (270s / 600s)
+still waiting for captcha solve... (270s / 600s)
+still waiting for captcha solve... (300s / 600s)
+still waiting for captcha solve... (300s / 600s)
+still waiting for captcha solve... (300s / 600s)
+still waiting for captcha solve... (330s / 600s)
+still waiting for captcha solve... (330s / 600s)
+still waiting for captcha solve... (330s / 600s)
+still waiting for captcha solve... (360s / 600s)
+still waiting for captcha solve... (360s / 600s)
+still waiting for captcha solve... (360s / 600s)
+still waiting for captcha solve... (390s / 600s)
+still waiting for captcha solve... (390s / 600s)
+still waiting for captcha solve... (390s / 600s)
+still waiting for captcha solve... (420s / 600s)
+still waiting for captcha solve... (420s / 600s)
+still waiting for captcha solve... (420s / 600s)
+still waiting for captcha solve... (450s / 600s)
+still waiting for captcha solve... (450s / 600s)
+still waiting for captcha solve... (450s / 600s)
+still waiting for captcha solve... (480s / 600s)
+still waiting for captcha solve... (480s / 600s)
+still waiting for captcha solve... (480s / 600s)
+still waiting for captcha solve... (510s / 600s)
+still waiting for captcha solve... (510s / 600s)
+still waiting for captcha solve... (510s / 600s)
+still waiting for captcha solve... (540s / 600s)
+still waiting for captcha solve... (540s / 600s)
+still waiting for captcha solve... (540s / 600s)
+still waiting for captcha solve... (570s / 600s)
+still waiting for captcha solve... (570s / 600s)
+still waiting for captcha solve... (570s / 600s)
+still waiting for captcha solve... (600s / 600s)
+Captcha still present after 10 min. Aborting.
+!!! FAILED: motebennur
+[20/40] hosaritti
+
+=== RUN: mobile phones in hosaritti, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in hosaritti, haveri, karnataka
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ⚠ CAPTCHA detected                                                          │
+│                                                                             │
+│ URL:                                                                        │
+│ https://www.google.com/sorry/index?continue=https://www.google.com/maps/sea │
+│ rch/mobile%2Bphones%2Bin%2Bhosaritti,%2Bhaveri,%2Bkarnataka&q=EhAkCUDgEDi6w │
+│ 5TLf8ykH3FdGO-j1tQGIjDJR_g_Vc2OfzvDJwPMQsz5W8UHiU5J2J7ZsOKSkEMCArpu5Vkbtl0W │
+│ yD2hzEJJYPoyAnJSWgFD                                                        │
+│ Mode: HEADED                                                                │
+└─────────────────────────────────────────────────────────────────────────────┘
+Solve the captcha in the visible browser. (no TTY — auto-resuming as soon as it
+clears, up to 10 min)
+✓ Resuming (after 15s)
+
+✓ 23 unique places (from 23 cards)
+  Sanjana Mobiles Centre --------------------------------- 100% 0:00:26 0:00:00
+
+Total: 23 scraped → 23 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 23 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\20_hosaritti.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\20_hosaritti.xlsx
+✨ 8 chain-store rows highlighted green | 3 rows with NO phone highlighted 
+yellow
+[21/40] guttal
+
+=== RUN: mobile phones in guttal, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in guttal, haveri, karnataka
+✓ 88 unique places (from 96 cards)
+  Basaveshwara Comunicatin ------------------------------- 100% 0:01:26 0:00:00
+
+Total: 88 scraped → 88 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 88 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\21_guttal.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\21_guttal.xlsx
+✨ 14 chain-store rows highlighted green | 25 rows with NO phone highlighted 
+yellow
+[22/40] honnatti
+
+=== RUN: mobile phones in honnatti, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in honnatti, haveri, karnataka
+✓ 86 unique places (from 94 cards)
+  Basaveshwara Comunicatin ------------------------------- 100% 0:01:48 0:00:00
+
+Total: 86 scraped → 86 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 86 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\22_honnatti.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\22_honnatti.xlsx
+✨ 13 chain-store rows highlighted green | 22 rows with NO phone highlighted 
+yellow
+[23/40] guddaguddapur
+
+=== RUN: mobile phones in guddaguddapur, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in guddaguddapur, haveri, karnataka
+✓ 99 unique places (from 105 cards)
+  ಪ್ರತೀಕ ಮೊಬೈಲ್ ಕೇರ್ ---------------------------------------- 100% 0:01:48 0:00:00
+
+Total: 99 scraped → 99 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 99 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\23_guddaguddapur.xl
+sx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\23_guddaguddapur.xl
+sx
+✨ 17 chain-store rows highlighted green | 27 rows with NO phone highlighted 
+yellow
+[24/40] chalageri
+
+=== RUN: mobile phones in chalageri, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in chalageri, haveri, karnataka
+✓ 14 unique places (from 14 cards)
+  Sangeetha Gadgets - Ranebennur (PB Roa ----------------- 100% 0:00:15 0:00:00
+
+Total: 14 scraped → 14 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 14 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\24_chalageri.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\24_chalageri.xlsx
+✨ 9 chain-store rows highlighted green | 1 rows with NO phone highlighted 
+yellow
+[25/40] holalu
+
+=== RUN: mobile phones in holalu, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in holalu, haveri, karnataka
+✓ 16 unique places (from 16 cards)
+  The Mobile Zone ---------------------------------------- 100% 0:00:22 0:00:00
+
+Total: 16 scraped → 16 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 16 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\25_holalu.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\25_holalu.xlsx
+✨ 6 chain-store rows highlighted green | 0 rows with NO phone highlighted 
+yellow
+[26/40] mylara
+
+=== RUN: mobile phones in mylara, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in mylara, haveri, karnataka
+✓ 16 unique places (from 16 cards)
+  The Mobile Studio -------------------------------------- 100% 0:00:22 0:00:00
+
+Total: 16 scraped → 16 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 16 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\26_mylara.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\26_mylara.xlsx
+✨ 8 chain-store rows highlighted green | 0 rows with NO phone highlighted 
+yellow
+[27/40] haunsbhavi
+
+=== RUN: mobile phones in haunsbhavi, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in haunsbhavi, haveri, karnataka
+✓ 79 unique places (from 83 cards)
+  Maruti Communication ----------------------------------- 100% 0:02:14 0:00:00
+
+Total: 79 scraped → 79 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 79 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\27_haunsbhavi.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\27_haunsbhavi.xlsx
+✨ 14 chain-store rows highlighted green | 22 rows with NO phone highlighted 
+yellow
+[28/40] thogarsi
+
+=== RUN: mobile phones in thogarsi, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in thogarsi, haveri, karnataka
+✓ 24 unique places (from 24 cards)
+  Ashwini Mobile Shop ------------------------------------ 100% 0:00:29 0:00:00
+
+Total: 24 scraped → 24 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 24 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\28_thogarsi.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\28_thogarsi.xlsx
+✨ 8 chain-store rows highlighted green | 3 rows with NO phone highlighted 
+yellow
+[29/40] talagunda
+
+=== RUN: mobile phones in talagunda, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in talagunda, haveri, karnataka
+✓ 16 unique places (from 16 cards)
+  The Mobile Zone ---------------------------------------- 100% 0:00:17 0:00:00
+
+Total: 16 scraped → 16 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 16 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\29_talagunda.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\29_talagunda.xlsx
+✨ 7 chain-store rows highlighted green | 0 rows with NO phone highlighted 
+yellow
+[30/40] siralkoppa
+
+=== RUN: mobile phones in siralkoppa, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in siralkoppa, haveri, karnataka
+✓ 116 unique places (from 120 cards)
+  BARGAVA STORE ---------------------------------------- 100% 0:02:15 0:00:00
+
+Total: 116 scraped → 116 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 116 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\30_siralkoppa.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\30_siralkoppa.xlsx
+✨ 18 chain-store rows highlighted green | 26 rows with NO phone highlighted 
+yellow
+[31/40] udagani
+
+=== RUN: mobile phones in udagani, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in udagani, haveri, karnataka
+✓ 20 unique places (from 20 cards)
+  S D COMMUNICATION -------------------------------------- 100% 0:00:22 0:00:00
+
+Total: 20 scraped → 20 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 20 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\31_udagani.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\31_udagani.xlsx
+✨ 8 chain-store rows highlighted green | 1 rows with NO phone highlighted 
+yellow
+[32/40] shikarpur
+
+=== RUN: mobile phones in shikarpur, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in shikarpur, haveri, karnataka
+✓ 15 unique places (from 15 cards)
+  NATIONAL MOBILES --------------------------------------- 100% 0:00:14 0:00:00
+
+Total: 15 scraped → 15 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 15 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\32_shikarpur.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\32_shikarpur.xlsx
+✨ 7 chain-store rows highlighted green | 0 rows with NO phone highlighted 
+yellow
+[33/40] ambargoppa
+
+=== RUN: mobile phones in ambargoppa, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in ambargoppa, haveri, karnataka
+✓ 20 unique places (from 20 cards)
+  Mobile Paradise ---------------------------------------- 100% 0:00:20 0:00:00
+
+Total: 20 scraped → 20 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 20 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\33_ambargoppa.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\33_ambargoppa.xlsx
+✨ 7 chain-store rows highlighted green | 2 rows with NO phone highlighted 
+yellow
+[34/40] masur
+
+=== RUN: mobile phones in masur, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in masur, haveri, karnataka
+✓ 12 unique places (from 12 cards)
+  Poorvika Mobiles Ranebennur ---------------------------- 100% 0:00:11 0:00:00
+
+Total: 12 scraped → 12 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 12 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\34_masur.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\34_masur.xlsx
+✨ 7 chain-store rows highlighted green | 0 rows with NO phone highlighted 
+yellow
+[35/40] ratihalli
+
+=== RUN: mobile phones in ratihalli, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in ratihalli, haveri, karnataka
+✓ 16 unique places (from 16 cards)
+  Mina Enterprise ---------------------------------------- 100% 0:00:23 0:00:00
+
+Total: 16 scraped → 16 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 16 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\35_ratihalli.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\35_ratihalli.xlsx
+✨ 6 chain-store rows highlighted green | 2 rows with NO phone highlighted 
+yellow
+[36/40] sampalli
+
+=== RUN: mobile phones in sampalli, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in sampalli, haveri, karnataka
+✓ 15 unique places (from 15 cards)
+  NATIONAL MOBILES --------------------------------------- 100% 0:00:22 0:00:00
+
+Total: 15 scraped → 15 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 15 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\36_sampalli.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\36_sampalli.xlsx
+✨ 7 chain-store rows highlighted green | 0 rows with NO phone highlighted 
+yellow
+[37/40] sagara
+
+=== RUN: mobile phones in sagara, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in sagara, haveri, karnataka
+✓ 86 unique places (from 89 cards)
+  Sagar mobile services and sales ------------------------ 100% 0:01:36 0:00:00
+
+Total: 86 scraped → 86 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 86 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\37_sagara.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\37_sagara.xlsx
+✨ 17 chain-store rows highlighted green | 19 rows with NO phone highlighted 
+yellow
+[38/40] keladi
+
+=== RUN: mobile phones in keladi, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in keladi, haveri, karnataka
+✓ 26 unique places (from 27 cards)
+  Mobile Mane ---------------------------------------- 100% 0:00:29 0:00:00
+
+Total: 26 scraped → 26 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 26 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\38_keladi.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\38_keladi.xlsx
+✨ 9 chain-store rows highlighted green | 1 rows with NO phone highlighted 
+yellow
+[39/40] banavasi
+
+=== RUN: mobile phones in banavasi, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in banavasi, haveri, karnataka
+✓ 30 unique places (from 30 cards)
+  NATIONAL MOBILES --------------------------------------- 100% 0:00:34 0:00:00
+
+Total: 30 scraped → 30 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 30 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\39_banavasi.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\39_banavasi.xlsx
+✨ 9 chain-store rows highlighted green | 4 rows with NO phone highlighted 
+yellow
+[40/40] siddapur
+
+=== RUN: mobile phones in siddapur, haveri, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in siddapur, haveri, karnataka
+✓ 11 unique places (from 11 cards)
+  Mobile Campus ---------------------------------------- 100% 0:00:14 0:00:00
+
+Total: 11 scraped → 11 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 11 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\40_siddapur.xlsx 
+(shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_haveri_parts\40_siddapur.xlsx
+✨ 6 chain-store rows highlighted green | 0 rows with NO phone highlighted 
+yellow
+
+=== MERGED: 339 unique businesses (244 with phone, 38 chain stores highlighted) -> C:\Users\Nomesh\Desktop\evaara\google_scraper\universal_haveri_district.xlsx
+Cities that failed: devihosur, motebennur

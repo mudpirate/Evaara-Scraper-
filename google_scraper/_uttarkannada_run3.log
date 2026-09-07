@@ -1,0 +1,34 @@
+uttar kannada district: 17 cities, resumable per-city run.
+[1/17] SKIP uttar kannad (already done)
+[2/17] SKIP supa (already done)
+[3/17] SKIP haliyal (already done)
+[4/17] SKIP kalghatgi (already done)
+[5/17] SKIP yellapur (already done)
+[6/17] SKIP mundgod (already done)
+[7/17] SKIP karwar (already done)
+[8/17] SKIP ankhola (already done)
+[9/17] SKIP hangal (already done)
+[10/17] SKIP sirsi (already done)
+[11/17] SKIP siddapur (already done)
+[12/17] SKIP kumta (already done)
+[13/17] SKIP honavar (already done)
+[14/17] SKIP bhatkal (already done)
+[15/17] hosanagar
+
+=== RUN: mobile phones in hosanagar, uttar kannada, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones in hosanagar, uttar kannada, karnataka
+✗ no results
+
+Total: 0 scraped → 0 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 0 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_uttarkannada_parts\15_hosanagar.
+xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_uttarkannada_parts\15_hosanagar.
+xlsx
+[16/17] SKIP humcha (already done)
+[17/17] SKIP konnandur (already done)
+
+=== MERGED: 575 unique businesses (409 with phone, 56 chain stores highlighted) -> C:\Users\Nomesh\Desktop\evaara\google_scraper\universal_uttar_kannada_district.xlsx

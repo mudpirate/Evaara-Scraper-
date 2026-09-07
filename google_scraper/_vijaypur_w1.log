@@ -1,0 +1,606 @@
+[_vijaypur_groupA] 18 cities x 15 keywords = 270 queries. Parts: C:\Users\Nomesh\Desktop\evaara\google_scraper\_vijaypur_parts
+[_vijaypur_groupA] [1/18] sindagi
+
+[_vijaypur_groupA] === RUN [sindagi]: 15 keywords in sindagi, vijaypur, karnataka
+[_vijaypur_groupA] profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+[_vijaypur_groupA] → Mobile shop in sindagi, vijaypur, karnataka
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ┌─────────────────────────────────────────────────────────────────────────────┐
+[_vijaypur_groupA] │ ⚠ CAPTCHA detected                                                          │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ URL:                                                                        │
+[_vijaypur_groupA] │ https://www.google.com/sorry/index?continue=https://www.google.com/maps/sea │
+[_vijaypur_groupA] │ rch/Mobile%2Bshop%2Bin%2Bsindagi,%2Bvijaypur,%2Bkarnataka&q=EhAkCUDgEB7RHTA │
+[_vijaypur_groupA] │ 1XIIz6C2GGOq69dQGIjDNnPlXX9P0PG30e0ex8bNyAMhCZNqd7PC3hLC8TqwAUjLrkvDZw6gBBO │
+[_vijaypur_groupA] │ rbZlLGZd4yAnJSWgFD                                                          │
+[_vijaypur_groupA] │ Mode: HEADED                                                                │
+[_vijaypur_groupA] └─────────────────────────────────────────────────────────────────────────────┘
+[_vijaypur_groupA] Solve the captcha in the visible browser, then press ENTER here (or just solve 
+[_vijaypur_groupA] it — the script auto-detects either way).
+[_vijaypur_groupA] ✓ Resuming (after 5s)
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ✓ 35 unique places (from 38 cards)
+[_vijaypur_groupA]   Siddheshwar Automobiles Sindagi ------------------------ 100% 0:00:30 0:00:00
+[_vijaypur_groupA] → Cell phone store in sindagi, vijaypur, karnataka
+[_vijaypur_groupA] ✓ 17 unique places (from 17 cards)
+[_vijaypur_groupA]   Amol mobile shop&online centre ------------------------- 100% 0:00:16 0:00:00
+[_vijaypur_groupA] → Smartphone retailer in sindagi, vijaypur, karnataka
+[_vijaypur_groupA] ✓ 13 unique places (from 13 cards)
+[_vijaypur_groupA]   Omkar Mobile Center ------------------------------------ 100% 0:00:20 0:00:00
+[_vijaypur_groupA] → Mobile phone dealer in sindagi, vijaypur, karnataka
+[_vijaypur_groupA] ✓ 31 unique places (from 36 cards)
+[_vijaypur_groupA]   Omkar mobile & Electronics ----------------------------- 100% 0:00:37 0:00:00
+[_vijaypur_groupA] → Mobile showroom in sindagi, vijaypur, karnataka
+[_vijaypur_groupA] ✓ 37 unique places (from 40 cards)
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA] ! TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+[_vijaypur_groupA] Call log:
+[_vijaypur_groupA]   - waiting for locator("h1.DUwDvf") to be visible
+[_vijaypur_groupA] 
+[_vijaypur_groupA]   Extracting (5 tabs) ------------------------------------ 100% 0:08:37 0:00:00
+[_vijaypur_groupA] → Mobile accessories shop in sindagi, vijaypur, karnataka
+[_vijaypur_groupA] ✗ no results
+[_vijaypur_groupA] → Smartphone accessories dealer in sindagi, vijaypur, karnataka
+[_vijaypur_groupA] ✗ no results
+[_vijaypur_groupA] → Used mobile shop in sindagi, vijaypur, karnataka
+[_vijaypur_groupA] ✗ no results
+[_vijaypur_groupA] → Second-hand phone store in sindagi, vijaypur, karnataka
+[_vijaypur_groupA] ✗ no results
+[_vijaypur_groupA] → Buy and sell cell phones in sindagi, vijaypur, karnataka
+[_vijaypur_groupA] ✗ no results
+[_vijaypur_groupA] → Electronics showroom in sindagi, vijaypur, karnataka
+[_vijaypur_groupA] ✗ no results
+[_vijaypur_groupA] → Consumer electronics retailer in sindagi, vijaypur, karnataka
+[_vijaypur_groupA] ✗ no results
+[_vijaypur_groupA] → Electronics store and home appliances in sindagi, vijaypur, karnataka
+[_vijaypur_groupA] ✗ no results
+[_vijaypur_groupA] → Smart home appliances shop in sindagi, vijaypur, karnataka
+[_vijaypur_groupA] ✗ no results
+[_vijaypur_groupA] → Electronics and smartphone shops in sindagi, vijaypur, karnataka
+[_vijaypur_groupA] ✗ no results
+[_vijaypur_groupA] 
+[_vijaypur_groupA] Total: 96 scraped → 44 unique (52 dupes removed)
+[_vijaypur_groupA] KEEP_ALL=1 → category filter disabled
+[_vijaypur_groupA] ✓ saved 44 → 
+[_vijaypur_groupA] C:\Users\Nomesh\Desktop\evaara\google_scraper\_vijaypur_parts\sindagi.xlsx 
+[_vijaypur_groupA] (shops)
+[_vijaypur_groupA] FILE_PATH: 
+[_vijaypur_groupA] C:\Users\Nomesh\Desktop\evaara\google_scraper\_vijaypur_parts\sindagi.xlsx
+[_vijaypur_groupA] ✨ 10 chain-store rows highlighted green | 13 rows with NO phone highlighted 
+[_vijaypur_groupA] yellow
+[_vijaypur_groupA] [2/18] devarhippargi
+
+[_vijaypur_groupA] === RUN [devarhippargi]: 15 keywords in devarhippargi, vijaypur, karnataka
+[_vijaypur_groupA] profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+[_vijaypur_groupA] ┌─────────────────────────────────────────────────────────────────────────────┐
+[_vijaypur_groupA] │ Browser network/DNS failure                                                 │
+[_vijaypur_groupA] │ Chromium could not resolve or reach Google Maps. This is not a              │
+[_vijaypur_groupA] │ keyword/filter issue.                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Try these on Windows:                                                       │
+[_vijaypur_groupA] │ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+[_vijaypur_groupA] │ 2. Run: ipconfig /flushdns                                                  │
+[_vijaypur_groupA] │ 3. Run: nslookup www.google.com                                             │
+[_vijaypur_groupA] │ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+[_vijaypur_groupA] │ 5. Use Visible mode once to confirm the browser itself can load Google      │
+[_vijaypur_groupA] │ Maps.                                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+[_vijaypur_groupA] │ Call log:                                                                   │
+[_vijaypur_groupA] │   - navigating to "https://www.google.com/", waiting until "commit"         │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] └─────────────────────────────────────────────────────────────────────────────┘
+[_vijaypur_groupA] !!! FAILED: devarhippargi
+[_vijaypur_groupA] [3/18] talikoti
+
+[_vijaypur_groupA] === RUN [talikoti]: 15 keywords in talikoti, vijaypur, karnataka
+[_vijaypur_groupA] profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+[_vijaypur_groupA] ┌─────────────────────────────────────────────────────────────────────────────┐
+[_vijaypur_groupA] │ Browser network/DNS failure                                                 │
+[_vijaypur_groupA] │ Chromium could not resolve or reach Google Maps. This is not a              │
+[_vijaypur_groupA] │ keyword/filter issue.                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Try these on Windows:                                                       │
+[_vijaypur_groupA] │ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+[_vijaypur_groupA] │ 2. Run: ipconfig /flushdns                                                  │
+[_vijaypur_groupA] │ 3. Run: nslookup www.google.com                                             │
+[_vijaypur_groupA] │ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+[_vijaypur_groupA] │ 5. Use Visible mode once to confirm the browser itself can load Google      │
+[_vijaypur_groupA] │ Maps.                                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+[_vijaypur_groupA] │ Call log:                                                                   │
+[_vijaypur_groupA] │   - navigating to "https://www.google.com/", waiting until "commit"         │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] └─────────────────────────────────────────────────────────────────────────────┘
+[_vijaypur_groupA] !!! FAILED: talikoti
+[_vijaypur_groupA] [4/18] muddebihal
+
+[_vijaypur_groupA] === RUN [muddebihal]: 15 keywords in muddebihal, vijaypur, karnataka
+[_vijaypur_groupA] profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+[_vijaypur_groupA] ┌─────────────────────────────────────────────────────────────────────────────┐
+[_vijaypur_groupA] │ Browser network/DNS failure                                                 │
+[_vijaypur_groupA] │ Chromium could not resolve or reach Google Maps. This is not a              │
+[_vijaypur_groupA] │ keyword/filter issue.                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Try these on Windows:                                                       │
+[_vijaypur_groupA] │ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+[_vijaypur_groupA] │ 2. Run: ipconfig /flushdns                                                  │
+[_vijaypur_groupA] │ 3. Run: nslookup www.google.com                                             │
+[_vijaypur_groupA] │ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+[_vijaypur_groupA] │ 5. Use Visible mode once to confirm the browser itself can load Google      │
+[_vijaypur_groupA] │ Maps.                                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+[_vijaypur_groupA] │ Call log:                                                                   │
+[_vijaypur_groupA] │   - navigating to "https://www.google.com/", waiting until "commit"         │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] └─────────────────────────────────────────────────────────────────────────────┘
+[_vijaypur_groupA] !!! FAILED: muddebihal
+[_vijaypur_groupA] [5/18] basavana bagewadi
+
+[_vijaypur_groupA] === RUN [basavana bagewadi]: 15 keywords in basavana bagewadi, vijaypur, karnataka
+[_vijaypur_groupA] profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+[_vijaypur_groupA] ┌─────────────────────────────────────────────────────────────────────────────┐
+[_vijaypur_groupA] │ Browser network/DNS failure                                                 │
+[_vijaypur_groupA] │ Chromium could not resolve or reach Google Maps. This is not a              │
+[_vijaypur_groupA] │ keyword/filter issue.                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Try these on Windows:                                                       │
+[_vijaypur_groupA] │ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+[_vijaypur_groupA] │ 2. Run: ipconfig /flushdns                                                  │
+[_vijaypur_groupA] │ 3. Run: nslookup www.google.com                                             │
+[_vijaypur_groupA] │ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+[_vijaypur_groupA] │ 5. Use Visible mode once to confirm the browser itself can load Google      │
+[_vijaypur_groupA] │ Maps.                                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+[_vijaypur_groupA] │ Call log:                                                                   │
+[_vijaypur_groupA] │   - navigating to "https://www.google.com/", waiting until "commit"         │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] └─────────────────────────────────────────────────────────────────────────────┘
+[_vijaypur_groupA] !!! FAILED: basavana bagewadi
+[_vijaypur_groupA] [6/18] horti
+
+[_vijaypur_groupA] === RUN [horti]: 15 keywords in horti, vijaypur, karnataka
+[_vijaypur_groupA] profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+[_vijaypur_groupA] ┌─────────────────────────────────────────────────────────────────────────────┐
+[_vijaypur_groupA] │ Browser network/DNS failure                                                 │
+[_vijaypur_groupA] │ Chromium could not resolve or reach Google Maps. This is not a              │
+[_vijaypur_groupA] │ keyword/filter issue.                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Try these on Windows:                                                       │
+[_vijaypur_groupA] │ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+[_vijaypur_groupA] │ 2. Run: ipconfig /flushdns                                                  │
+[_vijaypur_groupA] │ 3. Run: nslookup www.google.com                                             │
+[_vijaypur_groupA] │ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+[_vijaypur_groupA] │ 5. Use Visible mode once to confirm the browser itself can load Google      │
+[_vijaypur_groupA] │ Maps.                                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+[_vijaypur_groupA] │ Call log:                                                                   │
+[_vijaypur_groupA] │   - navigating to "https://www.google.com/", waiting until "commit"         │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] └─────────────────────────────────────────────────────────────────────────────┘
+[_vijaypur_groupA] !!! FAILED: horti
+[_vijaypur_groupA] [7/18] zalki
+
+[_vijaypur_groupA] === RUN [zalki]: 15 keywords in zalki, vijaypur, karnataka
+[_vijaypur_groupA] profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+[_vijaypur_groupA] ┌─────────────────────────────────────────────────────────────────────────────┐
+[_vijaypur_groupA] │ Browser network/DNS failure                                                 │
+[_vijaypur_groupA] │ Chromium could not resolve or reach Google Maps. This is not a              │
+[_vijaypur_groupA] │ keyword/filter issue.                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Try these on Windows:                                                       │
+[_vijaypur_groupA] │ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+[_vijaypur_groupA] │ 2. Run: ipconfig /flushdns                                                  │
+[_vijaypur_groupA] │ 3. Run: nslookup www.google.com                                             │
+[_vijaypur_groupA] │ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+[_vijaypur_groupA] │ 5. Use Visible mode once to confirm the browser itself can load Google      │
+[_vijaypur_groupA] │ Maps.                                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+[_vijaypur_groupA] │ Call log:                                                                   │
+[_vijaypur_groupA] │   - navigating to "https://www.google.com/", waiting until "commit"         │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] └─────────────────────────────────────────────────────────────────────────────┘
+[_vijaypur_groupA] !!! FAILED: zalki
+[_vijaypur_groupA] [8/18] almel
+
+[_vijaypur_groupA] === RUN [almel]: 15 keywords in almel, vijaypur, karnataka
+[_vijaypur_groupA] profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+[_vijaypur_groupA] ┌─────────────────────────────────────────────────────────────────────────────┐
+[_vijaypur_groupA] │ Browser network/DNS failure                                                 │
+[_vijaypur_groupA] │ Chromium could not resolve or reach Google Maps. This is not a              │
+[_vijaypur_groupA] │ keyword/filter issue.                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Try these on Windows:                                                       │
+[_vijaypur_groupA] │ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+[_vijaypur_groupA] │ 2. Run: ipconfig /flushdns                                                  │
+[_vijaypur_groupA] │ 3. Run: nslookup www.google.com                                             │
+[_vijaypur_groupA] │ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+[_vijaypur_groupA] │ 5. Use Visible mode once to confirm the browser itself can load Google      │
+[_vijaypur_groupA] │ Maps.                                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+[_vijaypur_groupA] │ Call log:                                                                   │
+[_vijaypur_groupA] │   - navigating to "https://www.google.com/", waiting until "commit"         │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] └─────────────────────────────────────────────────────────────────────────────┘
+[_vijaypur_groupA] !!! FAILED: almel
+[_vijaypur_groupA] [9/18] golageri
+
+[_vijaypur_groupA] === RUN [golageri]: 15 keywords in golageri, vijaypur, karnataka
+[_vijaypur_groupA] profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+[_vijaypur_groupA] ┌─────────────────────────────────────────────────────────────────────────────┐
+[_vijaypur_groupA] │ Browser network/DNS failure                                                 │
+[_vijaypur_groupA] │ Chromium could not resolve or reach Google Maps. This is not a              │
+[_vijaypur_groupA] │ keyword/filter issue.                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Try these on Windows:                                                       │
+[_vijaypur_groupA] │ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+[_vijaypur_groupA] │ 2. Run: ipconfig /flushdns                                                  │
+[_vijaypur_groupA] │ 3. Run: nslookup www.google.com                                             │
+[_vijaypur_groupA] │ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+[_vijaypur_groupA] │ 5. Use Visible mode once to confirm the browser itself can load Google      │
+[_vijaypur_groupA] │ Maps.                                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+[_vijaypur_groupA] │ Call log:                                                                   │
+[_vijaypur_groupA] │   - navigating to "https://www.google.com/", waiting until "commit"         │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] └─────────────────────────────────────────────────────────────────────────────┘
+[_vijaypur_groupA] !!! FAILED: golageri
+[_vijaypur_groupA] [10/18] kalakeri
+
+[_vijaypur_groupA] === RUN [kalakeri]: 15 keywords in kalakeri, vijaypur, karnataka
+[_vijaypur_groupA] profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+[_vijaypur_groupA] ┌─────────────────────────────────────────────────────────────────────────────┐
+[_vijaypur_groupA] │ Browser network/DNS failure                                                 │
+[_vijaypur_groupA] │ Chromium could not resolve or reach Google Maps. This is not a              │
+[_vijaypur_groupA] │ keyword/filter issue.                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Try these on Windows:                                                       │
+[_vijaypur_groupA] │ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+[_vijaypur_groupA] │ 2. Run: ipconfig /flushdns                                                  │
+[_vijaypur_groupA] │ 3. Run: nslookup www.google.com                                             │
+[_vijaypur_groupA] │ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+[_vijaypur_groupA] │ 5. Use Visible mode once to confirm the browser itself can load Google      │
+[_vijaypur_groupA] │ Maps.                                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+[_vijaypur_groupA] │ Call log:                                                                   │
+[_vijaypur_groupA] │   - navigating to "https://www.google.com/", waiting until "commit"         │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] └─────────────────────────────────────────────────────────────────────────────┘
+[_vijaypur_groupA] !!! FAILED: kalakeri
+[_vijaypur_groupA] [11/18] kembhavi
+
+[_vijaypur_groupA] === RUN [kembhavi]: 15 keywords in kembhavi, vijaypur, karnataka
+[_vijaypur_groupA] profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+[_vijaypur_groupA] ┌─────────────────────────────────────────────────────────────────────────────┐
+[_vijaypur_groupA] │ Browser network/DNS failure                                                 │
+[_vijaypur_groupA] │ Chromium could not resolve or reach Google Maps. This is not a              │
+[_vijaypur_groupA] │ keyword/filter issue.                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Try these on Windows:                                                       │
+[_vijaypur_groupA] │ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+[_vijaypur_groupA] │ 2. Run: ipconfig /flushdns                                                  │
+[_vijaypur_groupA] │ 3. Run: nslookup www.google.com                                             │
+[_vijaypur_groupA] │ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+[_vijaypur_groupA] │ 5. Use Visible mode once to confirm the browser itself can load Google      │
+[_vijaypur_groupA] │ Maps.                                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+[_vijaypur_groupA] │ Call log:                                                                   │
+[_vijaypur_groupA] │   - navigating to "https://www.google.com/", waiting until "commit"         │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] └─────────────────────────────────────────────────────────────────────────────┘
+[_vijaypur_groupA] !!! FAILED: kembhavi
+[_vijaypur_groupA] [12/18] yedrami
+
+[_vijaypur_groupA] === RUN [yedrami]: 15 keywords in yedrami, vijaypur, karnataka
+[_vijaypur_groupA] profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+[_vijaypur_groupA] ┌─────────────────────────────────────────────────────────────────────────────┐
+[_vijaypur_groupA] │ Browser network/DNS failure                                                 │
+[_vijaypur_groupA] │ Chromium could not resolve or reach Google Maps. This is not a              │
+[_vijaypur_groupA] │ keyword/filter issue.                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Try these on Windows:                                                       │
+[_vijaypur_groupA] │ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+[_vijaypur_groupA] │ 2. Run: ipconfig /flushdns                                                  │
+[_vijaypur_groupA] │ 3. Run: nslookup www.google.com                                             │
+[_vijaypur_groupA] │ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+[_vijaypur_groupA] │ 5. Use Visible mode once to confirm the browser itself can load Google      │
+[_vijaypur_groupA] │ Maps.                                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+[_vijaypur_groupA] │ Call log:                                                                   │
+[_vijaypur_groupA] │   - navigating to "https://www.google.com/", waiting until "commit"         │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] └─────────────────────────────────────────────────────────────────────────────┘
+[_vijaypur_groupA] !!! FAILED: yedrami
+[_vijaypur_groupA] [13/18] ijeri
+
+[_vijaypur_groupA] === RUN [ijeri]: 15 keywords in ijeri, vijaypur, karnataka
+[_vijaypur_groupA] profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+[_vijaypur_groupA] ┌─────────────────────────────────────────────────────────────────────────────┐
+[_vijaypur_groupA] │ Browser network/DNS failure                                                 │
+[_vijaypur_groupA] │ Chromium could not resolve or reach Google Maps. This is not a              │
+[_vijaypur_groupA] │ keyword/filter issue.                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Try these on Windows:                                                       │
+[_vijaypur_groupA] │ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+[_vijaypur_groupA] │ 2. Run: ipconfig /flushdns                                                  │
+[_vijaypur_groupA] │ 3. Run: nslookup www.google.com                                             │
+[_vijaypur_groupA] │ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+[_vijaypur_groupA] │ 5. Use Visible mode once to confirm the browser itself can load Google      │
+[_vijaypur_groupA] │ Maps.                                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+[_vijaypur_groupA] │ Call log:                                                                   │
+[_vijaypur_groupA] │   - navigating to "https://www.google.com/", waiting until "commit"         │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] └─────────────────────────────────────────────────────────────────────────────┘
+[_vijaypur_groupA] !!! FAILED: ijeri
+[_vijaypur_groupA] [14/18] huvin hippargi
+
+[_vijaypur_groupA] === RUN [huvin hippargi]: 15 keywords in huvin hippargi, vijaypur, karnataka
+[_vijaypur_groupA] profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+[_vijaypur_groupA] ┌─────────────────────────────────────────────────────────────────────────────┐
+[_vijaypur_groupA] │ Browser network/DNS failure                                                 │
+[_vijaypur_groupA] │ Chromium could not resolve or reach Google Maps. This is not a              │
+[_vijaypur_groupA] │ keyword/filter issue.                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Try these on Windows:                                                       │
+[_vijaypur_groupA] │ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+[_vijaypur_groupA] │ 2. Run: ipconfig /flushdns                                                  │
+[_vijaypur_groupA] │ 3. Run: nslookup www.google.com                                             │
+[_vijaypur_groupA] │ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+[_vijaypur_groupA] │ 5. Use Visible mode once to confirm the browser itself can load Google      │
+[_vijaypur_groupA] │ Maps.                                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+[_vijaypur_groupA] │ Call log:                                                                   │
+[_vijaypur_groupA] │   - navigating to "https://www.google.com/", waiting until "commit"         │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] └─────────────────────────────────────────────────────────────────────────────┘
+[_vijaypur_groupA] !!! FAILED: huvin hippargi
+[_vijaypur_groupA] [15/18] ukkali
+
+[_vijaypur_groupA] === RUN [ukkali]: 15 keywords in ukkali, vijaypur, karnataka
+[_vijaypur_groupA] profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+[_vijaypur_groupA] ┌─────────────────────────────────────────────────────────────────────────────┐
+[_vijaypur_groupA] │ Browser network/DNS failure                                                 │
+[_vijaypur_groupA] │ Chromium could not resolve or reach Google Maps. This is not a              │
+[_vijaypur_groupA] │ keyword/filter issue.                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Try these on Windows:                                                       │
+[_vijaypur_groupA] │ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+[_vijaypur_groupA] │ 2. Run: ipconfig /flushdns                                                  │
+[_vijaypur_groupA] │ 3. Run: nslookup www.google.com                                             │
+[_vijaypur_groupA] │ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+[_vijaypur_groupA] │ 5. Use Visible mode once to confirm the browser itself can load Google      │
+[_vijaypur_groupA] │ Maps.                                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+[_vijaypur_groupA] │ Call log:                                                                   │
+[_vijaypur_groupA] │   - navigating to "https://www.google.com/", waiting until "commit"         │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] └─────────────────────────────────────────────────────────────────────────────┘
+[_vijaypur_groupA] !!! FAILED: ukkali
+[_vijaypur_groupA] [16/18] shivanagi
+
+[_vijaypur_groupA] === RUN [shivanagi]: 15 keywords in shivanagi, vijaypur, karnataka
+[_vijaypur_groupA] profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+[_vijaypur_groupA] ┌─────────────────────────────────────────────────────────────────────────────┐
+[_vijaypur_groupA] │ Browser network/DNS failure                                                 │
+[_vijaypur_groupA] │ Chromium could not resolve or reach Google Maps. This is not a              │
+[_vijaypur_groupA] │ keyword/filter issue.                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Try these on Windows:                                                       │
+[_vijaypur_groupA] │ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+[_vijaypur_groupA] │ 2. Run: ipconfig /flushdns                                                  │
+[_vijaypur_groupA] │ 3. Run: nslookup www.google.com                                             │
+[_vijaypur_groupA] │ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+[_vijaypur_groupA] │ 5. Use Visible mode once to confirm the browser itself can load Google      │
+[_vijaypur_groupA] │ Maps.                                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+[_vijaypur_groupA] │ Call log:                                                                   │
+[_vijaypur_groupA] │   - navigating to "https://www.google.com/", waiting until "commit"         │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] └─────────────────────────────────────────────────────────────────────────────┘
+[_vijaypur_groupA] !!! FAILED: shivanagi
+[_vijaypur_groupA] [17/18] bableshwar
+
+[_vijaypur_groupA] === RUN [bableshwar]: 15 keywords in bableshwar, vijaypur, karnataka
+[_vijaypur_groupA] profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+[_vijaypur_groupA] ┌─────────────────────────────────────────────────────────────────────────────┐
+[_vijaypur_groupA] │ Browser network/DNS failure                                                 │
+[_vijaypur_groupA] │ Chromium could not resolve or reach Google Maps. This is not a              │
+[_vijaypur_groupA] │ keyword/filter issue.                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Try these on Windows:                                                       │
+[_vijaypur_groupA] │ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+[_vijaypur_groupA] │ 2. Run: ipconfig /flushdns                                                  │
+[_vijaypur_groupA] │ 3. Run: nslookup www.google.com                                             │
+[_vijaypur_groupA] │ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+[_vijaypur_groupA] │ 5. Use Visible mode once to confirm the browser itself can load Google      │
+[_vijaypur_groupA] │ Maps.                                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+[_vijaypur_groupA] │ Call log:                                                                   │
+[_vijaypur_groupA] │   - navigating to "https://www.google.com/", waiting until "commit"         │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] └─────────────────────────────────────────────────────────────────────────────┘
+[_vijaypur_groupA] !!! FAILED: bableshwar
+[_vijaypur_groupA] [18/18] ainapur
+
+[_vijaypur_groupA] === RUN [ainapur]: 15 keywords in ainapur, vijaypur, karnataka
+[_vijaypur_groupA] profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+[_vijaypur_groupA] ┌─────────────────────────────────────────────────────────────────────────────┐
+[_vijaypur_groupA] │ Browser network/DNS failure                                                 │
+[_vijaypur_groupA] │ Chromium could not resolve or reach Google Maps. This is not a              │
+[_vijaypur_groupA] │ keyword/filter issue.                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Try these on Windows:                                                       │
+[_vijaypur_groupA] │ 1. Open https://www.google.com/maps in Chrome/Edge.                         │
+[_vijaypur_groupA] │ 2. Run: ipconfig /flushdns                                                  │
+[_vijaypur_groupA] │ 3. Run: nslookup www.google.com                                             │
+[_vijaypur_groupA] │ 4. Disable VPN/proxy/firewall filtering temporarily, then retry.            │
+[_vijaypur_groupA] │ 5. Use Visible mode once to confirm the browser itself can load Google      │
+[_vijaypur_groupA] │ Maps.                                                                       │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] │ Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.google.com/ │
+[_vijaypur_groupA] │ Call log:                                                                   │
+[_vijaypur_groupA] │   - navigating to "https://www.google.com/", waiting until "commit"         │
+[_vijaypur_groupA] │                                                                             │
+[_vijaypur_groupA] └─────────────────────────────────────────────────────────────────────────────┘
+[_vijaypur_groupA] !!! FAILED: ainapur
+[_vijaypur_groupA] Cities that failed: devarhippargi, talikoti, muddebihal, basavana bagewadi, horti, zalki, almel, golageri, kalakeri, kembhavi, yedrami, ijeri, huvin hippargi, ukkali, shivanagi, bableshwar, ainapur
+[_vijaypur_groupA] done (--no-merge, final merge runs after all workers finish)

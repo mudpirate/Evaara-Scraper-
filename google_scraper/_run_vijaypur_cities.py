@@ -1,0 +1,205 @@
+# /// script
+# requires-python = ">=3.11"
+# dependencies = ["rich", "openpyxl"]
+# ///
+"""
+Resumable per-city Vijayapura (vijaypur) scraper — only 3 keywords.
+
+Usage:
+    python _run_vijaypur_cities.py
+    python _run_vijaypur_cities.py --dry-run   (preview queries only, no scraping)
+
+Runs scrape.py once per city. Each city run executes all 3 keywords:
+    "Mobile shops in <city>, vijaypur, karnataka"
+    "Mobile accessories in <city>, vijaypur, karnataka"
+    "Electronics and appliances in <city>, vijaypur, karnataka"
+Each city is saved to its own file in _vijaypur_parts/.
+Cities whose part file already exists are SKIPPED, so the run can be
+resumed after a crash/captcha without losing finished cities.
+At the end all parts are merged (duplicates removed) into ONE Excel:
+    vijaypura_all_keywords_all_cities.xlsx
+"""
+import os
+import re
+import subprocess
+import sys
+from pathlib import Path
+
+if sys.platform == 'win32':
+    for stream in (sys.stdout, sys.stderr):
+        try:
+            stream.reconfigure(encoding='utf-8', errors='replace')
+        except Exception:
+            pass
+    os.environ.setdefault('PYTHONUTF8', '1')
+
+# Only 3 keywords — every keyword runs for every city.
+KEYWORDS = [
+    "Mobile shops",
+    "Mobile accessories",
+    "Electronics and appliances",
+]
+
+DISTRICT = "vijaypur"
+STATE = "karnataka"
+HERE = Path(__file__).parent
+PARTS = HERE / "_vijaypur_parts"
+OUT = HERE / "vijaypura_all_keywords_all_cities.xlsx"
+LINE_FILE = HERE / "_vijaypur_only.txt"
+
+
+def cities_from_line_file() -> list[str]:
+    text = LINE_FILE.read_text(encoding='utf-8-sig').strip()
+    _, _, cities = text.partition(':')
+    return [c.strip() for c in cities.split(',') if c.strip()]
+
+
+def slug(text: str) -> str:
+    s = re.sub(r'[^\w\s-]', '', text.lower())
+    return re.sub(r'[-\s]+', '_', s).strip('_')[:40]
+
+
+def run_city(city: str, out_file: Path) -> bool:
+    """Run scrape.py for one city with ALL keywords. Returns True on success."""
+    env = os.environ.copy()
+    env['KEEP_ALL'] = '1'
+    env.setdefault('HEADLESS', '1')
+    env['PYTHONUTF8'] = '1'
+    env['PYTHONIOENCODING'] = 'utf-8'
+    env['PYTHONUNBUFFERED'] = '1'
+    place = f"{city}, {DISTRICT}, {STATE}"
+    kw_arg = ", ".join(KEYWORDS)
+    cmd = [sys.executable, str(HERE / 'scrape.py'), kw_arg, place, str(out_file)]
+    print(f"\n=== RUN [{city}]: {len(KEYWORDS)} keywords in {place}", flush=True)
+    for kw in KEYWORDS:
+        print(f"    - {kw} in {place}", flush=True)
+    proc = subprocess.Popen(cmd, env=env, stdout=subprocess.PIPE,
+                            stderr=subprocess.STDOUT, text=True,
+                            encoding='utf-8', errors='replace', bufsize=1)
+    assert proc.stdout is not None
+    for line in proc.stdout:
+        print(line, end='', flush=True)
+    proc.wait()
+    return proc.returncode == 0 and out_file.exists()
+
+
+def shops_rows(path: Path):
+    from openpyxl import load_workbook
+    wb = load_workbook(path, read_only=True)
+    if 'shops' not in wb.sheetnames:
+        wb.close()
+        return None  # not a valid part file -> re-run
+    ws = wb['shops']
+    rows = list(ws.iter_rows(min_row=2, values_only=True))
+    wb.close()
+    return rows
+
+
+def merge(parts: list[Path]) -> None:
+    from openpyxl import Workbook
+    from openpyxl.styles import Font, PatternFill, Alignment
+    import scrape as _scrape  # reuse the exact CHAIN_NAMES + highlight logic
+
+    cols = ['title', 'totalScore', 'reviewsCount', 'street', 'city', 'state',
+            'countryCode', 'website', 'phone'] + \
+        [f'categories/{i}' for i in range(11)] + ['url', 'categoryName']
+    seen: set = set()
+    merged: list[tuple] = []
+    for p in parts:
+        rows = shops_rows(p)
+        if not rows:
+            continue
+        for r in rows:
+            r = (tuple(r) + ('',) * 24)[:24]
+            key = (str(r[0]).lower().strip(), str(r[3]).strip(),
+                   str(r[4]).strip(), str(r[8]).strip())
+            if key in seen:
+                continue
+            seen.add(key)
+            merged.append(r)
+
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "shops"
+    ws.append(cols)
+    for cell in ws[1]:
+        cell.font = Font(bold=True)
+        cell.fill = PatternFill('solid', start_color='DDDDDD')
+        cell.alignment = Alignment(horizontal='center')
+
+    phone_idx = cols.index('phone')
+    green = PatternFill('solid', start_color=_scrape.CHAIN_FILL)
+    yellow = PatternFill('solid', start_color=_scrape.NO_PHONE_FILL)
+    for r in merged:
+        ws.append(list(r))
+        row_num = ws.max_row
+        chain_match = _scrape.is_chain_match(str(r[0] or ''))
+        phone_val = str(r[phone_idx] or '').strip()
+        if chain_match:
+            for idx in range(len(r)):
+                if idx == phone_idx:
+                    continue
+                ws.cell(row=row_num, column=idx + 1).fill = green
+        if phone_val:
+            if chain_match:
+                ws.cell(row=row_num, column=phone_idx + 1).fill = green
+        else:
+            ws.cell(row=row_num, column=phone_idx + 1).fill = yellow
+
+    for col, w in {'A': 36, 'B': 10, 'C': 12, 'D': 32, 'E': 18, 'F': 18,
+                   'G': 12, 'H': 32, 'I': 18}.items():
+        ws.column_dimensions[col].width = w
+    ws.freeze_panes = 'A2'
+    wb.save(OUT)
+    phones = sum(1 for r in merged if r[8])
+    chains = sum(1 for r in merged if _scrape.is_chain_match(str(r[0] or '')))
+    print(f"\n=== MERGED: {len(merged)} unique businesses ({phones} with phone, "
+          f"{chains} chain stores highlighted) -> {OUT}", flush=True)
+
+
+def main() -> None:
+    dry = '--dry-run' in sys.argv
+    cities = cities_from_line_file()
+    total_q = len(cities) * len(KEYWORDS)
+    print(f"Vijayapura (vijaypur) district: {len(cities)} cities x "
+          f"{len(KEYWORDS)} keywords = {total_q} queries.", flush=True)
+    print(f"Parts dir: {PARTS}", flush=True)
+    print(f"Final output (ONE Excel): {OUT}", flush=True)
+    if dry:
+        for city in cities:
+            place = f"{city}, {DISTRICT}, {STATE}"
+            for kw in KEYWORDS:
+                print(f"  - {kw} in {place}")
+        print(f"\nDRY-RUN: {total_q} queries previewed, nothing scraped.")
+        return
+    PARTS.mkdir(exist_ok=True)
+    failed: list[str] = []
+    for i, city in enumerate(cities, 1):
+        out_file = PARTS / f"{i:02d}_{slug(city)}.xlsx"
+        if out_file.exists():
+            rows = None
+            try:
+                rows = shops_rows(out_file)
+            except Exception:
+                rows = None
+            if rows is not None:
+                print(f"[{i}/{len(cities)}] SKIP {city} (already done, "
+                      f"{len(rows)} rows)", flush=True)
+                continue
+        print(f"[{i}/{len(cities)}] {city}", flush=True)
+        ok = run_city(city, out_file)
+        if not ok:
+            print(f"!!! FAILED: {city}", flush=True)
+            failed.append(city)
+    parts = sorted(PARTS.glob('*.xlsx'))
+    if not parts:
+        print("No part files produced — nothing to merge.", flush=True)
+        sys.exit(1)
+    merge(parts)
+    if failed:
+        print(f"Cities that failed: {', '.join(failed)}", flush=True)
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()

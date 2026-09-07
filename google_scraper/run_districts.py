@@ -37,8 +37,8 @@ WAYS TO RUN:
   5. Preview without scraping (prints the queries and exits):
      python run_districts.py --dry-run districts.txt
 
-The state (karnataka) is appended automatically. To change the keyword,
-edit KEYWORDS below (default: mobile phones).
+The state (karnataka) is appended automatically. KEYWORDS below holds
+the 3 fixed queries (mobile shops / accessories / electronics).
 """
 
 import importlib.util
@@ -58,8 +58,12 @@ if sys.platform == 'win32':
     os.environ.setdefault('PYTHONUTF8', '1')
     os.environ.setdefault('PYTHONIOENCODING', 'utf-8')
 
-# Fixed keyword — change here if you want a different category.
-KEYWORDS = ["mobile phones"]
+# Fixed keywords — only these 3 run per district city.
+KEYWORDS = [
+    "Mobile shops",
+    "Mobile accessories",
+    "Electronics and appliances",
+]
 
 # State is hardcoded so every query stays within Karnataka.
 STATE = "karnataka"
