@@ -1,9 +1,7 @@
 # Runs the Google Maps scraper for 9 cities one by one -> single Excel file.
-# HEADLESS=0 (visible browser) so that if Google shows a CAPTCHA it can be
-# solved right in the window; the scraper auto-resumes once it clears.
-# The persistent browser profile (~/.cache/maps-scraper/profile) keeps working
-# for future headless runs afterwards.
-$env:HEADLESS = "0"
+# HEADLESS=1 (background). Set to "0" temporarily if a CAPTCHA needs
+# manual solving in the visible browser window.
+$env:HEADLESS = "1"
 $env:KEEP_ALL = "1"
 $env:PYTHONUNBUFFERED = "1"
 $env:PYTHONUTF8 = "1"

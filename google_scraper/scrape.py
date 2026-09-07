@@ -94,7 +94,7 @@ from rich.prompt import Prompt
 
 console = Console()
 
-HEADLESS = os.getenv("HEADLESS", "0") == "1"  # HEADLESS=1 to run without window
+HEADLESS = os.getenv("HEADLESS", "1") == "1"  # HEADLESS=0 to watch the browser
 KEEP_ALL = os.getenv("KEEP_ALL", "0") == "1"  # KEEP_ALL=1 to disable category filter
 DELAY_MIN_MS = int(os.getenv("DELAY_MIN_MS", "600"))  # min jitter between extracts
 DELAY_MAX_MS = int(os.getenv("DELAY_MAX_MS", "1800"))  # max jitter

@@ -62,7 +62,7 @@ def run_city(city: str, out_file: Path) -> bool:
     """Run scrape.py for one city with all 3 keywords. Returns True on success."""
     env = os.environ.copy()
     env['KEEP_ALL'] = '1'
-    env.setdefault('HEADLESS', '0')
+    env.setdefault('HEADLESS', '1')
     env['PYTHONUTF8'] = '1'
     env['PYTHONIOENCODING'] = 'utf-8'
     env['PYTHONUNBUFFERED'] = '1'

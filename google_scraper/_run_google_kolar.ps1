@@ -1,8 +1,8 @@
 # Runs the Google Maps scraper for 10 Kolar-district cities one by one
 # -> single Excel file `mobile_kolar_all.xlsx`.
-# HEADLESS=0 (visible browser) so if Google shows a CAPTCHA it clears in the
-# window and the scraper auto-resumes; the persistent profile stays warmed up.
-$env:HEADLESS = "0"
+# HEADLESS=1 (background). Set to "0" temporarily if a CAPTCHA needs
+# manual solving in the visible browser window.
+$env:HEADLESS = "1"
 $env:KEEP_ALL = "1"
 $env:PYTHONUNBUFFERED = "1"
 $env:PYTHONUTF8 = "1"
