@@ -1,0 +1,47 @@
+Source: mobileaccessoriesvijapura.xlsx  total rows: 368
+KEEP: 259 | REMOVE green/chains: 26 | REMOVE irrelevant: 83
+Saved: mobileaccessoriesvijapura_cleaned.xlsx  (kept 259 rows)
+
+--- Sample removed (chain/green) ---
+    Poorvika Mobiles Vijayapura | Cell phone store
+    Sangeetha Gadgets - Bijapur (SS Road) | Cell phone store
+    Sara Mobiles - Bijapur | Cell phone store
+    PhonoRange | Vijayapura | Cell phone store
+    PhonoRange Bijapur Yelameli Complex | Cell phone store
+    Pai mobiles bijapur | Cell phone store
+    Authorised Samsung Service Center - 3S Touch Service Solutions Pvt Ltd | Mobile phone repair shop
+    Sangeetha Gadgets - Bijapur ( Hudco Main Road) | Cell phone store
+
+--- Sample removed (irrelevant) ---
+    Prism (The IT Hub ) | computer support and services
+    LOGIC COMPUTER SALES AND SERVICE | computer service
+    Maxim Computers | computer store
+    Laptop Shopee | computer service
+    Innovative Computer Systems | computer store
+    Mahaveer Digital Solutions | computer accessories store
+    The Mechanic - Multibrand Car Service Centre Vijayapur | auto repair shop
+    Zoya car decore and Accessories | car stereo store
+    Kalyani Computers | computer store
+    My Computer Solutions | computer store
+    Nakoda Computers | computer store
+    KALYANI'S Moto Store | motorcycle parts store
+    Tasfiya Car World | auto accessories store
+    Mahalaxmi Net & Xerox | computer store
+    Royal Riders Helmet And Accessories Vijayapura | helmet shop
+
+--- Sample KEPT (first 15) ---
+    Avinash Mobiles and accessories /repair | mobile phone repair shop
+    MAHALAXMI MOBILE ACCESSORIES | mobile phone repair shop
+    SK mobile accessories & repairy shop | electronics store
+    PPR Mobile Services | mobile phone repair shop
+    Pintu mobile service | mobile phone repair shop
+    Cashify Mobile Phone Store & Repair Shop | SS Road, Vijayapura | cell phone store
+    iDroid's MOBILE REPAIR SERVICE | mobile phone repair shop
+    SS Mobile | cell phone store
+    Hidayat Mobile Center | cell phone accessory store
+    AEM MOBILES CENTER | mobile phone repair shop
+    Unique Mobiles | mobile phone repair shop
+    Shree Ram mobile accessories and spare parts | cell phone accessory store
+    Manmandir Mobiles | cell phone store
+    HMD Smartphone Authorised Service Center | Swetha Cell Point | mobile phone repair shop
+    Mobile Exchange Wala | cell phone store

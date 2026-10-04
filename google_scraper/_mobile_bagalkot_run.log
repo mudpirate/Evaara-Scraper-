@@ -1,0 +1,481 @@
+Bagalkot district: 28 cities x 1 keyword = 28 queries.
+Keyword: mobile phones and accessories
+Parts dir: C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts
+Final output (ONE Excel): C:\Users\Nomesh\Desktop\evaara\google_scraper\mobilephonesaccessoriesbagalkot.xlsx
+[1/28] SKIP Almatti (already done, 71 rows)
+[2/28] SKIP Amingad (already done, 15 rows)
+[3/28] SKIP Badami (already done, 61 rows)
+[4/28] Bagalkot
+
+=== RUN [Bagalkot] -> 04_bagalkot.xlsx
+    - mobile phones and accessories in Bagalkot, bagalkot, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones and accessories in Bagalkot, bagalkot, karnataka
+✓ 64 unique places (from 67 cards)
+  MOBI TECH MOBILES -------------------------------------- 100% 0:01:03 0:00:00
+
+Total: 64 scraped → 64 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 64 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\04_bagalko
+t.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\04_bagalko
+t.xlsx
+✨ 11 chain-store rows highlighted green | 14 rows with NO phone highlighted 
+yellow
+[5/28] Navnagar
+
+=== RUN [Navnagar] -> 05_navnagar.xlsx
+    - mobile phones and accessories in Navnagar, bagalkot, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones and accessories in Navnagar, bagalkot, karnataka
+✓ 57 unique places (from 59 cards)
+  Kiran Mobiles ---------------------------------------- 100% 0:00:57 0:00:00
+
+Total: 57 scraped → 57 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 57 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\05_navnaga
+r.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\05_navnaga
+r.xlsx
+✨ 3 chain-store rows highlighted green | 10 rows with NO phone highlighted 
+yellow
+[6/28] Old Bagalkot
+
+=== RUN [Old Bagalkot] -> 06_old_bagalkot.xlsx
+    - mobile phones and accessories in Old Bagalkot, bagalkot, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones and accessories in Old Bagalkot, bagalkot, karnataka
+✓ 12 unique places (from 12 cards)
+  Authorised Samsung Service Center - Sh ----------------- 100% 0:00:11 0:00:00
+
+Total: 12 scraped → 12 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 12 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\06_old_bag
+alkot.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\06_old_bag
+alkot.xlsx
+✨ 4 chain-store rows highlighted green | 2 rows with NO phone highlighted 
+yellow
+[7/28] Belur
+
+=== RUN [Belur] -> 07_belur.xlsx
+    - mobile phones and accessories in Belur, bagalkot, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones and accessories in Belur, bagalkot, karnataka
+✓ 11 unique places (from 11 cards)
+  Shri Sai Communication --------------------------------- 100% 0:00:12 0:00:00
+
+Total: 11 scraped → 11 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 11 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\07_belur.x
+lsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\07_belur.x
+lsx
+✨ 7 chain-store rows highlighted green | 1 rows with NO phone highlighted 
+yellow
+[8/28] Bilgi
+
+=== RUN [Bilgi] -> 08_bilgi.xlsx
+    - mobile phones and accessories in Bilgi, bagalkot, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones and accessories in Bilgi, bagalkot, karnataka
+✓ 27 unique places (from 28 cards)
+  Near ambedkar Circle ----------------------------------- 100% 0:00:26 0:00:00
+
+Total: 27 scraped → 27 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 27 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\08_bilgi.x
+lsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\08_bilgi.x
+lsx
+✨ 5 chain-store rows highlighted green | 8 rows with NO phone highlighted 
+yellow
+[9/28] Cholachagudd
+
+=== RUN [Cholachagudd] -> 09_cholachagudd.xlsx
+    - mobile phones and accessories in Cholachagudd, bagalkot, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones and accessories in Cholachagudd, bagalkot, karnataka
+✓ 75 unique places (from 84 cards)
+  AJ MOBILE SHOP ---------------------------------------- 100% 0:01:13 0:00:00
+
+Total: 75 scraped → 75 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 75 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\09_cholach
+agudd.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\09_cholach
+agudd.xlsx
+✨ 16 chain-store rows highlighted green | 15 rows with NO phone highlighted 
+yellow
+[10/28] Halagali
+
+=== RUN [Halagali] -> 10_halagali.xlsx
+    - mobile phones and accessories in Halagali, bagalkot, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones and accessories in Halagali, bagalkot, karnataka
+✓ 108 unique places (from 115 cards)
+  RENUKA MOBILE ---------------------------------------- 100% 0:01:49 0:00:00
+
+Total: 108 scraped → 108 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 108 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\10_halagal
+i.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\10_halagal
+i.xlsx
+✨ 25 chain-store rows highlighted green | 21 rows with NO phone highlighted 
+yellow
+[11/28] Hippargi
+
+=== RUN [Hippargi] -> 11_hippargi.xlsx
+    - mobile phones and accessories in Hippargi, bagalkot, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones and accessories in Hippargi, bagalkot, karnataka
+✓ 13 unique places (from 13 cards)
+  Shri Prabhu Mobiles ------------------------------------ 100% 0:00:14 0:00:00
+
+Total: 13 scraped → 13 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 13 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\11_hipparg
+i.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\11_hipparg
+i.xlsx
+✨ 7 chain-store rows highlighted green | 2 rows with NO phone highlighted 
+yellow
+[12/28] Hungund
+
+=== RUN [Hungund] -> 12_hungund.xlsx
+    - mobile phones and accessories in Hungund, bagalkot, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones and accessories in Hungund, bagalkot, karnataka
+✓ 9 unique places (from 9 cards)
+  Sangeetha Gadgets - Bagalkote -------------------------- 100% 0:00:08 0:00:00
+
+Total: 9 scraped → 9 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 9 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\12_hungund
+.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\12_hungund
+.xlsx
+✨ 3 chain-store rows highlighted green | 0 rows with NO phone highlighted 
+yellow
+[13/28] Jamkhandi
+
+=== RUN [Jamkhandi] -> 13_jamkhandi.xlsx
+    - mobile phones and accessories in Jamkhandi, bagalkot, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones and accessories in Jamkhandi, bagalkot, karnataka
+✓ 74 unique places (from 78 cards)
+  Shree Basaveshwar Communication ------------------------ 100% 0:01:13 0:00:00
+
+Total: 74 scraped → 74 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 74 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\13_jamkhan
+di.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\13_jamkhan
+di.xlsx
+✨ 16 chain-store rows highlighted green | 14 rows with NO phone highlighted 
+yellow
+[14/28] Kaladgi
+
+=== RUN [Kaladgi] -> 14_kaladgi.xlsx
+    - mobile phones and accessories in Kaladgi, bagalkot, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones and accessories in Kaladgi, bagalkot, karnataka
+✓ 17 unique places (from 17 cards)
+  AJ MOBILE SHOP ---------------------------------------- 100% 0:00:16 0:00:00
+
+Total: 17 scraped → 17 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 17 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\14_kaladgi
+.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\14_kaladgi
+.xlsx
+✨ 6 chain-store rows highlighted green | 3 rows with NO phone highlighted 
+yellow
+[15/28] Kamatagi
+
+=== RUN [Kamatagi] -> 15_kamatagi.xlsx
+    - mobile phones and accessories in Kamatagi, bagalkot, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones and accessories in Kamatagi, bagalkot, karnataka
+✓ 110 unique places (from 118 cards)
+  Nokia Mobile Shop -------------------------------------- 100% 0:01:47 0:00:00
+
+Total: 110 scraped → 110 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 110 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\15_kamatag
+i.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\15_kamatag
+i.xlsx
+✨ 20 chain-store rows highlighted green | 20 rows with NO phone highlighted 
+yellow
+[16/28] Kerakalmatti
+
+=== RUN [Kerakalmatti] -> 16_kerakalmatti.xlsx
+    - mobile phones and accessories in Kerakalmatti, bagalkot, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones and accessories in Kerakalmatti, bagalkot, karnataka
+✓ 91 unique places (from 100 cards)
+  Near Old Police Station, Chavadi Circl ----------------- 100% 0:01:31 0:00:00
+
+Total: 91 scraped → 91 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 91 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\16_kerakal
+matti.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\16_kerakal
+matti.xlsx
+✨ 18 chain-store rows highlighted green | 15 rows with NO phone highlighted 
+yellow
+[17/28] Konnur
+
+=== RUN [Konnur] -> 17_konnur.xlsx
+    - mobile phones and accessories in Konnur, bagalkot, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones and accessories in Konnur, bagalkot, karnataka
+✓ 16 unique places (from 16 cards)
+  Chitapur Mobiles --------------------------------------- 100% 0:00:15 0:00:00
+
+Total: 16 scraped → 16 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 16 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\17_konnur.
+xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\17_konnur.
+xlsx
+✨ 4 chain-store rows highlighted green | 6 rows with NO phone highlighted 
+yellow
+[18/28] Kudal Sangam
+
+=== RUN [Kudal Sangam] -> 18_kudal_sangam.xlsx
+    - mobile phones and accessories in Kudal Sangam, bagalkot, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones and accessories in Kudal Sangam, bagalkot, karnataka
+✓ 8 unique places (from 8 cards)
+  Sangeetha Gadgets - Bagalkote Vidyagir ----------------- 100% 0:00:09 0:00:00
+
+Total: 8 scraped → 8 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 8 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\18_kudal_s
+angam.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\18_kudal_s
+angam.xlsx
+✨ 4 chain-store rows highlighted green | 1 rows with NO phone highlighted 
+yellow
+[19/28] Kulgeri
+
+=== RUN [Kulgeri] -> 19_kulgeri.xlsx
+    - mobile phones and accessories in Kulgeri, bagalkot, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones and accessories in Kulgeri, bagalkot, karnataka
+✓ 85 unique places (from 94 cards)
+  Near Old Police Station, Chavadi Circl ----------------- 100% 0:01:22 0:00:00
+
+Total: 85 scraped → 85 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 85 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\19_kulgeri
+.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\19_kulgeri
+.xlsx
+✨ 17 chain-store rows highlighted green | 16 rows with NO phone highlighted 
+yellow
+[20/28] Lokapur
+
+=== RUN [Lokapur] -> 20_lokapur.xlsx
+    - mobile phones and accessories in Lokapur, bagalkot, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones and accessories in Lokapur, bagalkot, karnataka
+✓ 9 unique places (from 9 cards)
+  Sangeetha Gadgets - Bagalkote Vidyagir ----------------- 100% 0:00:09 0:00:00
+
+Total: 9 scraped → 9 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 9 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\20_lokapur
+.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\20_lokapur
+.xlsx
+✨ 3 chain-store rows highlighted green | 3 rows with NO phone highlighted 
+yellow
+[21/28] Mahalingpur
+
+=== RUN [Mahalingpur] -> 21_mahalingpur.xlsx
+    - mobile phones and accessories in Mahalingpur, bagalkot, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones and accessories in Mahalingpur, bagalkot, karnataka
+✓ 18 unique places (from 18 cards)
+  Om Sai Mobiles & Travels ------------------------------- 100% 0:00:17 0:00:00
+
+Total: 18 scraped → 18 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 18 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\21_mahalin
+gpur.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\21_mahalin
+gpur.xlsx
+✨ 6 chain-store rows highlighted green | 7 rows with NO phone highlighted 
+yellow
+[22/28] Mudhol
+
+=== RUN [Mudhol] -> 22_mudhol.xlsx
+    - mobile phones and accessories in Mudhol, bagalkot, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones and accessories in Mudhol, bagalkot, karnataka
+✓ 99 unique places (from 105 cards)
+  Sunil Mobile Recharge ---------------------------------- 100% 0:01:33 0:00:00
+
+Total: 99 scraped → 99 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 99 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\22_mudhol.
+xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\22_mudhol.
+xlsx
+✨ 16 chain-store rows highlighted green | 24 rows with NO phone highlighted 
+yellow
+[23/28] Mugalolli
+
+=== RUN [Mugalolli] -> 23_mugalolli.xlsx
+    - mobile phones and accessories in Mugalolli, bagalkot, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones and accessories in Mugalolli, bagalkot, karnataka
+✓ 112 unique places (from 120 cards)
+  Sai Communication -------------------------------------- 100% 0:01:55 0:00:00
+
+Total: 112 scraped → 112 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 112 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\23_mugalol
+li.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\23_mugalol
+li.xlsx
+✨ 20 chain-store rows highlighted green | 21 rows with NO phone highlighted 
+yellow
+[24/28] Nidagundi
+
+=== RUN [Nidagundi] -> 24_nidagundi.xlsx
+    - mobile phones and accessories in Nidagundi, bagalkot, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones and accessories in Nidagundi, bagalkot, karnataka
+✓ 16 unique places (from 16 cards)
+  BHAVANI MOBILES ---------------------------------------- 100% 0:00:16 0:00:00
+
+Total: 16 scraped → 16 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 16 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\24_nidagun
+di.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\24_nidagun
+di.xlsx
+✨ 6 chain-store rows highlighted green | 3 rows with NO phone highlighted 
+yellow
+[25/28] Pattadakal
+
+=== RUN [Pattadakal] -> 25_pattadakal.xlsx
+    - mobile phones and accessories in Pattadakal, bagalkot, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones and accessories in Pattadakal, bagalkot, karnataka
+✓ 12 unique places (from 12 cards)
+  Shri Sai Mobile ---------------------------------------- 100% 0:00:10 0:00:00
+
+Total: 12 scraped → 12 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 12 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\25_pattada
+kal.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\25_pattada
+kal.xlsx
+✨ 7 chain-store rows highlighted green | 1 rows with NO phone highlighted 
+yellow
+[26/28] Sirur
+
+=== RUN [Sirur] -> 26_sirur.xlsx
+    - mobile phones and accessories in Sirur, bagalkot, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones and accessories in Sirur, bagalkot, karnataka
+✓ 77 unique places (from 81 cards)
+  AJ MOBILE SHOP ---------------------------------------- 100% 0:01:17 0:00:00
+
+Total: 77 scraped → 77 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 77 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\26_sirur.x
+lsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\26_sirur.x
+lsx
+✨ 14 chain-store rows highlighted green | 20 rows with NO phone highlighted 
+yellow
+[27/28] Yadahalli
+
+=== RUN [Yadahalli] -> 27_yadahalli.xlsx
+    - mobile phones and accessories in Yadahalli, bagalkot, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones and accessories in Yadahalli, bagalkot, karnataka
+✓ 17 unique places (from 17 cards)
+  Tavarageri Mobiles ------------------------------------- 100% 0:00:16 0:00:00
+
+Total: 17 scraped → 17 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 17 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\27_yadahal
+li.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\27_yadahal
+li.xlsx
+✨ 5 chain-store rows highlighted green | 2 rows with NO phone highlighted 
+yellow
+[28/28] Yadawad
+
+=== RUN [Yadawad] -> 28_yadawad.xlsx
+    - mobile phones and accessories in Yadawad, bagalkot, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones and accessories in Yadawad, bagalkot, karnataka
+✗ no results
+
+Total: 0 scraped → 0 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 0 → 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\28_yadawad
+.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_bagalkot_parts\28_yadawad
+.xlsx
+
+=== MERGED: 337 unique businesses (266 with phone, 36 chain stores highlighted) -> C:\Users\Nomesh\Desktop\evaara\google_scraper\mobilephonesaccessoriesbagalkot.xlsx

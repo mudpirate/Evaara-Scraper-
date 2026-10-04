@@ -1,0 +1,94 @@
+kept rows: 259
+categories:
+   'Mobile phone repair shop' = 88
+   'Cell phone store' = 69
+   'Cell phone accessory store' = 28
+   'Electronics store' = 27
+   '' = 14
+   'Auto parts store' = 3
+   'Electronics repair shop' = 3
+   '\ue52e\nDirections' = 3
+   'Motorcycle parts store' = 2
+   'Shopping mall' = 2
+   'Mobile caterer' = 2
+   'Telecommunications service provider' = 1
+   'Phone repair service' = 1
+   'Store' = 1
+   'Gift shop' = 1
+   'General store' = 1
+   'Electric motor vehicle dealer' = 1
+   'Electronics Company' = 1
+   'ATV repair shop' = 1
+   'Computer store' = 1
+   'Internet shop' = 1
+   'Appliance store' = 1
+   'Train repairing center' = 1
+   '\ue56c\nRestaurants' = 1
+   'Hardware store' = 1
+   'Repair service' = 1
+   'Chauffeur service' = 1
+   'Family practice physician' = 1
+   'Auto repair shop' = 1
+
+Rows kept with NON-keep categories:
+   [telecommunications service provider] Nothing Mobile authorized service center
+   [auto parts store] STAR AUTOMOBILES
+   [motorcycle parts store] Hingalaj Automobiles & Macwheels
+   [] Dev mobile accessories & service center
+   [store] Gulf Retail Shop - Veeresh Automobiles
+   [gift shop] Shoaib muttagi gift shop repair center geyser service air cooler all types fan electric replace
+   [general store] Suresh Mobile Shop
+   [electric motor vehicle dealer] Montra Electric - Bijjargi EV World, Bijapur
+   [motorcycle parts store] Siddheshwar Automobiles Sindagi
+   [shopping mall] Vijayalaxmi Mobiles Sindagi Jervargi Road
+   [auto parts store] RR Automobile
+   [atv repair shop] Bharat electronics
+   [computer store] SHRIRAM MOBILE'S
+   [internet shop] Muttu Mobile And Internet Center
+   [appliance store] Dada Mobiles & Appliances
+   [mobile caterer] R K Mobiles
+   [] R N Mobile
+   [] Santosh Mobile Accessories
+   [mobile caterer] Mahadev Telecom Bijapur Wholesale in oll type mobile spare parts Available Here
+   [] New Cell Com all types of mobiles repairing
+   [] Digital Mobile Service Center
+   [] Raj Communication
+   [] Jayashri Communication
+   [train repairing center] Mobile repairing
+   [
+directions] Shree kalmeshwar mobile repairing & Service center
+   [] Arpita Mobile Sales and service
+   [
+restaurants] ROYAL MOBILE SERVICE CENTER TOFIK
+   [shopping mall] SHRI MOBILE COMMUNICATION
+   [] Mobile repair shop
+   [] MOBILE WORKS SHOP
+   [] Hungund Mobile Repair Shop
+   [hardware store] S K Mobiles
+   [] R P PHONE CARE
+   [repair service] Sachin mobile repairing
+   [chauffeur service] Ganesh Mobile
+   [family practice physician] Mobile Phone repair
+   [] S S MOBILE
+   [auto parts store] M R K. AUTO MOBILES & SEAT COVERS
+   [auto repair shop] Wel Come Mobile Accessories Store
+   [
+directions] ASIF MOBILE ACCESSORIES AND SERVICES
+   [
+directions] SHRI SAI MOBILE AND SERVICE CENTER
+   [] The mobile store
+count: 42
+
+removed rows: 109
+   chain store (was green) = 26
+   irrelevant (computer store) = 14
+   irrelevant (two wheeler dealer) = 4
+   irrelevant (car stereo store) = 3
+   irrelevant (auto accessories store) = 3
+   irrelevant (auto parts store) = 3
+   irrelevant (telecommunications service provider) = 3
+   irrelevant (computer service) = 2
+   irrelevant (computer accessories store) = 2
+   irrelevant (auto repair shop) = 2
+   irrelevant (helmet shop) = 2
+   irrelevant (gift shop) = 2

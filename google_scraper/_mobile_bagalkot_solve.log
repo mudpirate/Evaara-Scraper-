@@ -1,0 +1,35 @@
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ mobile phones and accessories in Bagalkot, bagalkot, karnataka
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ⚠ CAPTCHA detected                                                          │
+│                                                                             │
+│ URL:                                                                        │
+│ https://www.google.com/sorry/index?continue=https://www.google.com/maps/sea │
+│ rch/mobile%2Bphones%2Band%2Baccessories%2Bin%2BBagalkot,%2Bbagalkot,%2Bkarn │
+│ ataka&q=EhAkCUDgAEYgpLXKqu52RNpbGOSz9dUGIjCk2UHZyoq9BPma_tDxSLxxudVZlgqhRXJ │
+│ U1Kam2f42uioXlFjSEz4Cp_lbCcZmS8oyAnJSWgFD                                   │
+│ Mode: HEADED                                                                │
+└─────────────────────────────────────────────────────────────────────────────┘
+Solve the captcha in the visible browser, then press ENTER here (or just solve 
+it — the script auto-detects either way).
+✓ Resuming (after 5s)
+
+✓ 64 unique places (from 67 cards)
+  MOBI TECH MOBILES -------------------------------------- 100% 0:00:58 0:00:00
+
+Total: 64 scraped → 64 unique (0 dupes removed)
+Filter: intent='mobile' → 56 kept, 8 filtered (set KEEP_ALL=1 to disable)
+top filtered categories:
+  ✗ Store: 2
+  ✗ Mobile home dealer: 1
+  ✗ Gift shop: 1
+  ✗ (none): 1
+  ✗ Bus charter: 1
+  ✗ Shopping mall: 1
+  ✗ Appliance store: 1
+✓ saved 56 → google_scraper\_mobile_bagalkot_parts\04_bagalkot.xlsx (shops + 
+filtered_out)
+FILE_PATH: google_scraper\_mobile_bagalkot_parts\04_bagalkot.xlsx
+✨ 11 chain-store rows highlighted green | 11 rows with NO phone highlighted 
+yellow

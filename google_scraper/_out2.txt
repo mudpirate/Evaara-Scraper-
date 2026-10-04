@@ -1,0 +1,2 @@
+Source: mobileaccessoriesvijapura.xlsx  total rows: 368
+KEEP: 252 | REMOVE green/chains: 26 | REMOVE irrelevant: 90

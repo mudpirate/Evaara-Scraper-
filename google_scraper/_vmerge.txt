@@ -1,0 +1,37 @@
+sheets: ['shops', 'summary']
+header (first 12): ('citySearched', 'title', 'totalScore', 'reviewsCount', 'street', 'city', 'state', 'countryCode', 'website', 'phone', 'categories/0', 'categories/1')
+total data rows: 357
+categoryName counts:
+   'Cell phone store' = 113
+   'Mobile phone repair shop' = 96
+   'Cell phone accessory store' = 48
+   'Electronics store' = 33
+   '' = 27
+   '\ue52e\nDirections' = 6
+   'Auto parts store' = 3
+   'Electronics repair shop' = 3
+   'Telecommunications service provider' = 2
+   'Motorcycle parts store' = 2
+   'Gift shop' = 2
+   'Shopping mall' = 2
+   'Mobile caterer' = 2
+   'Repair service' = 2
+   'Phone repair service' = 1
+   'Store' = 1
+   'General store' = 1
+   'Electric motor vehicle dealer' = 1
+   'Electronics Company' = 1
+   'ATV repair shop' = 1
+   'Computer store' = 1
+   'Internet shop' = 1
+   'Appliance store' = 1
+   'Train repairing center' = 1
+   '\ue56c\nRestaurants' = 1
+   'Hardware store' = 1
+   'Chauffeur service' = 1
+   'Family practice physician' = 1
+   'Auto repair shop' = 1
+   'Oldsmobile dealer' = 1
+
+rows WITH citySearched: 259  (from file A)
+rows WITHOUT citySearched: 98  (from file B)

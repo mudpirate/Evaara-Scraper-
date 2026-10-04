@@ -1,0 +1,727 @@
+Vijayapura (vijaypur) district: 38 cities x 1 keyword = 38 queries.
+Parts dir: C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts
+Final output (ONE Excel): C:\Users\Nomesh\desktop\evaara\google_scraper\mobileaccessoriesvijapura.xlsx
+[1/38] vijaypura city
+
+=== RUN [vijaypura city] -> 01_vijaypura_city.xlsx
+    - Mobile accessories and repair in vijaypura city, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in vijaypura city, vijaypur, karnataka
+✓ 95 unique places (from 97 cards)
+  Mobile shop ---------------------------------------- 100% 0:02:05 0:00:00
+
+Total: 95 scraped → 95 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 95 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\01_vij
+aypura_city.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\01_vij
+aypura_city.xlsx
+✨ 17 chain-store rows highlighted green | 9 rows with NO phone highlighted 
+yellow
+[2/38] chadchan
+
+=== RUN [chadchan] -> 02_chadchan.xlsx
+    - Mobile accessories and repair in chadchan, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in chadchan, vijaypur, karnataka
+✓ 63 unique places (from 72 cards)
+  Shastri Market ---------------------------------------- 100% 0:01:02 0:00:00
+
+Total: 63 scraped → 63 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 63 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\02_cha
+dchan.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\02_cha
+dchan.xlsx
+✨ 9 chain-store rows highlighted green | 8 rows with NO phone highlighted 
+yellow
+[3/38] indi
+
+=== RUN [indi] -> 03_indi.xlsx
+    - Mobile accessories and repair in indi, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in indi, vijaypur, karnataka
+✓ 56 unique places (from 57 cards)
+  SJ MOBILE WORLD SHOP ----------------------------------- 100% 0:00:58 0:00:00
+
+Total: 56 scraped → 56 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 56 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\03_ind
+i.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\03_ind
+i.xlsx
+✨ 13 chain-store rows highlighted green | 3 rows with NO phone highlighted 
+yellow
+[4/38] sindagi
+
+=== RUN [sindagi] -> 04_sindagi.xlsx
+    - Mobile accessories and repair in sindagi, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in sindagi, vijaypur, karnataka
+✓ 44 unique places (from 45 cards)
+  VRG Liquorland ---------------------------------------- 100% 0:00:47 0:00:00
+
+Total: 44 scraped → 44 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 44 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\04_sin
+dagi.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\04_sin
+dagi.xlsx
+✨ 10 chain-store rows highlighted green | 8 rows with NO phone highlighted 
+yellow
+[5/38] devarhippargi
+
+=== RUN [devarhippargi] -> 05_devarhippargi.xlsx
+    - Mobile accessories and repair in devarhippargi, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in devarhippargi, vijaypur, karnataka
+✓ 40 unique places (from 40 cards)
+  SAGAR MOBILE ---------------------------------------- 100% 0:00:42 0:00:00
+
+Total: 40 scraped → 40 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 40 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\05_dev
+arhippargi.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\05_dev
+arhippargi.xlsx
+✨ 6 chain-store rows highlighted green | 5 rows with NO phone highlighted 
+yellow
+[6/38] talikoti
+
+=== RUN [talikoti] -> 06_talikoti.xlsx
+    - Mobile accessories and repair in talikoti, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in talikoti, vijaypur, karnataka
+✓ 11 unique places (from 11 cards)
+  Friend's Mobile Point ---------------------------------- 100% 0:00:18 0:00:00
+
+Total: 11 scraped → 11 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 11 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\06_tal
+ikoti.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\06_tal
+ikoti.xlsx
+✨ 1 chain-store rows highlighted green | 4 rows with NO phone highlighted 
+yellow
+[7/38] muddebihal
+
+=== RUN [muddebihal] -> 07_muddebihal.xlsx
+    - Mobile accessories and repair in muddebihal, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in muddebihal, vijaypur, karnataka
+✓ 101 unique places (from 108 cards)
+  LAXMI MOBILE SHOP -------------------------------------- 100% 0:01:53 0:00:00
+
+Total: 101 scraped → 101 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 101 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\07_mud
+debihal.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\07_mud
+debihal.xlsx
+✨ 17 chain-store rows highlighted green | 9 rows with NO phone highlighted 
+yellow
+[8/38] basavana bagewadi
+
+=== RUN [basavana bagewadi] -> 08_basavana_bagewadi.xlsx
+    - Mobile accessories and repair in basavana bagewadi, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in basavana bagewadi, vijaypur, karnataka
+✓ 18 unique places (from 18 cards)
+  Shree Golaleshwar Mobile's & Accessori ----------------- 100% 0:00:17 0:00:00
+
+Total: 18 scraped → 18 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 18 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\08_bas
+avana_bagewadi.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\08_bas
+avana_bagewadi.xlsx
+✨ 0 chain-store rows highlighted green | 4 rows with NO phone highlighted 
+yellow
+[9/38] horti
+
+=== RUN [horti] -> 09_horti.xlsx
+    - Mobile accessories and repair in horti, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in horti, vijaypur, karnataka
+✓ 29 unique places (from 32 cards)
+  Dev mobile accessories & service cente ----------------- 100% 0:00:30 0:00:00
+
+Total: 29 scraped → 29 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 29 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\09_hor
+ti.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\09_hor
+ti.xlsx
+✨ 6 chain-store rows highlighted green | 3 rows with NO phone highlighted 
+yellow
+[10/38] zalki
+
+=== RUN [zalki] -> 10_zalki.xlsx
+    - Mobile accessories and repair in zalki, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in zalki, vijaypur, karnataka
+✓ 29 unique places (from 30 cards)
+  Store ---------------------------------------- 100% 0:00:31 0:00:00
+
+Total: 29 scraped → 29 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 29 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\10_zal
+ki.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\10_zal
+ki.xlsx
+✨ 4 chain-store rows highlighted green | 4 rows with NO phone highlighted 
+yellow
+[11/38] almel
+
+=== RUN [almel] -> 11_almel.xlsx
+    - Mobile accessories and repair in almel, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in almel, vijaypur, karnataka
+✓ 60 unique places (from 66 cards)
+  Vaibhav Computers -------------------------------------- 100% 0:01:07 0:00:00
+
+Total: 60 scraped → 60 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 60 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\11_alm
+el.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\11_alm
+el.xlsx
+✨ 10 chain-store rows highlighted green | 4 rows with NO phone highlighted 
+yellow
+[12/38] golageri
+
+=== RUN [golageri] -> 12_golageri.xlsx
+    - Mobile accessories and repair in golageri, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in golageri, vijaypur, karnataka
+✓ 31 unique places (from 34 cards)
+  Vivo Service Center ------------------------------------ 100% 0:00:33 0:00:00
+
+Total: 31 scraped → 31 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 31 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\12_gol
+ageri.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\12_gol
+ageri.xlsx
+✨ 6 chain-store rows highlighted green | 2 rows with NO phone highlighted 
+yellow
+[13/38] kalakeri
+
+=== RUN [kalakeri] -> 13_kalakeri.xlsx
+    - Mobile accessories and repair in kalakeri, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in kalakeri, vijaypur, karnataka
+✓ 20 unique places (from 20 cards)
+  Raj Communication -------------------------------------- 100% 0:00:20 0:00:00
+
+Total: 20 scraped → 20 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 20 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\13_kal
+akeri.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\13_kal
+akeri.xlsx
+✨ 5 chain-store rows highlighted green | 2 rows with NO phone highlighted 
+yellow
+[14/38] kembhavi
+
+=== RUN [kembhavi] -> 14_kembhavi.xlsx
+    - Mobile accessories and repair in kembhavi, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in kembhavi, vijaypur, karnataka
+✓ 36 unique places (from 36 cards)
+  Qsaw mobile shop --------------------------------------- 100% 0:00:42 0:00:00
+
+Total: 36 scraped → 36 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 36 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\14_kem
+bhavi.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\14_kem
+bhavi.xlsx
+✨ 5 chain-store rows highlighted green | 6 rows with NO phone highlighted 
+yellow
+[15/38] yedrami
+
+=== RUN [yedrami] -> 15_yedrami.xlsx
+    - Mobile accessories and repair in yedrami, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in yedrami, vijaypur, karnataka
+✓ 9 unique places (from 9 cards)
+  Mahaveer Mobiles --------------------------------------- 100% 0:00:12 0:00:00
+
+Total: 9 scraped → 9 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 9 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\15_yed
+rami.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\15_yed
+rami.xlsx
+✨ 2 chain-store rows highlighted green | 0 rows with NO phone highlighted 
+yellow
+[16/38] ijeri
+
+=== RUN [ijeri] -> 16_ijeri.xlsx
+    - Mobile accessories and repair in ijeri, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in ijeri, vijaypur, karnataka
+✓ 31 unique places (from 32 cards)
+  Gandhi Chowk ---------------------------------------- 100% 0:00:39 0:00:00
+
+Total: 31 scraped → 31 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 31 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\16_ije
+ri.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\16_ije
+ri.xlsx
+✨ 4 chain-store rows highlighted green | 3 rows with NO phone highlighted 
+yellow
+[17/38] huvin hippargi
+
+=== RUN [huvin hippargi] -> 17_huvin_hippargi.xlsx
+    - Mobile accessories and repair in huvin hippargi, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in huvin hippargi, vijaypur, karnataka
+✓ 34 unique places (from 34 cards)
+  guddodagi electronics ---------------------------------- 100% 0:00:48 0:00:00
+
+Total: 34 scraped → 34 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 34 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\17_huv
+in_hippargi.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\17_huv
+in_hippargi.xlsx
+✨ 12 chain-store rows highlighted green | 1 rows with NO phone highlighted 
+yellow
+[18/38] ukkali
+
+=== RUN [ukkali] -> 18_ukkali.xlsx
+    - Mobile accessories and repair in ukkali, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in ukkali, vijaypur, karnataka
+✓ 18 unique places (from 18 cards)
+  Reliance Digital --------------------------------------- 100% 0:00:22 0:00:00
+
+Total: 18 scraped → 18 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 18 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\18_ukk
+ali.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\18_ukk
+ali.xlsx
+✨ 5 chain-store rows highlighted green | 1 rows with NO phone highlighted 
+yellow
+[19/38] shivanagi
+
+=== RUN [shivanagi] -> 19_shivanagi.xlsx
+    - Mobile accessories and repair in shivanagi, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in shivanagi, vijaypur, karnataka
+✓ 30 unique places (from 30 cards)
+  Vivo Service Center ------------------------------------ 100% 0:00:30 0:00:00
+
+Total: 30 scraped → 30 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 30 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\19_shi
+vanagi.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\19_shi
+vanagi.xlsx
+✨ 7 chain-store rows highlighted green | 2 rows with NO phone highlighted 
+yellow
+[20/38] bableshwar
+
+=== RUN [bableshwar] -> 20_bableshwar.xlsx
+    - Mobile accessories and repair in bableshwar, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in bableshwar, vijaypur, karnataka
+✓ 67 unique places (from 76 cards)
+  Mobile shop ---------------------------------------- 100% 0:01:17 0:00:00
+
+Total: 67 scraped → 67 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 67 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\20_bab
+leshwar.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\20_bab
+leshwar.xlsx
+✨ 10 chain-store rows highlighted green | 11 rows with NO phone highlighted 
+yellow
+[21/38] ainapur
+
+=== RUN [ainapur] -> 21_ainapur.xlsx
+    - Mobile accessories and repair in ainapur, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in ainapur, vijaypur, karnataka
+✓ 31 unique places (from 33 cards)
+  Vaibhav Computers -------------------------------------- 100% 0:00:33 0:00:00
+
+Total: 31 scraped → 31 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 31 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\21_ain
+apur.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\21_ain
+apur.xlsx
+✨ 7 chain-store rows highlighted green | 1 rows with NO phone highlighted 
+yellow
+[22/38] bijjargi
+
+=== RUN [bijjargi] -> 22_bijjargi.xlsx
+    - Mobile accessories and repair in bijjargi, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in bijjargi, vijaypur, karnataka
+✓ 33 unique places (from 33 cards)
+  Mobile shop ---------------------------------------- 100% 0:00:32 0:00:00
+
+Total: 33 scraped → 33 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 33 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\22_bij
+jargi.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\22_bij
+jargi.xlsx
+✨ 6 chain-store rows highlighted green | 4 rows with NO phone highlighted 
+yellow
+[23/38] mangoli
+
+=== RUN [mangoli] -> 23_mangoli.xlsx
+    - Mobile accessories and repair in mangoli, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in mangoli, vijaypur, karnataka
+✓ 24 unique places (from 25 cards)
+  Excel Computer Systems --------------------------------- 100% 0:00:24 0:00:00
+
+Total: 24 scraped → 24 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 24 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\23_man
+goli.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\23_man
+goli.xlsx
+✨ 6 chain-store rows highlighted green | 2 rows with NO phone highlighted 
+yellow
+[24/38] toravi
+
+=== RUN [toravi] -> 24_toravi.xlsx
+    - Mobile accessories and repair in toravi, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in toravi, vijaypur, karnataka
+✓ 31 unique places (from 31 cards)
+  ROYAL MOBILE SERVICE CENTER TOFIK ---------------------- 100% 0:00:31 0:00:00
+
+Total: 31 scraped → 31 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 31 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\24_tor
+avi.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\24_tor
+avi.xlsx
+✨ 4 chain-store rows highlighted green | 2 rows with NO phone highlighted 
+yellow
+[25/38] tikota
+
+=== RUN [tikota] -> 25_tikota.xlsx
+    - Mobile accessories and repair in tikota, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in tikota, vijaypur, karnataka
+✓ 25 unique places (from 25 cards)
+  Vivo Service Center ------------------------------------ 100% 0:00:26 0:00:00
+
+Total: 25 scraped → 25 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 25 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\25_tik
+ota.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\25_tik
+ota.xlsx
+✨ 5 chain-store rows highlighted green | 2 rows with NO phone highlighted 
+yellow
+[26/38] arakeri
+
+=== RUN [arakeri] -> 26_arakeri.xlsx
+    - Mobile accessories and repair in arakeri, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in arakeri, vijaypur, karnataka
+✓ 80 unique places (from 89 cards)
+  Mahadev Telecom Bijapur Wholesale in o ----------------- 100% 0:01:46 0:00:00
+
+Total: 80 scraped → 80 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 80 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\26_ara
+keri.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\26_ara
+keri.xlsx
+✨ 12 chain-store rows highlighted green | 14 rows with NO phone highlighted 
+yellow
+[27/38] tidagundi
+
+=== RUN [tidagundi] -> 27_tidagundi.xlsx
+    - Mobile accessories and repair in tidagundi, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in tidagundi, vijaypur, karnataka
+✓ 51 unique places (from 54 cards)
+  Shastri Market ---------------------------------------- 100% 0:00:54 0:00:00
+
+Total: 51 scraped → 51 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 51 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\27_tid
+agundi.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\27_tid
+agundi.xlsx
+✨ 9 chain-store rows highlighted green | 6 rows with NO phone highlighted 
+yellow
+[28/38] babagnagar
+
+=== RUN [babagnagar] -> 28_babagnagar.xlsx
+    - Mobile accessories and repair in babagnagar, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in babagnagar, vijaypur, karnataka
+✓ 26 unique places (from 27 cards)
+  Samarth Mobiles ---------------------------------------- 100% 0:00:27 0:00:00
+
+Total: 26 scraped → 26 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 26 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\28_bab
+agnagar.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\28_bab
+agnagar.xlsx
+✨ 5 chain-store rows highlighted green | 3 rows with NO phone highlighted 
+yellow
+[29/38] honwad
+
+=== RUN [honwad] -> 29_honwad.xlsx
+    - Mobile accessories and repair in honwad, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in honwad, vijaypur, karnataka
+✓ 23 unique places (from 23 cards)
+  Mobile shop ---------------------------------------- 100% 0:00:23 0:00:00
+
+Total: 23 scraped → 23 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 23 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\29_hon
+wad.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\29_hon
+wad.xlsx
+✨ 4 chain-store rows highlighted green | 5 rows with NO phone highlighted 
+yellow
+[30/38] telsang
+
+=== RUN [telsang] -> 30_telsang.xlsx
+    - Mobile accessories and repair in telsang, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in telsang, vijaypur, karnataka
+✓ 59 unique places (from 65 cards)
+  LAXMI MOBILE SHOP -------------------------------------- 100% 0:01:07 0:00:00
+
+Total: 59 scraped → 59 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 59 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\30_tel
+sang.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\30_tel
+sang.xlsx
+✨ 10 chain-store rows highlighted green | 9 rows with NO phone highlighted 
+yellow
+[31/38] kanamadi
+
+=== RUN [kanamadi] -> 31_kanamadi.xlsx
+    - Mobile accessories and repair in kanamadi, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in kanamadi, vijaypur, karnataka
+✓ 60 unique places (from 64 cards)
+  S K Mobiles ---------------------------------------- 100% 0:01:15 0:00:00
+
+Total: 60 scraped → 60 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 60 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\31_kan
+amadi.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\31_kan
+amadi.xlsx
+✨ 9 chain-store rows highlighted green | 7 rows with NO phone highlighted 
+yellow
+[32/38] ramteerth
+
+=== RUN [ramteerth] -> 32_ramteerth.xlsx
+    - Mobile accessories and repair in ramteerth, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in ramteerth, vijaypur, karnataka
+✓ 27 unique places (from 27 cards)
+  Shree Mobile accessories &spear parts  ----------------- 100% 0:00:30 0:00:00
+
+Total: 27 scraped → 27 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 27 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\32_ram
+teerth.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\32_ram
+teerth.xlsx
+✨ 5 chain-store rows highlighted green | 2 rows with NO phone highlighted 
+yellow
+[33/38] savalgi
+
+=== RUN [savalgi] -> 33_savalgi.xlsx
+    - Mobile accessories and repair in savalgi, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in savalgi, vijaypur, karnataka
+✓ 29 unique places (from 29 cards)
+  Mobile shop ---------------------------------------- 100% 0:00:32 0:00:00
+
+Total: 29 scraped → 29 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 29 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\33_sav
+algi.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\33_sav
+algi.xlsx
+✨ 6 chain-store rows highlighted green | 3 rows with NO phone highlighted 
+yellow
+[34/38] tungal
+
+=== RUN [tungal] -> 34_tungal.xlsx
+    - Mobile accessories and repair in tungal, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in tungal, vijaypur, karnataka
+✓ 70 unique places (from 75 cards)
+  LAXMI MOBILE SHOP -------------------------------------- 100% 0:01:17 0:00:00
+
+Total: 70 scraped → 70 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 70 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\34_tun
+gal.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\34_tun
+gal.xlsx
+✨ 8 chain-store rows highlighted green | 13 rows with NO phone highlighted 
+yellow
+[35/38] kokatnur
+
+=== RUN [kokatnur] -> 35_kokatnur.xlsx
+    - Mobile accessories and repair in kokatnur, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in kokatnur, vijaypur, karnataka
+✓ 104 unique places (from 110 cards)
+  Jaanu Mobile Service ----------------------------------- 100% 0:02:08 0:00:00
+
+Total: 104 scraped → 104 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 104 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\35_kok
+atnur.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\35_kok
+atnur.xlsx
+✨ 10 chain-store rows highlighted green | 19 rows with NO phone highlighted 
+yellow
+[36/38] kolhar old
+
+=== RUN [kolhar old] -> 36_kolhar_old.xlsx
+    - Mobile accessories and repair in kolhar old, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in kolhar old, vijaypur, karnataka
+✓ 27 unique places (from 27 cards)
+  SHRI SAI MOBILE AND SERVICE CENTER --------------------- 100% 0:00:34 0:00:00
+
+Total: 27 scraped → 27 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 27 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\36_kol
+har_old.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\36_kol
+har_old.xlsx
+✨ 2 chain-store rows highlighted green | 2 rows with NO phone highlighted 
+yellow
+[37/38] masuti
+
+=== RUN [masuti] -> 37_masuti.xlsx
+    - Mobile accessories and repair in masuti, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in masuti, vijaypur, karnataka
+✓ 31 unique places (from 32 cards)
+  Lenovo & Motorola Authorised Service c ----------------- 100% 0:00:37 0:00:00
+
+Total: 31 scraped → 31 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 31 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\37_mas
+uti.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\37_mas
+uti.xlsx
+✨ 5 chain-store rows highlighted green | 3 rows with NO phone highlighted 
+yellow
+[38/38] telgi
+
+=== RUN [telgi] -> 38_telgi.xlsx
+    - Mobile accessories and repair in telgi, vijaypur, karnataka
+profile: C:\Users\Nomesh\.cache\maps-scraper\profile
+→ Mobile accessories and repair in telgi, vijaypur, karnataka
+✓ 17 unique places (from 17 cards)
+  Vivo Service Center ------------------------------------ 100% 0:00:25 0:00:00
+
+Total: 17 scraped → 17 unique (0 dupes removed)
+KEEP_ALL=1 → category filter disabled
+✓ saved 17 → 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\38_tel
+gi.xlsx (shops)
+FILE_PATH: 
+C:\Users\Nomesh\desktop\evaara\google_scraper\_mobile_acc_vijaypur_parts\38_tel
+gi.xlsx
+✨ 6 chain-store rows highlighted green | 0 rows with NO phone highlighted 
+yellow
+
+=== MERGED: 368 unique businesses (295 with phone, 26 chain stores highlighted) -> C:\Users\Nomesh\desktop\evaara\google_scraper\mobileaccessoriesvijapura.xlsx

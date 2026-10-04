@@ -1,0 +1,14 @@
+A: total 259  | kept 259 | dupes 0
+B: total 213  | kept 98 | dupes 115
+
+MERGED: 357 unique rows (259 + 213 -> removed 115 dupes) -> C:\Users\Nomesh\Desktop\evaara\google_scraper\_mobile_vijaypur_merged_all.xlsx
+
+Sample unique rows:
+   Avinash Mobiles and accessories /repair | 097318 12071
+   MAHALAXMI MOBILE ACCESSORIES | 099451 73031
+   SK mobile accessories & repairy shop | 080730 02485
+   PPR Mobile Services | 097411 55597
+   Pintu mobile service | 097314 20420
+   Cashify Mobile Phone Store & Repair Shop | SS Road, Vijayapura | 079 4805 8628
+   iDroid's MOBILE REPAIR SERVICE | 087921 27983
+   SS Mobile | 089567 68063
