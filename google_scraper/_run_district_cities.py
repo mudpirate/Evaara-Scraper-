@@ -30,9 +30,9 @@ if sys.platform == 'win32':
     os.environ.setdefault('PYTHONUTF8', '1')
 
 KEYWORDS = [
-    "Mobile shops",
-    "Mobile accessories",
-    "Electronics and appliances",
+    "cell phone store",
+    "smartphone accessories",
+    "mobile phone repair shop",
 ]
 STATE = "karnataka"
 HERE = Path(__file__).parent
@@ -61,7 +61,8 @@ def slug(text: str) -> str:
 def run_city(city: str, out_file: Path) -> bool:
     """Run scrape.py for one city with all 3 keywords. Returns True on success."""
     env = os.environ.copy()
-    env['KEEP_ALL'] = '1'
+    # Keep the accuracy filter ON. Set KEEP_ALL=1 yourself only for raw data.
+    env.setdefault('KEEP_ALL', '0')
     env.setdefault('HEADLESS', '1')
     env['PYTHONUTF8'] = '1'
     env['PYTHONIOENCODING'] = 'utf-8'

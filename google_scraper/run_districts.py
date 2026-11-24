@@ -38,7 +38,9 @@ WAYS TO RUN:
      python run_districts.py --dry-run districts.txt
 
 The state (karnataka) is appended automatically. KEYWORDS below holds
-the 3 fixed queries (mobile shops / accessories / electronics).
+the 3 fixed queries (cell phone store / smartphone accessories / repair).
+These specific phrases avoid Google's broad "mobile" matches on addresses
+and reviews.
 """
 
 import importlib.util
@@ -59,10 +61,12 @@ if sys.platform == 'win32':
     os.environ.setdefault('PYTHONIOENCODING', 'utf-8')
 
 # Fixed keywords — only these 3 run per district city.
+# Specific phrases are intentional: plain "mobile" also matches addresses
+# ("Mobile Avenue") and reviews ("they insured my mobile phone").
 KEYWORDS = [
-    "Mobile shops",
-    "Mobile accessories",
-    "Electronics and appliances",
+    "cell phone store",
+    "smartphone accessories",
+    "mobile phone repair shop",
 ]
 
 # State is hardcoded so every query stays within Karnataka.
@@ -140,7 +144,8 @@ def build_places(groups: list[tuple[str, list[str]]]) -> list[str]:
 def run_one(places: list[str], out: str) -> str | None:
     """Run scrape.py once for a place-set. Returns the saved file or None."""
     env = os.environ.copy()
-    env['KEEP_ALL'] = '1'            # no category filtering — keep maximum data
+    # Keep the accuracy filter ON. Set KEEP_ALL=1 yourself only for raw data.
+    env.setdefault('KEEP_ALL', '0')
     env.setdefault('HEADLESS', '1')  # HEADLESS=0 to watch the browser
     env['PYTHONUTF8'] = '1'
     env['PYTHONIOENCODING'] = 'utf-8'

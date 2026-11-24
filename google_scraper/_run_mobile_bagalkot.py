@@ -3,8 +3,9 @@
 # dependencies = ["rich", "openpyxl"]
 # ///
 """
-Bagalkot district scraper — single query:
-    "mobile phones and accessories in <city>, bagalkot, karnataka"
+Bagalkot district scraper — 2 specific queries:
+    "cell phone store in <city>, bagalkot, karnataka"
+    "smartphone accessories in <city>, bagalkot, karnataka"
 
 Usage:
     python _run_mobile_bagalkot.py
@@ -31,7 +32,7 @@ if sys.platform == 'win32':
             pass
     os.environ.setdefault('PYTHONUTF8', '1')
 
-KEYWORDS = ["mobile phones and accessories"]
+KEYWORDS = ["cell phone store", "smartphone accessories"]
 DISTRICT = "bagalkot"
 STATE = "karnataka"
 HERE = Path(__file__).parent
@@ -54,7 +55,8 @@ def slug(text: str) -> str:
 def run_city(city: str, out_file: Path) -> bool:
     """Run scrape.py once for one city. Returns True on success."""
     env = os.environ.copy()
-    env['KEEP_ALL'] = '1'
+    # Keep the accuracy filter ON. Set KEEP_ALL=1 yourself only for raw data.
+    env.setdefault('KEEP_ALL', '0')
     env.setdefault('HEADLESS', '1')
     env['PYTHONUTF8'] = '1'
     env['PYTHONIOENCODING'] = 'utf-8'
@@ -156,8 +158,8 @@ def main() -> None:
     cities = cities_from_line_file()
     total_q = len(cities) * len(KEYWORDS)
     print(f"Bagalkot district: {len(cities)} cities x "
-          f"{len(KEYWORDS)} keyword = {total_q} queries.", flush=True)
-    print(f"Keyword: {KEYWORDS[0]}", flush=True)
+          f"{len(KEYWORDS)} keywords = {total_q} queries.", flush=True)
+    print(f"Keywords: {', '.join(KEYWORDS)}", flush=True)
     print(f"Parts dir: {PARTS}", flush=True)
     print(f"Final output (ONE Excel): {OUT}", flush=True)
     if dry:

@@ -33,8 +33,9 @@ if sys.platform == 'win32':
     os.environ.setdefault('PYTHONUTF8', '1')
     os.environ.setdefault('PYTHONIOENCODING', 'utf-8')
 
-# Fixed keywords — same every run. Change these if you want other categories.
-KEYWORDS = ["mobile phones"]
+# Fixed keywords — same every run. Use specific store/repair phrases;
+# vague "mobile" terms match addresses and reviews on Google Maps.
+KEYWORDS = ["cell phone store"]
 
 # State is hardcoded so every query stays within Karnataka.
 # Change this if you ever need another state.
@@ -99,10 +100,8 @@ def main() -> None:
         else:
             places.append(f"{e}, {STATE}")
 
-    first = places[0]
-    kw_slug = slugify(KEYWORDS[0].split()[0])
     city_slug = slugify(entries[0].split(',')[0].strip())
-    out = f"{kw_slug}_{city_slug}_all.xlsx"
+    out = f"mobile_{city_slug}_all.xlsx"
 
     console.print(f"\n[bold]Queries to run[/] [dim]({len(KEYWORDS) * len(places)} total):[/]")
     for kw in KEYWORDS:
@@ -111,7 +110,8 @@ def main() -> None:
     console.print(f"[dim]\n\u2192 Saving to:[/] [yellow]{out}[/]\n")
 
     env = os.environ.copy()
-    env['KEEP_ALL'] = '1'          # no category filtering — keep maximum data
+    # Keep the accuracy filter ON. Set KEEP_ALL=1 yourself only for raw data.
+    env.setdefault('KEEP_ALL', '0')
     env.setdefault('HEADLESS', '1')  # HEADLESS=0 to watch the browser
     env['PYTHONUTF8'] = '1'
     env['PYTHONIOENCODING'] = 'utf-8'

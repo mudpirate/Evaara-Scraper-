@@ -3,8 +3,9 @@
 # dependencies = ["rich", "openpyxl"]
 # ///
 """
-Vijayapura (vijaypur) per-city scraper — single keyword:
-    "Mobile accessories and repair in <city>, vijaypur, karnataka"
+Vijayapura (vijaypur) per-city scraper — 2 specific keywords:
+    "smartphone accessories in <city>, vijaypur, karnataka"
+    "mobile phone repair shop in <city>, vijaypur, karnataka"
 
 Usage:
     python _run_mobile_acc_vijaypur.py
@@ -31,7 +32,7 @@ if sys.platform == 'win32':
             pass
     os.environ.setdefault('PYTHONUTF8', '1')
 
-KEYWORDS = ["Mobile accessories and repair"]
+KEYWORDS = ["smartphone accessories", "mobile phone repair shop"]
 DISTRICT = "vijaypur"
 STATE = "karnataka"
 HERE = Path(__file__).parent
@@ -65,7 +66,8 @@ def slug(text: str) -> str:
 def run_city(city: str, out_file: Path) -> bool:
     """Run scrape.py once for one city. Returns True on success."""
     env = os.environ.copy()
-    env['KEEP_ALL'] = '1'
+    # Keep the accuracy filter ON. Set KEEP_ALL=1 yourself only for raw data.
+    env.setdefault('KEEP_ALL', '0')
     env.setdefault('HEADLESS', '1')
     env['PYTHONUTF8'] = '1'
     env['PYTHONIOENCODING'] = 'utf-8'
@@ -167,7 +169,7 @@ def main() -> None:
     cities = cities_from_districts_txt()
     total_q = len(cities) * len(KEYWORDS)
     print(f"Vijayapura (vijaypur) district: {len(cities)} cities x "
-          f"{len(KEYWORDS)} keyword = {total_q} queries.", flush=True)
+          f"{len(KEYWORDS)} keywords = {total_q} queries.", flush=True)
     print(f"Parts dir: {PARTS}", flush=True)
     print(f"Final output (ONE Excel): {OUT}", flush=True)
     if dry:

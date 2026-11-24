@@ -10,9 +10,9 @@ Usage:
     python _run_vijaypur_cities.py --dry-run   (preview queries only, no scraping)
 
 Runs scrape.py once per city. Each city run executes all 3 keywords:
-    "Mobile shops in <city>, vijaypur, karnataka"
-    "Mobile accessories in <city>, vijaypur, karnataka"
-    "Electronics and appliances in <city>, vijaypur, karnataka"
+    "cell phone store in <city>, vijaypur, karnataka"
+    "smartphone accessories in <city>, vijaypur, karnataka"
+    "mobile phone repair shop in <city>, vijaypur, karnataka"
 Each city is saved to its own file in _vijaypur_parts/.
 Cities whose part file already exists are SKIPPED, so the run can be
 resumed after a crash/captcha without losing finished cities.
@@ -35,9 +35,9 @@ if sys.platform == 'win32':
 
 # Only 3 keywords — every keyword runs for every city.
 KEYWORDS = [
-    "Mobile shops",
-    "Mobile accessories",
-    "Electronics and appliances",
+    "cell phone store",
+    "smartphone accessories",
+    "mobile phone repair shop",
 ]
 
 DISTRICT = "vijaypur"
@@ -62,7 +62,8 @@ def slug(text: str) -> str:
 def run_city(city: str, out_file: Path) -> bool:
     """Run scrape.py for one city with ALL keywords. Returns True on success."""
     env = os.environ.copy()
-    env['KEEP_ALL'] = '1'
+    # Keep the accuracy filter ON. Set KEEP_ALL=1 yourself only for raw data.
+    env.setdefault('KEEP_ALL', '0')
     env.setdefault('HEADLESS', '1')
     env['PYTHONUTF8'] = '1'
     env['PYTHONIOENCODING'] = 'utf-8'
