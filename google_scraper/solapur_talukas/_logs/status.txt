@@ -1,0 +1,21 @@
+﻿2026-11-26 01:33:18  RUNNER START pid=17344 talukas=8 step=0.05 (full 3-keyword runs)
+2026-11-26 01:33:18  [1/8] START Pandharpur attempt 1 bbox=17.5200631,75.0953292,17.9341523,75.5724620
+2026-11-26 03:23:02  [1/8] DONE Pandharpur in 01:49:43 -> C:\Users\Nom\Evaara-Scraper-\google_scraper\solapur_talukas\pandharpur_mobile_all.xlsx
+2026-11-26 03:23:02  [2/8] START Malshiras attempt 1 bbox=17.5880669,74.6082682,18.0308931,75.2136468
+2026-11-26 10:24:43  RUNNER START pid=11440 talukas=8 step=0.05 (full 3-keyword runs)
+2026-11-26 10:24:43  [1/8] SKIP Pandharpur (output exists)
+2026-11-26 10:24:43  [2/8] RESUMING Malshiras from checkpoint (attempt 1)
+2026-11-26 11:58:57  [2/8] DONE Malshiras in 01:34:14 -> C:\Users\Nom\Evaara-Scraper-\google_scraper\solapur_talukas\malshiras_mobile_all.xlsx
+2026-11-26 11:58:57  [3/8] START Sangola attempt 1 bbox=17.1463676,74.8485017,17.6757141,75.3375434
+2026-11-26 13:40:27  [3/8] DONE Sangola in 01:41:30 -> C:\Users\Nom\Evaara-Scraper-\google_scraper\solapur_talukas\sangola_mobile_all.xlsx
+2026-11-26 13:40:27  [4/8] START Akkalkot attempt 1 bbox=17.3027059,75.8905485,17.7276394,76.4277000
+2026-11-26 15:24:11  [4/8] DONE Akkalkot in 01:43:43 -> C:\Users\Nom\Evaara-Scraper-\google_scraper\solapur_talukas\akkalkot_mobile_all.xlsx
+2026-11-26 15:24:11  [5/8] START Madha attempt 1 bbox=17.8793089,75.0204634,18.2632616,75.7041263
+2026-11-26 17:09:05  [5/8] DONE Madha in 01:44:54 -> C:\Users\Nom\Evaara-Scraper-\google_scraper\solapur_talukas\madha_mobile_all.xlsx
+2026-11-26 17:09:05  [6/8] START Mohol attempt 1 bbox=17.5299461,75.3573703,18.0112227,75.8230376
+2026-11-26 18:41:22  [6/8] DONE Mohol in 01:32:16 -> C:\Users\Nom\Evaara-Scraper-\google_scraper\solapur_talukas\mohol_mobile_all.xlsx
+2026-11-26 18:41:22  [7/8] START Karmala attempt 1 bbox=18.0878108,74.7958660,18.5537936,75.4035178
+2026-11-26 18:57:58  RUNNER START pid=16052 talukas=1 step=0.05 (Mangalwedha only; Karmala skipped by user, checkpoint kept)
+2026-11-26 18:57:58  [1/1] START Mangalwedha attempt 1 bbox=17.1865101,75.2798652,17.6169466,75.6571769
+2026-11-26 20:04:15  [1/1] DONE Mangalwedha in 01:06:17 -> C:\Users\Nom\Evaara-Scraper-\google_scraper\solapur_talukas\mangalwedha_mobile_all.xlsx
+2026-11-26 20:04:15  RUNNER FINISHED - failed talukas: none

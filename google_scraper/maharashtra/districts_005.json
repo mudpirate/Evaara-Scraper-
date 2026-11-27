@@ -1,0 +1,668 @@
+{
+  "state": "Maharashtra",
+  "generated": "2026-11-27T09:43:19+00:00",
+  "keywords": [
+    "cell phone store",
+    "mobile phone repair shop"
+  ],
+  "optional_keyword": "smartphone accessories",
+  "step": 0.05,
+  "min_step": 0.01,
+  "districts": [
+    {
+      "name": "Ahmednagar",
+      "slug": "ahmednagar",
+      "bbox": [
+        18.329881,
+        73.615002,
+        19.994966,
+        75.583405
+      ],
+      "polygon": "polygons/ahmednagar.geojson",
+      "area_km2": 17183.8,
+      "cells_total": 1360,
+      "cells_clipped": 733,
+      "height_km": 185.4,
+      "width_km": 207.0,
+      "osm_type": "relation",
+      "osm_id": 1986123
+    },
+    {
+      "name": "Akola",
+      "slug": "akola",
+      "bbox": [
+        20.275361,
+        76.691468,
+        21.24799,
+        77.619953
+      ],
+      "polygon": "polygons/akola.geojson",
+      "area_km2": 5460.7,
+      "cells_total": 380,
+      "cells_clipped": 245,
+      "height_km": 108.3,
+      "width_km": 96.6,
+      "osm_type": "relation",
+      "osm_id": 1991136
+    },
+    {
+      "name": "Amravati",
+      "slug": "amravati",
+      "bbox": [
+        20.538996,
+        76.621776,
+        21.770015,
+        78.449507
+      ],
+      "polygon": "polygons/amravati.geojson",
+      "area_km2": 12266.2,
+      "cells_total": 925,
+      "cells_clipped": 513,
+      "height_km": 137.0,
+      "width_km": 189.8,
+      "osm_type": "relation",
+      "osm_id": 9510709
+    },
+    {
+      "name": "Beed",
+      "slug": "beed",
+      "bbox": [
+        18.54175,
+        74.808065,
+        19.441909,
+        76.733944
+      ],
+      "polygon": "polygons/beed.geojson",
+      "area_km2": 10660.2,
+      "cells_total": 741,
+      "cells_clipped": 467,
+      "height_km": 100.2,
+      "width_km": 202.7,
+      "osm_type": "relation",
+      "osm_id": 1991622
+    },
+    {
+      "name": "Bhandara",
+      "slug": "bhandara",
+      "bbox": [
+        20.641489,
+        79.44753,
+        21.603893,
+        80.10224
+      ],
+      "polygon": "polygons/bhandara.geojson",
+      "area_km2": 4166.3,
+      "cells_total": 280,
+      "cells_clipped": 202,
+      "height_km": 107.1,
+      "width_km": 68.0,
+      "osm_type": "relation",
+      "osm_id": 1988468
+    },
+    {
+      "name": "Buldhana",
+      "slug": "buldhana",
+      "bbox": [
+        19.837637,
+        75.92319,
+        21.288587,
+        76.826266
+      ],
+      "polygon": "polygons/buldhana.geojson",
+      "area_km2": 9787.4,
+      "cells_total": 570,
+      "cells_clipped": 432,
+      "height_km": 161.5,
+      "width_km": 94.1,
+      "osm_type": "relation",
+      "osm_id": 7398836
+    },
+    {
+      "name": "Chandrapur",
+      "slug": "chandrapur",
+      "bbox": [
+        19.46111,
+        78.799433,
+        20.734287,
+        79.99197
+      ],
+      "polygon": "polygons/chandrapur.geojson",
+      "area_km2": 11425.4,
+      "cells_total": 624,
+      "cells_clipped": 471,
+      "height_km": 141.7,
+      "width_km": 124.7,
+      "osm_type": "relation",
+      "osm_id": 1988465
+    },
+    {
+      "name": "Chhatrapati Sambhajinagar",
+      "slug": "chhatrapati_sambhajinagar",
+      "bbox": [
+        19.377956,
+        74.58888,
+        20.668505,
+        76.042739
+      ],
+      "polygon": "polygons/chhatrapati_sambhajinagar.geojson",
+      "area_km2": 10201.8,
+      "cells_total": 780,
+      "cells_clipped": 431,
+      "height_km": 143.7,
+      "width_km": 152.1,
+      "osm_type": "relation",
+      "osm_id": 1991614
+    },
+    {
+      "name": "Dharashiv",
+      "slug": "dharashiv",
+      "bbox": [
+        17.641586,
+        75.285405,
+        18.698245,
+        76.790794
+      ],
+      "polygon": "polygons/dharashiv.geojson",
+      "area_km2": 7617.3,
+      "cells_total": 682,
+      "cells_clipped": 348,
+      "height_km": 117.6,
+      "width_km": 159.2,
+      "osm_type": "relation",
+      "osm_id": 1997169
+    },
+    {
+      "name": "Dhule",
+      "slug": "dhule",
+      "bbox": [
+        20.627362,
+        73.850741,
+        21.634455,
+        75.206558
+      ],
+      "polygon": "polygons/dhule.geojson",
+      "area_km2": 7220.5,
+      "cells_total": 588,
+      "cells_clipped": 327,
+      "height_km": 112.1,
+      "width_km": 140.8,
+      "osm_type": "relation",
+      "osm_id": 1985898
+    },
+    {
+      "name": "Gadchiroli",
+      "slug": "gadchiroli",
+      "bbox": [
+        18.684223,
+        79.739451,
+        20.834167,
+        80.897784
+      ],
+      "polygon": "polygons/gadchiroli.geojson",
+      "area_km2": 14573.0,
+      "cells_total": 1032,
+      "cells_clipped": 610,
+      "height_km": 239.3,
+      "width_km": 121.4,
+      "osm_type": "relation",
+      "osm_id": 1988452
+    },
+    {
+      "name": "Gondia",
+      "slug": "gondia",
+      "bbox": [
+        20.655756,
+        79.796101,
+        21.63606,
+        80.681137
+      ],
+      "polygon": "polygons/gondia.geojson",
+      "area_km2": 5204.3,
+      "cells_total": 360,
+      "cells_clipped": 232,
+      "height_km": 109.1,
+      "width_km": 91.9,
+      "osm_type": "relation",
+      "osm_id": 1988443
+    },
+    {
+      "name": "Hingoli",
+      "slug": "hingoli",
+      "bbox": [
+        19.067229,
+        76.51189,
+        20.017851,
+        77.489319
+      ],
+      "polygon": "polygons/hingoli.geojson",
+      "area_km2": 4923.3,
+      "cells_total": 400,
+      "cells_clipped": 229,
+      "height_km": 105.8,
+      "width_km": 102.5,
+      "osm_type": "relation",
+      "osm_id": 1991161
+    },
+    {
+      "name": "Jalgaon",
+      "slug": "jalgaon",
+      "bbox": [
+        20.270027,
+        74.760225,
+        21.414769,
+        76.398824
+      ],
+      "polygon": "polygons/jalgaon.geojson",
+      "area_km2": 11853.6,
+      "cells_total": 759,
+      "cells_clipped": 490,
+      "height_km": 127.4,
+      "width_km": 170.5,
+      "osm_type": "relation",
+      "osm_id": 1991609
+    },
+    {
+      "name": "Jalna",
+      "slug": "jalna",
+      "bbox": [
+        19.276724,
+        75.58538,
+        20.560972,
+        76.534613
+      ],
+      "polygon": "polygons/jalna.geojson",
+      "area_km2": 7700.4,
+      "cells_total": 494,
+      "cells_clipped": 328,
+      "height_km": 143.0,
+      "width_km": 99.3,
+      "osm_type": "relation",
+      "osm_id": 1991618
+    },
+    {
+      "name": "Kolhapur",
+      "slug": "kolhapur",
+      "bbox": [
+        15.743546,
+        73.687277,
+        17.181344,
+        74.700079
+      ],
+      "polygon": "polygons/kolhapur.geojson",
+      "area_km2": 7730.7,
+      "cells_total": 609,
+      "cells_clipped": 341,
+      "height_km": 160.1,
+      "width_km": 108.1,
+      "osm_type": "relation",
+      "osm_id": 1997163
+    },
+    {
+      "name": "Latur",
+      "slug": "latur",
+      "bbox": [
+        17.870892,
+        76.202424,
+        18.838885,
+        77.295277
+      ],
+      "polygon": "polygons/latur.geojson",
+      "area_km2": 7240.1,
+      "cells_total": 440,
+      "cells_clipped": 303,
+      "height_km": 107.8,
+      "width_km": 115.5,
+      "osm_type": "relation",
+      "osm_id": 1991624
+    },
+    {
+      "name": "Mumbai City",
+      "slug": "mumbai_city",
+      "bbox": [
+        18.89216,
+        72.791676,
+        19.052585,
+        72.906814
+      ],
+      "polygon": "polygons/mumbai_city.geojson",
+      "area_km2": 71.5,
+      "cells_total": 12,
+      "cells_clipped": 10,
+      "height_km": 17.9,
+      "width_km": 12.1,
+      "osm_type": "relation",
+      "osm_id": 7964376
+    },
+    {
+      "name": "Mumbai Suburban",
+      "slug": "mumbai_suburban",
+      "bbox": [
+        18.992494,
+        72.773229,
+        19.269477,
+        72.981748
+      ],
+      "polygon": "polygons/mumbai_suburban.geojson",
+      "area_km2": 406.1,
+      "cells_total": 30,
+      "cells_clipped": 26,
+      "height_km": 30.8,
+      "width_km": 21.9,
+      "osm_type": "relation",
+      "osm_id": 7964375
+    },
+    {
+      "name": "Nagpur",
+      "slug": "nagpur",
+      "bbox": [
+        20.583406,
+        78.249242,
+        21.722284,
+        79.656393
+      ],
+      "polygon": "polygons/nagpur.geojson",
+      "area_km2": 9948.9,
+      "cells_total": 667,
+      "cells_clipped": 418,
+      "height_km": 126.8,
+      "width_km": 146.1,
+      "osm_type": "relation",
+      "osm_id": 1991091
+    },
+    {
+      "name": "Nanded",
+      "slug": "nanded",
+      "bbox": [
+        18.263414,
+        76.930776,
+        19.925035,
+        78.365249
+      ],
+      "polygon": "polygons/nanded.geojson",
+      "area_km2": 10571.1,
+      "cells_total": 986,
+      "cells_clipped": 468,
+      "height_km": 185.0,
+      "width_km": 150.9,
+      "osm_type": "relation",
+      "osm_id": 1991143
+    },
+    {
+      "name": "Nandurbar",
+      "slug": "nandurbar",
+      "bbox": [
+        20.998156,
+        73.576898,
+        22.030269,
+        74.772059
+      ],
+      "polygon": "polygons/nandurbar.geojson",
+      "area_km2": 5988.2,
+      "cells_total": 504,
+      "cells_clipped": 272,
+      "height_km": 114.9,
+      "width_km": 123.8,
+      "osm_type": "relation",
+      "osm_id": 1985899
+    },
+    {
+      "name": "Nashik",
+      "slug": "nashik",
+      "bbox": [
+        19.585891,
+        73.248269,
+        20.864927,
+        74.935126
+      ],
+      "polygon": "polygons/nashik.geojson",
+      "area_km2": 15621.2,
+      "cells_total": 884,
+      "cells_clipped": 621,
+      "height_km": 142.4,
+      "width_km": 176.2,
+      "osm_type": "relation",
+      "osm_id": 1985907
+    },
+    {
+      "name": "Palghar",
+      "slug": "palghar",
+      "bbox": [
+        19.286998,
+        72.652611,
+        20.227932,
+        73.504511
+      ],
+      "polygon": "polygons/palghar.geojson",
+      "area_km2": 5225.0,
+      "cells_total": 342,
+      "cells_clipped": 235,
+      "height_km": 104.7,
+      "width_km": 89.3,
+      "osm_type": "relation",
+      "osm_id": 9531818
+    },
+    {
+      "name": "Parbhani",
+      "slug": "parbhani",
+      "bbox": [
+        18.750424,
+        76.207166,
+        19.830582,
+        77.11941
+      ],
+      "polygon": "polygons/parbhani.geojson",
+      "area_km2": 6156.7,
+      "cells_total": 418,
+      "cells_clipped": 271,
+      "height_km": 120.2,
+      "width_km": 95.8,
+      "osm_type": "relation",
+      "osm_id": 1991619
+    },
+    {
+      "name": "Pune",
+      "slug": "pune",
+      "bbox": [
+        17.895073,
+        73.322711,
+        19.394746,
+        75.163651
+      ],
+      "polygon": "polygons/pune.geojson",
+      "area_km2": 15727.1,
+      "cells_total": 1110,
+      "cells_clipped": 621,
+      "height_km": 166.9,
+      "width_km": 194.2,
+      "osm_type": "relation",
+      "osm_id": 1986140
+    },
+    {
+      "name": "Raigad",
+      "slug": "raigad",
+      "bbox": [
+        17.850721,
+        72.811729,
+        19.134898,
+        73.666506
+      ],
+      "polygon": "polygons/raigad.geojson",
+      "area_km2": 6937.2,
+      "cells_total": 468,
+      "cells_clipped": 308,
+      "height_km": 143.0,
+      "width_km": 90.2,
+      "osm_type": "relation",
+      "osm_id": 7965683
+    },
+    {
+      "name": "Ratnagiri",
+      "slug": "ratnagiri",
+      "bbox": [
+        16.493991,
+        73.028467,
+        18.071509,
+        73.863864
+      ],
+      "polygon": "polygons/ratnagiri.geojson",
+      "area_km2": 8340.2,
+      "cells_total": 544,
+      "cells_clipped": 350,
+      "height_km": 175.6,
+      "width_km": 88.8,
+      "osm_type": "relation",
+      "osm_id": 1986246
+    },
+    {
+      "name": "Sangli",
+      "slug": "sangli",
+      "bbox": [
+        16.716439,
+        73.691483,
+        17.629053,
+        75.678349
+      ],
+      "polygon": "polygons/sangli.geojson",
+      "area_km2": 8654.4,
+      "cells_total": 760,
+      "cells_clipped": 388,
+      "height_km": 101.6,
+      "width_km": 211.3,
+      "osm_type": "relation",
+      "osm_id": 1997159
+    },
+    {
+      "name": "Satara",
+      "slug": "satara",
+      "bbox": [
+        17.091163,
+        73.534472,
+        18.182429,
+        74.905783
+      ],
+      "polygon": "polygons/satara.geojson",
+      "area_km2": 10546.8,
+      "cells_total": 616,
+      "cells_clipped": 424,
+      "height_km": 121.5,
+      "width_km": 145.5,
+      "osm_type": "relation",
+      "osm_id": 1986143
+    },
+    {
+      "name": "Sindhudurg",
+      "slug": "sindhudurg",
+      "bbox": [
+        15.60636,
+        73.311161,
+        16.664932,
+        74.208717
+      ],
+      "polygon": "polygons/sindhudurg.geojson",
+      "area_km2": 5135.1,
+      "cells_total": 396,
+      "cells_clipped": 232,
+      "height_km": 117.8,
+      "width_km": 96.0,
+      "osm_type": "relation",
+      "osm_id": 1997166
+    },
+    {
+      "name": "Solapur",
+      "slug": "solapur",
+      "bbox": [
+        17.146368,
+        74.608268,
+        18.553794,
+        76.4277
+      ],
+      "polygon": "polygons/solapur.geojson",
+      "area_km2": 14915.8,
+      "cells_total": 1073,
+      "cells_clipped": 647,
+      "height_km": 156.7,
+      "width_km": 192.8,
+      "osm_type": "relation",
+      "osm_id": 1997168
+    },
+    {
+      "name": "Thane",
+      "slug": "thane",
+      "bbox": [
+        18.998448,
+        72.756864,
+        19.731426,
+        73.797054
+      ],
+      "polygon": "polygons/thane.geojson",
+      "area_km2": 4254.4,
+      "cells_total": 315,
+      "cells_clipped": 191,
+      "height_km": 81.6,
+      "width_km": 109.2,
+      "osm_type": "relation",
+      "osm_id": 7965684
+    },
+    {
+      "name": "Wardha",
+      "slug": "wardha",
+      "bbox": [
+        20.293536,
+        78.052454,
+        21.358775,
+        79.222004
+      ],
+      "polygon": "polygons/wardha.geojson",
+      "area_km2": 6335.5,
+      "cells_total": 528,
+      "cells_clipped": 278,
+      "height_km": 118.6,
+      "width_km": 121.7,
+      "osm_type": "relation",
+      "osm_id": 1991095
+    },
+    {
+      "name": "Washim",
+      "slug": "washim",
+      "bbox": [
+        19.847093,
+        76.605735,
+        20.757659,
+        77.689602
+      ],
+      "polygon": "polygons/washim.geojson",
+      "area_km2": 5163.7,
+      "cells_total": 418,
+      "cells_clipped": 245,
+      "height_km": 101.4,
+      "width_km": 113.2,
+      "osm_type": "relation",
+      "osm_id": 1991132
+    },
+    {
+      "name": "Yavatmal",
+      "slug": "yavatmal",
+      "bbox": [
+        19.430305,
+        77.282789,
+        20.697914,
+        79.149002
+      ],
+      "polygon": "polygons/yavatmal.geojson",
+      "area_km2": 13658.5,
+      "cells_total": 988,
+      "cells_clipped": 577,
+      "height_km": 141.1,
+      "width_km": 195.1,
+      "osm_type": "relation",
+      "osm_id": 1991125
+    }
+  ],
+  "totals": {
+    "districts": 36,
+    "cells_total": 22083,
+    "cells_clipped": 13284,
+    "queries_2_keywords": 26568,
+    "queries_3_keywords": 39852
+  }
+}

@@ -16,6 +16,7 @@ import math
 import urllib.parse
 import urllib.request
 from dataclasses import dataclass
+from pathlib import Path
 
 VIEWPORT_WIDTH_PX = 1400
 VIEWPORT_HEIGHT_PX = 900
@@ -178,3 +179,175 @@ def lookup_area_bbox(area: str,
     bbox = (min(south, north), min(west, east),
             max(south, north), max(west, east))
     return bbox, item.get('display_name') or area
+
+
+# ---------------------------------------------------------------------------
+# Polygon clipping
+#
+# A taluka/district bounding box is a rectangle, but the real boundary is an
+# irregular polygon. Covering the whole rectangle wastes roughly half the
+# search cells in the empty corners (measured ~2x on Solapur talukas). These
+# helpers let grid mode skip cells that cannot contain any part of the area.
+#
+# Coordinates in GeoJSON are (longitude, latitude); all public helpers below
+# take (lat, lon) like the rest of this module.
+# ---------------------------------------------------------------------------
+
+Point = tuple[float, float]
+
+
+@dataclass(frozen=True)
+class PolygonShape:
+    """One GeoJSON polygon: an outer ring followed by optional holes."""
+
+    rings: tuple[tuple[Point, ...], ...]
+    bbox: tuple[float, float, float, float]  # lat_min, lon_min, lat_max, lon_max
+
+    def contains(self, lat: float, lon: float) -> bool:
+        """True when the point is inside the outer ring and outside all holes."""
+        lat_min, lon_min, lat_max, lon_max = self.bbox
+        if not (lat_min <= lat <= lat_max and lon_min <= lon <= lon_max):
+            return False
+        if not _ring_contains(self.rings[0], lon, lat):
+            return False
+        return not any(_ring_contains(ring, lon, lat) for ring in self.rings[1:])
+
+
+def _ring_contains(ring: tuple[Point, ...], lon: float, lat: float) -> bool:
+    """Ray-casting point-in-ring test. Ring points are (lon, lat)."""
+    inside = False
+    j = len(ring) - 1
+    for i in range(len(ring)):
+        xi, yi = ring[i]
+        xj, yj = ring[j]
+        if (yi > lat) != (yj > lat):
+            x_cross = (xj - xi) * (lat - yi) / (yj - yi) + xi
+            if lon < x_cross:
+                inside = not inside
+        j = i
+    return inside
+
+
+def _iter_geojson_polygons(geometry: dict):
+    """Yield raw polygon coordinate arrays from any GeoJSON geometry."""
+    kind = geometry.get('type')
+    if kind == 'Polygon':
+        yield geometry.get('coordinates') or []
+    elif kind == 'MultiPolygon':
+        for polygon in geometry.get('coordinates') or []:
+            yield polygon
+    elif kind == 'GeometryCollection':
+        for child in geometry.get('geometries') or []:
+            yield from _iter_geojson_polygons(child)
+
+
+def load_polygon_geojson(path: str | Path) -> list[PolygonShape]:
+    """Load Polygon/MultiPolygon geometry from a GeoJSON file."""
+    data = json.loads(Path(path).read_text(encoding='utf-8-sig'))
+    try:
+        return parse_polygon_geojson(data)
+    except ValueError as exc:
+        raise ValueError(f'{path}: {exc}') from None
+
+
+def parse_polygon_geojson(data: dict) -> list[PolygonShape]:
+    """Parse a GeoJSON geometry/Feature/FeatureCollection into shapes.
+
+    Returns one PolygonShape per polygon so callers can test several
+    disjoint pieces.
+    """
+    if not isinstance(data, dict):
+        raise ValueError('not a GeoJSON object')
+
+    if data.get('type') == 'FeatureCollection':
+        geometries = [f.get('geometry') for f in data.get('features') or []]
+    elif data.get('type') == 'Feature':
+        geometries = [data.get('geometry')]
+    else:
+        geometries = [data]
+
+    shapes: list[PolygonShape] = []
+    for geometry in geometries:
+        if not geometry:
+            continue
+        for polygon in _iter_geojson_polygons(geometry):
+            rings: list[tuple[Point, ...]] = []
+            for ring in polygon:
+                points = tuple((float(p[0]), float(p[1])) for p in ring)
+                if len(points) >= 3:
+                    rings.append(points)
+            if not rings:
+                continue
+            xs = [p[0] for ring in rings for p in ring]
+            ys = [p[1] for ring in rings for p in ring]
+            shapes.append(PolygonShape(
+                rings=tuple(rings),
+                bbox=(min(ys), min(xs), max(ys), max(xs)),
+            ))
+    if not shapes:
+        raise ValueError('no Polygon/MultiPolygon geometry found')
+    return shapes
+
+
+def polygon_contains_any(lat: float, lon: float,
+                         polygons: list[PolygonShape]) -> bool:
+    """True when (lat, lon) lies inside any of the supplied polygons."""
+    return any(poly.contains(lat, lon) for poly in polygons)
+
+
+def cell_touches_polygons(cell: 'GridCell',
+                          polygons: list[PolygonShape]) -> bool:
+    """True when a cell is likely to overlap the polygon.
+
+    Tests the centre, four corners and four edge midpoints. A cell that
+    straddles the boundary is kept, so shops just inside the edge are not
+    lost. A boundary that crosses a cell as a very thin sliver with all nine
+    points outside could still be skipped; at 0.05 deg cells this is a
+    sub-kilometre edge case and the neighbouring district covers the other
+    side.
+    """
+    lat0, lon0 = cell.center
+    half_lat = cell.lat_span / 2
+    half_lon = cell.lon_span / 2
+    probes = [
+        (lat0, lon0),
+        (cell.south, cell.west), (cell.south, cell.east),
+        (cell.north, cell.west), (cell.north, cell.east),
+        (cell.south, lon0), (cell.north, lon0),
+        (lat0, cell.west), (lat0, cell.east),
+    ]
+    # local vars keep the inner loop cheap on big district polygons
+    for lat, lon in probes:
+        for poly in polygons:
+            if poly.contains(lat, lon):
+                return True
+    return False
+
+
+def clipped_cells(bbox: tuple[float, float, float, float], step: float,
+                  polygons: list[PolygonShape],
+                  zoom: int | None = None) -> list['GridCell']:
+    """Build the grid and keep only cells that touch the polygon."""
+    return [cell for cell in make_cells(bbox, step, zoom=zoom)
+            if cell_touches_polygons(cell, polygons)]
+
+
+def polygon_area_km2(polygons: list[PolygonShape]) -> float:
+    """Approximate polygon area in square kilometres (outer minus holes)."""
+    total = 0.0
+    for poly in polygons:
+        lat0 = math.radians((poly.bbox[0] + poly.bbox[2]) / 2)
+        for index, ring in enumerate(poly.rings):
+            if len(ring) < 3:
+                continue
+            area = 0.0
+            j = len(ring) - 1
+            for i in range(len(ring)):
+                xi, yi = ring[i]
+                xj, yj = ring[j]
+                area += (xj + xi) * (yj - yi)
+                j = i
+            area = abs(area) / 2
+            area *= (METERS_PER_DEGREE / 1000) ** 2 * math.cos(lat0)
+            total += area if index == 0 else -area
+    return total

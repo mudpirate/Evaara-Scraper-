@@ -1,0 +1,66 @@
+﻿{
+    "Mangalwedha":  {
+                        "size":  "47.9 x 40.1 km",
+                        "bbox":  "17.1865101,75.2798652,17.6169466,75.6571769",
+                        "display":  "Mangalvedhe, Solapur, Maharashtra, India",
+                        "cls":  "boundary",
+                        "typ":  "administrative",
+                        "query":  "Mangalvedhe, Solapur, Maharashtra, India"
+                    },
+    "Mohol":  {
+                  "size":  "53.6 x 49.4 km",
+                  "bbox":  "17.5299461,75.3573703,18.0112227,75.8230376",
+                  "display":  "Mohol, Solapur, Maharashtra, India",
+                  "cls":  "boundary",
+                  "typ":  "administrative",
+                  "query":  "Mohol, Solapur, Maharashtra, India"
+              },
+    "Pandharpur":  {
+                       "size":  "46.1 x 50.7 km",
+                       "bbox":  "17.5200631,75.0953292,17.9341523,75.572462",
+                       "display":  "Pandharpur, Solapur, Maharashtra, India",
+                       "cls":  "boundary",
+                       "typ":  "administrative",
+                       "query":  "Pandharpur, Solapur, Maharashtra, India"
+                   },
+    "Akkalkot":  {
+                     "size":  "47.3 x 57.1 km",
+                     "bbox":  "17.3027059,75.8905485,17.7276394,76.4277",
+                     "display":  "Akkalkot, Solapur, Maharashtra, India",
+                     "cls":  "boundary",
+                     "typ":  "administrative",
+                     "query":  "Akkalkot, Solapur, Maharashtra, India"
+                 },
+    "Karmala":  {
+                    "size":  "51.9 x 64.3 km",
+                    "bbox":  "18.0878108,74.795866,18.5537936,75.4035178",
+                    "display":  "Karmala, Solapur, Maharashtra, India",
+                    "cls":  "boundary",
+                    "typ":  "administrative",
+                    "query":  "Karmala, Solapur, Maharashtra, India"
+                },
+    "Sangola":  {
+                    "size":  "58.9 x 52 km",
+                    "bbox":  "17.1463676,74.8485017,17.6757141,75.3375434",
+                    "display":  "Sangole, Solapur, Maharashtra, India",
+                    "cls":  "boundary",
+                    "typ":  "administrative",
+                    "query":  "Sangole, Solapur, Maharashtra, India"
+                },
+    "Madha":  {
+                  "size":  "42.7 x 72.4 km",
+                  "bbox":  "17.8793089,75.0204634,18.2632616,75.7041263",
+                  "display":  "Madha, Solapur, Maharashtra, India",
+                  "cls":  "boundary",
+                  "typ":  "administrative",
+                  "query":  "Madha, Solapur, Maharashtra, India"
+              },
+    "Malshiras":  {
+                      "size":  "49.3 x 64.2 km",
+                      "bbox":  "17.5880669,74.6082682,18.0308931,75.2136468",
+                      "display":  "Malshiras, Solapur, Maharashtra, India",
+                      "cls":  "boundary",
+                      "typ":  "administrative",
+                      "query":  "Malshiras, Solapur, Maharashtra, India"
+                  }
+}

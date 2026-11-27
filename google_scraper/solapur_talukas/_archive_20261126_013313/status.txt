@@ -1,0 +1,19 @@
+﻿2026-11-25 17:59:10  RUNNER START pid=14492 talukas=8 step=0.05
+2026-11-25 17:59:10  [1/8] START Pandharpur bbox=17.5200631,75.0953292,17.9341523,75.5724620
+2026-11-25 19:23:20  [1/8] DONE Pandharpur in 01:24:09 -> C:\Users\Nom\Evaara-Scraper-\google_scraper\solapur_talukas\pandharpur_mobile_all.xlsx
+2026-11-25 19:23:20  [2/8] START Malshiras bbox=17.5880669,74.6082682,18.0308931,75.2136468
+2026-11-25 20:22:52  PAUSED by user (runner + python stopped; Malshiras was mid keyword 2)
+2026-11-25 22:36:56  RESUMED by user - Malshiras will continue seeded from its checkpoint
+2026-11-25 22:36:56  RUNNER START pid=2240 talukas=8 step=0.05
+2026-11-25 22:36:56  [1/8] SKIP Pandharpur (output exists)
+2026-11-25 22:36:56  [2/8] START Malshiras bbox=17.5880669,74.6082682,18.0308931,75.2136468
+2026-11-25 22:36:57  [2/8] RESUME Malshiras seeded from malshiras_mobile_all_partial.xlsx
+2026-11-25 23:43:46  [2/8] DONE Malshiras in 01:06:49 -> C:\Users\Nom\Evaara-Scraper-\google_scraper\solapur_talukas\malshiras_mobile_all.xlsx
+2026-11-25 23:43:46  [3/8] START Sangola bbox=17.1463676,74.8485017,17.6757141,75.3375434
+2026-11-25 23:43:48  [3/8] FAILED Sangola code=1 after 00:00:01
+2026-11-25 23:43:48  [4/8] START Akkalkot bbox=17.3027059,75.8905485,17.7276394,76.4277000
+2026-11-25 23:43:50  [4/8] FAILED Akkalkot code=1 after 00:00:02
+2026-11-25 23:43:50  [5/8] START Madha bbox=17.8793089,75.0204634,18.2632616,75.7041263
+2026-11-25 23:43:51  [5/8] FAILED Madha code=1 after 00:00:01
+2026-11-25 23:43:51  3 consecutive failures - stopping queue.
+2026-11-25 23:43:51  RUNNER FINISHED

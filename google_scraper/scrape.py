@@ -44,6 +44,7 @@ Accuracy notes:
 # --- stdlib only (safe to import before bootstrap) ----------------------
 import asyncio
 import importlib.util
+import json
 import math
 import os
 import random
@@ -51,7 +52,7 @@ import re
 import subprocess
 import sys
 from collections import deque
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 from urllib.parse import quote_plus
 
@@ -115,8 +116,9 @@ from rich.progress import (
 )
 from rich.prompt import Confirm, Prompt
 
-from grid import (GridCell, bbox_size_km, grid_shape, lookup_area_bbox,
-                  make_cells, parse_bbox)
+from grid import (GridCell, bbox_size_km, cell_touches_polygons,
+                  grid_shape, load_polygon_geojson, lookup_area_bbox,
+                  make_cells, parse_bbox, polygon_contains_any)
 
 console = Console()
 
@@ -187,8 +189,11 @@ if (_query) {
             : _query(p);
 }
 """
-CARD_WAIT_MS = 700
-SCROLL_WAIT_MS = 1800
+CARD_WAIT_MS = int(os.getenv("CARD_WAIT_MS", "700"))
+SCROLL_WAIT_MS = int(os.getenv("SCROLL_WAIT_MS", "2500"))
+SCROLL_POLL_MS = int(os.getenv("SCROLL_POLL_MS", "250"))
+SCROLL_STALE_LIMIT = int(os.getenv("SCROLL_STALE_LIMIT", "3"))
+CAP_SPLIT_MIN = int(os.getenv("CAP_SPLIT_MIN", "90"))
 
 COUNTRY_CODES = {
     'india': 'IN', 'united states': 'US', 'usa': 'US',
@@ -561,23 +566,35 @@ async def scroll_all(page: Page) -> int:
     except Exception:
         return 0
     end_marker = page.get_by_text("You've reached the end of the list")
+    cards = page.locator('div[role="feed"] a.hfpxzc')
     prev, stale = 0, 0
     with console.status("[cyan]Scrolling...") as s:
         while True:
             await feed.evaluate("el => el.scrollTo(0, el.scrollHeight)")
-            await page.wait_for_timeout(SCROLL_WAIT_MS)
-            count = await page.locator('div[role="feed"] a.hfpxzc').count()
+            # Poll instead of sleeping the full interval: most scrolls settle
+            # in a few hundred ms, and a capped list often stops growing well
+            # before the old fixed wait had elapsed.
+            count = prev
+            waited = 0
+            while waited < SCROLL_WAIT_MS:
+                await page.wait_for_timeout(SCROLL_POLL_MS)
+                waited += SCROLL_POLL_MS
+                count = await cards.count()
+                if count > prev:
+                    break
+                if await end_marker.count() > 0:
+                    break
             s.update(f"[cyan]Loaded {count} results")
             if await end_marker.count() > 0:
                 break
             if count == prev:
                 stale += 1
-                if stale >= 4:
+                if stale >= SCROLL_STALE_LIMIT:
                     break
             else:
                 stale = 0
             prev = count
-    return await page.locator('div[role="feed"] a.hfpxzc').count()
+    return await cards.count()
 
 
 async def extract(page: Page, href: str) -> dict:
@@ -686,11 +703,12 @@ async def scrape_query(page: Page, query: str, ctx=None,
                        zoom: int | None = None,
                        seen_ids: set[str] | None = None,
                        stats: dict | None = None,
-                       bounds: tuple[float, float, float, float] | None = None) -> list[dict]:
+                       bounds: tuple[float, float, float, float] | None = None,
+                       area=None) -> list[dict]:
     if stats is not None:
         stats.clear()
         stats.update(cards=0, unique=0, fresh=0, skipped=0,
-                     extracted=0, outside=0, capped=False)
+                     extracted=0, outside=0, outside_area=0, capped=False)
 
     where = ""
     if center:
@@ -725,11 +743,15 @@ async def scrape_query(page: Page, query: str, ctx=None,
     seen_local: set[str] = set()
     hrefs: list[str] = []
     outside = 0
+    outside_area = 0
     for h in raw_hrefs:
-        if bounds:
-            coords = coords_from_href(h)
-            if coords and not in_bounds(coords[0], coords[1], bounds):
+        coords = coords_from_href(h)
+        if coords:
+            if bounds and not in_bounds(coords[0], coords[1], bounds):
                 outside += 1
+                continue
+            if area is not None and not area(coords[0], coords[1]):
+                outside_area += 1
                 continue
         pid = place_id_from_href(h) or h
         if pid not in seen_local:
@@ -738,12 +760,18 @@ async def scrape_query(page: Page, query: str, ctx=None,
     if stats is not None:
         stats['unique'] = len(hrefs)
         stats['outside'] = outside
+        stats['outside_area'] = outside_area
     if outside:
         console.print(
             f"[yellow]  ↳ {outside} result(s) outside the grid area skipped[/]"
         )
-    if bounds and not hrefs:
-        console.print("[dim]  no places inside the grid area[/]")
+    if outside_area:
+        console.print(
+            f"[yellow]  ↳ {outside_area} result(s) outside the district "
+            "boundary skipped[/]"
+        )
+    if (bounds or area is not None) and not hrefs:
+        console.print("[dim]  no places inside the selected area[/]")
         return []
     if stats is not None and stats['capped']:
         console.print(
@@ -840,26 +868,36 @@ async def scrape_query(page: Page, query: str, ctx=None,
                         console.print(f"[red]![/] #{i}: {type(e).__name__}: {e}")
                         prog.update(task_id, advance=1)
 
-    if bounds:
+    if bounds or area is not None:
         inside: list[dict] = []
         dropped = 0
+        dropped_area = 0
         for r in results:
             lat, lng = r.get('_lat'), r.get('_lng')
             if lat is None or lng is None:
                 # No coordinates: keep it rather than risk losing a real shop.
                 inside.append(r)
-            elif in_bounds(float(lat), float(lng), bounds):
-                inside.append(r)
-            else:
+            elif bounds and not in_bounds(float(lat), float(lng), bounds):
                 dropped += 1
+            elif area is not None and not area(float(lat), float(lng)):
+                dropped_area += 1
+            else:
+                inside.append(r)
         if dropped:
             console.print(
                 f"[yellow]  ↳ {dropped} extracted result(s) outside the "
                 "grid area dropped[/]"
             )
+        if dropped_area:
+            console.print(
+                f"[yellow]  ↳ {dropped_area} extracted result(s) outside the "
+                "district boundary dropped[/]"
+            )
         results = inside
         if stats is not None:
             stats['outside'] = stats.get('outside', 0) + dropped
+            stats['outside_area'] = (stats.get('outside_area', 0)
+                                     + dropped_area)
 
     if stats is not None:
         stats['extracted'] = len(results)
@@ -902,6 +940,7 @@ CHAIN_NAMES = [
     'phono range',
     'my jio store', 'ntel mobiles', 'sara mobiles', 'pai international',
     'samsung service center', 'reliance digital', 'xiaomi',
+    'phonewale', 'phone wale', 'phone-wale',
 ]
 
 CHAIN_FILL = 'C6EFCE'  # light green highlight for chain-store rows
@@ -1046,6 +1085,70 @@ def save_workbook(wb, out: Path) -> Path:
     raise
 
 
+def load_seed_rows(path: Path) -> list[dict]:
+    """Read a previous run's workbook so a restarted grid keeps its rows.
+
+    Rows are rebuilt as scraper dicts (with `_lat`/`_lng`) so they go through
+    the same dedupe, filter and write path as freshly scraped results.
+    """
+    from openpyxl import load_workbook
+
+    wb = load_workbook(path, read_only=True, data_only=True)
+    try:
+        ws = wb.worksheets[0]
+        rows_iter = ws.iter_rows(values_only=True)
+        header_values = next(rows_iter, None)
+        if not header_values:
+            return []
+        headers = [str(h) if h is not None else '' for h in header_values]
+        seeded: list[dict] = []
+        for values in rows_iter:
+            if not values or not values[0]:
+                continue
+            row = {h: ('' if v is None else v)
+                   for h, v in zip(headers, values) if h}
+            lat = row.pop('latitude', None)
+            lng = row.pop('longitude', None)
+            try:
+                if lat not in (None, ''):
+                    row['_lat'] = float(lat)
+                if lng not in (None, ''):
+                    row['_lng'] = float(lng)
+            except (TypeError, ValueError):
+                pass
+            seeded.append(row)
+        return seeded
+    finally:
+        wb.close()
+
+
+def drop_outside_rows(rows: list[dict], grid) -> tuple[list[dict], int]:
+    """Drop rows whose coordinates fall outside the district polygon.
+
+    Used for resumed checkpoints (which may predate the polygon filter) and
+    as a final guard before the workbook is written. Rows without coordinates
+    are kept because they cannot be tested.
+    """
+    if not grid or not getattr(grid, 'polygons', None):
+        return rows, 0
+    kept: list[dict] = []
+    dropped = 0
+    for row in rows:
+        lat, lng = row.get('_lat'), row.get('_lng')
+        if lat is None or lng is None:
+            kept.append(row)
+            continue
+        try:
+            inside = grid.contains_point(float(lat), float(lng))
+        except (TypeError, ValueError):
+            inside = True
+        if inside:
+            kept.append(row)
+        else:
+            dropped += 1
+    return kept, dropped
+
+
 def slugify(text: str) -> str:
     s = re.sub(r'[^\w\s-]', '', text.lower())
     return re.sub(r'[-\s]+', '_', s).strip('_')[:60]
@@ -1171,6 +1274,27 @@ class GridPlan:
     zoom: int | None
     yes: bool
     dry_run: bool
+    seed: Path | None = None
+    polygons: list = field(default_factory=list)
+    cells_total: int = 0
+
+    def keep_cell(self, cell: GridCell) -> bool:
+        """Polygon clipping for the initial grid and every cap split."""
+        if not self.polygons:
+            return True
+        return cell_touches_polygons(cell, self.polygons)
+
+    def contains_point(self, lat: float, lon: float) -> bool:
+        """True when a shop's coordinates are inside the district boundary.
+
+        Cell clipping alone is not enough: a search at a border cell still
+        returns shops from across the state/district line, and Google's
+        fallback results can be tens of kilometres away but still inside the
+        rectangular bbox. This test drops those before they are extracted.
+        """
+        if not self.polygons:
+            return True
+        return polygon_contains_any(lat, lon, self.polygons)
 
     @property
     def bounds(self) -> tuple[float, float, float, float]:
@@ -1202,6 +1326,8 @@ def parse_grid_args(args: list[str]) -> tuple[str, Path, GridPlan]:
             "maharashtra\" --step 0.02\n"
             "  python scrape.py \"cell phone store\" --bbox "
             "18.07,75.52,18.39,75.84 --step 0.05\n"
+            "  python scrape.py \"cell phone store\" --bbox "
+            "18.07,75.52,18.39,75.84 --polygon kolhapur.geojson\n"
             "  python scrape.py \"cell phone store\" --area \"barshi\" "
             "--step 0.02 --dry-run"
         )
@@ -1216,7 +1342,7 @@ def parse_grid_args(args: list[str]) -> tuple[str, Path, GridPlan]:
         fail('No keyword given.')
     terms = [build_term(t) for t in terms]
 
-    bbox = area = out = None
+    bbox = area = out = seed = polygon = None
     step, min_step = 0.02, 0.01
     min_step_given = False
     zoom = None
@@ -1256,6 +1382,12 @@ def parse_grid_args(args: list[str]) -> tuple[str, Path, GridPlan]:
             elif name == '--out':
                 value, i = take_value(i, '--out')
                 out = Path(value)
+            elif name == '--seed':
+                value, i = take_value(i, '--seed')
+                seed = Path(value)
+            elif name == '--polygon':
+                value, i = take_value(i, '--polygon')
+                polygon = Path(value)
             elif arg in ('--yes', '-y'):
                 yes = True
                 i += 1
@@ -1296,7 +1428,22 @@ def parse_grid_args(args: list[str]) -> tuple[str, Path, GridPlan]:
             )
             sys.exit(1)
 
-    cells = make_cells(bbox, step, zoom=zoom)
+    raw_cells = make_cells(bbox, step, zoom=zoom)
+    polygons = []
+    if polygon is not None:
+        if not polygon.exists():
+            fail(f'--polygon file not found: {polygon}')
+        try:
+            polygons = load_polygon_geojson(polygon)
+        except Exception as exc:
+            fail(f'Could not read polygon {polygon}: {exc}')
+        cells = [c for c in raw_cells if cell_touches_polygons(c, polygons)]
+        if not cells:
+            fail('Polygon clipping removed every cell. Check that the polygon '
+                 'and bounding box cover the same area.')
+    else:
+        cells = raw_cells
+
     plans = GridPlan(
         cells=cells,
         terms=terms,
@@ -1307,6 +1454,9 @@ def parse_grid_args(args: list[str]) -> tuple[str, Path, GridPlan]:
         zoom=zoom,
         yes=yes,
         dry_run=dry_run,
+        seed=seed,
+        polygons=polygons,
+        cells_total=len(raw_cells),
     )
 
     lat_min, lon_min, lat_max, lon_max = bbox
@@ -1320,6 +1470,11 @@ def parse_grid_args(args: list[str]) -> tuple[str, Path, GridPlan]:
     searches = len(cells) * len(terms)
     cell_word = "cell" if len(cells) == 1 else "cells"
     keyword_word = "keyword" if len(terms) == 1 else "keywords"
+    if polygons:
+        cells_label = (f"{len(cells)} of {len(raw_cells)} "
+                       f"[dim](polygon-clipped, {polygon.name})[/]")
+    else:
+        cells_label = f"{len(cells)}"
 
     console.print(Panel.fit(
         "[bold cyan]GPS grid search[/]\n"
@@ -1327,7 +1482,7 @@ def parse_grid_args(args: list[str]) -> tuple[str, Path, GridPlan]:
         f"[bold]BBox:[/] S {lat_min:.5f}  W {lon_min:.5f}  "
         f"N {lat_max:.5f}  E {lon_max:.5f}\n"
         f"[dim]({height_km:.1f} km tall x {width_km:.1f} km wide)[/]\n"
-        f"[bold]Cells:[/] {rows} x {cols} = [cyan]{len(cells)}[/] "
+        f"[bold]Cells:[/] {rows} x {cols} = [cyan]{cells_label}[/] "
         f"(step {step:g}° ≈ {step * 111.32:.1f} km)\n"
         f"[bold]Zoom:[/] {zoom_label}\n"
         f"[bold]Searches:[/] {len(cells)} {cell_word} x {len(terms)} "
@@ -1421,19 +1576,73 @@ async def main():
         seen_ids: set[str] = set()
         splits = 0
 
+        if grid and grid.seed:
+            seed_path = Path(grid.seed)
+            if seed_path.exists():
+                seeded_rows = load_seed_rows(seed_path)
+                seeded_rows, dropped_seed = drop_outside_rows(seeded_rows, grid)
+                if dropped_seed:
+                    console.print(
+                        f"[yellow]  ↳ {dropped_seed} seeded row(s) outside the "
+                        "district boundary dropped[/]"
+                    )
+                all_rows.extend(seeded_rows)
+                for seeded_row in seeded_rows:
+                    seed_pid = place_id_from_href(seeded_row.get('url') or '')
+                    if seed_pid:
+                        seen_ids.add(seed_pid)
+                _partial_rows = list(all_rows)
+                console.print(
+                    f"[cyan]Seeded {len(seeded_rows)} rows from[/] "
+                    f"[yellow]{seed_path.name}[/] [dim]({len(seen_ids)} place "
+                    "IDs already known - their pages will be skipped)[/]"
+                )
+            else:
+                console.print(
+                    f"[yellow]--seed file not found:[/] {seed_path} "
+                    "[dim](starting from scratch)[/]"
+                )
+
+        cell_progress, progress_path = _load_cell_progress(out)
+        resumed_cells = sum(len(v) for v in cell_progress.values())
+        if resumed_cells and not all_rows:
+            console.print(
+                "[yellow]Cell journal found but no checkpoint rows were "
+                "loaded; ignoring the journal so this run cannot come out "
+                "empty.[/]"
+            )
+            cell_progress, resumed_cells = {}, 0
+        elif resumed_cells:
+            console.print(
+                f"[cyan]Cell progress:[/] {resumed_cells} searches already "
+                f"done in a previous run - skipping them "
+                f"[dim]({progress_path.name})[/]"
+            )
+
         if grid:
             for term in grid.terms:
                 queue: deque[GridCell] = deque(grid.cells)
+                done_cells = cell_progress.setdefault(term, {})
                 cell_no = 0
                 while queue:
                     cell = queue.popleft()
+                    cell_key = _cell_key(cell)
+                    was_split = done_cells.get(cell_key)
+                    if cell_key in done_cells:
+                        # Already searched. If it hit the cap, re-queue its
+                        # children so a resume can finish the unsplit branches.
+                        if was_split:
+                            children = [c for c in cell.split()
+                                        if grid.keep_cell(c)]
+                            queue.extendleft(reversed(children))
+                        continue
                     cell_no += 1
                     stats: dict = {}
                     try:
                         rows = await scrape_query(
                             page, term, ctx=ctx, center=cell.center,
                             zoom=cell.zoom, seen_ids=seen_ids, stats=stats,
-                            bounds=grid.bounds,
+                            bounds=grid.bounds, area=grid.contains_point,
                         )
                     except SystemExit:
                         raise
@@ -1449,16 +1658,27 @@ async def main():
                         f"[dim]  cell {cell_no}: +{stats.get('extracted', 0)} "
                         f"new | total {len(all_rows)} | {len(queue)} queued[/]"
                     )
-                    if stats.get('capped') and stats.get('outside', 0) == 0:
+                    split_cell = False
+                    in_area = stats.get('unique', 0)
+                    if stats.get('capped') and in_area >= CAP_SPLIT_MIN:
                         if cell.can_split(grid.min_step):
-                            children = cell.split()
-                            splits += 1
-                            console.print(
-                                f"[yellow]  ↳ 120-result cap: splitting into "
-                                f"{len(children)} sub-cells at zoom "
-                                f"{children[0].zoom}[/]"
-                            )
-                            queue.extendleft(reversed(children))
+                            children = [c for c in cell.split()
+                                        if grid.keep_cell(c)]
+                            if not children:
+                                console.print(
+                                    "[dim]  ↳ cap split children fall outside "
+                                    "the polygon; not splitting this cell[/]"
+                                )
+                            else:
+                                split_cell = True
+                                splits += 1
+                                console.print(
+                                    f"[yellow]  ↳ 120-result cap "
+                                    f"({in_area} in-area): splitting into "
+                                    f"{len(children)} sub-cells at zoom "
+                                    f"{children[0].zoom}[/]"
+                                )
+                                queue.extendleft(reversed(children))
                         else:
                             console.print(
                                 "[red]  ↳ 120-result cap at minimum step: some "
@@ -1466,9 +1686,11 @@ async def main():
                             )
                     elif stats.get('capped'):
                         console.print(
-                            "[dim]  ↳ cap includes out-of-area fallback results; "
+                            f"[dim]  ↳ cap had only {in_area} in-area result(s); "
                             "not splitting this cell[/]"
                         )
+                    done_cells[cell_key] = split_cell
+                    _record_cell(progress_path, term, cell_key, split_cell)
         else:
             for q in queries:
                 try:
@@ -1529,10 +1751,18 @@ async def main():
     elif not KEEP_ALL:
         console.print(f"[dim]No category filter for keyword '{keyword}' (no intent matched)[/]")
 
+    kept, dropped_final = drop_outside_rows(kept, grid)
+    if dropped_final:
+        console.print(
+            f"[yellow]  ↳ {dropped_final} final row(s) outside the district "
+            "boundary dropped[/]"
+        )
+
     saved = write_xlsx(kept, dropped, out, extra_cols=extra_cols)
-    # A completed run supersedes its checkpoint.
+    # A completed run supersedes its checkpoint and cell journal.
     try:
         out.with_stem(out.stem + '_partial').unlink(missing_ok=True)
+        _progress_file(out).unlink(missing_ok=True)
     except Exception:
         pass
     sheets = "shops" + (" + filtered_out" if dropped else "")
@@ -1550,6 +1780,46 @@ async def main():
 
 _partial_rows: list[dict] = []
 _partial_out: Path | None = None
+
+
+def _cell_key(cell: GridCell) -> str:
+    """Stable identifier for a cell, used by the resume journal."""
+    return (f"{cell.south:.6f},{cell.west:.6f},"
+            f"{cell.north:.6f},{cell.east:.6f}")
+
+
+def _progress_file(out: Path) -> Path:
+    """Journal of searched cells, next to the output workbook."""
+    return out.with_suffix('.progress.jsonl')
+
+
+def _load_cell_progress(out: Path) -> tuple[dict[str, dict[str, bool]], Path]:
+    """Read the cell journal: {term: {cell_key: was_capped_and_split}}."""
+    path = _progress_file(out)
+    done: dict[str, dict[str, bool]] = {}
+    if not path.exists():
+        return done, path
+    for line in path.read_text(encoding='utf-8-sig', errors='replace').splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            record = json.loads(line)
+            done.setdefault(str(record['term']), {})[
+                record['cell']] = bool(record.get('split'))
+        except (ValueError, KeyError, TypeError):
+            continue  # a torn last line after a crash is expected
+    return done, path
+
+
+def _record_cell(path: Path, term: str, cell_key: str, split: bool) -> None:
+    """Append one searched cell. Never let a disk hiccup kill the run."""
+    try:
+        with path.open('a', encoding='utf-8') as handle:
+            handle.write(json.dumps({'term': term, 'cell': cell_key,
+                                     'split': split}) + '\n')
+    except OSError:
+        pass
 
 
 def _save_partial(verbose: bool = True) -> Path | None:

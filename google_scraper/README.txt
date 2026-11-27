@@ -92,14 +92,27 @@ oversized result list.
 
    This is 49 cells x 3 keywords = 147 searches; expect several hours.
 
+5. POLYGON-CLIPPED DISTRICT GRID (recommended for large areas)
+
+       python scrape.py "cell phone store, mobile phone repair shop" --bbox 15.74,73.68,17.18,74.70 --polygon maharashtra\polygons\kolhapur.geojson --step 0.05 --min-step 0.01 --yes --out kolhapur.xlsx
+
+   A district bbox is a rectangle but the real boundary is irregular, so the
+   empty corners cost roughly half the searches. --polygon skips every cell
+   whose centre, corners and edge midpoints all fall outside the boundary.
+   Cap splits are clipped too, so sub-cells outside the district are never
+   searched. Use fetch_maharashtra_districts.py to build the boundary files
+   and run_maharashtra_districts.ps1 to queue all 36 districts.
+
 OPTIONS
     --area "place, state"   look up the bounding box automatically
     --bbox lat1,lon1,lat2,lon2   use a manual box (exclusive with --area)
+    --polygon FILE.geojson  keep only grid cells that touch this boundary
     --step DEGREES          cell size; default 0.02 (~2.2 km)
     --min-step DEGREES      smallest split size; default 0.01 (~1.1 km)
     --zoom N                force a zoom; default is picked per cell so the
                             viewport always covers the cell
     --out FILE.xlsx         output path
+    --seed FILE.xlsx        preload rows from a checkpoint and skip their pages
     --yes                   skip the confirmation prompt for large grids
     --dry-run               print the plan and exit
 
@@ -108,10 +121,10 @@ CHOOSING A STEP
     0.05  (~5.6 km)  talukas / rural districts: good balance
     0.10  (~11 km)   first pass over a very large district
 
-    A run costs roughly 60-180 seconds (1-3 minutes) per search, and each
-    keyword is searched at every cell. Example: 49 cells x 3 keywords =
+    A run costs roughly 15-30 seconds per search on current hardware, and
+    each keyword is searched at every cell. Example: 49 cells x 3 keywords =
     147 searches. Grids over 50 searches ask for confirmation unless --yes
-    is passed.
+    is passed. Polygon clipping typically removes 40-50% of the cells.
 
 120-RESULT CAP INSIDE A CELL
     If a dense cell still returns exactly 120 in-area results, the scraper
@@ -127,6 +140,14 @@ CHECKPOINTS (LONG RUNS)
     crashes, the network drops, or you press Ctrl+C, the shops collected so
     far are still on disk (with latitude/longitude). The checkpoint is
     removed automatically when the final workbook is written.
+
+    A second file, <output>.progress.jsonl, records every cell already
+    searched (including cap-split children). Pass the checkpoint back with
+    --seed on the next run and the scraper skips those cells entirely, so a
+    restart continues at the crash point instead of re-searching the whole
+    district. Both files are removed on success.
+
+        python scrape.py "cell phone store" --bbox ... --polygon ... --seed kolhapur_mobile_all_partial.xlsx --out kolhapur_mobile_all.xlsx
 
 DEDUPLICATION
     Neighbouring cells overlap, so the same shop is often found several

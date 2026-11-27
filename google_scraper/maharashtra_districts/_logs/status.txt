@@ -1,0 +1,22 @@
+﻿2026-11-27 15:21:34  RUNNER START pid=16236 districts=1 cells=341 searches=682 keywords=[cell phone store, mobile phone repair shop]
+2026-11-27 15:21:34  Output: C:\Users\Nom\Evaara-Scraper-\google_scraper\maharashtra_districts
+2026-11-27 15:21:34  [1/1] START Kolhapur attempt 1 cells=341 area=7730.7km2
+2026-11-27 15:21:34    C:\Users\Nom\AppData\Local\Programs\Python\Python313\python.exe "C:\Users\Nom\Evaara-Scraper-\google_scraper\scrape.py" "cell phone store, mobile phone repair shop" --bbox 15.743546,73.687277,17.181344,74.700079 --polygon "C:\Users\Nom\Evaara-Scraper-\google_scraper\maharashtra\polygons\kolhapur.geojson" --step 0.05 --min-step 0.01 --yes --out "C:\Users\Nom\Evaara-Scraper-\google_scraper\maharashtra_districts\kolhapur_mobile_all.xlsx"
+2026-11-27 15:22:12  RUNNER START pid=14796 districts=1 cells=341 searches=682 keywords=[cell phone store, mobile phone repair shop]
+2026-11-27 15:22:12  Output: C:\Users\Nom\Evaara-Scraper-\google_scraper\maharashtra_districts
+2026-11-27 15:22:12  [1/1] START Kolhapur attempt 1 cells=341 area=7730.7km2
+2026-11-27 15:22:12    C:\Users\Nom\AppData\Local\Programs\Python\Python313\python.exe "C:\Users\Nom\Evaara-Scraper-\google_scraper\scrape.py" "cell phone store, mobile phone repair shop" --bbox 15.743546,73.687277,17.181344,74.700079 --polygon "C:\Users\Nom\Evaara-Scraper-\google_scraper\maharashtra\polygons\kolhapur.geojson" --step 0.05 --min-step 0.01 --yes --out "C:\Users\Nom\Evaara-Scraper-\google_scraper\maharashtra_districts\kolhapur_mobile_all.xlsx"
+2026-11-27 15:23:46  RUNNER START pid=10216 districts=1 cells=245 searches=245 keywords=[smartphone accessories]
+2026-11-27 15:23:46  Output: C:\Users\Nom\Evaara-Scraper-\google_scraper\maharashtra_districts
+2026-11-27 15:23:46  [1/1] START Akola attempt 1 cells=245 area=5460.7km2
+2026-11-27 15:23:46  RUNNER FINISHED done=0 failed=none
+2026-11-27 15:24:12  RUNNER START pid=6444 districts=1 cells=245 searches=245 keywords=[smartphone accessories]
+2026-11-27 15:24:12  Output: C:\Users\Nom\Evaara-Scraper-\google_scraper\maharashtra_districts
+2026-11-27 15:24:12  [1/1] START Akola attempt 1 cells=245 area=5460.7km2
+2026-11-27 15:24:12  RUNNER FINISHED done=0 failed=none
+2026-11-27 15:24:12  RUNNER START pid=15524 districts=1 cells=245 searches=490 keywords=[cell phone store, mobile phone repair shop]
+2026-11-27 15:24:12  Output: C:\Users\Nom\Evaara-Scraper-\google_scraper\maharashtra_districts
+2026-11-27 15:24:12  [1/1] START Akola attempt 1 cells=245 area=5460.7km2
+2026-11-27 15:24:12  RUNNER FINISHED done=0 failed=none
+2026-11-27 19:24:25  [1/1] DONE Kolhapur in 04:02:13 -> C:\Users\Nom\Evaara-Scraper-\google_scraper\maharashtra_districts\kolhapur_mobile_all.xlsx
+2026-11-27 19:25:25  RUNNER FINISHED done=1 failed=none
