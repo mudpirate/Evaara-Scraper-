@@ -23,7 +23,13 @@ GPS grid mode (full coverage of a city/taluka/district):
   Grid mode searches every cell of a checkerboard over the area, so small
   village shops are not lost when Google's 120-result cap cuts a broad
   search short. Dense cells that still hit 120 results are split
-  automatically into four smaller cells.
+  automatically into four smaller cells, down to --min-step or --max-zoom
+  (default z15; the district runner raises the six metros to z16). Splits
+  are breadth-first: all base cells are searched before any refinement,
+  so one dense market cannot starve the district. A zero-yield guard stops
+  refinement after 50 split cells produce 0-1 new shops (exit code 3);
+  base cells are never cut short. Tune with --zero-yield-window / --zero-yield-max
+  or disable with --no-zero-yield.
 
 Environment variables:
   HEADLESS=1      run Chromium without a window
@@ -193,7 +199,7 @@ CARD_WAIT_MS = int(os.getenv("CARD_WAIT_MS", "700"))
 SCROLL_WAIT_MS = int(os.getenv("SCROLL_WAIT_MS", "2500"))
 SCROLL_POLL_MS = int(os.getenv("SCROLL_POLL_MS", "250"))
 SCROLL_STALE_LIMIT = int(os.getenv("SCROLL_STALE_LIMIT", "3"))
-CAP_SPLIT_MIN = int(os.getenv("CAP_SPLIT_MIN", "90"))
+CAP_SPLIT_MIN = int(os.getenv("CAP_SPLIT_MIN", "40"))
 
 COUNTRY_CODES = {
     'india': 'IN', 'united states': 'US', 'usa': 'US',
@@ -1274,9 +1280,13 @@ class GridPlan:
     zoom: int | None
     yes: bool
     dry_run: bool
+    max_zoom: int = 15
     seed: Path | None = None
     polygons: list = field(default_factory=list)
     cells_total: int = 0
+    zero_yield_window: int = 50
+    zero_yield_max: int = 1
+    zero_yield_on: bool = True
 
     def keep_cell(self, cell: GridCell) -> bool:
         """Polygon clipping for the initial grid and every cap split."""
@@ -1346,6 +1356,10 @@ def parse_grid_args(args: list[str]) -> tuple[str, Path, GridPlan]:
     step, min_step = 0.02, 0.01
     min_step_given = False
     zoom = None
+    max_zoom = 15  # statewide default; metros are raised to z16 by the runner
+    zero_yield_window = 50
+    zero_yield_max = 1
+    zero_yield_on = True
     yes = dry_run = False
 
     def take_value(i: int, name: str) -> tuple[str, int]:
@@ -1379,6 +1393,18 @@ def parse_grid_args(args: list[str]) -> tuple[str, Path, GridPlan]:
             elif name == '--zoom':
                 value, i = take_value(i, '--zoom')
                 zoom = int(value)
+            elif name == '--max-zoom':
+                value, i = take_value(i, '--max-zoom')
+                max_zoom = int(value)
+            elif name == '--zero-yield-window':
+                value, i = take_value(i, '--zero-yield-window')
+                zero_yield_window = int(value)
+            elif name == '--zero-yield-max':
+                value, i = take_value(i, '--zero-yield-max')
+                zero_yield_max = int(value)
+            elif name == '--no-zero-yield':
+                zero_yield_on = False
+                i += 1
             elif name == '--out':
                 value, i = take_value(i, '--out')
                 out = Path(value)
@@ -1413,6 +1439,14 @@ def parse_grid_args(args: list[str]) -> tuple[str, Path, GridPlan]:
         fail('--min-step cannot be larger than --step.')
     if zoom is not None and not (3 <= zoom <= 20):
         fail('--zoom must be between 3 and 20.')
+    if not (3 <= max_zoom <= 20):
+        fail('--max-zoom must be between 3 and 20.')
+    if zoom is not None and zoom > max_zoom:
+        fail('--zoom cannot be greater than --max-zoom.')
+    if zero_yield_window < 2:
+        fail('--zero-yield-window must be at least 2.')
+    if zero_yield_max < 0:
+        fail('--zero-yield-max cannot be negative.')
 
     area_name = None
     if area:
@@ -1450,6 +1484,7 @@ def parse_grid_args(args: list[str]) -> tuple[str, Path, GridPlan]:
         bbox=bbox,
         step=step,
         min_step=min_step,
+        max_zoom=max_zoom,
         area_name=area_name,
         zoom=zoom,
         yes=yes,
@@ -1457,6 +1492,9 @@ def parse_grid_args(args: list[str]) -> tuple[str, Path, GridPlan]:
         seed=seed,
         polygons=polygons,
         cells_total=len(raw_cells),
+        zero_yield_window=zero_yield_window,
+        zero_yield_max=zero_yield_max,
+        zero_yield_on=zero_yield_on,
     )
 
     lat_min, lon_min, lat_max, lon_max = bbox
@@ -1492,8 +1530,16 @@ def parse_grid_args(args: list[str]) -> tuple[str, Path, GridPlan]:
     console.print(
         "[dim]Cells that hit Google's 120-result cap are split into 4 "
         "smaller cells automatically (down to --min-step "
-        f"{min_step:g}°).[/]"
+        f"{min_step:g}° or --max-zoom {max_zoom}, whichever comes first).[/]"
     )
+    if zero_yield_on:
+        console.print(
+            f"[dim]Zero-yield guard: stop refinement after {zero_yield_window} "
+            f"split cells with at most {zero_yield_max} new shop(s). "
+            "Base cells always finish.[/]"
+        )
+    else:
+        console.print("[dim]Zero-yield guard disabled.[/]")
 
     if out is None:
         if area_name:
@@ -1575,6 +1621,7 @@ async def main():
         query_errors = 0
         seen_ids: set[str] = set()
         splits = 0
+        stopped_early = False
 
         if grid and grid.seed:
             seed_path = Path(grid.seed)
@@ -1620,10 +1667,12 @@ async def main():
             )
 
         if grid:
+            base_zoom = grid.cells[0].zoom if grid.cells else 15
             for term in grid.terms:
                 queue: deque[GridCell] = deque(grid.cells)
                 done_cells = cell_progress.setdefault(term, {})
                 cell_no = 0
+                recent_new: deque[int] = deque(maxlen=grid.zero_yield_window)
                 while queue:
                     cell = queue.popleft()
                     cell_key = _cell_key(cell)
@@ -1631,10 +1680,11 @@ async def main():
                     if cell_key in done_cells:
                         # Already searched. If it hit the cap, re-queue its
                         # children so a resume can finish the unsplit branches.
-                        if was_split:
+                        if was_split and cell.can_split(grid.min_step,
+                                                        grid.max_zoom):
                             children = [c for c in cell.split()
                                         if grid.keep_cell(c)]
-                            queue.extendleft(reversed(children))
+                            queue.extend(children)
                         continue
                     cell_no += 1
                     stats: dict = {}
@@ -1661,7 +1711,7 @@ async def main():
                     split_cell = False
                     in_area = stats.get('unique', 0)
                     if stats.get('capped') and in_area >= CAP_SPLIT_MIN:
-                        if cell.can_split(grid.min_step):
+                        if cell.can_split(grid.min_step, grid.max_zoom):
                             children = [c for c in cell.split()
                                         if grid.keep_cell(c)]
                             if not children:
@@ -1678,11 +1728,12 @@ async def main():
                                     f"{len(children)} sub-cells at zoom "
                                     f"{children[0].zoom}[/]"
                                 )
-                                queue.extendleft(reversed(children))
+                                queue.extend(children)
                         else:
                             console.print(
-                                "[red]  ↳ 120-result cap at minimum step: some "
-                                "places in this cell may be missing.[/]"
+                                "[red]  ↳ 120-result cap at split limit "
+                                "(min step or max zoom): some places in this "
+                                "cell may be missing.[/]"
                             )
                     elif stats.get('capped'):
                         console.print(
@@ -1691,6 +1742,25 @@ async def main():
                         )
                     done_cells[cell_key] = split_cell
                     _record_cell(progress_path, term, cell_key, split_cell)
+
+                    # Zero-yield guard: only refinement cells are checked, so
+                    # every base cell still gets searched. If the last N split
+                    # cells found at most `zero_yield_max` new shops, the
+                    # remaining splits are almost certainly duplicates.
+                    if grid.zero_yield_on and cell.zoom > base_zoom:
+                        recent_new.append(int(stats.get('extracted', 0)))
+                        if (len(recent_new) >= grid.zero_yield_window
+                                and sum(recent_new) <= grid.zero_yield_max):
+                            console.print(
+                                f"[yellow]  ↳ {grid.zero_yield_window} split cells "
+                                f"produced {sum(recent_new)} new shop(s); "
+                                "stopping this district early "
+                                "(zero-yield rule).[/]"
+                            )
+                            stopped_early = True
+                            break
+                if stopped_early:
+                    break
         else:
             for q in queries:
                 try:
@@ -1776,6 +1846,16 @@ async def main():
             f"[green]\u2728[/] {n_chain} chain-store rows highlighted green "
             f"| [yellow]{n_no_phone} rows with NO phone highlighted yellow[/]"
         )
+
+    if stopped_early:
+        # Exit 3 = normal early stop; the runner counts the district as done
+        # and moves to the next one. Do not recreate the deleted checkpoint.
+        _partial_out = None
+        console.print(
+            "[yellow]Coverage stopped early by the zero-yield rule; "
+            "results saved so far.[/]"
+        )
+        raise SystemExit(3)
 
 
 _partial_rows: list[dict] = []

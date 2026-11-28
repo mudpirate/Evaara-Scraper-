@@ -1,9 +1,0 @@
-status=200
-raw html len=133925; __NEXT_DATA__ in response: True
-  pageProps keys: ['isVendor', 'userLocation', 'query', 'pd', 'pageConfig', 'nearmeCity', 'resultsAreaInfo', 'akmData', 'referer', 'askLoc', 'ct', 'lat', 'long', 'search', 'ncatid', 'bot', 'llmBot', 'bannerData', 'webLang', 'isFreeTxt', 'viaGoogle', 'issr', 'useTabsView', 'isServerSide', 'nearmeUrl', 'isTablet', 'viaRfr', 'query_language', 'digitalCatalogData', 'rhsCurated']
-  listData type: NoneType
-after hydration: body_len=2324 __NEXT_DATA__ gone=False ratings=True
-candidate names: Skip to main content | Select Langauge | Advertise | Free Listing | Mobile Phone Dealers in Bidar | Popular Mobile Phone Dealers in Bidar | Quick Response | Jd Verified
-head: 'Skip to main content\nNoresults found\nSelect Langauge\nE N\nAdvertise\nFree Listing\nBUSINESS\nLogin / Sign Up\nFree Listing\nAdvertise\nBidar\nMobile Phone Dealers in Bidar\n100+ Listings\nPopular Mobile Phone Dealers in Bidar\nReset all filters\nSort by\nQuick Response\nTop'
-
-DONE

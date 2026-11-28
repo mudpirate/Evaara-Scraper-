@@ -8,24 +8,39 @@
 #   .\run_maharashtra_districts.ps1 -Only pune -AccessoriesOnly
 #                                                        # 3rd keyword only,
 #                                                        # into a separate file
+#   .\run_maharashtra_districts.ps1 -MetrosOnly -AccessoriesOnly
+#                                                        # 6 metros, 3rd keyword
+#
+# Zoom: z15 everywhere by default; the 6 metro districts in the plan are
+# automatically raised to z16. -MaxZoom N overrides both for one run.
 #
 # Restart-safe: skips districts whose final workbook exists and resumes a
 # crashed district from its _partial.xlsx checkpoint.
 #
 # Stop conditions:
 #   exit code 2  -> CAPTCHA, queue stops (solve in a visible browser, rerun)
+#   exit code 3  -> zero-yield rule: district saved, queue continues
 #   2 districts fail in a row -> network is down, queue stops
+#
+# Zero-yield rule: after 50 refinement (split) cells produce 0 or 1 new
+# shop, the scraper saves what it has and exits 3 so the runner moves on.
+# Base grid cells are always completed; only splits are cut short.
 
 param(
     [string]$Only = '',
     [int]$Limit = 0,
     [switch]$IncludeAccessories,
     [switch]$AccessoriesOnly,
+    [string]$AccessoriesKeyword = '',
     [switch]$DryRun,
     [switch]$Force,
     [int]$PauseSeconds = 60,
     [ValidateSet('cells', 'name')]
-    [string]$Order = 'cells'
+    [string]$Order = 'cells',
+    [switch]$MetrosOnly,
+    [int]$MaxZoom = 0,
+    [int]$ZeroYieldWindow = 50,
+    [int]$ZeroYieldMax = 1
 )
 
 $ErrorActionPreference = 'Continue'
@@ -56,16 +71,26 @@ $plan = Get-Content $planPath -Raw | ConvertFrom-Json
 $districts = @($plan.districts)
 
 if ($Only) {
+    # Old names still work after the 2023 renames.
+    $aliases = @{
+        'ahmednagar' = 'ahilyanagar'
+        'aurangabad' = 'chhatrapati_sambhajinagar'
+        'osmanabad'  = 'dharashiv'
+    }
     $wanted = $Only.Split(',') | ForEach-Object {
-        $_.Trim().ToLower().Replace(' ', '_')
+        $key = $_.Trim().ToLower().Replace(' ', '_')
+        if ($aliases.ContainsKey($key)) { $aliases[$key] } else { $key }
     }
     $districts = $districts | Where-Object {
         $wanted -contains $_.slug -or
         $wanted -contains $_.name.ToLower().Replace(' ', '_')
     }
 }
+if ($MetrosOnly) {
+    $districts = $districts | Where-Object { $_.metro -eq $true -or $_.slug -in @('mumbai_city','mumbai_suburban','thane','pune','nagpur','nashik') }
+}
 if (-not $districts -or $districts.Count -eq 0) {
-    Write-Error "No districts matched -Only '$Only'."
+    Write-Error "No districts matched -Only '$Only' / -MetrosOnly."
     exit 1
 }
 
@@ -87,9 +112,18 @@ $outSuffix = ''
 if ($AccessoriesOnly) {
     # Post-pass for districts already scraped with the two main keywords:
     # writes <slug>_accessories.xlsx so nothing has to be redone.
-    $keywords = [string]$plan.optional_keyword
+    # -AccessoriesKeyword overrides the plan's optional keyword for one run.
+    $keywords = if ($AccessoriesKeyword) {
+        $AccessoriesKeyword
+    } else {
+        [string]$plan.optional_keyword
+    }
     $outSuffix = '_accessories'
 } else {
+    if ($AccessoriesKeyword) {
+        Write-Error "-AccessoriesKeyword requires -AccessoriesOnly."
+        exit 1
+    }
     $keywords = ($plan.keywords -join ', ')
     if ($IncludeAccessories) {
         $keywords = "$keywords, $($plan.optional_keyword)"
@@ -108,7 +142,8 @@ if (-not (Test-Path $runsFile)) {
         Out-File -FilePath $runsFile -Encoding UTF8
 }
 
-Log "RUNNER START pid=$PID districts=$($districts.Count) cells=$totalCells searches=$totalSearches keywords=[$keywords]"
+$zoomPolicy = if ($MaxZoom -gt 0) { "override z$MaxZoom" } else { 'plan (z15, metros z16)' }
+Log "RUNNER START pid=$PID districts=$($districts.Count) cells=$totalCells base_searches=$totalSearches keywords=[$keywords] zoom=$zoomPolicy"
 Log "Output: $outDir"
 
 $index = 0
@@ -137,6 +172,11 @@ foreach ($d in $districts) {
     $scrape = Join-Path $root 'scrape.py'
     $logFile = Join-Path $logDir ($d.slug + '.log')
     $districtDone = $false
+    # Plan-driven zoom: z15 everywhere, z16 for the six metros.
+    # -MaxZoom N overrides the plan for the whole run.
+    if ($MaxZoom -gt 0) { $zoom = $MaxZoom }
+    elseif ($d.max_zoom) { $zoom = [int]$d.max_zoom }
+    else { $zoom = [int]$plan.max_zoom }
 
     for ($attempt = 1; $attempt -le 3; $attempt++) {
         $seedPath = Join-Path $outDir ($stem + '_partial.xlsx')
@@ -145,10 +185,10 @@ foreach ($d in $districts) {
             $seedArgs = @('--seed', $seedPath)
             Log "[$index/$($districts.Count)] RESUME $($d.name) attempt $attempt from checkpoint"
         } else {
-            Log "[$index/$($districts.Count)] START $($d.name) attempt $attempt cells=$($d.cells_clipped) area=$($d.area_km2)km2"
+            Log "[$index/$($districts.Count)] START $($d.name) attempt $attempt cells=$($d.cells_clipped) area=$($d.area_km2)km2 zoom=$zoom"
         }
 
-        $cmdLine = "$python `"$scrape`" `"$keywords`" --bbox $bbox --polygon `"$polygon`" --step $step --min-step $minStep --yes --out `"$out`""
+        $cmdLine = "$python `"$scrape`" `"$keywords`" --bbox $bbox --polygon `"$polygon`" --step $step --min-step $minStep --max-zoom $zoom --zero-yield-window $ZeroYieldWindow --zero-yield-max $ZeroYieldMax --yes --out `"$out`""
         if ($seedArgs.Count -gt 0) { $cmdLine += " --seed `"$seedPath`"" }
 
         if ($DryRun) {
@@ -160,7 +200,9 @@ foreach ($d in $districts) {
         Log "  $cmdLine"
         $sw = [System.Diagnostics.Stopwatch]::StartNew()
         & $python $scrape $keywords --bbox $bbox --polygon $polygon `
-            --step $step --min-step $minStep --yes --out $out @seedArgs 2>&1 |
+            --step $step --min-step $minStep --max-zoom $zoom `
+            --zero-yield-window $ZeroYieldWindow --zero-yield-max $ZeroYieldMax `
+            --yes --out $out @seedArgs 2>&1 |
             Tee-Object -FilePath $logFile -Append
         $code = $LASTEXITCODE
         $sw.Stop()
@@ -176,6 +218,14 @@ foreach ($d in $districts) {
             Log "[$index/$($districts.Count)] CAPTCHA $($d.name) - queue stopped. Solve in a visible browser, then rerun."
             Log "RUNNER FINISHED (captcha) done=$doneCount failed=$($failed -join ', ')"
             exit 2
+        }
+
+        if ($code -eq 3 -and (Test-Path $out) -and ((Get-Item $out).Length -gt 5000)) {
+            Log "[$index/$($districts.Count)] STOPPED EARLY (zero yield) $($d.name) in $([TimeSpan]::FromSeconds($elapsed).ToString('hh\:mm\:ss')) -> $out"
+            $districtDone = $true
+            $doneCount++
+            $consecutiveFail = 0
+            break
         }
 
         if ($code -eq 0 -and (Test-Path $out) -and ((Get-Item $out).Length -gt 5000)) {

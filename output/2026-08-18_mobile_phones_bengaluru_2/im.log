@@ -1,9 +1,0 @@
-profile: C:\Users\Nomesh\.cache\indiamart-scraper\profile
-→ mobile phones in bengaluru
-https://dir.indiamart.com/search.mp?ss=mobile+phones&city=bengaluru
-✗ mobile phones in bengaluru: 'NoneType' object has no attribute 'get'
-
-Total: 0 scraped → 0 unique (0 dupes removed)
-✓ saved 0 → 
-C:\Users\Nomesh\Desktop\evaara\output\2026-08-18_mobile_phones_bengaluru_2\im_m
-obile_phones_bengaluru.xlsx

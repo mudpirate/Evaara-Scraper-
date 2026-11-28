@@ -20,3 +20,21 @@
 2026-11-27 15:24:12  RUNNER FINISHED done=0 failed=none
 2026-11-27 19:24:25  [1/1] DONE Kolhapur in 04:02:13 -> C:\Users\Nom\Evaara-Scraper-\google_scraper\maharashtra_districts\kolhapur_mobile_all.xlsx
 2026-11-27 19:25:25  RUNNER FINISHED done=1 failed=none
+2026-11-28 12:01:43  RUNNER START pid=13688 districts=1 cells=341 base_searches=341 keywords=[mobile accessories]
+2026-11-28 12:01:43  Output: C:\Users\Nom\Evaara-Scraper-\google_scraper\maharashtra_districts
+2026-11-28 12:01:43  [1/1] RESUME Kolhapur attempt 1 from checkpoint
+2026-11-28 12:01:43    C:\Users\Nom\AppData\Local\Programs\Python\Python313\python.exe "C:\Users\Nom\Evaara-Scraper-\google_scraper\scrape.py" "mobile accessories" --bbox 15.743546,73.687277,17.181344,74.700079 --polygon "C:\Users\Nom\Evaara-Scraper-\google_scraper\maharashtra\polygons\kolhapur.geojson" --step 0.05 --min-step 0.00125 --yes --out "C:\Users\Nom\Evaara-Scraper-\google_scraper\maharashtra_districts\kolhapur_accessories.xlsx" --seed "C:\Users\Nom\Evaara-Scraper-\google_scraper\maharashtra_districts\kolhapur_accessories_partial.xlsx"
+2026-11-28 13:37:41  RUNNER START pid=17972 districts=1 cells=733 base_searches=1466 keywords=[cell phone store, mobile phone repair shop]
+2026-11-28 13:37:41  Output: C:\Users\Nom\Evaara-Scraper-\google_scraper\maharashtra_districts
+2026-11-28 13:37:41  [1/1] START Ahilyanagar attempt 1 cells=733 area=17183.8km2
+2026-11-28 13:37:41  RUNNER FINISHED done=0 failed=none
+2026-11-28 15:21:15  RUNNER START pid=18216 districts=1 cells=388 base_searches=776 keywords=[cell phone store, mobile phone repair shop] zoom=override z15
+2026-11-28 15:21:15  Output: C:\Users\Nom\Evaara-Scraper-\google_scraper\maharashtra_districts
+2026-11-28 15:21:15  [1/1] START Sangli attempt 1 cells=388 area=8654.4km2 zoom=15
+2026-11-28 15:21:15    C:\Users\Nom\AppData\Local\Programs\Python\Python313\python.exe "C:\Users\Nom\Evaara-Scraper-\google_scraper\scrape.py" "cell phone store, mobile phone repair shop" --bbox 16.716439,73.691483,17.629053,75.678349 --polygon "C:\Users\Nom\Evaara-Scraper-\google_scraper\maharashtra\polygons\sangli.geojson" --step 0.05 --min-step 0.00125 --max-zoom 15 --zero-yield-window 50 --zero-yield-max 1 --yes --out "C:\Users\Nom\Evaara-Scraper-\google_scraper\maharashtra_districts\sangli_mobile_all.xlsx"
+2026-11-28 15:21:19  [1/1] ATTEMPT FAILED Sangli attempt 1 code=1 after 00:00:05
+2026-11-28 15:21:19    waiting 120 s before retrying Sangli
+2026-11-28 15:23:09  RUNNER START pid=10204 districts=1 cells=388 base_searches=776 keywords=[cell phone store, mobile phone repair shop] zoom=override z15
+2026-11-28 15:23:09  Output: C:\Users\Nom\Evaara-Scraper-\google_scraper\maharashtra_districts
+2026-11-28 15:23:09  [1/1] START Sangli attempt 1 cells=388 area=8654.4km2 zoom=15
+2026-11-28 15:23:09    C:\Users\Nom\AppData\Local\Programs\Python\Python313\python.exe "C:\Users\Nom\Evaara-Scraper-\google_scraper\scrape.py" "cell phone store, mobile phone repair shop" --bbox 16.716439,73.691483,17.629053,75.678349 --polygon "C:\Users\Nom\Evaara-Scraper-\google_scraper\maharashtra\polygons\sangli.geojson" --step 0.05 --min-step 0.00125 --max-zoom 15 --zero-yield-window 50 --zero-yield-max 1 --yes --out "C:\Users\Nom\Evaara-Scraper-\google_scraper\maharashtra_districts\sangli_mobile_all.xlsx"

@@ -22,7 +22,8 @@ polygon: **1,171 in-district shops** (including 68 rows without coordinates),
 with 278 out-of-district rows moved to `outside_district` (25 Karnataka, 252
 neighbouring Maharashtra districts). Kolhapur is also finished: **1,026
 in-district shops**, 661 out-of-district rows quarantined (295 Karnataka, 366
-Maharashtra). The remaining 34 districts are ~12,296 cells and ~24,592 searches.
+Maharashtra). The remaining 34 districts are ~12,296 cells and ~24,592 base
+searches; dense cells add cap-split searches on top of that.
 
 ## Run it
 
@@ -103,7 +104,7 @@ The scraper now:
 - polls for new cards while scrolling instead of always sleeping a fixed
   interval, and stops after 3 stale checks instead of 4 (`SCROLL_WAIT_MS`,
   `SCROLL_POLL_MS`, `SCROLL_STALE_LIMIT`);
-- splits a capped cell only when at least `CAP_SPLIT_MIN` (default 90) results
+- splits a capped cell only when at least `CAP_SPLIT_MIN` (default 40) results
   are actually inside the district, instead of splitting whenever the 120-cap
   contains any out-of-area padding;
 - drops out-of-district results before opening place pages, so it never spends
@@ -113,6 +114,13 @@ Do **not** raise `--step` to save time without a coverage test. A 0.07° test
 cell found 17 shops where a finer grid found 48 in the same box: Google returns
 a relevance-limited set, so coarser cells lose shops even when they do not hit
 the 120 cap. `0.05` is the validated default.
+
+The run is set for maximum coverage: a capped cell splits when at least 40
+results are in-district, and the split floor is `min_step=0.00125` (the actual
+smallest cell is `0.0015625°`, roughly 175 m). This only adds searches in
+genuinely dense cells; rural cells stay at one search. The 40 threshold and
+175 m floor are the most aggressive setting validated; lowering either adds
+searches mostly in Mumbai, Pune, Thane, Nagpur and Nashik.
 
 ## Stop conditions
 
@@ -157,7 +165,7 @@ python merge_maharashtra_districts.py --only kolhapur,pune,nashik
 | Metric | Value |
 |---|---|
 | Cells | 13,284 (45% fewer than rectangles) |
-| Searches @2 keywords | 26,568 |
+| Searches @2 keywords | 26,568 base + cap splits |
 | Time per search (Kolhapur) | 21.3 s |
 | Time per search (Solapur) | 18.9 s |
 | Continuous runtime | ~6–6.5 days |
@@ -190,9 +198,9 @@ district and adjust the runtime estimate if needed.
 - One browser process at a time. Do not run two districts in parallel on the
   same IP; captcha risk outweighs the speed gain.
 - Windows sleep is disabled on AC; the monitor turning off is harmless.
-- The `--step 0.05 --min-step 0.01` default is deliberate. A 0.07° test lost
+- The `--step 0.05 --min-step 0.00125` default is deliberate. A 0.07° test lost
   shops (17 vs 48 in the same box), so change the step only with a coverage test.
-- Speed knobs: `CAP_SPLIT_MIN=90`, `SCROLL_WAIT_MS=2500`,
+- Speed knobs: `CAP_SPLIT_MIN=40`, `SCROLL_WAIT_MS=2500`,
   `SCROLL_POLL_MS=250`, `SCROLL_STALE_LIMIT=3`. Lowering
   `DELAY_MIN_MS`/`DELAY_MAX_MS` speeds extraction but raises captcha risk.
 - To re-fetch a boundary: `python fetch_maharashtra_districts.py --only pune --force`.

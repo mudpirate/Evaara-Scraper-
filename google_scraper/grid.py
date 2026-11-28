@@ -49,9 +49,9 @@ class GridCell:
     def lon_span(self) -> float:
         return self.east - self.west
 
-    def can_split(self, min_step: float) -> bool:
+    def can_split(self, min_step: float, max_zoom: int = 15) -> bool:
         """True when a 120-result cap can be relieved by splitting again."""
-        return (self.zoom < 20
+        return (self.zoom < max_zoom
                 and min(self.lat_span, self.lon_span) >= 2 * min_step - 1e-12)
 
     def split(self) -> list["GridCell"]:

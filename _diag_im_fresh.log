@@ -1,6 +1,0 @@
-status=200
-raw html len=24425; has 'searchResponse': True
-__NEXT_DATA__ in raw: True
-  searchResponse: NoneType
-  pageProps keys: ['city', 'cityid', 'keyword', 'bizFilter', 'isqFilter', 'searchResponse', 'isqResponseData', 'ecomCheck', 'videoCheck', 'supplierSameCityCheck', 'enquiryBlDomain', 'persDomain', 'reqUrl', 'view', 'queryTypes', 'searchDataType', 'responseCity', 'spellCorrection', 'contextMcatId', 'contextCatId']
-body_len=1237 Rs=0 supplier_els=1

@@ -39,9 +39,10 @@ USER_AGENT = ('MaharashtraMobileShopMapper/1.0 '
               '(local research; boundaries cached locally)')
 
 # Official 36 districts. Aliases cover the 2023 renames and Mumbai's split.
-# The first query that returns a usable administrative boundary wins.
+# Ahmednagar -> Ahilyanagar, Aurangabad -> Chhatrapati Sambhajinagar,
+# Osmanabad -> Dharashiv. Old names stay as aliases for Nominatim.
 DISTRICTS = [
-    ('Ahmednagar', ['Ahmednagar district']),
+    ('Ahilyanagar', ['Ahilyanagar district', 'Ahmednagar district']),
     ('Akola', ['Akola district']),
     ('Amravati', ['Amravati district']),
     ('Beed', ['Beed district']),
@@ -79,6 +80,13 @@ DISTRICTS = [
     ('Washim', ['Washim district']),
     ('Yavatmal', ['Yavatmal district']),
 ]
+
+# Old district names accepted by --only after the 2023 renames.
+ONLY_ALIASES = {
+    'ahmednagar': 'ahilyanagar',
+    'aurangabad': 'chhatrapati_sambhajinagar',
+    'osmanabad': 'dharashiv',
+}
 
 
 def slugify(text: str) -> str:
@@ -222,11 +230,17 @@ def main() -> None:
     parser.add_argument('--step', type=float, default=0.05,
                         help='grid cell size in degrees (default 0.05; '
                              'coarser loses shops, finer costs searches)')
-    parser.add_argument('--min-step', type=float, default=0.01,
-                        help='smallest cap-split cell in degrees (default 0.01)')
+    parser.add_argument('--min-step', type=float, default=0.00125,
+                        help='cap-split threshold in degrees (default 0.00125; '
+                             'actual smallest cell is about half this, ~175 m)')
+    parser.add_argument('--max-zoom', type=int, default=15,
+                        help='default cap for splits at this Maps zoom '
+                             '(default 15, ~2.8 km). The six metros are '
+                             'automatically raised to 16 (~1.4 km).')
     args = parser.parse_args()
 
-    only = {s.strip().lower().replace(' ', '_')
+    only = {ONLY_ALIASES.get(s.strip().lower().replace(' ', '_'),
+                             s.strip().lower().replace(' ', '_'))
             for s in args.only.split(',') if s.strip()}
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -276,6 +290,15 @@ def main() -> None:
         if slug in existing:
             ordered.append(existing[slug])
 
+    # The six big city markets keep one more split level. Everywhere else
+    # z15 already captures ~91% of split-derived leads for a fraction of the
+    # searches, so the statewide default stays at z15.
+    metro_slugs = {'mumbai_city', 'mumbai_suburban', 'thane',
+                   'pune', 'nagpur', 'nashik'}
+    for record in ordered:
+        record['metro'] = record['slug'] in metro_slugs
+        record['max_zoom'] = 16 if record['metro'] else args.max_zoom
+
     total_cells = sum(d['cells_clipped'] for d in ordered)
     plan = {
         'state': 'Maharashtra',
@@ -284,6 +307,9 @@ def main() -> None:
         'optional_keyword': 'smartphone accessories',
         'step': args.step,
         'min_step': args.min_step,
+        'max_zoom': args.max_zoom,
+        'metro_max_zoom': 16,
+        'metro_slugs': sorted(metro_slugs),
         'districts': ordered,
         'totals': {
             'districts': len(ordered),

@@ -1,5 +1,0 @@
-$ErrorActionPreference = 'Continue'
-$env:PYTHONUTF8 = '1'
-$env:PYTHONIOENCODING = 'utf-8'
-Set-Location 'C:\Users\Nomesh\Desktop\evaara'
-Get-Content 'C:\Users\Nomesh\Desktop\evaara\_master_input.txt' -Encoding UTF8 | & python 'C:\Users\Nomesh\Desktop\evaara\master_scrape.py'
